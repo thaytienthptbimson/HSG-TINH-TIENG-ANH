@@ -1,0 +1,1877 @@
+<!DOCTYPE html>
+<html lang="vi" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NGÂN HÀNG ĐỀ THI HSG TIẾNG ANH TỈNH THANH HÓA</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+    <style>
+        body { 
+            font-family: 'Inter', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+            background-color: #f1f5f9;
+            background-image: radial-gradient(#cbd5e1 0.75px, transparent 0.75px);
+            background-size: 24px 24px;
+        }
+        .hidden-element { display: none !important; }
+        
+        /* Hiệu ứng thẻ câu hỏi */
+        .question-box { 
+            transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1); 
+        }
+        .question-box:hover { 
+            box-shadow: 0 10px 25px -5px rgba(37, 99, 235, 0.08), 0 8px 10px -6px rgba(37, 99, 235, 0.04); 
+            border-color: #93c5fd; 
+        }
+        
+        /* Hiệu ứng phương án A, B, C, D */
+        .option-label { 
+            cursor: pointer; 
+            transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1); 
+        }
+        .option-label:hover { 
+            background-color: #f8fafc; 
+            border-color: #93c5fd; 
+            transform: translateY(-1px);
+        }
+        .option-badge {
+            transition: all 0.2s ease;
+        }
+        .option-label:hover .option-badge {
+            background-color: #dbeafe;
+            color: #1d4ed8;
+            border-color: #93c5fd;
+        }
+        .option-label input:checked + .option-badge {
+            background: linear-gradient(135deg, #2563eb, #1d4ed8);
+            color: #ffffff;
+            border-color: #1d4ed8;
+            box-shadow: 0 2px 6px rgba(37, 99, 235, 0.35);
+        }
+        .option-label input:checked ~ span { 
+            color: #1e3a8a;
+            font-weight: 700;
+        }
+        .option-label:has(input:checked) {
+            background: linear-gradient(135deg, #eff6ff 0%, #dbeafe 100%);
+            border-color: #3b82f6; 
+            box-shadow: 0 4px 12px rgba(59, 130, 246, 0.14);
+        }
+        
+        /* Trạng thái Đúng / Sai sau khi nộp bài */
+        .correct-ans-box { 
+            background: linear-gradient(135deg, #ecfdf5 0%, #d1fae5 100%) !important; 
+            border-color: #10b981 !important; 
+            box-shadow: 0 4px 12px rgba(16, 185, 129, 0.15) !important;
+        }
+        .correct-ans-box .option-badge {
+            background: #059669 !important;
+            color: #ffffff !important;
+            border-color: #059669 !important;
+        }
+        .correct-ans-text { color: #065f46 !important; font-weight: 700 !important; }
+        
+        .wrong-ans-box { 
+            background: linear-gradient(135deg, #fef2f2 0%, #fee2e2 100%) !important; 
+            border-color: #ef4444 !important; 
+            box-shadow: 0 4px 12px rgba(239, 68, 68, 0.15) !important;
+        }
+        .wrong-ans-box .option-badge {
+            background: #dc2626 !important;
+            color: #ffffff !important;
+            border-color: #dc2626 !important;
+        }
+        .wrong-ans-text { color: #991b1b !important; font-weight: 600 !important; text-decoration: line-through; }
+        
+        /* Phông chữ bài đọc học thuật */
+        .reading-passage { 
+            font-family: 'Lora', 'Times New Roman', Times, serif; 
+            line-height: 1.85;
+        }
+        
+        /* Thanh cuộn tinh tế */
+        .custom-scrollbar::-webkit-scrollbar { width: 6px; height: 6px; }
+        .custom-scrollbar::-webkit-scrollbar-track { background: transparent; }
+        .custom-scrollbar::-webkit-scrollbar-thumb { background: #cbd5e1; border-radius: 9999px; }
+        .custom-scrollbar::-webkit-scrollbar-thumb:hover { background: #64748b; }
+        
+        /* Header chuẩn EdTech */
+        .glass-header {
+            background: linear-gradient(135deg, #0f172a 0%, #1e3a8a 50%, #1d4ed8 100%);
+            box-shadow: 0 4px 20px -2px rgba(15, 23, 42, 0.25);
+        }
+    </style>
+</head>
+<body class="min-h-screen flex flex-col text-slate-800 selection:bg-blue-600 selection:text-white">
+
+    <!-- CÔNG CỤ GHÉP DỮ LIỆU TỰ ĐỘNG TỪ FILE INDEX_2.HTML GỐC (Tự động ẩn sau khi đã ghép đầy đủ dữ liệu) -->
+    <div id="db-merger-banner" class="hidden-element bg-gradient-to-r from-amber-500 via-orange-500 to-rose-600 text-white px-4 py-2.5 shadow-md z-50">
+        <div class="max-w-[1560px] mx-auto flex flex-col sm:flex-row items-center justify-between gap-2 text-xs md:text-sm">
+            <div class="flex items-center gap-2 font-semibold">
+                <span class="text-lg">⚡</span>
+                <span><strong>Ghép dữ liệu tự động:</strong> Chọn tệp <code>index_2.html</code> gốc trên máy của bạn để hệ thống tự động nạp toàn bộ kho câu hỏi 70 câu và xuất ra tệp hoàn chỉnh!</span>
+            </div>
+            <label class="cursor-pointer bg-white text-orange-700 hover:bg-orange-50 font-extrabold px-4 py-1.5 rounded-xl shadow-sm transition-all whitespace-nowrap">
+                📂 Chọn file index_2.html gốc
+                <input type="file" accept=".html,.htm" class="hidden" onchange="mergeOriginalDatabaseFile(event)">
+            </label>
+        </div>
+    </div>
+
+    <!-- HEADER KHOA HỌC & HIỆN ĐẠI -->
+    <header class="glass-header text-white sticky top-0 z-40 min-h-[64px] py-2 flex items-center border-b border-white/10">
+        <div class="max-w-[1560px] w-full mx-auto px-3 md:px-6 flex flex-wrap justify-between items-center gap-2">
+            
+            <!-- CÁC THẺ DẠNG BÀI TẬP THEO ĐỀ MẪU HSG THANH HÓA -->
+            <div class="flex flex-wrap items-center gap-1.5 bg-slate-900/40 p-1 rounded-xl border border-white/15 backdrop-blur-sm">
+                <button onclick="selectCategory('listening')" id="tab-cat-listening" class="px-2.5 md:px-3.5 py-1.5 bg-gray-50 text-blue-800 font-bold rounded-lg shadow-sm text-xs md:text-sm transition-all flex items-center gap-1">
+                    <span>🎧 Listening</span>
+                </button>
+                <button onclick="selectCategory('lexico')" id="tab-cat-lexico" class="px-2.5 md:px-3.5 py-1.5 bg-white/15 hover:bg-white/90 hover:text-blue-800 text-white font-semibold rounded-lg text-xs md:text-sm transition-all flex items-center gap-1">
+                    <span>📘 Lexico - Grammar</span>
+                </button>
+                <button onclick="selectCategory('reading')" id="tab-cat-reading" class="px-2.5 md:px-3.5 py-1.5 bg-white/15 hover:bg-white/90 hover:text-blue-800 text-white font-semibold rounded-lg text-xs md:text-sm transition-all flex items-center gap-1">
+                    <span>📖 Reading</span>
+                </button>
+                <button onclick="selectCategory('full')" id="tab-cat-full" class="px-2.5 md:px-3.5 py-1.5 bg-amber-400 hover:bg-amber-300 text-slate-950 font-extrabold rounded-lg text-xs md:text-sm transition-all flex items-center gap-1 shadow-sm">
+                    <span>🏆 Đề Chuẩn (70 Câu)</span>
+                </button>
+            </div>
+            
+            <!-- Tiêu đề trung tâm -->
+            <div class="hidden xl:flex flex-col items-center leading-tight">
+                <h1 class="text-sm font-black uppercase tracking-wider text-white drop-shadow">
+                    NGÂN HÀNG ĐỀ THI HSG TIẾNG ANH TỈNH THANH HÓA
+                </h1>
+                <span class="text-[11px] text-blue-200 font-medium">Chuẩn cấu trúc Sở GD&ĐT Thanh Hóa • 70 Câu / 90 Phút</span>
+            </div>
+            
+            <!-- Cụm Phải: Trạng thái Dùng thử 10 ngày / VIP 365 ngày + Đồng hồ -->
+            <div class="flex items-center gap-2 md:gap-3">
+                <button onclick="showPasswordModal()" id="unlock-status-btn" class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-xl text-xs font-bold bg-amber-400/20 hover:bg-amber-400/30 text-amber-200 border border-amber-300/30 transition-all" title="Nhấp để xem thời hạn hoặc nhập mật khẩu kích hoạt 365 ngày">
+                    <span id="unlock-status-icon">⏳</span>
+                    <span id="unlock-status-text">Dùng thử: 10 ngày</span>
+                </button>
+
+                <div class="flex items-center gap-2 bg-slate-900/50 backdrop-blur-md px-3.5 py-1.5 rounded-xl border border-white/20 shadow-inner flex-shrink-0">
+                    <svg class="w-4 h-4 text-sky-300 animate-pulse" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                    </svg>
+                    <span class="text-base md:text-lg font-black tracking-widest font-mono text-white" id="timer-display">90:00</span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- MAIN LAYOUT -->
+    <div class="max-w-[1560px] mx-auto w-full flex-grow flex flex-col lg:flex-row p-3 md:p-5 gap-5 items-start">
+        
+        <!-- SIDEBAR: CHUYÊN ĐỀ & THÀNH TÍCH -->
+        <aside class="w-full lg:w-[320px] flex-shrink-0 bg-white rounded-2xl shadow-sm border border-slate-200/80 lg:sticky lg:top-[80px] z-20 overflow-hidden">
+            <!-- Thống kê nhanh theo Phân mục -->
+            <div class="bg-gradient-to-br from-slate-900 via-blue-950 to-indigo-950 text-white p-4">
+                <div class="flex justify-between items-center mb-2">
+                    <span class="text-xs font-bold uppercase tracking-wider text-blue-300 flex items-center gap-1.5 truncate">
+                        <svg class="w-4 h-4 text-amber-400 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                        <span id="sidebar-cat-title" class="truncate">Listening (15 câu)</span>
+                    </span>
+                    <span id="sidebar-completed-count" class="text-xs font-bold bg-white/15 px-2 py-0.5 rounded-full text-white flex-shrink-0">0 đề</span>
+                </div>
+                <div class="w-full bg-white/15 h-2 rounded-full overflow-hidden">
+                    <div id="sidebar-progress-bar" class="bg-gradient-to-r from-emerald-400 to-cyan-400 h-full rounded-full transition-all duration-500" style="width: 0%"></div>
+                </div>
+                <div class="flex justify-between items-center mt-2 text-[11px] text-blue-200">
+                    <span>Tỷ lệ đúng TB: <strong id="sidebar-avg-score" class="text-white">--%</strong></span>
+                    <button onclick="toggleMobileUnits()" class="lg:hidden text-amber-300 font-bold underline">Ẩn/Hiện danh mục</button>
+                </div>
+            </div>
+
+            <div class="px-4 py-2.5 bg-slate-50 border-b border-slate-200 flex items-center justify-between">
+                <span class="text-xs font-extrabold uppercase tracking-wider text-slate-600">Chuyên đề / Dạng bài & Test</span>
+                <span class="text-[11px] text-slate-400 font-semibold">10 Tests / Dạng</span>
+            </div>
+
+            <div id="units-container" class="max-h-[36vh] lg:max-h-[calc(100vh-235px)] overflow-y-auto custom-scrollbar divide-y divide-slate-100">
+                <!-- Sinh bằng JS -->
+            </div>
+        </aside>
+
+        <!-- MAIN CONTENT -->
+        <main class="w-full flex-grow min-w-0 bg-white rounded-2xl shadow-sm border border-slate-200/80 p-4 md:p-7 relative">
+            
+            <!-- WELCOME SCREEN -->
+            <div id="welcome-screen" class="py-4 md:py-8 px-2 max-w-5xl mx-auto">
+                
+                <!-- Banner thông báo trạng thái Bản quyền / Dùng thử 10 ngày -->
+                <div id="license-banner" class="mb-8 p-4 rounded-2xl border bg-gradient-to-r from-amber-50 via-white to-blue-50 border-amber-200/80 flex flex-col sm:flex-row items-center justify-between gap-3 shadow-sm">
+                    <div class="flex items-center gap-3">
+                        <div id="banner-icon-box" class="w-10 h-10 rounded-xl bg-amber-100 text-amber-700 flex items-center justify-center font-black text-lg flex-shrink-0">
+                            ⏳
+                        </div>
+                        <div class="text-left">
+                            <h4 id="banner-title" class="text-sm font-extrabold text-slate-800">Chế độ Dùng thử 10 ngày đang hoạt động</h4>
+                            <p id="banner-desc" class="text-xs text-slate-500">Bạn được mở khóa toàn bộ các chuyên đề và đề thi. Nhập mật khẩu để kích hoạt 365 ngày.</p>
+                        </div>
+                    </div>
+                    <button onclick="showPasswordModal()" id="banner-action-btn" class="px-4 py-2 rounded-xl bg-blue-600 hover:bg-blue-700 text-white font-bold text-xs whitespace-nowrap shadow-sm transition-all">
+                        Kích hoạt 365 ngày
+                    </button>
+                </div>
+
+                <!-- Hero Header -->
+                <div class="text-center mb-8">
+                    <div class="inline-flex items-center gap-2 bg-blue-50 text-blue-700 border border-blue-200 text-xs font-extrabold px-3.5 py-1.5 rounded-full uppercase tracking-wider mb-3 shadow-sm">
+                        <span class="w-2 h-2 rounded-full bg-blue-600 animate-ping"></span>
+                        Sở Giáo dục và Đào tạo Thanh Hóa
+                    </div>
+                    <h2 class="text-2xl md:text-4xl font-black text-slate-900 tracking-tight mb-3">
+                        NGÂN HÀNG ĐỀ THI HSG TIẾNG ANH TỈNH THANH HÓA
+                    </h2>
+                    <p class="text-slate-500 font-medium text-sm md:text-base max-w-3xl mx-auto leading-relaxed" id="welcome-cat-desc">
+                        Hệ thống luyện thi Học sinh giỏi cấp Tỉnh môn Tiếng Anh THPT theo đúng cấu trúc Đề tham khảo năm học 2025 - 2026 (70 câu trắc nghiệm - 90 phút).
+                    </p>
+                </div>
+
+                <!-- Thẻ tóm tắt 3 phân mục chính theo đúng Cấu trúc Đề thi HSG Lớp 12 Sở GD&ĐT Thanh Hóa -->
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-4 text-left mb-8">
+                    <div onclick="selectCategory('listening'); selectTest(4, 1);" class="cursor-pointer group bg-gradient-to-br from-blue-50/80 via-white to-sky-50/60 p-5 rounded-2xl border-2 border-blue-100 hover:border-blue-500 hover:shadow-lg transition-all flex flex-col justify-between">
+                        <div>
+                            <div class="flex items-center justify-between mb-3">
+                                <span class="font-extrabold text-blue-900 text-base">🎧 5.1. NGHE HIỂU</span>
+                                <span class="text-[11px] bg-blue-600 text-white px-2.5 py-0.5 rounded-full font-bold shadow-sm">Câu 1–15 (15đ)</span>
+                            </div>
+                            <p class="text-xs text-slate-600 leading-relaxed space-y-1">
+                                • <b>Câu 1–5:</b> Chọn thông tin đúng điền vào chỗ trống (5 câu)<br>
+                                • <b>Câu 6–10:</b> Chọn thông tin đúng điền vào chỗ trống (5 câu)<br>
+                                • <b>Câu 11–15:</b> Chọn câu trả lời đúng nhất cho mỗi câu hỏi (5 câu)
+                            </p>
+                        </div>
+                        <div class="mt-4 pt-3 border-t border-blue-100/80 text-xs font-extrabold text-blue-600 group-hover:translate-x-1 transition-transform flex items-center justify-between">
+                            <span>Làm ngay Đề mẫu Nghe hiểu</span>
+                            <span>→</span>
+                        </div>
+                    </div>
+
+                    <div onclick="selectCategory('lexico'); selectTest(6, 1);" class="cursor-pointer group bg-gradient-to-br from-indigo-50/80 via-white to-purple-50/60 p-5 rounded-2xl border-2 border-indigo-100 hover:border-indigo-500 hover:shadow-lg transition-all flex flex-col justify-between">
+                        <div>
+                            <div class="flex items-center justify-between mb-3">
+                                <span class="font-extrabold text-indigo-900 text-base">📘 5.2. TỪ VỰNG &amp; NGỮ PHÁP</span>
+                                <span class="text-[11px] bg-indigo-600 text-white px-2.5 py-0.5 rounded-full font-bold shadow-sm">Câu 16–52 (37đ)</span>
+                            </div>
+                            <p class="text-xs text-slate-600 leading-relaxed">
+                                • <b>Câu 16–25:</b> Trắc nghiệm độc lập (10 câu)<br>
+                                • <b>Câu 26–37:</b> Quảng cáo, tờ rơi 1 &amp; 2 (12 câu)<br>
+                                • <b>Câu 38–42:</b> Điền khuyết ngữ pháp – ngữ cảnh (5 câu)<br>
+                                • <b>Câu 43–52:</b> Đọc điền từ Cloze test (10 câu)
+                            </p>
+                        </div>
+                        <div class="mt-4 pt-3 border-t border-indigo-100/80 text-xs font-extrabold text-indigo-600 group-hover:translate-x-1 transition-transform flex items-center justify-between">
+                            <span>Làm ngay Đề mẫu Từ vựng - Ngữ pháp</span>
+                            <span>→</span>
+                        </div>
+                    </div>
+
+                    <div onclick="selectCategory('reading'); selectTest(3, 1);" class="cursor-pointer group bg-gradient-to-br from-emerald-50/80 via-white to-teal-50/60 p-5 rounded-2xl border-2 border-emerald-100 hover:border-emerald-500 hover:shadow-lg transition-all flex flex-col justify-between">
+                        <div>
+                            <div class="flex items-center justify-between mb-3">
+                                <span class="font-extrabold text-emerald-900 text-base">📖 5.3. ĐỌC HIỂU</span>
+                                <span class="text-[11px] bg-emerald-600 text-white px-2.5 py-0.5 rounded-full font-bold shadow-sm">Câu 53–70 (18đ)</span>
+                            </div>
+                            <p class="text-xs text-slate-600 leading-relaxed">
+                                • <b>Bài 1 (Câu 53–60):</b> Đoạn văn 400–450 từ (8 câu)<br>
+                                • <b>Bài 2 (Câu 61–70):</b> Đoạn văn 400–550 từ (10 câu)<br>
+                                • Đủ các dạng: tìm ý chính, chi tiết, từ vựng, quy chiếu, paraphrasing, điền câu [I]–[IV], suy luận.
+                            </p>
+                        </div>
+                        <div class="mt-4 pt-3 border-t border-emerald-100/80 text-xs font-extrabold text-emerald-600 group-hover:translate-x-1 transition-transform flex items-center justify-between">
+                            <span>Làm ngay Đề mẫu Đọc hiểu</span>
+                            <span>→</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Nút nổi bật: Làm Đề Chuẩn 70 câu -->
+                <div class="text-center">
+                    <button onclick="selectCategory('full'); selectTest(1, 1);" class="bg-gradient-to-r from-blue-600 via-indigo-600 to-blue-700 hover:from-blue-700 hover:to-indigo-800 text-white font-extrabold py-3.5 px-8 rounded-2xl shadow-lg shadow-blue-600/25 transition-all transform hover:-translate-y-0.5 text-sm md:text-base inline-flex items-center gap-2">
+                        <span>🚀 Làm Đề Tham Khảo Đầy Đủ (70 Câu - 90 Phút)</span>
+                    </button>
+                    <p class="text-blue-600 font-semibold text-xs md:text-sm mt-3">
+                        (Tích hợp đầy đủ Audio bài nghe, Tapescript, Giải thích chi tiết từng câu và Xuất file Word chuẩn A4)
+                    </p>
+                </div>
+            </div>
+
+            <!-- TEST SCREEN -->
+            <div id="test-screen" class="hidden-element">
+                <!-- Tiêu đề đề thi + Nút xuất Word -->
+                <div class="flex flex-col md:flex-row md:justify-between md:items-end border-b border-slate-200 pb-4 mb-4 gap-3">
+                    <div>
+                        <div class="inline-flex items-center gap-2 text-xs font-extrabold text-blue-700 bg-blue-50 px-3 py-1 rounded-lg border border-blue-200 mb-1.5" id="current-cat-badge">
+                            KỲ THI CHỌN HSG CẤP TỈNH THANH HÓA
+                        </div>
+                        <h2 class="text-xl md:text-2xl font-black text-slate-900" id="current-test-title">Đề thi</h2>
+                        <p class="text-xs md:text-sm text-indigo-600 mt-0.5 font-semibold" id="current-test-subtitle">
+                            Định dạng Đề thi chọn Học sinh giỏi cấp Tỉnh môn Tiếng Anh THPT - Sở GD&amp;ĐT Thanh Hóa
+                        </p>
+                    </div>
+
+                    <!-- XUẤT FILE WORD (.docx) THEO QUY CHUẨN ĐỀ MẪU -->
+                    <div id="export-bar" class="flex flex-wrap justify-start md:justify-end gap-2 flex-shrink-0">
+                        <button onclick="exportDocx(true)" class="docx-export-btn inline-flex items-center gap-1.5 bg-emerald-600 hover:bg-emerald-700 text-white font-bold py-2 px-3.5 text-xs md:text-sm rounded-xl shadow-sm transition-all" title="Tải file Word gồm PHẦN I: Đề thi và PHẦN II: Đáp án - Giải thích - Tapescript">
+                            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path></svg>
+                            Xuất Word (Đề + Đáp án)
+                        </button>
+                        <button onclick="exportDocx(false)" class="docx-export-btn inline-flex items-center gap-1.5 bg-white hover:bg-emerald-50 text-emerald-700 border border-emerald-600 font-bold py-2 px-3.5 text-xs md:text-sm rounded-xl shadow-sm transition-all" title="Tải file Word chỉ có đề thi (không kèm đáp án)">
+                            Chỉ xuất đề
+                        </button>
+                    </div>
+                </div>
+
+                <!-- THANH ĐIỀU HƯỚNG CÂU HỎI & TIẾN ĐỘ (STICKY BAR KHOA HỌC) -->
+                <div id="sticky-exam-bar" class="sticky top-[68px] z-30 bg-white/95 backdrop-blur-md border border-slate-200/90 rounded-2xl p-3 mb-6 shadow-md">
+                    <div class="flex flex-wrap items-center justify-between gap-2">
+                        <!-- Tiến độ số câu đã chọn -->
+                        <div class="flex items-center gap-3 flex-grow min-w-[200px]">
+                            <span class="text-xs md:text-sm font-extrabold text-slate-700 whitespace-nowrap">
+                                Đã làm: <span id="answered-count-text" class="text-blue-600">0/70</span>
+                            </span>
+                            <div class="w-full max-w-[180px] bg-slate-100 h-2.5 rounded-full overflow-hidden border border-slate-200">
+                                <div id="answered-progress-bar" class="bg-blue-600 h-full rounded-full transition-all duration-300" style="width: 0%"></div>
+                            </div>
+                        </div>
+
+                        <!-- Bộ lọc sau khi nộp bài (ẩn khi đang làm) -->
+                        <div id="filter-bar" class="hidden-element flex items-center gap-1 bg-slate-100 p-1 rounded-xl text-xs font-bold">
+                            <button onclick="filterQuestions('all')" id="filter-all" class="px-2.5 py-1 rounded-lg bg-white text-slate-800 shadow-sm transition-all">Tất cả</button>
+                            <button onclick="filterQuestions('wrong')" id="filter-wrong" class="px-2.5 py-1 rounded-lg text-rose-600 hover:bg-white/60 transition-all">Câu sai / Chưa làm</button>
+                            <button onclick="filterQuestions('correct')" id="filter-correct" class="px-2.5 py-1 rounded-lg text-emerald-700 hover:bg-white/60 transition-all">Câu đúng</button>
+                        </div>
+
+                        <!-- Nút bật/tắt Bảng câu hỏi & Nộp bài nhanh -->
+                        <div class="flex items-center gap-2">
+                            <button onclick="togglePalette()" class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-xl text-xs font-bold bg-slate-100 hover:bg-blue-50 text-slate-700 hover:text-blue-700 border border-slate-200 transition-colors">
+                                <svg class="w-4 h-4 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2H6a2 2 0 01-2-2V6zM14 6a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2V6zM4 16a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2H6a2 2 0 01-2-2v-2zM14 16a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2v-2z"></path></svg>
+                                <span>Bảng câu hỏi</span>
+                                <span id="palette-arrow" class="text-[10px]">▼</span>
+                            </button>
+                            <button onclick="submitTest()" id="quick-submit-btn" class="bg-blue-600 hover:bg-blue-700 text-white font-bold px-3.5 py-1.5 rounded-xl text-xs md:text-sm shadow-sm transition-all">
+                                Nộp bài
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- Lưới ô câu hỏi (Collapsible) -->
+                    <div id="question-palette" class="hidden-element mt-3 pt-3 border-t border-slate-200/80">
+                        <div class="flex flex-wrap items-center justify-between gap-2 mb-2 text-[11px] text-slate-500 font-medium">
+                            <span>Nhấp vào số câu để di chuyển nhanh đến câu hỏi:</span>
+                            <div class="flex items-center gap-3">
+                                <span class="inline-flex items-center gap-1"><span class="w-2.5 h-2.5 rounded-sm bg-blue-600 inline-block"></span> Đã chọn</span>
+                                <span class="inline-flex items-center gap-1"><span class="w-2.5 h-2.5 rounded-sm bg-slate-200 inline-block"></span> Chưa làm</span>
+                                <span class="inline-flex items-center gap-1"><span class="w-2.5 h-2.5 rounded-sm bg-emerald-500 inline-block"></span> Đúng</span>
+                                <span class="inline-flex items-center gap-1"><span class="w-2.5 h-2.5 rounded-sm bg-rose-500 inline-block"></span> Sai</span>
+                            </div>
+                        </div>
+                        <div id="palette-grid" class="grid grid-cols-10 sm:grid-cols-14 md:grid-cols-20 gap-1.5 max-h-[160px] overflow-y-auto custom-scrollbar p-0.5">
+                            <!-- Sinh bằng JS -->
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- DANH SÁCH CÂU HỎI -->
+                <div id="questions-container" class="space-y-6"></div>
+
+                <!-- NÚT NỘP BÀI CUỐI TRANG -->
+                <div class="mt-8 pt-6 border-t border-slate-200 flex justify-center">
+                    <button onclick="submitTest()" id="submit-btn" class="bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-700 hover:to-indigo-700 text-white font-extrabold py-3.5 px-14 text-base md:text-lg rounded-2xl shadow-lg shadow-blue-600/25 transition-all transform hover:-translate-y-0.5 w-full md:w-auto">
+                        NỘP BÀI &amp; XEM ĐIỂM
+                    </button>
+                </div>
+            </div>
+
+            <!-- BẢNG ĐIỂM & ĐỘNG VIÊN SAU KHI NỘP BÀI -->
+            <div id="result-screen" class="hidden-element text-center py-6 md:py-10 border-t-2 border-dashed border-slate-200 mt-8">
+                <div class="inline-flex items-center justify-center w-16 h-16 rounded-2xl bg-emerald-100 text-emerald-600 mb-3 shadow-sm">
+                    <svg class="w-9 h-9" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                </div>
+                <h2 class="text-3xl md:text-4xl font-black text-slate-900 mb-2">Hoàn thành bài thi!</h2>
+                
+                <!-- Bảng thống kê chi tiết -->
+                <div class="bg-gradient-to-b from-slate-50 to-white border border-slate-200 rounded-3xl p-6 md:p-8 max-w-3xl mx-auto my-6 shadow-xl shadow-slate-900/5">
+                    
+                    <div class="text-xs font-extrabold uppercase tracking-widest text-slate-400 mb-1">Kết quả đạt được</div>
+                    <div class="text-6xl md:text-7xl font-black text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-indigo-600 mb-6 drop-shadow-sm" id="score-display">0/70</div>
+                    
+                    <div class="grid grid-cols-3 gap-3 md:gap-6 mb-6">
+                        <div class="bg-emerald-50 border border-emerald-200 p-3 md:p-4 rounded-2xl shadow-sm">
+                            <div class="text-emerald-700 text-xs md:text-sm font-bold uppercase tracking-wider mb-1">Số câu đúng</div>
+                            <div class="text-2xl md:text-3xl font-black text-emerald-700" id="correct-display">0</div>
+                        </div>
+                        <div class="bg-rose-50 border border-rose-200 p-3 md:p-4 rounded-2xl shadow-sm">
+                            <div class="text-rose-700 text-xs md:text-sm font-bold uppercase tracking-wider mb-1">Số câu sai</div>
+                            <div class="text-2xl md:text-3xl font-black text-rose-700" id="wrong-display">0</div>
+                        </div>
+                        <div class="bg-indigo-50 border border-indigo-200 p-3 md:p-4 rounded-2xl shadow-sm">
+                            <div class="text-indigo-700 text-xs md:text-sm font-bold uppercase tracking-wider mb-1">Tỷ lệ chính xác</div>
+                            <div class="text-2xl md:text-3xl font-black text-indigo-700" id="percent-display">0%</div>
+                        </div>
+                    </div>
+                    
+                    <!-- Lời động viên -->
+                    <div id="motivation-message" class="text-base md:text-xl font-bold text-slate-800 mt-6 pt-6 border-t border-slate-200 italic">
+                        <!-- Gen bằng JS -->
+                    </div>
+                </div>
+
+                <p class="text-slate-500 mb-4 font-medium text-sm md:text-base">Lướt lên trên để xem Giải thích chi tiết từng câu, Tapescript bài nghe và rút kinh nghiệm nhé!</p>
+                <div class="max-w-md mx-auto bg-amber-50 border-2 border-amber-300 rounded-2xl p-3.5 mb-6 shadow-sm">
+                    <p class="text-xs text-slate-600 font-semibold mb-0.5">Để nhận mật khẩu kích hoạt bản quyền 365 ngày toàn bộ ngân hàng đề thi:</p>
+                    <p class="text-rose-600 font-extrabold text-base md:text-lg">LH Thầy Tiến qua ĐT: 0943930787</p>
+                </div>
+                <div class="flex flex-col sm:flex-row gap-3 justify-center items-center">
+                    <button onclick="window.scrollTo({top: 0, behavior: 'smooth'})" class="bg-slate-100 hover:bg-slate-200 text-slate-700 font-bold py-3 px-7 text-sm md:text-base rounded-xl transition-all">
+                        ↑ Xem Giải thích &amp; Tapescript
+                    </button>
+                    <button onclick="continueAfterResult()" class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-9 text-sm md:text-base rounded-xl shadow transition-transform transform hover:-translate-y-0.5">
+                        Trở về danh mục Đề thi
+                    </button>
+                    <button onclick="exportDocx(true)" class="docx-export-btn bg-emerald-600 hover:bg-emerald-700 text-white font-bold py-3 px-8 text-sm md:text-base rounded-xl shadow transition-transform transform hover:-translate-y-0.5">
+                        Tải đề + đáp án (Word)
+                    </button>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <!-- FOOTER -->
+    <footer class="bg-slate-900 text-center py-4 mt-auto border-t-2 border-blue-600 shadow-inner">
+        <div class="max-w-[1560px] mx-auto px-4 flex flex-col sm:flex-row items-center justify-between gap-2">
+            <p class="font-bold text-white text-xs md:text-sm">Hệ thống Ngân hàng Đề thi Học sinh giỏi Tiếng Anh THPT Tỉnh Thanh Hóa</p>
+            <p class="text-xs md:text-sm text-amber-400 font-bold">Bản quyền thuộc về số ĐT chính chủ: 0943930787</p>
+        </div>
+    </footer>
+
+    <!-- PASSWORD & LICENSE MODAL (10 NGÀY DÙNG THỬ -> MẬT KHẨU 365 NGÀY) -->
+    <div id="password-modal" class="hidden-element fixed inset-0 bg-slate-900/80 backdrop-blur-sm flex justify-center items-center z-[100] p-4">
+        <div class="bg-white rounded-3xl shadow-2xl p-6 md:p-8 max-w-md w-full border-2 border-blue-100 relative">
+            <div id="modal-icon-container" class="w-14 h-14 bg-amber-100 text-amber-600 rounded-2xl flex items-center justify-center mx-auto mb-3 text-2xl shadow-inner">
+                🔒
+            </div>
+            <h3 id="modal-title" class="text-xl font-extrabold text-blue-950 mb-1.5 text-center">Kích hoạt Bản quyền 365 ngày</h3>
+            <p id="password-modal-desc" class="text-slate-600 mb-4 text-center text-xs md:text-sm leading-relaxed">
+                Nhập mật khẩu bản quyền để mở khóa toàn bộ ngân hàng đề thi HSG trong vòng <b>365 ngày</b>.
+            </p>
+
+            <!-- Hộp thông tin thời hạn -->
+            <div id="modal-license-info" class="mb-4 p-3 rounded-xl bg-slate-50 border border-slate-200 text-xs text-slate-600 space-y-1">
+                <!-- Sinh bằng JS -->
+            </div>
+
+            <div class="bg-amber-50 border-2 border-amber-300 rounded-xl p-2.5 mb-4 text-center shadow-sm">
+                <p class="text-rose-600 font-extrabold text-sm md:text-base tracking-wide">
+                    LH Thầy Tiến qua ĐT: 0943930787
+                </p>
+            </div>
+
+            <div id="password-form-area">
+                <input type="password" id="password-input" onkeydown="if(event.key==='Enter') checkPassword()" class="w-full bg-slate-50 border-2 border-slate-300 px-4 py-3 rounded-xl focus:outline-none focus:border-blue-600 transition-all text-center mb-2 font-bold text-slate-800" placeholder="Nhập mật khẩu để mở khóa...">
+                <p id="password-error" class="text-rose-600 text-xs mb-3 hidden-element text-center font-bold">Mật khẩu không chính xác! Vui lòng LH Thầy Tiến qua ĐT: 0943930787</p>
+                <button onclick="checkPassword()" class="w-full bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-700 hover:to-indigo-700 text-white font-bold py-3 rounded-xl shadow-md mt-1 transition-all text-sm md:text-base">
+                    Xác nhận kích hoạt (365 ngày)
+                </button>
+            </div>
+
+            <button id="password-cancel-btn" onclick="closeModal()" class="w-full mt-2.5 bg-slate-100 hover:bg-slate-200 text-slate-700 font-semibold py-2.5 rounded-xl transition-colors text-sm">
+                Đóng
+            </button>
+        </div>
+    </div>
+
+    <!-- DỮ LIỆU NGÂN HÀNG ĐỀ THI HSG TỈNH THANH HÓA -->
+    <script id="database-script">
+        const categoryConfig = {
+            "listening": {
+                "name": "Listening (15 câu)",
+                "subtitle": "5.1. Nghe hiểu (15 câu – 15 điểm): Nghe hội thoại/độc thoại (tối đa 17 phút) theo chuẩn Cấu trúc Đề thi HSG Lớp 12 Sở GD&ĐT Thanh Hóa",
+                "defaultMinutes": 17,
+                "units": [
+                    {
+                        "id": 1,
+                        "title": "Dạng 1 (Câu 1–5): Chọn thông tin đúng điền vào chỗ trống (Bài 1)",
+                        "desc": "Nghe độc thoại / hội thoại và chọn thông tin đúng điền vào chỗ trống (5 câu - Đã có đủ 10 Test)"
+                    },
+                    {
+                        "id": 2,
+                        "title": "Dạng 2 (Câu 6–10): Chọn thông tin đúng điền vào chỗ trống (Bài 2)",
+                        "desc": "Nghe bản tin / phóng sự và chọn thông tin đúng điền vào chỗ trống (5 câu - Đã có đủ 10 Test)"
+                    },
+                    {
+                        "id": 3,
+                        "title": "Dạng 3 (Câu 11–15): Chọn câu trả lời đúng nhất cho mỗi câu hỏi",
+                        "desc": "Nghe bài phỏng vấn chuyên sâu và chọn câu trả lời đúng nhất A, B, C hoặc D (5 câu - Đã có đủ 10 Test)"
+                    },
+                    {
+                        "id": 4,
+                        "title": "Dạng 4 (Câu 1–15): Tổng hợp Nghe hiểu (Đủ 3 phần – 15 câu)",
+                        "desc": "Đề thi Nghe hiểu hoàn thiện gồm Câu 1–5, Câu 6–10 và Câu 11–15 (15 câu – 15 điểm - Đã có đủ 10 Test)"
+                    }
+                ]
+            },
+            "lexico": {
+                "name": "Lexico - Grammar (37 câu)",
+                "subtitle": "5.2. Từ vựng và Ngữ pháp (37 câu – 37 điểm: Câu 16–52) theo chuẩn Cấu trúc Đề thi HSG Lớp 12 Sở GD&ĐT Thanh Hóa",
+                "defaultMinutes": 45,
+                "units": [
+                    {
+                        "id": 1,
+                        "title": "Dạng 1 (Câu 16–25): Các câu hỏi trắc nghiệm độc lập (10 câu)",
+                        "desc": "Câu hỏi đuôi, cấp so sánh, mệnh đề nhượng bộ/thời gian/mục đích, câu giả định, động từ khuyết thiếu, giao tiếp, đảo ngữ, thành ngữ, cụm động từ, từ vựng (10 câu - Đã có đủ 10 Test)"
+                    },
+                    {
+                        "id": 2,
+                        "title": "Dạng 2 (Câu 26–31): Điền thông tin vào bài quảng cáo, tờ rơi (Bài 1 – 6 câu)",
+                        "desc": "Đọc điền thông tin từ vựng, cụm từ cố định, liên từ, đảo ngữ, thành ngữ vào bài thông báo / trích đoạn (6 câu - Đã có đủ 10 Test)"
+                    },
+                    {
+                        "id": 3,
+                        "title": "Dạng 3 (Câu 32–37): Điền thông tin vào bài quảng cáo, tờ rơi (Bài 2 – 6 câu)",
+                        "desc": "Đọc điền thông tin từ vựng, giới từ, cụm giới từ, trật tự tính từ, lượng từ, danh động từ vào tờ rơi (6 câu - Đã có đủ 10 Test)"
+                    },
+                    {
+                        "id": 4,
+                        "title": "Dạng 4 (Câu 38–42): Điền khuyết thông tin (ngữ pháp – ngữ cảnh) (5 câu)",
+                        "desc": "Chọn mệnh đề / cấu trúc câu phù hợp ngữ pháp và mạch văn để điền vào 5 chỗ trống (5 câu - Đã có đủ 10 Test)"
+                    },
+                    {
+                        "id": 5,
+                        "title": "Dạng 5 (Câu 43–52): Đọc điền từ (Cloze test – 10 câu)",
+                        "desc": "Đọc điền từ vựng, cụm động từ, liên từ, collocations và thành ngữ vào đoạn văn học thuật (10 câu - Đã có đủ 10 Test)"
+                    },
+                    {
+                        "id": 6,
+                        "title": "Dạng 6 (Câu 16–52): Tổng hợp Từ vựng và Ngữ pháp (Đủ 37 câu – 37 điểm)",
+                        "desc": "Toàn bộ phần 5.2 Từ vựng và Ngữ pháp gồm đầy đủ 5 dạng bài tập từ Câu 16 đến Câu 52 (37 câu - Đã có đủ 10 Test)"
+                    }
+                ]
+            },
+            "reading": {
+                "name": "Reading (18 câu)",
+                "subtitle": "5.3. Đọc hiểu (18 câu – 18 điểm: Câu 53–70) theo chuẩn Cấu trúc Đề thi HSG Lớp 12 Sở GD&ĐT Thanh Hóa",
+                "defaultMinutes": 28,
+                "units": [
+                    {
+                        "id": 1,
+                        "title": "Bài 1 (Câu 53–60): Đoạn văn 400–450 từ (8 câu)",
+                        "desc": "Đoán nghĩa từ trong văn cảnh (closest/opposite), quy chiếu, paraphrasing, thông tin chi tiết đúng/sai/chưa đề cập, tìm vị trí thông tin theo đoạn (8 câu - Đã có đủ 10 Test)"
+                    },
+                    {
+                        "id": 2,
+                        "title": "Bài 2 (Câu 61–70): Đoạn văn 400–550 từ (10 câu)",
+                        "desc": "Tìm ý chính, summarizing đoạn & toàn bài, paraphrasing, điền câu phù hợp vào đoạn văn [I]–[IV], quy chiếu, đoán nghĩa từ/cụm từ, chi tiết, suy luận (10 câu - Đã có đủ 10 Test)"
+                    },
+                    {
+                        "id": 3,
+                        "title": "Tổng hợp Đọc hiểu (Câu 53–70: Đủ 18 câu – 18 điểm)",
+                        "desc": "Toàn bộ phần 5.3 Đọc hiểu gồm Bài 1 (8 câu: Câu 53–60) và Bài 2 (10 câu: Câu 61–70 - Đã có đủ 10 Test)"
+                    }
+                ]
+            },
+            "full": {
+                "name": "Đề Chuẩn (70 Câu)",
+                "subtitle": "Đề thi chọn HSG Lớp 12 THPT môn Tiếng Anh chuẩn cấu trúc Sở GD&ĐT Thanh Hóa (70 câu trắc nghiệm – 90 phút)",
+                "defaultMinutes": 90,
+                "units": [
+                    {
+                        "id": 1,
+                        "title": "Đề Thi Chuẩn Cấu Trúc Sở GD&ĐT Thanh Hóa (70 câu – 90 phút)",
+                        "desc": "5.1. Nghe hiểu (Câu 1–15: 15đ) + 5.2. Từ vựng & Ngữ pháp (Câu 16–52: 37đ) + 5.3. Đọc hiểu (Câu 53–70: 18đ - Đã có đủ 10 Đề)"
+                    }
+                ]
+            }
+        };
+
+        /* === DỮ LIỆU CÂU HỎI (Sẽ được điền đầy đủ 100% khi bạn bấm nút "Chọn file index_2.html gốc" trên thanh màu cam) === */
+        const examDatabase = {
+            "listening": {
+                "1": {
+                    "1": [
+                        {
+                            "origNum": 1,
+                            "instruction": "I. LISTENING - Part 1: You will hear a woman speaking to a group of parent volunteers who are planning a school summer fair. For questions 1-5, choose the answer (A, B, C, or D) which fits best according to what you hear.",
+                            "text": "This year’s summer fair takes place on __________.",
+                            "options": ["Saturday 12th", "Saturday 19th", "Sunday 20th", "Friday 18th"],
+                            "answer": 1,
+                            "explanation": "“we’ve had to move everything back a week. That makes it Saturday the nineteenth.” (12th là ngày cũ; Chủ nhật bị loại vì nhà thờ có đám cưới.)",
+                            "tapescript": "PART 1 – (Questions 1–5) A woman speaking to parent volunteers about a school summer fair\nWoman: Right, everyone, if I could have your attention for a few minutes. Thanks for coming. I’d like to run through the main points for this year’s summer fair.\nFirst, the date. You may remember that the newsletter said Saturday the twelfth, but the marquee company can’t deliver until the Friday after, so we’ve had to move everything back a week. That makes it Saturday the nineteenth. A couple of you suggested the Sunday instead, but the church hall, where we keep the stalls overnight, is booked for a wedding that day, so Saturday it is.\nNow, money, which is what this is all about. Last year we aimed to raise three thousand pounds and finished about eight hundred short. Ticket sales brought in eleven hundred and fifty, which was roughly what we’d expected from the adult tickets. The trouble is, we’d hoped the family tickets would take off, and they just didn’t. I know some of you would like to push the prices up, but after the complaints we had last time, I don’t think that’s on the table. And scrapping the family ticket would simply keep people away. So whatever we do about tickets, it’s what happens inside the gates that will decide whether we hit the target, and that’s where I’d like us to put our energy this year.\nWhich brings me to the games. Pete’s offering to run the bottle ring toss again. For anyone who hasn’t seen it, you throw a wooden ring and try to land it around the neck of a bottle. It sounds easy, but the difficulty isn’t the distance, as we only stand people three metres back, and nobody’s racing against the clock either. The real problem is that the rings are barely wider than the bottle necks, so they bounce off at the slightest touch. You really do need a steady hand. Pete tells me the children adore it, and I think that’s mainly because he always hands out a sticker or a balloon to the ones who miss, so nobody walks away with nothing. Mind you, it isn’t the cheapest game: it’s fifty pence a throw, the same as the other stalls. And there’s always a queue, so we’ll need two people on that stall.\nLast year the stall brought in two hundred pounds after we’d taken off fifty for the prizes, so it’s well worth repeating. Right, that’s all from me on the games. Does anyone have any questions before we move on to the raffle?",
+                            "audio": "audio/de1_part1.mp3"
+                        },
+                        {
+                            "origNum": 2,
+                            "instruction": "I. LISTENING - Part 1: You will hear a woman speaking to a group of parent volunteers who are planning a school summer fair. For questions 1-5, choose the answer (A, B, C, or D) which fits best according to what you hear.",
+                            "text": "The ticket sales data from last year imply about this year’s fundraising strategy that __________.",
+                            "options": ["family tickets will be scrapped altogether", "adult ticket prices will be raised", "fewer volunteers will be needed on the day", "other activities must bring in the extra money"],
+                            "answer": 3,
+                            "explanation": "Không tăng giá vé, không bỏ vé gia đình; “it’s what happens inside the gates that will decide whether we hit the target” → các hoạt động bên trong phải bù khoản thiếu."
+                        },
+                        {
+                            "origNum": 3,
+                            "instruction": "I. LISTENING - Part 1: You will hear a woman speaking to a group of parent volunteers who are planning a school summer fair. For questions 1-5, choose the answer (A, B, C, or D) which fits best according to what you hear.",
+                            "text": "The thing that makes the bottle ring toss challenging is that __________.",
+                            "options": ["the rings are barely wider than the bottle necks", "the bottles stand on a rotating platform", "players must stand over five metres away", "there is a strict time limit for each go"],
+                            "answer": 0,
+                            "explanation": "“the rings are barely wider than the bottle necks”. Khoảng cách chỉ 3 m (C sai), không giới hạn thời gian (D sai), không nhắc bàn xoay (B sai)."
+                        },
+                        {
+                            "origNum": 4,
+                            "instruction": "I. LISTENING - Part 1: You will hear a woman speaking to a group of parent volunteers who are planning a school summer fair. For questions 1-5, choose the answer (A, B, C, or D) which fits best according to what you hear.",
+                            "text": "The bottle ring toss might be popular among children because __________.",
+                            "options": ["it is cheaper than the other games", "it has the biggest prizes", "nobody goes home empty-handed", "there is hardly ever a queue"],
+                            "answer": 2,
+                            "explanation": "“nobody walks away with nothing” (sticker/bóng bay cho người trượt). Giá 50p như các quầy khác (A sai); “there’s always a queue” (D sai)."
+                        },
+                        {
+                            "origNum": 5,
+                            "instruction": "I. LISTENING - Part 1: You will hear a woman speaking to a group of parent volunteers who are planning a school summer fair. For questions 1-5, choose the answer (A, B, C, or D) which fits best according to what you hear.",
+                            "text": "Based on the earnings from the bottle ring toss, the number of throws made last year was __________.",
+                            "options": ["400", "500", "250", "600"],
+                            "answer": 1,
+                            "explanation": "Thu ròng 200 + chi phí giải thưởng 50 = 250 bảng; 250 ÷ 0,50 = 500 lượt ném."
+                        }
+                    ]
+                }
+            }
+        };
+    </script>
+
+    <script>
+        /* =========================================================================
+           CẤU HÌNH BẢN QUYỀN: DÙNG THỬ 10 NGÀY -> MẬT KHẨU KÍCH HOẠT 365 NGÀY
+        ========================================================================= */
+        const LICENSE_STORAGE_KEY = 'thaytien_hsg_thanhhoa_license_v2026';
+        const PROGRESS_STORAGE_KEY = 'thaytien_hsg_thanhhoa_progress';
+        const TRIAL_DAYS = 10;
+        const VIP_DAYS = 365;
+        const ACTIVATION_PASSWORD = 'tien@12345';
+        const DAY_MS = 24 * 60 * 60 * 1000;
+
+        let currentCategory = 'listening';
+        let currentUnit = 1;
+        let currentTest = 1;
+        let timerInterval = null;
+        let timeLeft = 90 * 60;
+        let isSubmitted = false;
+        let isUnlocked = false;
+        let pendingAction = null;
+        let passageFontSize = 17;
+
+        /* ---------- Quản lý thời hạn Dùng thử 10 ngày & VIP 365 ngày ---------- */
+        function getLicenseData() {
+            const now = Date.now();
+            let raw = null;
+            try {
+                raw = JSON.parse(localStorage.getItem(LICENSE_STORAGE_KEY));
+            } catch (e) {}
+
+            if (!raw || typeof raw !== 'object' || !raw.trialStart) {
+                raw = {
+                    trialStart: now,
+                    vipStart: null,
+                    vipExpire: null,
+                    lastSeen: now
+                };
+                localStorage.setItem(LICENSE_STORAGE_KEY, JSON.stringify(raw));
+            } else {
+                if (now > (raw.lastSeen || 0)) {
+                    raw.lastSeen = now;
+                    localStorage.setItem(LICENSE_STORAGE_KEY, JSON.stringify(raw));
+                }
+            }
+            return raw;
+        }
+
+        function evaluateLicense() {
+            const data = getLicenseData();
+            const effectiveNow = Math.max(Date.now(), data.lastSeen || Date.now());
+
+            if (data.vipStart && data.vipExpire) {
+                const remainingMs = data.vipExpire - effectiveNow;
+                const daysLeft = Math.ceil(remainingMs / DAY_MS);
+                if (remainingMs > 0) {
+                    return {
+                        mode: 'vip',
+                        active: true,
+                        daysLeft: daysLeft,
+                        startDate: new Date(data.vipStart),
+                        expireDate: new Date(data.vipExpire)
+                    };
+                } else {
+                    return {
+                        mode: 'vip_expired',
+                        active: false,
+                        daysLeft: 0,
+                        startDate: new Date(data.vipStart),
+                        expireDate: new Date(data.vipExpire)
+                    };
+                }
+            }
+
+            const trialExpire = data.trialStart + TRIAL_DAYS * DAY_MS;
+            const remainingMs = trialExpire - effectiveNow;
+            const daysLeft = Math.ceil(remainingMs / DAY_MS);
+
+            if (remainingMs > 0) {
+                return {
+                    mode: 'trial',
+                    active: true,
+                    daysLeft: daysLeft,
+                    startDate: new Date(data.trialStart),
+                    expireDate: new Date(trialExpire)
+                };
+            } else {
+                return {
+                    mode: 'trial_expired',
+                    active: false,
+                    daysLeft: 0,
+                    startDate: new Date(data.trialStart),
+                    expireDate: new Date(trialExpire)
+                };
+            }
+        }
+
+        function formatDateVN(dateObj) {
+            if (!dateObj) return '--/--/----';
+            const d = String(dateObj.getDate()).padStart(2, '0');
+            const m = String(dateObj.getMonth() + 1).padStart(2, '0');
+            const y = dateObj.getFullYear();
+            return `${d}/${m}/${y}`;
+        }
+
+        function refreshLicenseUI() {
+            const status = evaluateLicense();
+            isUnlocked = status.active;
+
+            const unlockBtn = document.getElementById('unlock-status-btn');
+            const unlockIcon = document.getElementById('unlock-status-icon');
+            const unlockText = document.getElementById('unlock-status-text');
+
+            const banner = document.getElementById('license-banner');
+            const bannerIcon = document.getElementById('banner-icon-box');
+            const bannerTitle = document.getElementById('banner-title');
+            const bannerDesc = document.getElementById('banner-desc');
+            const bannerBtn = document.getElementById('banner-action-btn');
+
+            if (status.mode === 'vip') {
+                if (unlockBtn) unlockBtn.className = 'inline-flex items-center gap-1.5 px-3 py-1.5 rounded-xl text-xs font-bold bg-emerald-400/20 hover:bg-emerald-400/30 text-emerald-200 border border-emerald-300/30 transition-all';
+                if (unlockIcon) unlockIcon.innerText = '👑';
+                if (unlockText) unlockText.innerText = `VIP: còn ${status.daysLeft} ngày`;
+
+                if (banner) banner.className = 'mb-8 p-4 rounded-2xl border bg-gradient-to-r from-emerald-50 via-white to-teal-50 border-emerald-200 flex flex-col sm:flex-row items-center justify-between gap-3 shadow-sm';
+                if (bannerIcon) {
+                    bannerIcon.className = 'w-10 h-10 rounded-xl bg-emerald-100 text-emerald-700 flex items-center justify-center font-black text-lg flex-shrink-0';
+                    bannerIcon.innerText = '👑';
+                }
+                if (bannerTitle) bannerTitle.innerText = `Đã kích hoạt Bản quyền VIP 365 ngày (Còn ${status.daysLeft} ngày)`;
+                if (bannerDesc) bannerDesc.innerText = `Hạn sử dụng đến hết ngày ${formatDateVN(status.expireDate)}. Chúc bạn ôn luyện đạt giải cao trong kỳ thi HSG Tỉnh!`;
+                if (bannerBtn) {
+                    bannerBtn.innerText = 'Thông tin bản quyền';
+                    bannerBtn.className = 'px-4 py-2 rounded-xl bg-emerald-600 hover:bg-emerald-700 text-white font-bold text-xs whitespace-nowrap shadow-sm transition-all';
+                }
+            } else if (status.mode === 'trial') {
+                if (unlockBtn) unlockBtn.className = 'inline-flex items-center gap-1.5 px-3 py-1.5 rounded-xl text-xs font-bold bg-amber-400/20 hover:bg-amber-400/30 text-amber-200 border border-amber-300/30 transition-all';
+                if (unlockIcon) unlockIcon.innerText = '⏳';
+                if (unlockText) unlockText.innerText = `Dùng thử: còn ${status.daysLeft} ngày`;
+
+                if (banner) banner.className = 'mb-8 p-4 rounded-2xl border bg-gradient-to-r from-amber-50 via-white to-blue-50 border-amber-200 flex flex-col sm:flex-row items-center justify-between gap-3 shadow-sm';
+                if (bannerIcon) {
+                    bannerIcon.className = 'w-10 h-10 rounded-xl bg-amber-100 text-amber-700 flex items-center justify-center font-black text-lg flex-shrink-0';
+                    bannerIcon.innerText = '⏳';
+                }
+                if (bannerTitle) bannerTitle.innerText = `Chế độ Dùng thử 10 ngày (Còn ${status.daysLeft} ngày — hết hạn ${formatDateVN(status.expireDate)})`;
+                if (bannerDesc) bannerDesc.innerText = `Sau 10 ngày dùng thử, vui lòng nhập mật khẩu để kích hoạt sử dụng trong 365 ngày.`;
+                if (bannerBtn) {
+                    bannerBtn.innerText = 'Nhập mật khẩu 365 ngày';
+                    bannerBtn.className = 'px-4 py-2 rounded-xl bg-blue-600 hover:bg-blue-700 text-white font-bold text-xs whitespace-nowrap shadow-sm transition-all';
+                }
+            } else {
+                if (unlockBtn) unlockBtn.className = 'inline-flex items-center gap-1.5 px-3 py-1.5 rounded-xl text-xs font-bold bg-rose-500/30 hover:bg-rose-500/40 text-rose-200 border border-rose-400/40 transition-all animate-pulse';
+                if (unlockIcon) unlockIcon.innerText = '🔒';
+                if (unlockText) unlockText.innerText = 'Đã hết hạn • Nhập MK';
+
+                if (banner) banner.className = 'mb-8 p-4 rounded-2xl border bg-gradient-to-r from-rose-50 via-white to-amber-50 border-rose-300 flex flex-col sm:flex-row items-center justify-between gap-3 shadow-sm';
+                if (bannerIcon) {
+                    bannerIcon.className = 'w-10 h-10 rounded-xl bg-rose-100 text-rose-700 flex items-center justify-center font-black text-lg flex-shrink-0';
+                    bannerIcon.innerText = '🔒';
+                }
+                if (bannerTitle) bannerTitle.innerText = status.mode === 'trial_expired' ? 'Đã hết 10 ngày dùng thử miễn phí!' : 'Thời hạn bản quyền 365 ngày đã kết thúc!';
+                if (bannerDesc) bannerDesc.innerText = 'Vui lòng nhập mật khẩu bản quyền để mở khóa và tiếp tục sử dụng trong 365 ngày.';
+                if (bannerBtn) {
+                    bannerBtn.innerText = 'Mở khóa 365 ngày ngay';
+                    bannerBtn.className = 'px-4 py-2 rounded-xl bg-rose-600 hover:bg-rose-700 text-white font-bold text-xs whitespace-nowrap shadow-sm transition-all';
+                }
+            }
+
+            renderSidebar();
+
+            if (!status.active) {
+                showPasswordModal(true);
+            }
+        }
+
+        /* ---------- Lưu & Đọc tiến độ làm bài ---------- */
+        function saveProgress(cat, unit, test, correct, total, percent) {
+            let data = JSON.parse(localStorage.getItem(PROGRESS_STORAGE_KEY)) || {};
+            const key = `${cat}-${unit}-${test}`;
+            data[key] = { correct, total, percent, date: new Date().toISOString() };
+            localStorage.setItem(PROGRESS_STORAGE_KEY, JSON.stringify(data));
+            renderSidebar();
+        }
+
+        function getProgress(cat, unit, test) {
+            let data = JSON.parse(localStorage.getItem(PROGRESS_STORAGE_KEY)) || {};
+            return data[`${cat}-${unit}-${test}`] || null;
+        }
+
+        document.addEventListener('DOMContentLoaded', () => {
+            // Kiểm tra nếu examDatabase chưa có mục "full" (chưa ghép file gốc) thì hiện thanh công cụ ghép tự động
+            if (!examDatabase || !examDatabase.full) {
+                const mergerBanner = document.getElementById('db-merger-banner');
+                if (mergerBanner) mergerBanner.classList.remove('hidden-element');
+            }
+            refreshLicenseUI();
+            setInterval(() => {
+                const status = evaluateLicense();
+                if (!status.active && isUnlocked) {
+                    refreshLicenseUI();
+                }
+            }, 60000);
+        });
+
+        /* ---------- Công cụ Ghép Dữ Liệu Tự Động 1-Click từ file index_2.html gốc ---------- */
+        function mergeOriginalDatabaseFile(event) {
+            const file = event.target.files && event.target.files[0];
+            if (!file) return;
+            const reader = new FileReader();
+            reader.onload = function(e) {
+                const content = e.target.result;
+                const startMarker = 'const categoryConfig =';
+                const startIdx = content.indexOf(startMarker);
+                if (startIdx === -1) {
+                    alert('Không tìm thấy dữ liệu categoryConfig / examDatabase trong tệp đã chọn. Vui lòng chọn đúng tệp index_2.html gốc!');
+                    return;
+                }
+                const closeScriptIdx = content.indexOf('</script>', startIdx);
+                if (closeScriptIdx === -1) {
+                    alert('Cấu trúc tệp gốc không hợp lệ!');
+                    return;
+                }
+                const extractedDataJs = content.slice(startIdx, closeScriptIdx).trim();
+
+                // Lấy mã HTML hiện tại, thay thế nội dung trong <script id="database-script"> và ẩn thanh công cụ ghép
+                const currentDocHtml = document.documentElement.outerHTML;
+                const dbScriptRegex = /<script id="database-script">[\s\S]*?<\/script>/;
+                const updatedHtml = '<!DOCTYPE html>\n' + currentDocHtml.replace(
+                    dbScriptRegex,
+                    `<script id="database-script">\n${extractedDataJs}\n<\/script>`
+                );
+
+                const blob = new Blob([updatedHtml], { type: 'text/html;charset=utf-8' });
+                const a = document.createElement('a');
+                a.href = URL.createObjectURL(blob);
+                a.download = 'index_2.html';
+                document.body.appendChild(a);
+                a.click();
+                a.remove();
+                alert('🎉 Đã ghép thành công 100% dữ liệu câu hỏi vào giao diện mới! Tệp "index_2.html" hoàn chỉnh đã được tải xuống máy của bạn.');
+            };
+            reader.readAsText(file, 'UTF-8');
+        }
+
+        function toggleMobileUnits() {
+            document.getElementById('units-container').classList.toggle('hidden-element');
+        }
+
+        /* ---------- Điều hướng Phân mục (Listening / Lexico / Reading / Full) ---------- */
+        function selectCategory(cat) {
+            const status = evaluateLicense();
+            if (!status.active) {
+                pendingAction = { type: 'category', val: cat };
+                showPasswordModal(true);
+                return;
+            }
+            if (!categoryConfig[cat]) return;
+            currentCategory = cat;
+            currentUnit = categoryConfig[cat].units[0].id;
+            currentTest = 1;
+
+            ['listening', 'lexico', 'reading', 'full'].forEach(c => {
+                const btn = document.getElementById(`tab-cat-${c}`);
+                if (!btn) return;
+                if (c === cat) {
+                    btn.className = 'px-2.5 md:px-3.5 py-1.5 bg-white text-blue-900 font-extrabold rounded-lg shadow-sm text-xs md:text-sm transition-all flex items-center gap-1';
+                } else if (c === 'full') {
+                    btn.className = 'px-2.5 md:px-3.5 py-1.5 bg-amber-400 hover:bg-amber-300 text-slate-950 font-extrabold rounded-lg text-xs md:text-sm transition-all flex items-center gap-1 shadow-sm';
+                } else {
+                    btn.className = 'px-2.5 md:px-3.5 py-1.5 bg-white/15 hover:bg-white/90 hover:text-blue-800 text-white font-semibold rounded-lg text-xs md:text-sm transition-all flex items-center gap-1';
+                }
+            });
+
+            resetTimer();
+            renderSidebar();
+            document.getElementById('test-screen').classList.add('hidden-element');
+            document.getElementById('result-screen').classList.add('hidden-element');
+            document.getElementById('welcome-screen').classList.remove('hidden-element');
+        }
+
+        function renderSidebar() {
+            const container = document.getElementById('units-container');
+            if (!container) return;
+            container.innerHTML = '';
+
+            const catInfo = categoryConfig[currentCategory];
+            if (!catInfo) return;
+
+            const titleEl = document.getElementById('sidebar-cat-title');
+            if (titleEl) titleEl.innerText = catInfo.name;
+
+            let completedTests = 0;
+            let totalPercentSum = 0;
+            const totalPossibleTests = catInfo.units.length * 10;
+
+            catInfo.units.forEach(uObj => {
+                const u = uObj.id;
+                let unitCompleted = 0;
+                for (let t = 1; t <= 10; t++) {
+                    const p = getProgress(currentCategory, u, t);
+                    if (p) {
+                        completedTests++;
+                        unitCompleted++;
+                        totalPercentSum += p.percent;
+                    }
+                }
+
+                const unitDiv = document.createElement('div');
+                unitDiv.className = 'border-b border-slate-100';
+
+                const isUnitLocked = !isUnlocked;
+                const unitHeader = document.createElement('div');
+                unitHeader.className = 'p-3.5 cursor-pointer hover:bg-blue-50/60 transition-colors select-none';
+                unitHeader.innerHTML = `
+                    <div class="flex justify-between items-start gap-2">
+                        <div class="font-bold text-xs md:text-sm ${u === currentUnit ? 'text-blue-800 font-extrabold' : 'text-slate-800'} leading-snug">
+                            ${uObj.title}
+                        </div>
+                        <div class="flex items-center gap-1 flex-shrink-0 mt-0.5">
+                            ${unitCompleted > 0 ? `<span class="text-[10px] font-bold px-1.5 py-0.5 rounded bg-blue-50 text-blue-600">${unitCompleted}/10</span>` : ''}
+                            <span class="text-[11px] text-slate-400">${isUnitLocked ? '🔒' : '▼'}</span>
+                        </div>
+                    </div>
+                    <p class="text-[11px] text-slate-500 mt-1 leading-relaxed">${uObj.desc || ''}</p>
+                `;
+                unitHeader.onclick = () => toggleUnit(u);
+
+                const testsContainer = document.createElement('div');
+                testsContainer.id = `unit-${u}-tests`;
+                testsContainer.className = (u === currentUnit)
+                    ? 'flex flex-col bg-slate-50/70 border-t border-slate-100'
+                    : 'hidden-element flex flex-col bg-slate-50/70 border-t border-slate-100';
+
+                for (let t = 1; t <= 10; t++) {
+                    const progress = getProgress(currentCategory, u, t);
+                    let hasData = false;
+                    try {
+                        hasData = !!(examDatabase[currentCategory] && examDatabase[currentCategory][u] && examDatabase[currentCategory][u][t] && examDatabase[currentCategory][u][t].length);
+                    } catch (e) {}
+
+                    let badgeHtml = '';
+                    if (progress) {
+                        let colorClass = progress.percent >= 80 ? 'bg-emerald-100 text-emerald-700 border-emerald-200' :
+                                         (progress.percent >= 50 ? 'bg-amber-100 text-amber-700 border-amber-200' : 'bg-rose-100 text-rose-700 border-rose-200');
+                        badgeHtml = `<span class="px-2 py-0.5 text-[11px] font-bold rounded-full border ${colorClass}">${progress.correct}/${progress.total} (${progress.percent}%)</span>`;
+                    } else if (!isUnlocked) {
+                        badgeHtml = `<span class="text-[11px] text-slate-400">🔒</span>`;
+                    } else if (hasData) {
+                        badgeHtml = `<span class="text-[10px] font-semibold text-blue-600 bg-blue-50 px-2 py-0.5 rounded-full">Sẵn sàng</span>`;
+                    }
+
+                    const testBtn = document.createElement('button');
+                    const isActive = (u === currentUnit && t === currentTest && !document.getElementById('test-screen').classList.contains('hidden-element'));
+                    const activeClass = isActive
+                        ? 'bg-blue-50 border-l-4 border-blue-600 text-blue-800 font-extrabold'
+                        : 'text-slate-600 hover:bg-blue-50/50 hover:text-blue-700 font-medium';
+
+                    testBtn.className = `flex justify-between items-center px-5 py-2.5 text-xs md:text-sm border-b border-slate-100/80 transition-all ${activeClass}`;
+                    testBtn.innerHTML = `<span>${currentCategory === 'full' ? `Đề Chuẩn số ${t}` : `Test ${t}`}</span> ${badgeHtml}`;
+                    testBtn.onclick = () => selectTest(u, t);
+                    testsContainer.appendChild(testBtn);
+                }
+
+                unitDiv.appendChild(unitHeader);
+                unitDiv.appendChild(testsContainer);
+                container.appendChild(unitDiv);
+            });
+
+            const completedLabel = document.getElementById('sidebar-completed-count');
+            const progressBar = document.getElementById('sidebar-progress-bar');
+            const avgScoreLabel = document.getElementById('sidebar-avg-score');
+            if (completedLabel) completedLabel.innerText = `${completedTests}/${totalPossibleTests} đề`;
+            if (progressBar) progressBar.style.width = `${totalPossibleTests ? Math.round((completedTests / totalPossibleTests) * 100) : 0}%`;
+            if (avgScoreLabel) avgScoreLabel.innerText = completedTests > 0 ? `${Math.round(totalPercentSum / completedTests)}%` : '--%';
+        }
+
+        function toggleUnit(unit) {
+            const status = evaluateLicense();
+            if (!status.active) {
+                pendingAction = { type: 'unit', val: unit };
+                showPasswordModal(true);
+                return;
+            }
+            const testsDiv = document.getElementById(`unit-${unit}-tests`);
+            if (testsDiv) testsDiv.classList.toggle('hidden-element');
+        }
+
+        function selectTest(unit, test) {
+            const status = evaluateLicense();
+            if (!status.active) {
+                pendingAction = { type: 'test', unit: unit, test: test };
+                showPasswordModal(true);
+                return;
+            }
+            currentUnit = unit;
+            currentTest = test;
+            isSubmitted = false;
+
+            const catInfo = categoryConfig[currentCategory];
+            const unitObj = (catInfo.units || []).find(u => u.id === unit) || { title: `Chuyên đề ${unit}` };
+
+            document.getElementById('welcome-screen').classList.add('hidden-element');
+            document.getElementById('result-screen').classList.add('hidden-element');
+            document.getElementById('test-screen').classList.remove('hidden-element');
+            document.getElementById('submit-btn').classList.remove('hidden-element');
+            document.getElementById('quick-submit-btn').classList.remove('hidden-element');
+            document.getElementById('filter-bar').classList.add('hidden-element');
+
+            document.getElementById('current-cat-badge').innerText = catInfo.name.toUpperCase();
+            document.getElementById('current-test-title').innerText = `${unitObj.title} — ${currentCategory === 'full' ? `Đề số ${test}` : `Test ${test}`}`;
+            document.getElementById('current-test-subtitle').innerText = catInfo.subtitle;
+
+            renderTestContent();
+            renderSidebar();
+            resetTimer();
+            startTimer();
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        }
+
+        /* ---------- Thanh điều hướng câu hỏi & Cỡ chữ bài đọc ---------- */
+        function togglePalette() {
+            const palette = document.getElementById('question-palette');
+            const arrow = document.getElementById('palette-arrow');
+            palette.classList.toggle('hidden-element');
+            arrow.innerText = palette.classList.contains('hidden-element') ? '▼' : '▲';
+        }
+
+        function scrollToQuestion(index) {
+            const el = document.getElementById(`qbox_${index}`);
+            if (el) {
+                const y = el.getBoundingClientRect().top + window.pageYOffset - 150;
+                window.scrollTo({ top: y, behavior: 'smooth' });
+            }
+        }
+
+        function changePassageFontSize(delta) {
+            passageFontSize = Math.min(24, Math.max(14, passageFontSize + delta));
+            document.querySelectorAll('.reading-passage').forEach(el => {
+                el.style.fontSize = `${passageFontSize}px`;
+            });
+        }
+
+        function toggleTapescript(groupIdx) {
+            const box = document.getElementById(`tapescript_box_${groupIdx}`);
+            if (box) box.classList.toggle('hidden-element');
+        }
+
+        function updateLiveProgress() {
+            let questions = [];
+            try { questions = examDatabase[currentCategory][currentUnit][currentTest] || []; } catch(e) {}
+            const total = questions.length;
+            if (!total) return;
+
+            let answered = 0;
+            for (let i = 0; i < total; i++) {
+                const checked = document.querySelector(`input[name="q_${i}"]:checked`);
+                const btn = document.getElementById(`palette_btn_${i}`);
+                if (checked) {
+                    answered++;
+                    if (btn && !isSubmitted) {
+                        btn.className = 'h-7 rounded-lg text-xs font-extrabold bg-blue-600 text-white shadow-sm transition-all';
+                    }
+                } else if (btn && !isSubmitted) {
+                    btn.className = 'h-7 rounded-lg text-xs font-bold bg-slate-100 hover:bg-blue-50 text-slate-600 border border-slate-200 transition-all';
+                }
+            }
+
+            const countText = document.getElementById('answered-count-text');
+            const bar = document.getElementById('answered-progress-bar');
+            if (countText) countText.innerText = `${answered}/${total}`;
+            if (bar) bar.style.width = `${Math.round((answered / total) * 100)}%`;
+        }
+
+        function filterQuestions(mode) {
+            ['all', 'wrong', 'correct'].forEach(m => {
+                const btn = document.getElementById(`filter-${m}`);
+                if (!btn) return;
+                if (m === mode) {
+                    btn.classList.add('bg-white', 'shadow-sm');
+                } else {
+                    btn.classList.remove('bg-white', 'shadow-sm');
+                }
+            });
+
+            document.querySelectorAll('.question-box').forEach(box => {
+                const status = box.getAttribute('data-status');
+                if (mode === 'all') {
+                    box.classList.remove('hidden-element');
+                } else if (mode === 'wrong') {
+                    box.classList.toggle('hidden-element', status === 'correct');
+                } else if (mode === 'correct') {
+                    box.classList.toggle('hidden-element', status !== 'correct');
+                }
+            });
+        }
+
+        /* ---------- Render Nội dung Đề thi (Hỗ trợ Audio, Tapescript, Passage, Giải thích) ---------- */
+        function renderTestContent() {
+            const container = document.getElementById('questions-container');
+            const paletteGrid = document.getElementById('palette-grid');
+            container.innerHTML = '';
+            if (paletteGrid) paletteGrid.innerHTML = '';
+            
+            let questions = [];
+            try { questions = examDatabase[currentCategory][currentUnit][currentTest] || []; } catch(e) {}
+
+            const hasQuestions = questions.length > 0;
+            document.getElementById('export-bar').classList.toggle('hidden-element', !hasQuestions);
+            document.getElementById('sticky-exam-bar').classList.toggle('hidden-element', !hasQuestions);
+
+            if (!hasQuestions) {
+                container.innerHTML = `
+                    <div class="bg-slate-50 rounded-2xl py-16 px-4 text-center border-2 border-dashed border-slate-300">
+                        <p class="text-slate-600 font-bold text-lg">Nội dung đề thi này chưa được nạp hoặc đang cập nhật...</p>
+                        <p class="text-slate-500 text-sm mt-2">Nếu bạn chưa ghép dữ liệu từ file <code>index_2.html</code> gốc, hãy bấm nút <strong>"📂 Chọn file index_2.html gốc"</strong> trên thanh màu cam ở đầu trang!</p>
+                    </div>`;
+                document.getElementById('submit-btn').classList.add('hidden-element');
+                return;
+            }
+
+            if (paletteGrid) {
+                questions.forEach((q, idx) => {
+                    const displayNum = q.origNum || (idx + 1);
+                    const btn = document.createElement('button');
+                    btn.id = `palette_btn_${idx}`;
+                    btn.type = 'button';
+                    btn.className = 'h-7 rounded-lg text-xs font-bold bg-slate-100 hover:bg-blue-50 text-slate-600 border border-slate-200 transition-all';
+                    btn.innerText = displayNum;
+                    btn.onclick = () => scrollToQuestion(idx);
+                    paletteGrid.appendChild(btn);
+                });
+            }
+
+            const groups = [];
+            let currentGroup = null;
+            questions.forEach((q, originalIndex) => {
+                q.originalIndex = originalIndex;
+                if (!currentGroup || q.instruction !== currentGroup.instruction) {
+                    currentGroup = {
+                        instruction: q.instruction || '',
+                        passage: q.passage || null,
+                        audio: q.audio || null,
+                        tapescript: q.tapescript || null,
+                        questions: []
+                    };
+                    groups.push(currentGroup);
+                } else {
+                    if (q.passage && !currentGroup.passage) currentGroup.passage = q.passage;
+                    if (q.audio && !currentGroup.audio) currentGroup.audio = q.audio;
+                    if (q.tapescript && !currentGroup.tapescript) currentGroup.tapescript = q.tapescript;
+                }
+                currentGroup.questions.push(q);
+            });
+
+            let html = '';
+
+            groups.forEach((group, groupIdx) => {
+                const isReading = !!group.passage;
+                const isArrangement = (group.instruction || '').toLowerCase().includes("arrangement");
+
+                let audioAndScriptHtml = '';
+                if (group.audio || group.tapescript) {
+                    audioAndScriptHtml = `
+                        <div class="mb-4 p-3.5 rounded-2xl bg-blue-50/80 border border-blue-200 flex flex-col gap-3">
+                            ${group.audio ? `
+                                <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2">
+                                    <span class="text-xs font-extrabold text-blue-900 flex items-center gap-1.5">
+                                        <span>🎧 Audio bài nghe:</span>
+                                        <code class="text-[11px] bg-white px-2 py-0.5 rounded border border-blue-100 text-blue-700">${group.audio}</code>
+                                    </span>
+                                    <audio controls preload="none" class="h-9 w-full sm:w-80" src="${group.audio}"></audio>
+                                </div>
+                            ` : ''}
+                            ${group.tapescript ? `
+                                <div id="tapescript_wrap_${groupIdx}" class="hidden-element pt-2 border-t border-blue-200/70">
+                                    <button type="button" onclick="toggleTapescript(${groupIdx})" class="inline-flex items-center gap-1.5 text-xs font-extrabold text-indigo-700 hover:text-indigo-900 bg-white px-3 py-1.5 rounded-lg border border-indigo-200 shadow-sm">
+                                        📜 Ẩn / Hiện Tapescript (Nội dung bài nghe)
+                                    </button>
+                                    <div id="tapescript_box_${groupIdx}" class="mt-2.5 p-4 rounded-xl bg-white border border-slate-200 text-slate-700 text-xs md:text-sm leading-relaxed whitespace-pre-line font-serif">
+                                        ${group.tapescript}
+                                    </div>
+                                </div>
+                            ` : ''}
+                        </div>
+                    `;
+                }
+
+                let questionsHtml = '';
+                group.questions.forEach((q) => {
+                    const index = q.originalIndex;
+                    const displayNum = q.origNum || (index + 1);
+                    const labels = ['A', 'B', 'C', 'D'];
+                    let optionsHtml = '';
+                    
+                    (q.options || []).forEach((opt, oIdx) => {
+                        optionsHtml += `
+                            <label class="option-label flex items-start gap-2.5 p-3.5 rounded-xl border border-slate-200 bg-white w-full h-full cursor-pointer relative" id="box_q_${index}_opt_${oIdx}">
+                                <input type="radio" name="q_${index}" value="${oIdx}" onchange="updateLiveProgress()" class="sr-only">
+                                <span class="option-badge w-7 h-7 rounded-lg bg-slate-100 border border-slate-200 text-slate-700 font-extrabold text-xs flex items-center justify-center flex-shrink-0 mt-0.5">
+                                    ${labels[oIdx]}
+                                </span>
+                                <span class="flex-grow text-slate-800 text-sm md:text-base transition-colors leading-snug break-words pt-0.5" id="span_q_${index}_opt_${oIdx}">
+                                    <strong class="hidden">${labels[oIdx]}.</strong> ${opt}
+                                </span>
+                            </label>
+                        `;
+                    });
+
+                    let qTextHtml = q.text ? q.text.replace(/\n/g, '<br>') : '';
+                    let questionTextClass = "text-slate-800 font-medium text-base md:text-lg mt-2 leading-relaxed";
+                    if (isArrangement) {
+                        questionTextClass = "text-sm md:text-base font-semibold text-slate-800 bg-slate-50 p-4 rounded-xl border border-slate-200/90 shadow-inner mt-3 mb-4 block leading-relaxed";
+                    }
+
+                    const gridClass = isReading ? "grid-cols-1 xl:grid-cols-2" : "grid-cols-1 md:grid-cols-2 lg:grid-cols-4";
+                    const expText = q.explanation || q.explain || q.giaiThich || q.giai_thich || q.solution || '';
+
+                    questionsHtml += `
+                        <div class="question-box bg-white p-4 md:p-6 rounded-2xl border border-slate-200/80 shadow-sm mb-4" id="qbox_${index}">
+                            <div class="flex items-center justify-between gap-2 mb-2">
+                                <span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-lg bg-blue-50 text-blue-700 font-extrabold text-xs md:text-sm border border-blue-100">
+                                    Question ${displayNum}
+                                </span>
+                                <span id="status_badge_${index}" class="hidden-element text-xs font-bold px-2.5 py-0.5 rounded-full"></span>
+                            </div>
+                            ${qTextHtml ? `<div class="${questionTextClass} mb-4">${qTextHtml}</div>` : `<div class="mb-2"></div>`}
+                            <div class="grid ${gridClass} gap-3 mt-2">
+                                ${optionsHtml}
+                            </div>
+                            ${expText ? `
+                                <div id="exp_box_${index}" class="hidden-element mt-4 p-3.5 rounded-xl bg-amber-50/80 border border-amber-200 text-slate-700 text-xs md:text-sm leading-relaxed">
+                                    <strong class="text-amber-800 font-extrabold block mb-1">💡 Giải thích chi tiết:</strong>
+                                    ${expText.replace(/\n/g, '<br>')}
+                                </div>
+                            ` : ''}
+                        </div>
+                    `;
+                });
+
+                if (isReading) {
+                    const formattedPassage = group.passage.replace(/\n/g, '<br><br>');
+                    html += `
+                        <div class="flex flex-col lg:flex-row gap-5 lg:gap-7 mb-10 pb-8 border-b border-dashed border-slate-300 items-start">
+                            <div class="lg:w-[52%] lg:sticky lg:top-[135px] z-10 w-full self-start">
+                                <div class="bg-gradient-to-r from-slate-800 to-blue-900 text-white px-4 py-3 rounded-t-2xl shadow-sm flex items-center justify-between gap-2">
+                                    <div class="font-bold text-xs md:text-sm leading-snug">
+                                        ${group.instruction}
+                                    </div>
+                                    <div class="flex items-center gap-1 flex-shrink-0 bg-white/10 px-2 py-1 rounded-lg border border-white/15" title="Tăng/giảm cỡ chữ bài đọc">
+                                        <button type="button" onclick="changePassageFontSize(-1)" class="text-xs font-bold px-1.5 hover:text-amber-300">A-</button>
+                                        <span class="text-white/30">|</span>
+                                        <button type="button" onclick="changePassageFontSize(1)" class="text-xs font-bold px-1.5 hover:text-amber-300">A+</button>
+                                    </div>
+                                </div>
+                                <div class="reading-passage bg-amber-50/25 border-x border-b border-slate-200 p-5 md:p-7 rounded-b-2xl text-slate-900 text-justify overflow-y-auto custom-scrollbar max-h-[52vh] lg:max-h-[calc(100vh-195px)] shadow-inner" style="font-size: ${passageFontSize}px;">
+                                    ${formattedPassage}
+                                </div>
+                            </div>
+                            <div class="lg:w-[48%] w-full mt-2 lg:mt-0">
+                                ${audioAndScriptHtml}
+                                ${questionsHtml}
+                            </div>
+                        </div>
+                    `;
+                } else {
+                    html += `
+                        <div class="mb-10 pb-8 border-b border-dashed border-slate-300">
+                            <div class="font-bold text-slate-800 text-sm md:text-base bg-slate-100/80 border-l-4 border-blue-600 px-4 py-2.5 rounded-r-xl mb-4">
+                                ${group.instruction}
+                            </div>
+                            ${audioAndScriptHtml}
+                            <div class="w-full">
+                                ${questionsHtml}
+                            </div>
+                        </div>
+                    `;
+                }
+            });
+
+            container.innerHTML = html;
+            updateLiveProgress();
+        }
+
+        function submitTest() {
+            if(isSubmitted) return;
+            clearInterval(timerInterval);
+            isSubmitted = true;
+            document.getElementById('submit-btn').classList.add('hidden-element');
+            document.getElementById('quick-submit-btn').classList.add('hidden-element');
+            document.getElementById('filter-bar').classList.remove('hidden-element');
+
+            const questions = examDatabase[currentCategory][currentUnit][currentTest] || [];
+            const total = questions.length;
+            let correctCount = 0;
+
+            // Hiển thị toàn bộ Tapescript bài nghe sau khi nộp bài
+            document.querySelectorAll('[id^="tapescript_wrap_"]').forEach(el => el.classList.remove('hidden-element'));
+
+            questions.forEach((q, index) => {
+                const selected = document.querySelector(`input[name="q_${index}"]:checked`);
+                const correctAnsIdx = q.answer;
+                const qBox = document.getElementById(`qbox_${index}`);
+                const statusBadge = document.getElementById(`status_badge_${index}`);
+                const paletteBtn = document.getElementById(`palette_btn_${index}`);
+                const expBox = document.getElementById(`exp_box_${index}`);
+                
+                document.querySelectorAll(`input[name="q_${index}"]`).forEach(input => input.disabled = true);
+                
+                const correctBox = document.getElementById(`box_q_${index}_opt_${correctAnsIdx}`);
+                const correctSpan = document.getElementById(`span_q_${index}_opt_${correctAnsIdx}`);
+                if(correctBox) {
+                    correctBox.classList.add('correct-ans-box');
+                    correctSpan.classList.add('correct-ans-text');
+                }
+                if (expBox) expBox.classList.remove('hidden-element');
+
+                if (selected) {
+                    const selectedIdx = parseInt(selected.value);
+                    if (selectedIdx === correctAnsIdx) {
+                        correctCount++;
+                        if (qBox) qBox.setAttribute('data-status', 'correct');
+                        if (statusBadge) {
+                            statusBadge.className = 'text-xs font-bold px-2.5 py-0.5 rounded-full bg-emerald-100 text-emerald-700 border border-emerald-200';
+                            statusBadge.innerText = '✓ Chính xác';
+                        }
+                        if (paletteBtn) {
+                            paletteBtn.className = 'h-7 rounded-lg text-xs font-extrabold bg-emerald-500 text-white shadow-sm';
+                        }
+                    } else {
+                        const wrongBox = document.getElementById(`box_q_${index}_opt_${selectedIdx}`);
+                        const wrongSpan = document.getElementById(`span_q_${index}_opt_${selectedIdx}`);
+                        if(wrongBox) {
+                            wrongBox.classList.add('wrong-ans-box');
+                            wrongSpan.classList.add('wrong-ans-text');
+                        }
+                        if (qBox) qBox.setAttribute('data-status', 'wrong');
+                        if (statusBadge) {
+                            statusBadge.className = 'text-xs font-bold px-2.5 py-0.5 rounded-full bg-rose-100 text-rose-700 border border-rose-200';
+                            statusBadge.innerText = `✕ Sai (Đáp án: ${'ABCD'[correctAnsIdx]})`;
+                        }
+                        if (paletteBtn) {
+                            paletteBtn.className = 'h-7 rounded-lg text-xs font-extrabold bg-rose-500 text-white shadow-sm';
+                        }
+                    }
+                } else {
+                    if (qBox) qBox.setAttribute('data-status', 'unanswered');
+                    if (statusBadge) {
+                        statusBadge.className = 'text-xs font-bold px-2.5 py-0.5 rounded-full bg-amber-100 text-amber-800 border border-amber-200';
+                        statusBadge.innerText = `Chưa làm (Đáp án: ${'ABCD'[correctAnsIdx]})`;
+                    }
+                    if (paletteBtn) {
+                        paletteBtn.className = 'h-7 rounded-lg text-xs font-extrabold bg-rose-500 text-white opacity-80';
+                    }
+                }
+            });
+
+            const wrongCount = total - correctCount;
+            const percent = Math.round((correctCount / total) * 100);
+
+            document.getElementById('score-display').innerText = `${correctCount}/${total}`;
+            document.getElementById('correct-display').innerText = correctCount;
+            document.getElementById('wrong-display').innerText = wrongCount;
+            document.getElementById('percent-display').innerText = `${percent}%`;
+
+            let msg = "";
+            if (percent === 100) msg = "🎯 Tuyệt đỉnh! Bạn đã đạt điểm tuyệt đối. Phong độ xứng đáng giải Nhất HSG cấp Tỉnh!";
+            else if (percent >= 80) msg = "🌟 Xuất sắc! Kiến thức nâng cao của bạn rất vững vàng. Hãy xem lại một vài câu sai để vươn tới điểm tuyệt đối nhé!";
+            else if (percent >= 60) msg = "👍 Khá tốt! Bạn đã nắm chắc nền tảng đề HSG. Hãy đọc kỹ phần Giải thích chi tiết và Tapescript để bứt phá hơn.";
+            else if (percent >= 40) msg = "💪 Cố gắng lên! Đề thi HSG cấp Tỉnh có nhiều bẫy từ vựng và ngữ pháp nâng cao, hãy ôn kỹ lời giải hoặc nhờ Thầy Tiến hỗ trợ thêm nhé!";
+            else msg = "❤️ Đừng nản chí! Luyện thi Học sinh giỏi cần sự bền bỉ mỗi ngày. Hãy đọc kỹ giải thích từng câu và làm lại để ghi nhớ sâu nhé!";
+            
+            document.getElementById('motivation-message').innerText = msg;
+
+            saveProgress(currentCategory, currentUnit, currentTest, correctCount, total, percent);
+
+            document.getElementById('result-screen').classList.remove('hidden-element');
+            window.scrollTo({ top: document.getElementById('result-screen').offsetTop - 70, behavior: 'smooth' });
+        }
+
+        function startTimer() {
+            timerInterval = setInterval(() => {
+                if(timeLeft <= 0) { clearInterval(timerInterval); submitTest(); return; }
+                timeLeft--;
+                const m = Math.floor(timeLeft / 60).toString().padStart(2, '0');
+                const s = (timeLeft % 60).toString().padStart(2, '0');
+                document.getElementById('timer-display').innerText = `${m}:${s}`;
+            }, 1000);
+        }
+
+        function resetTimer() {
+            clearInterval(timerInterval);
+            const mins = (categoryConfig[currentCategory] && categoryConfig[currentCategory].defaultMinutes) || 90;
+            timeLeft = mins * 60;
+            document.getElementById('timer-display').innerText = `${String(mins).padStart(2, '0')}:00`;
+        }
+
+        /* ---------- Quản lý Hộp thoại Mật khẩu & Kích hoạt 365 ngày ---------- */
+        function continueAfterResult() { 
+            const status = evaluateLicense();
+            if (!status.active) {
+                pendingAction = null;
+                showPasswordModal(true);
+            } else {
+                document.getElementById('test-screen').classList.add('hidden-element');
+                document.getElementById('result-screen').classList.add('hidden-element');
+                document.getElementById('welcome-screen').classList.remove('hidden-element');
+                window.scrollTo({ top: 0, behavior: 'smooth' });
+            }
+        }
+
+        function showPasswordModal(forceLock) {
+            const status = evaluateLicense();
+            const modal = document.getElementById('password-modal');
+            const infoBox = document.getElementById('modal-license-info');
+            const closeBtn = document.getElementById('password-cancel-btn');
+            const titleEl = document.getElementById('modal-title');
+            const subEl = document.getElementById('password-modal-desc');
+            const iconBox = document.getElementById('modal-icon-container');
+            const formArea = document.getElementById('password-form-area');
+
+            modal.classList.remove('hidden-element');
+            document.getElementById('password-error').classList.add('hidden-element');
+            document.getElementById('password-input').value = '';
+
+            if (status.mode === 'vip') {
+                iconBox.innerText = '👑';
+                titleEl.innerText = 'Bản quyền VIP 365 ngày';
+                subEl.innerText = 'Thiết bị của bạn đã được kích hoạt bản quyền đầy đủ.';
+                infoBox.innerHTML = `
+                    <div class="flex justify-between"><span>Trạng thái:</span> <strong class="text-emerald-700">Đang hoạt động (VIP 365 ngày)</strong></div>
+                    <div class="flex justify-between"><span>Ngày kích hoạt:</span> <strong>${formatDateVN(status.startDate)}</strong></div>
+                    <div class="flex justify-between"><span>Ngày hết hạn:</span> <strong>${formatDateVN(status.expireDate)}</strong></div>
+                    <div class="flex justify-between"><span>Thời gian còn lại:</span> <strong class="text-blue-700">${status.daysLeft} ngày</strong></div>
+                `;
+                formArea.classList.add('hidden-element');
+                closeBtn.classList.remove('hidden-element');
+            } else if (status.mode === 'trial') {
+                iconBox.innerText = '⏳';
+                titleEl.innerText = 'Kích hoạt Bản quyền 365 ngày';
+                subEl.innerText = 'Bạn đang trong 10 ngày dùng thử. Nhập mật khẩu dưới đây nếu muốn kích hoạt ngay gói 365 ngày.';
+                infoBox.innerHTML = `
+                    <div class="flex justify-between"><span>Chế độ hiện tại:</span> <strong class="text-amber-700">Dùng thử 10 ngày</strong></div>
+                    <div class="flex justify-between"><span>Ngày bắt đầu:</span> <strong>${formatDateVN(status.startDate)}</strong></div>
+                    <div class="flex justify-between"><span>Hết hạn dùng thử:</span> <strong>${formatDateVN(status.expireDate)} (còn ${status.daysLeft} ngày)</strong></div>
+                `;
+                formArea.classList.remove('hidden-element');
+                closeBtn.classList.remove('hidden-element');
+                setTimeout(() => document.getElementById('password-input').focus(), 50);
+            } else {
+                iconBox.innerText = '🔒';
+                titleEl.innerText = status.mode === 'trial_expired' ? 'Đã hết 10 ngày dùng thử!' : 'Bản quyền 365 ngày đã hết hạn!';
+                subEl.innerText = 'Vui lòng nhập mật khẩu bản quyền để tiếp tục sử dụng toàn bộ ngân hàng đề thi HSG trong 365 ngày.';
+                infoBox.innerHTML = `
+                    <div class="flex justify-between"><span>Trạng thái:</span> <strong class="text-rose-600">Đã hết hạn sử dụng</strong></div>
+                    <div class="flex justify-between"><span>Ngày hết hạn:</span> <strong>${formatDateVN(status.expireDate)}</strong></div>
+                `;
+                formArea.classList.remove('hidden-element');
+                closeBtn.classList.toggle('hidden-element', !!forceLock || !status.active);
+                setTimeout(() => document.getElementById('password-input').focus(), 50);
+            }
+        }
+
+        function closeModal() {
+            const status = evaluateLicense();
+            if (!status.active) return;
+            document.getElementById('password-modal').classList.add('hidden-element');
+            pendingAction = null;
+        }
+
+        function checkPassword() {
+            const pwd = document.getElementById('password-input').value.trim();
+            if (pwd === ACTIVATION_PASSWORD) {
+                const now = Date.now();
+                const data = getLicenseData();
+                data.vipStart = now;
+                data.vipExpire = now + VIP_DAYS * DAY_MS;
+                data.lastSeen = now;
+                localStorage.setItem(LICENSE_STORAGE_KEY, JSON.stringify(data));
+
+                document.getElementById('password-modal').classList.add('hidden-element');
+                refreshLicenseUI();
+
+                alert(`Kích hoạt thành công! Bạn được quyền sử dụng toàn bộ hệ thống trong ${VIP_DAYS} ngày (đến hết ngày ${formatDateVN(new Date(data.vipExpire))}).`);
+                
+                if (pendingAction) {
+                    if (pendingAction.type === 'category') selectCategory(pendingAction.val);
+                    else if (pendingAction.type === 'unit') toggleUnit(pendingAction.val);
+                    else if (pendingAction.type === 'test') selectTest(pendingAction.unit, pendingAction.test);
+                    pendingAction = null;
+                }
+            } else {
+                document.getElementById('password-error').classList.remove('hidden-element');
+            }
+        }
+    </script>
+
+    <!-- XUẤT FILE WORD (.docx) CHUẨN ĐỀ HSG THANH HÓA (ĐỀ + ĐÁP ÁN + GIẢI THÍCH + TAPESCRIPT) -->
+    <script>
+        (function () {
+            const PAGE = { w: 11907, h: 16840, top: 850, bottom: 850, left: 567, right: 567, header: 426, footer: 400 };
+            const COL4 = [2693, 5386, 8079];
+            const COL4_INLINE = [1400, 3900, 6400, 8900];
+            const COL2 = [5386];
+            const GAP = 220;
+
+            const TNR = [250,333,408,500,500,833,778,333,333,333,500,564,250,333,250,278,
+                         500,500,500,500,500,500,500,500,500,500,278,278,564,564,564,444,
+                         921,722,667,667,722,611,556,722,722,333,389,722,611,889,722,722,
+                         556,722,667,556,611,722,722,944,722,722,611,333,278,333,469,500,
+                         333,444,500,444,500,444,333,500,500,278,278,500,278,778,500,500,
+                         500,500,333,389,278,500,500,722,500,500,444,480,200,480,541];
+            function textWidthTw(s, bold) {
+                let u = 0;
+                for (const ch of s) {
+                    const c = ch.codePointAt(0);
+                    u += (c >= 32 && c <= 126) ? TNR[c - 32] : (c === 9 ? 0 : 500);
+                }
+                return Math.ceil(u * 11 * 20 / 1000 * (bold ? 1.04 : 1));
+            }
+
+            const esc = s => String(s).replace(/[\u0000-\u0008\u000B\u000C\u000E-\u001F]/g, '')
+                .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+
+            function normalizeMarkup(s) {
+                return String(s == null ? '' : s)
+                    .replace(/\r\n?/g, '\n')
+                    .replace(/\*\*(.+?)\*\*/g, '<b>$1</b>')
+                    .replace(/<br\s*\/?>/gi, '\n')
+                    .replace(/<\/(p|div|li|h[1-6])>/gi, '\n');
+            }
+            function inlineRuns(html) {
+                const doc = new DOMParser().parseFromString('<body>' + html + '</body>', 'text/html');
+                const out = [];
+                (function walk(node, f) {
+                    node.childNodes.forEach(n => {
+                        if (n.nodeType === 3) { if (n.nodeValue) out.push(Object.assign({ t: n.nodeValue }, f)); return; }
+                        if (n.nodeType !== 1) return;
+                        const tag = n.tagName.toLowerCase();
+                        const g = Object.assign({}, f);
+                        if (tag === 'b' || tag === 'strong' || /^h[1-6]$/.test(tag)) g.b = true;
+                        if (tag === 'i' || tag === 'em') g.i = true;
+                        if (tag === 'u' || tag === 'ins') g.u = true;
+                        if (tag === 'sup') g.sup = true;
+                        if (tag === 'sub') g.sub = true;
+                        const cls = n.getAttribute('class') || '', st = (n.getAttribute('style') || '').toLowerCase();
+                        if (/\bfont-(bold|semibold|extrabold|black)\b/.test(cls) || /font-weight:\s*(bold|[6-9]00)/.test(st)) g.b = true;
+                        if (/\bunderline\b/.test(cls) || /text-decoration[^;]*underline/.test(st)) g.u = true;
+                        if (/\bitalic\b/.test(cls) || /font-style:\s*italic/.test(st)) g.i = true;
+                        walk(n, g);
+                    });
+                })(doc.body, {});
+                return out;
+            }
+            function toLines(html) {
+                return normalizeMarkup(html).split('\n')
+                    .map(l => inlineRuns(l.replace(/\u00a0/g, ' ')))
+                    .filter(rs => rs.some(r => r.t.trim() !== ''));
+            }
+            const plain = runs => runs.map(r => r.t).join('');
+
+            function runXml(r, base) {
+                const f = Object.assign({}, base || {}, r);
+                let pr = '';
+                if (f.b) pr += '<w:b/><w:bCs/>';
+                if (f.i) pr += '<w:i/><w:iCs/>';
+                if (f.sz) pr += `<w:sz w:val="${f.sz}"/><w:szCs w:val="${f.sz}"/>`;
+                if (f.u) pr += '<w:u w:val="single"/>';
+                if (f.sup) pr += '<w:vertAlign w:val="superscript"/>';
+                if (f.sub) pr += '<w:vertAlign w:val="subscript"/>';
+                const parts = String(f.t).split('\t');
+                const inner = parts.map((s, i) => (i ? '<w:tab/>' : '') + (s ? `<w:t xml:space="preserve">${esc(s)}</w:t>` : '')).join('');
+                return `<w:r>${pr ? `<w:rPr>${pr}</w:rPr>` : ''}${inner}</w:r>`;
+            }
+            const runsXml = (runs, base) => runs.map(r => runXml(r, base)).join('');
+            const tabsXml = pos => pos && pos.length ? '<w:tabs>' + pos.map(p => `<w:tab w:val="left" w:pos="${p}"/>`).join('') + '</w:tabs>' : '';
+
+            function P(content, o) {
+                o = o || {};
+                const pPr = (o.keepNext ? '<w:keepNext/>' : '') + '<w:keepLines/>' + (o.pageBreakBefore ? '<w:pageBreakBefore/>' : '') +
+                    tabsXml(o.tabs) + (o.before ? `<w:spacing w:before="${o.before}"/>` : '') + '<w:contextualSpacing/>' +
+                    (o.jc ? `<w:jc w:val="${o.jc}"/>` : '');
+                return `<w:p><w:pPr>${pPr}</w:pPr>${content}</w:p>`;
+            }
+            const B = (t, extra) => runXml(Object.assign({ t, b: true }, extra || {}));
+
+            function optionParagraphs(optRuns, inlineLabelXml) {
+                const widths = optRuns.map(rs => textWidthTw(plain(rs)));
+                const wMax = Math.max.apply(null, widths);
+                const cell = rs => runsXml(rs);
+                if (inlineLabelXml !== undefined && wMax <= 2500 - GAP) {
+                    return [P(inlineLabelXml + optRuns.map(rs => '<w:r><w:tab/></w:r>' + cell(rs)).join(''), { tabs: COL4_INLINE })];
+                }
+                const label = inlineLabelXml !== undefined ? [P(inlineLabelXml, { keepNext: true })] : [];
+                if (inlineLabelXml === undefined) {
+                    if (wMax <= COL4[0] - GAP) {
+                        return [P(optRuns.map((rs, i) => (i ? '<w:r><w:tab/></w:r>' : '') + cell(rs)).join(''), { tabs: COL4 })];
+                    }
+                    if (wMax <= COL2[0] - GAP) {
+                        return [
+                            P(cell(optRuns[0]) + '<w:r><w:tab/></w:r>' + cell(optRuns[1]), { tabs: COL2, keepNext: true }),
+                            P(cell(optRuns[2]) + '<w:r><w:tab/></w:r>' + cell(optRuns[3]), { tabs: COL2 })
+                        ];
+                    }
+                }
+                return label.concat(optRuns.map((rs, i) => P(cell(rs), { keepNext: i < 3 })));
+            }
+
+            function isTitleLine(runs) {
+                const s = plain(runs).trim();
+                if (!s || s.length > 100 || /\(\s*\d+\s*\)\s*[_…\.]{2,}/.test(s) || /_{3,}/.test(s)) return false;
+                const letters = s.replace(/[^A-Za-zÀ-ỹ]/g, '');
+                const allCaps = letters.length >= 3 && letters === letters.toUpperCase();
+                const allBold = runs.every(r => r.t.trim() === '' || r.b);
+                return allCaps || (allBold && !/[.!?:,;]$/.test(s));
+            }
+            const isSourceLine = s => /^\(\s*(adapted|source|sources|retrieved|nguồn)\b/i.test(s.trim());
+
+            function buildPartI(questions) {
+                const out = [P(B('PHẦN I: ĐỀ THI TRẮC NGHIỆM', { sz: 26 }), { jc: 'center' })];
+
+                const groups = []; let cur = null;
+                questions.forEach((q, idx) => {
+                    if (!cur || q.instruction !== cur.instruction) {
+                        cur = { instruction: q.instruction || '', passage: q.passage || null, items: [] };
+                        groups.push(cur);
+                    } else if (q.passage && !cur.passage) cur.passage = q.passage;
+                    cur.items.push({ q, idx });
+                });
+
+                groups.forEach(g => {
+                    const insLines = toLines(g.instruction);
+                    if (insLines.length) out.push(P(runsXml(insLines[0], { b: true }), { keepNext: true, before: 140, jc: 'both' }));
+
+                    if (g.passage) {
+                        toLines(g.passage).forEach(rs => {
+                            const s = plain(rs);
+                            if (isSourceLine(s)) out.push(P(runsXml(rs)));
+                            else if (isTitleLine(rs)) out.push(P(runsXml(rs, { b: true }), { jc: 'center' }));
+                            else out.push(P(runsXml(rs), { jc: 'both' }));
+                        });
+                    }
+
+                    g.items.forEach(({ q, idx }) => {
+                        const qNumber = q.origNum || (idx + 1);
+                        const label = B('Question ' + qNumber + '.');
+                        const stem = toLines(q.text || '');
+                        const opts = (q.options || []).map((o, i) => {
+                            const rs = inlineRuns(normalizeMarkup(o).replace(/\n+/g, ' ').replace(/\u00a0/g, ' '));
+                            return [{ t: 'ABCD'[i] + '. ' }].concat(rs);
+                        });
+                        while (opts.length < 4) opts.push([{ t: 'ABCD'[opts.length] + '. ' }]);
+
+                        if (!stem.length) {
+                            out.push.apply(out, optionParagraphs(opts, label));
+                        } else {
+                            const listLike = /^[a-e]\.\s/.test(plain(stem[0]).trim());
+                            if (listLike) { out.push(P(label, { keepNext: true })); }
+                            else { out.push(P(label + runsXml([{ t: ' ' }].concat(stem[0])), { keepNext: true })); stem.shift(); }
+                            stem.forEach(rs => {
+                                const s = plain(rs).trim();
+                                const item = /^[a-e]\.\s/.test(s);
+                                const dialogue = /^[a-e]\.\s+[^:]{1,25}:/.test(s);
+                                out.push(P(runsXml(rs), { keepNext: true, jc: (listLike && item && !dialogue) ? 'both' : undefined }));
+                            });
+                            out.push.apply(out, optionParagraphs(opts));
+                        }
+                    });
+                });
+                return out;
+            }
+
+            function ansLetter(q) {
+                const a = q.answer;
+                if (typeof a === 'number' && a >= 0 && a <= 3) return 'ABCD'[a];
+                if (typeof a === 'string' && /^[A-Da-d]$/.test(a.trim())) return a.trim().toUpperCase();
+                if (typeof a === 'string' && /^[0-3]$/.test(a.trim())) return 'ABCD'[+a];
+                return '?';
+            }
+            function explanationOf(q) {
+                const v = q.explanation || q.explain || q.giaiThich || q.giai_thich || q.solution || q.huongDan || q.huong_dan || q.exp;
+                return (typeof v === 'string') ? v.trim() : '';
+            }
+            function answerTable(questions) {
+                const COLS = 10, CW = 1077;
+                const border = '<w:top w:val="single" w:sz="4" w:space="0" w:color="999999"/><w:left w:val="single" w:sz="4" w:space="0" w:color="999999"/><w:bottom w:val="single" w:sz="4" w:space="0" w:color="999999"/><w:right w:val="single" w:sz="4" w:space="0" w:color="999999"/>';
+                const rows = Math.ceil(questions.length / COLS);
+                let x = '<w:tbl><w:tblPr><w:tblW w:w="10770" w:type="dxa"/><w:tblInd w:w="-15" w:type="dxa"/>' +
+                    '<w:tblBorders><w:top w:val="single" w:sz="4" w:space="0" w:color="auto"/><w:left w:val="single" w:sz="4" w:space="0" w:color="auto"/><w:bottom w:val="single" w:sz="4" w:space="0" w:color="auto"/><w:right w:val="single" w:sz="4" w:space="0" w:color="auto"/><w:insideH w:val="single" w:sz="4" w:space="0" w:color="auto"/><w:insideV w:val="single" w:sz="4" w:space="0" w:color="auto"/></w:tblBorders>' +
+                    '<w:tblLayout w:type="fixed"/><w:tblCellMar><w:left w:w="10" w:type="dxa"/><w:right w:w="10" w:type="dxa"/></w:tblCellMar><w:tblLook w:val="0000" w:firstRow="0" w:lastRow="0" w:firstColumn="0" w:lastColumn="0" w:noHBand="0" w:noVBand="0"/></w:tblPr><w:tblGrid>' +
+                    '<w:gridCol w:w="1077"/>'.repeat(COLS) + '</w:tblGrid>';
+                for (let r = 0; r < rows; r++) {
+                    const fill = (r % 2 === 0) ? 'F2F2F2' : 'FFFFFF';
+                    x += '<w:tr><w:trPr><w:cantSplit/></w:trPr>';
+                    for (let c = 0; c < COLS; c++) {
+                        const i = r * COLS + c, q = questions[i];
+                        const qNumber = q ? (q.origNum || (i + 1)) : '';
+                        const para = q
+                            ? `<w:p><w:pPr><w:contextualSpacing/><w:jc w:val="center"/></w:pPr>${B(qNumber + '.')}${runXml({ t: ' ' + ansLetter(q) })}</w:p>`
+                            : '<w:p><w:pPr><w:contextualSpacing/><w:jc w:val="center"/></w:pPr></w:p>';
+                        x += `<w:tc><w:tcPr><w:tcW w:w="${CW}" w:type="dxa"/><w:tcBorders>${border}</w:tcBorders><w:shd w:val="clear" w:color="auto" w:fill="${fill}"/><w:tcMar><w:top w:w="60" w:type="dxa"/><w:left w:w="80" w:type="dxa"/><w:bottom w:w="60" w:type="dxa"/><w:right w:w="80" w:type="dxa"/></w:tcMar></w:tcPr>${para}</w:tc>`;
+                    }
+                    x += '</w:tr>';
+                }
+                return x + '</w:tbl>';
+            }
+            function buildPartII(questions) {
+                const out = [
+                    P(B('PHẦN II: ĐÁP ÁN, GIẢI THÍCH CHI TIẾT VÀ TAPESCRIPT', { sz: 26 }), { jc: 'center', pageBreakBefore: true }),
+                    P(B('1. Bảng đáp án'), { keepNext: true }),
+                    answerTable(questions),
+                    P('')
+                ];
+                const exps = questions.map(explanationOf);
+                if (exps.some(Boolean)) {
+                    out.push(P(B('2. Giải thích chi tiết'), { keepNext: true, before: 60 }));
+                    questions.forEach((q, i) => {
+                        if (!exps[i]) return;
+                        const qNumber = q.origNum || (i + 1);
+                        const lines = toLines(exps[i]);
+                        const head = B('Question ' + qNumber + '. Đáp án ' + ansLetter(q) + '.');
+                        out.push(P(head + runsXml([{ t: ' ' }].concat(lines[0] || [])), { jc: 'both' }));
+                        lines.slice(1).forEach(rs => out.push(P(runsXml(rs), { jc: 'both' })));
+                    });
+                }
+                const scripts = questions.map(q => (q.tapescript || '').trim()).filter(Boolean);
+                if (scripts.length) {
+                    out.push(P(B('3. Nội dung bài nghe (Tapescript)'), { keepNext: true, before: 120 }));
+                    scripts.forEach(sc => {
+                        toLines(sc).forEach(rs => out.push(P(runsXml(rs), { jc: 'both' })));
+                        out.push(P(''));
+                    });
+                }
+                return out;
+            }
+
+            const NS = 'xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main" xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships"';
+            const XML = '<?xml version="1.0" encoding="UTF-8" standalone="yes"?>\n';
+            function documentXml(bodyParts) {
+                return XML + `<w:document ${NS}><w:body>${bodyParts.join('')}` +
+                    `<w:sectPr><w:footerReference w:type="default" r:id="rId3"/><w:pgSz w:w="${PAGE.w}" w:h="${PAGE.h}"/>` +
+                    `<w:pgMar w:top="${PAGE.top}" w:right="${PAGE.right}" w:bottom="${PAGE.bottom}" w:left="${PAGE.left}" w:header="${PAGE.header}" w:footer="${PAGE.footer}" w:gutter="0"/>` +
+                    `<w:cols w:space="720"/><w:docGrid w:linePitch="360"/></w:sectPr></w:body></w:document>`;
+            }
+            const STYLES = XML + `<w:styles ${NS}><w:docDefaults><w:rPrDefault><w:rPr><w:rFonts w:ascii="Times New Roman" w:eastAsia="Times New Roman" w:hAnsi="Times New Roman" w:cs="Times New Roman"/><w:sz w:val="22"/><w:szCs w:val="22"/><w:lang w:val="en-US" w:eastAsia="en-US" w:bidi="ar-SA"/></w:rPr></w:rPrDefault><w:pPrDefault/></w:docDefaults>` +
+                `<w:style w:type="paragraph" w:default="1" w:styleId="Normal"><w:name w:val="Normal"/><w:qFormat/></w:style>` +
+                `<w:style w:type="character" w:default="1" w:styleId="DefaultParagraphFont"><w:name w:val="Default Paragraph Font"/><w:uiPriority w:val="1"/><w:semiHidden/><w:unhideWhenUsed/></w:style>` +
+                `<w:style w:type="table" w:default="1" w:styleId="TableNormal"><w:name w:val="Normal Table"/><w:uiPriority w:val="99"/><w:semiHidden/><w:unhideWhenUsed/><w:tblPr><w:tblInd w:w="0" w:type="dxa"/><w:tblCellMar><w:top w:w="0" w:type="dxa"/><w:left w:w="108" w:type="dxa"/><w:bottom w:w="0" w:type="dxa"/><w:right w:w="108" w:type="dxa"/></w:tblCellMar></w:tblPr></w:style>` +
+                `<w:style w:type="numbering" w:default="1" w:styleId="NoList"><w:name w:val="No List"/><w:uiPriority w:val="99"/><w:semiHidden/><w:unhideWhenUsed/></w:style></w:styles>`;
+            const SETTINGS = XML + `<w:settings ${NS}><w:defaultTabStop w:val="720"/><w:characterSpacingControl w:val="doNotCompress"/><w:compat><w:compatSetting w:name="compatibilityMode" w:uri="http://schemas.microsoft.com/office/word" w:val="15"/></w:compat><w:themeFontLang w:val="en-US"/><w:decimalSymbol w:val="."/><w:listSeparator w:val=","/></w:settings>`;
+            const fr = t => `<w:r><w:rPr><w:sz w:val="18"/><w:szCs w:val="18"/></w:rPr>${t}</w:r>`;
+            const FOOTER = XML + `<w:ftr ${NS}><w:p><w:pPr><w:jc w:val="center"/></w:pPr>${fr('<w:t xml:space="preserve">Trang </w:t>')}${fr('<w:fldChar w:fldCharType="begin"/>')}${fr('<w:instrText xml:space="preserve"> PAGE </w:instrText>')}${fr('<w:fldChar w:fldCharType="separate"/>')}<w:r><w:rPr><w:noProof/><w:sz w:val="18"/><w:szCs w:val="18"/></w:rPr><w:t>1</w:t></w:r>${fr('<w:fldChar w:fldCharType="end"/>')}</w:p></w:ftr>`;
+            const CONTENT_TYPES = XML + '<Types xmlns="http://schemas.openxmlformats.org/package/2006/content-types"><Default Extension="rels" ContentType="application/vnd.openxmlformats-package.relationships+xml"/><Default Extension="xml" ContentType="application/xml"/>' +
+                '<Override PartName="/word/document.xml" ContentType="application/vnd.openxmlformats-officedocument.wordprocessingml.document.main+xml"/>' +
+                '<Override PartName="/word/styles.xml" ContentType="application/vnd.openxmlformats-officedocument.wordprocessingml.styles+xml"/>' +
+                '<Override PartName="/word/settings.xml" ContentType="application/vnd.openxmlformats-officedocument.wordprocessingml.settings+xml"/>' +
+                '<Override PartName="/word/footer1.xml" ContentType="application/vnd.openxmlformats-officedocument.wordprocessingml.footer+xml"/>' +
+                '<Override PartName="/docProps/core.xml" ContentType="application/vnd.openxmlformats-package.core-properties+xml"/>' +
+                '<Override PartName="/docProps/app.xml" ContentType="application/vnd.openxmlformats-officedocument.extended-properties+xml"/></Types>';
+            const ROOT_RELS = XML + '<Relationships xmlns="http://schemas.openxmlformats.org/package/2006/relationships"><Relationship Id="rId1" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/officeDocument" Target="word/document.xml"/><Relationship Id="rId2" Type="http://schemas.openxmlformats.org/package/2006/relationships/metadata/core-properties" Target="docProps/core.xml"/><Relationship Id="rId3" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/extended-properties" Target="docProps/app.xml"/></Relationships>';
+            const DOC_RELS = XML + '<Relationships xmlns="http://schemas.openxmlformats.org/package/2006/relationships"><Relationship Id="rId1" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/styles" Target="styles.xml"/><Relationship Id="rId2" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/settings" Target="settings.xml"/><Relationship Id="rId3" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/footer" Target="footer1.xml"/></Relationships>';
+            const APP = XML + '<Properties xmlns="http://schemas.openxmlformats.org/officeDocument/2006/extended-properties"><Application>Microsoft Office Word</Application></Properties>';
+            const coreXml = title => XML + '<cp:coreProperties xmlns:cp="http://schemas.openxmlformats.org/package/2006/metadata/core-properties" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">' +
+                `<dc:title>${esc(title)}</dc:title><dc:creator>Ngân hàng đề thi HSG Tiếng Anh Tỉnh Thanh Hóa</dc:creator>` +
+                `<dcterms:created xsi:type="dcterms:W3CDTF">${new Date().toISOString().replace(/\.\d+Z$/, 'Z')}</dcterms:created></cp:coreProperties>`;
+
+            function loadScript(src) {
+                return new Promise((ok, fail) => {
+                    const s = document.createElement('script');
+                    s.src = src; s.onload = ok; s.onerror = () => { s.remove(); fail(new Error(src)); };
+                    document.head.appendChild(s);
+                });
+            }
+            async function ensureJSZip() {
+                if (window.JSZip) return;
+                const urls = [
+                    'https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js',
+                    'https://cdn.jsdelivr.net/npm/jszip@3.10.1/dist/jszip.min.js',
+                    'https://unpkg.com/jszip@3.10.1/dist/jszip.min.js'
+                ];
+                for (const u of urls) { try { await loadScript(u); if (window.JSZip) return; } catch (e) {} }
+                throw new Error('Không tải được thư viện JSZip. Vui lòng kiểm tra kết nối mạng rồi thử lại.');
+            }
+
+            async function buildDocxBlob(questions, withAnswers, title) {
+                await ensureJSZip();
+                const body = buildPartI(questions);
+                if (withAnswers) body.push.apply(body, buildPartII(questions));
+                const zip = new JSZip();
+                zip.file('[Content_Types].xml', CONTENT_TYPES);
+                zip.file('_rels/.rels', ROOT_RELS);
+                zip.file('docProps/core.xml', coreXml(title));
+                zip.file('docProps/app.xml', APP);
+                zip.file('word/document.xml', documentXml(body));
+                zip.file('word/_rels/document.xml.rels', DOC_RELS);
+                zip.file('word/styles.xml', STYLES);
+                zip.file('word/settings.xml', SETTINGS);
+                zip.file('word/footer1.xml', FOOTER);
+                return zip.generateAsync({ type: 'blob', mimeType: 'application/vnd.openxmlformats-officedocument.wordprocessingml.document', compression: 'DEFLATE' });
+            }
+            function download(blob, name) {
+                const a = document.createElement('a');
+                a.href = URL.createObjectURL(blob); a.download = name;
+                document.body.appendChild(a); a.click(); a.remove();
+                setTimeout(() => URL.revokeObjectURL(a.href), 4000);
+            }
+
+            window.exportDocx = async function (withAnswers) {
+                const status = evaluateLicense();
+                if (!status.active) {
+                    showPasswordModal(true);
+                    return;
+                }
+                let questions = [];
+                try { questions = examDatabase[currentCategory][currentUnit][currentTest] || []; } catch (e) {}
+                if (!questions.length) { alert('Đề thi này chưa có nội dung để xuất.'); return; }
+                const btns = document.querySelectorAll('.docx-export-btn');
+                btns.forEach(b => { b.disabled = true; b.classList.add('opacity-60'); });
+                try {
+                    const title = `HSG Thanh Hóa - ${currentCategory.toUpperCase()} - Chuyên đề ${currentUnit} - Test ${currentTest}`;
+                    const blob = await buildDocxBlob(questions, withAnswers !== false, title);
+                    download(blob, `DE_HSG_THANH_HOA_${currentCategory.toUpperCase()}_DANG${currentUnit}_TEST${currentTest}${withAnswers === false ? '_CHI_DE' : ''}.docx`);
+                } catch (e) {
+                    console.error(e);
+                    alert('Xuất file Word không thành công: ' + (e && e.message ? e.message : e));
+                } finally {
+                    btns.forEach(b => { b.disabled = false; b.classList.remove('opacity-60'); });
+                }
+            };
+        })();
+    </script>
+</body>
+</html>
