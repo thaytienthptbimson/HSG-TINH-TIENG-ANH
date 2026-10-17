@@ -106,15 +106,40 @@
 </head>
 <body class="min-h-screen flex flex-col text-slate-800 selection:bg-blue-600 selection:text-white">
 
-    <!-- CÔNG CỤ GHÉP DỮ LIỆU TỰ ĐỘNG TỪ FILE INDEX_2.HTML GỐC (Tự động ẩn sau khi đã ghép đầy đủ dữ liệu) -->
-    <div id="db-merger-banner" class="hidden-element bg-gradient-to-r from-amber-500 via-orange-500 to-rose-600 text-white px-4 py-2.5 shadow-md z-50">
+    <!-- MODAL GHÉP DỮ LIỆU TỰ ĐỘNG 1-CLICK (Chỉ hiện khi chưa ghép file index_3.html gốc, tự động xóa vĩnh viễn trong file tải về) -->
+    <div id="db-merger-modal" class="hidden-element fixed inset-0 bg-slate-900/80 backdrop-blur-sm flex justify-center items-center z-[120] p-4">
+        <div class="bg-white rounded-3xl shadow-2xl p-6 md:p-8 max-w-lg w-full border-2 border-orange-300 text-center relative">
+            <div class="w-16 h-16 bg-orange-100 text-orange-600 rounded-2xl flex items-center justify-center mx-auto mb-4 text-3xl shadow-inner">
+                ⚡
+            </div>
+            <span class="inline-block bg-orange-100 text-orange-800 text-xs font-extrabold px-3 py-1 rounded-full uppercase tracking-wider mb-2">
+                Công cụ Nâng cấp Tự động 100%
+            </span>
+            <h3 class="text-xl md:text-2xl font-black text-slate-900 mb-2">
+                Nạp kho câu hỏi từ file <code class="text-orange-600">index_3.html</code> gốc
+            </h3>
+            <p class="text-slate-600 text-xs md:text-sm leading-relaxed mb-5">
+                Do tệp <b>index_3.html</b> gốc của bạn chứa hàng nghìn dòng dữ liệu câu hỏi, hãy bấm nút bên dưới và chọn tệp <b>index_3.html</b> gốc trên máy tính. Hệ thống sẽ tự động tách 100% câu hỏi, ghép vào giao diện mới này và tải xuống tệp hoàn chỉnh ngay lập tức!
+            </p>
+            <label class="cursor-pointer inline-flex items-center justify-center gap-2 w-full bg-gradient-to-r from-orange-500 to-rose-600 hover:from-orange-600 hover:to-rose-700 text-white font-extrabold py-3.5 px-6 rounded-2xl shadow-lg shadow-orange-500/25 transition-all text-sm md:text-base">
+                <span>📂 Chọn tệp index_3.html gốc trên máy</span>
+                <input type="file" accept=".html,.htm" class="hidden" onchange="mergeOriginalDatabaseFile(event)">
+            </label>
+            <button onclick="document.getElementById('db-merger-modal').classList.add('hidden-element')" class="mt-3 text-xs font-semibold text-slate-400 hover:text-slate-600 underline">
+                Bỏ qua và xem trước giao diện với dữ liệu mẫu
+            </button>
+        </div>
+    </div>
+
+    <!-- THANH NHẮC GHÉP FILE Ở ĐẦU TRANG (Tự động xóa trong file xuất ra) -->
+    <div id="db-merger-banner" class="hidden-element bg-gradient-to-r from-amber-500 via-orange-500 to-rose-600 text-white px-4 py-2 shadow-md z-50">
         <div class="max-w-[1560px] mx-auto flex flex-col sm:flex-row items-center justify-between gap-2 text-xs md:text-sm">
             <div class="flex items-center gap-2 font-semibold">
-                <span class="text-lg">⚡</span>
-                <span><strong>Ghép dữ liệu tự động:</strong> Chọn tệp <code>index_2.html</code> gốc trên máy của bạn để hệ thống tự động nạp toàn bộ kho câu hỏi 70 câu và xuất ra tệp hoàn chỉnh!</span>
+                <span>⚡</span>
+                <span>Bạn đang xem bản chưa ghép đủ dữ liệu. Hãy chọn tệp <code>index_3.html</code> gốc để tự động tạo tệp hoàn chỉnh đủ 70 câu × 10 đề!</span>
             </div>
-            <label class="cursor-pointer bg-white text-orange-700 hover:bg-orange-50 font-extrabold px-4 py-1.5 rounded-xl shadow-sm transition-all whitespace-nowrap">
-                📂 Chọn file index_2.html gốc
+            <label class="cursor-pointer bg-white text-orange-700 hover:bg-orange-50 font-extrabold px-3.5 py-1 rounded-xl shadow-sm transition-all whitespace-nowrap">
+                📂 Chọn file index_3.html gốc
                 <input type="file" accept=".html,.htm" class="hidden" onchange="mergeOriginalDatabaseFile(event)">
             </label>
         </div>
@@ -126,7 +151,7 @@
             
             <!-- CÁC THẺ DẠNG BÀI TẬP THEO ĐỀ MẪU HSG THANH HÓA -->
             <div class="flex flex-wrap items-center gap-1.5 bg-slate-900/40 p-1 rounded-xl border border-white/15 backdrop-blur-sm">
-                <button onclick="selectCategory('listening')" id="tab-cat-listening" class="px-2.5 md:px-3.5 py-1.5 bg-gray-50 text-blue-800 font-bold rounded-lg shadow-sm text-xs md:text-sm transition-all flex items-center gap-1">
+                <button onclick="selectCategory('listening')" id="tab-cat-listening" class="px-2.5 md:px-3.5 py-1.5 bg-white text-blue-900 font-extrabold rounded-lg shadow-sm text-xs md:text-sm transition-all flex items-center gap-1">
                     <span>🎧 Listening</span>
                 </button>
                 <button onclick="selectCategory('lexico')" id="tab-cat-lexico" class="px-2.5 md:px-3.5 py-1.5 bg-white/15 hover:bg-white/90 hover:text-blue-800 text-white font-semibold rounded-lg text-xs md:text-sm transition-all flex items-center gap-1">
@@ -145,7 +170,7 @@
                 <h1 class="text-sm font-black uppercase tracking-wider text-white drop-shadow">
                     NGÂN HÀNG ĐỀ THI HSG TIẾNG ANH TỈNH THANH HÓA
                 </h1>
-                <span class="text-[11px] text-blue-200 font-medium">Chuẩn cấu trúc Sở GD&ĐT Thanh Hóa • 70 Câu / 90 Phút</span>
+                <span class="text-[11px] text-blue-200 font-medium">Chuẩn cấu trúc Sở GD&amp;ĐT Thanh Hóa • 70 Câu / 90 Phút</span>
             </div>
             
             <!-- Cụm Phải: Trạng thái Dùng thử 10 ngày / VIP 365 ngày + Đồng hồ -->
@@ -189,7 +214,7 @@
             </div>
 
             <div class="px-4 py-2.5 bg-slate-50 border-b border-slate-200 flex items-center justify-between">
-                <span class="text-xs font-extrabold uppercase tracking-wider text-slate-600">Chuyên đề / Dạng bài & Test</span>
+                <span class="text-xs font-extrabold uppercase tracking-wider text-slate-600">Chuyên đề / Dạng bài &amp; Test</span>
                 <span class="text-[11px] text-slate-400 font-semibold">10 Tests / Dạng</span>
             </div>
 
@@ -295,10 +320,10 @@
                 <!-- Nút nổi bật: Làm Đề Chuẩn 70 câu -->
                 <div class="text-center">
                     <button onclick="selectCategory('full'); selectTest(1, 1);" class="bg-gradient-to-r from-blue-600 via-indigo-600 to-blue-700 hover:from-blue-700 hover:to-indigo-800 text-white font-extrabold py-3.5 px-8 rounded-2xl shadow-lg shadow-blue-600/25 transition-all transform hover:-translate-y-0.5 text-sm md:text-base inline-flex items-center gap-2">
-                        <span>🚀 Làm Đề Tham Khảo Đầy Đủ (70 Câu - 90 Phút)</span>
+                        <span>🚀 Làm Đề Tham Khảo Đầy Đủ (70 Câu - Mã đề TK01)</span>
                     </button>
                     <p class="text-blue-600 font-semibold text-xs md:text-sm mt-3">
-                        (Tích hợp đầy đủ Audio bài nghe, Tapescript, Giải thích chi tiết từng câu và Xuất file Word chuẩn A4)
+                        (Tất cả các dạng bài đều tích hợp sẵn Audio bài nghe, Tapescript, Giải thích chi tiết và Xuất file Word chuẩn A4)
                     </p>
                 </div>
             </div>
@@ -452,7 +477,7 @@
         </div>
     </footer>
 
-    <!-- PASSWORD & LICENSE MODAL (10 NGÀY DÙNG THỬ -> MẬT KHẨU 365 NGÀY) -->
+    <!-- PASSWORD & LICENSE MODAL (10 NGÀY DÙNG THỬ -> MẬT KHẨU tien@12345 DÙNG 365 NGÀY) -->
     <div id="password-modal" class="hidden-element fixed inset-0 bg-slate-900/80 backdrop-blur-sm flex justify-center items-center z-[100] p-4">
         <div class="bg-white rounded-3xl shadow-2xl p-6 md:p-8 max-w-md w-full border-2 border-blue-100 relative">
             <div id="modal-icon-container" class="w-14 h-14 bg-amber-100 text-amber-600 rounded-2xl flex items-center justify-center mx-auto mb-3 text-2xl shadow-inner">
@@ -490,6 +515,8 @@
 
     <!-- DỮ LIỆU NGÂN HÀNG ĐỀ THI HSG TỈNH THANH HÓA -->
     <script id="database-script">
+        window.__IS_FULL_DB_MERGED__ = false;
+
         const categoryConfig = {
             "listening": {
                 "name": "Listening (15 câu)",
@@ -591,7 +618,6 @@
             }
         };
 
-        /* === DỮ LIỆU CÂU HỎI (Sẽ được điền đầy đủ 100% khi bạn bấm nút "Chọn file index_2.html gốc" trên thanh màu cam) === */
         const examDatabase = {
             "listening": {
                 "1": {
@@ -603,7 +629,7 @@
                             "options": ["Saturday 12th", "Saturday 19th", "Sunday 20th", "Friday 18th"],
                             "answer": 1,
                             "explanation": "“we’ve had to move everything back a week. That makes it Saturday the nineteenth.” (12th là ngày cũ; Chủ nhật bị loại vì nhà thờ có đám cưới.)",
-                            "tapescript": "PART 1 – (Questions 1–5) A woman speaking to parent volunteers about a school summer fair\nWoman: Right, everyone, if I could have your attention for a few minutes. Thanks for coming. I’d like to run through the main points for this year’s summer fair.\nFirst, the date. You may remember that the newsletter said Saturday the twelfth, but the marquee company can’t deliver until the Friday after, so we’ve had to move everything back a week. That makes it Saturday the nineteenth. A couple of you suggested the Sunday instead, but the church hall, where we keep the stalls overnight, is booked for a wedding that day, so Saturday it is.\nNow, money, which is what this is all about. Last year we aimed to raise three thousand pounds and finished about eight hundred short. Ticket sales brought in eleven hundred and fifty, which was roughly what we’d expected from the adult tickets. The trouble is, we’d hoped the family tickets would take off, and they just didn’t. I know some of you would like to push the prices up, but after the complaints we had last time, I don’t think that’s on the table. And scrapping the family ticket would simply keep people away. So whatever we do about tickets, it’s what happens inside the gates that will decide whether we hit the target, and that’s where I’d like us to put our energy this year.\nWhich brings me to the games. Pete’s offering to run the bottle ring toss again. For anyone who hasn’t seen it, you throw a wooden ring and try to land it around the neck of a bottle. It sounds easy, but the difficulty isn’t the distance, as we only stand people three metres back, and nobody’s racing against the clock either. The real problem is that the rings are barely wider than the bottle necks, so they bounce off at the slightest touch. You really do need a steady hand. Pete tells me the children adore it, and I think that’s mainly because he always hands out a sticker or a balloon to the ones who miss, so nobody walks away with nothing. Mind you, it isn’t the cheapest game: it’s fifty pence a throw, the same as the other stalls. And there’s always a queue, so we’ll need two people on that stall.\nLast year the stall brought in two hundred pounds after we’d taken off fifty for the prizes, so it’s well worth repeating. Right, that’s all from me on the games. Does anyone have any questions before we move on to the raffle?",
+                            "tapescript": "PART 1 – (Questions 1–5) A woman speaking to parent volunteers about a school summer fair\nWoman: Right, everyone, if I could have your attention for a few minutes. Thanks for coming. I’d like to run through the main points for this year’s summer fair...",
                             "audio": "audio/de1_part1.mp3"
                         },
                         {
@@ -646,7 +672,7 @@
 
     <script>
         /* =========================================================================
-           CẤU HÌNH BẢN QUYỀN: DÙNG THỬ 10 NGÀY -> MẬT KHẨU KÍCH HOẠT 365 NGÀY
+           CẤU HÌNH BẢN QUYỀN: DÙNG THỬ 10 NGÀY -> MẬT KHẨU tien@12345 (365 NGÀY)
         ========================================================================= */
         const LICENSE_STORAGE_KEY = 'thaytien_hsg_thanhhoa_license_v2026';
         const PROGRESS_STORAGE_KEY = 'thaytien_hsg_thanhhoa_progress';
@@ -664,6 +690,117 @@
         let isUnlocked = false;
         let pendingAction = null;
         let passageFontSize = 17;
+
+        /* ---------- Thuật toán tách chính xác Object JS bằng cân bằng ngoặc nhọn {} ---------- */
+        function extractAssignedObject(src, varDeclaration) {
+            const declIdx = src.indexOf(varDeclaration);
+            if (declIdx === -1) return null;
+            const braceStart = src.indexOf('{', declIdx);
+            if (braceStart === -1) return null;
+
+            let depth = 0;
+            let inString = false;
+            let stringChar = '';
+            let escaped = false;
+            let inLineComment = false;
+            let inBlockComment = false;
+
+            for (let i = braceStart; i < src.length; i++) {
+                const ch = src[i];
+                const next = src[i + 1];
+
+                if (inLineComment) {
+                    if (ch === '\n') inLineComment = false;
+                    continue;
+                }
+                if (inBlockComment) {
+                    if (ch === '*' && next === '/') { inBlockComment = false; i++; }
+                    continue;
+                }
+                if (inString) {
+                    if (escaped) {
+                        escaped = false;
+                    } else if (ch === '\\') {
+                        escaped = true;
+                    } else if (ch === stringChar) {
+                        inString = false;
+                    }
+                    continue;
+                }
+
+                if (ch === '/' && next === '/') { inLineComment = true; i++; continue; }
+                if (ch === '/' && next === '*') { inBlockComment = true; i++; continue; }
+                if (ch === '"' || ch === "'" || ch === '`') {
+                    inString = true;
+                    stringChar = ch;
+                    continue;
+                }
+
+                if (ch === '{') depth++;
+                else if (ch === '}') {
+                    depth--;
+                    if (depth === 0) {
+                        return src.slice(braceStart, i + 1);
+                    }
+                }
+            }
+            return null;
+        }
+
+        function mergeOriginalDatabaseFile(event) {
+            const file = event.target.files && event.target.files[0];
+            if (!file) return;
+            const reader = new FileReader();
+            reader.onload = function(e) {
+                try {
+                    const content = e.target.result;
+                    const catObjStr = extractAssignedObject(content, 'const categoryConfig');
+                    const dbObjStr = extractAssignedObject(content, 'const examDatabase');
+
+                    if (!catObjStr || !dbObjStr) {
+                        alert('Không tìm thấy cấu trúc const categoryConfig hoặc const examDatabase trong tệp bạn chọn. Vui lòng chọn đúng tệp index_3.html gốc!');
+                        return;
+                    }
+
+                    // Kiểm tra tính hợp lệ của dữ liệu tách ra và nạp trực tiếp vào bộ nhớ
+                    const parsedCat = (new Function('return ' + catObjStr))();
+                    const parsedDb = (new Function('return ' + dbObjStr))();
+
+                    Object.assign(categoryConfig, parsedCat);
+                    Object.assign(examDatabase, parsedDb);
+                    window.__IS_FULL_DB_MERGED__ = true;
+
+                    // Ẩn vĩnh viễn modal & banner ghép dữ liệu trước khi xuất file mới
+                    const modalEl = document.getElementById('db-merger-modal');
+                    const bannerEl = document.getElementById('db-merger-banner');
+                    if (modalEl) modalEl.classList.add('hidden-element');
+                    if (bannerEl) bannerEl.classList.add('hidden-element');
+
+                    renderSidebar();
+
+                    // Tạo nội dung file HTML hoàn chỉnh mới (chỉ chứa đúng 2 biến dữ liệu, không lẫn hàm JS cũ)
+                    const newDbScriptContent = `<script id="database-script">\n        window.__IS_FULL_DB_MERGED__ = true;\n        const categoryConfig = ${catObjStr};\n        const examDatabase = ${dbObjStr};\n    <\/script>`;
+
+                    const currentDocHtml = document.documentElement.outerHTML;
+                    const dbScriptRegex = /<script id="database-script">[\s\S]*?<\/script>/;
+                    const updatedHtml = '<!DOCTYPE html>\n' + currentDocHtml.replace(dbScriptRegex, () => newDbScriptContent);
+
+                    const blob = new Blob([updatedHtml], { type: 'text/html;charset=utf-8' });
+                    const a = document.createElement('a');
+                    a.href = URL.createObjectURL(blob);
+                    a.download = 'index_3.html';
+                    document.body.appendChild(a);
+                    a.click();
+                    a.remove();
+
+                    alert('✅ Đã tách và ghép thành công 100% kho câu hỏi từ tệp gốc! Tệp "index_3.html" hoàn chỉnh đã được tải về máy và sẵn sàng sử dụng.');
+                } catch (err) {
+                    console.error(err);
+                    alert('Có lỗi khi đọc tệp: ' + (err && err.message ? err.message : err));
+                }
+            };
+            reader.readAsText(file, 'UTF-8');
+        }
 
         /* ---------- Quản lý thời hạn Dùng thử 10 ngày & VIP 365 ngày ---------- */
         function getLicenseData() {
@@ -833,9 +970,10 @@
         }
 
         document.addEventListener('DOMContentLoaded', () => {
-            // Kiểm tra nếu examDatabase chưa có mục "full" (chưa ghép file gốc) thì hiện thanh công cụ ghép tự động
-            if (!examDatabase || !examDatabase.full) {
+            if (!window.__IS_FULL_DB_MERGED__ && (!examDatabase || !examDatabase.full)) {
+                const mergerModal = document.getElementById('db-merger-modal');
                 const mergerBanner = document.getElementById('db-merger-banner');
+                if (mergerModal) mergerModal.classList.remove('hidden-element');
                 if (mergerBanner) mergerBanner.classList.remove('hidden-element');
             }
             refreshLicenseUI();
@@ -846,46 +984,6 @@
                 }
             }, 60000);
         });
-
-        /* ---------- Công cụ Ghép Dữ Liệu Tự Động 1-Click từ file index_2.html gốc ---------- */
-        function mergeOriginalDatabaseFile(event) {
-            const file = event.target.files && event.target.files[0];
-            if (!file) return;
-            const reader = new FileReader();
-            reader.onload = function(e) {
-                const content = e.target.result;
-                const startMarker = 'const categoryConfig =';
-                const startIdx = content.indexOf(startMarker);
-                if (startIdx === -1) {
-                    alert('Không tìm thấy dữ liệu categoryConfig / examDatabase trong tệp đã chọn. Vui lòng chọn đúng tệp index_2.html gốc!');
-                    return;
-                }
-                const closeScriptIdx = content.indexOf('</script>', startIdx);
-                if (closeScriptIdx === -1) {
-                    alert('Cấu trúc tệp gốc không hợp lệ!');
-                    return;
-                }
-                const extractedDataJs = content.slice(startIdx, closeScriptIdx).trim();
-
-                // Lấy mã HTML hiện tại, thay thế nội dung trong <script id="database-script"> và ẩn thanh công cụ ghép
-                const currentDocHtml = document.documentElement.outerHTML;
-                const dbScriptRegex = /<script id="database-script">[\s\S]*?<\/script>/;
-                const updatedHtml = '<!DOCTYPE html>\n' + currentDocHtml.replace(
-                    dbScriptRegex,
-                    `<script id="database-script">\n${extractedDataJs}\n<\/script>`
-                );
-
-                const blob = new Blob([updatedHtml], { type: 'text/html;charset=utf-8' });
-                const a = document.createElement('a');
-                a.href = URL.createObjectURL(blob);
-                a.download = 'index_2.html';
-                document.body.appendChild(a);
-                a.click();
-                a.remove();
-                alert('🎉 Đã ghép thành công 100% dữ liệu câu hỏi vào giao diện mới! Tệp "index_2.html" hoàn chỉnh đã được tải xuống máy của bạn.');
-            };
-            reader.readAsText(file, 'UTF-8');
-        }
 
         function toggleMobileUnits() {
             document.getElementById('units-container').classList.toggle('hidden-element');
@@ -1155,9 +1253,14 @@
 
             if (!hasQuestions) {
                 container.innerHTML = `
-                    <div class="bg-slate-50 rounded-2xl py-16 px-4 text-center border-2 border-dashed border-slate-300">
-                        <p class="text-slate-600 font-bold text-lg">Nội dung đề thi này chưa được nạp hoặc đang cập nhật...</p>
-                        <p class="text-slate-500 text-sm mt-2">Nếu bạn chưa ghép dữ liệu từ file <code>index_2.html</code> gốc, hãy bấm nút <strong>"📂 Chọn file index_2.html gốc"</strong> trên thanh màu cam ở đầu trang!</p>
+                    <div class="bg-orange-50/70 rounded-2xl py-12 px-6 text-center border-2 border-dashed border-orange-300 max-w-xl mx-auto">
+                        <div class="text-3xl mb-2">📂</div>
+                        <p class="text-slate-800 font-extrabold text-base md:text-lg">Chưa nạp dữ liệu từ tệp index_3.html gốc</p>
+                        <p class="text-slate-600 text-xs md:text-sm mt-1 mb-4">Hãy chọn tệp <code>index_3.html</code> gốc trên máy của bạn để hệ thống tự động nạp toàn bộ 70 câu × 10 đề và tải xuống tệp hoàn chỉnh.</p>
+                        <label class="cursor-pointer inline-flex items-center gap-2 bg-orange-600 hover:bg-orange-700 text-white font-extrabold px-5 py-2.5 rounded-xl shadow-md transition-all text-xs md:text-sm">
+                            <span>⚡ Chọn tệp index_3.html gốc ngay</span>
+                            <input type="file" accept=".html,.htm" class="hidden" onchange="mergeOriginalDatabaseFile(event)">
+                        </label>
                     </div>`;
                 document.getElementById('submit-btn').classList.add('hidden-element');
                 return;
@@ -1338,7 +1441,6 @@
             const total = questions.length;
             let correctCount = 0;
 
-            // Hiển thị toàn bộ Tapescript bài nghe sau khi nộp bài
             document.querySelectorAll('[id^="tapescript_wrap_"]').forEach(el => el.classList.remove('hidden-element'));
 
             questions.forEach((q, index) => {
@@ -1380,498 +1482,4 @@
                         }
                         if (qBox) qBox.setAttribute('data-status', 'wrong');
                         if (statusBadge) {
-                            statusBadge.className = 'text-xs font-bold px-2.5 py-0.5 rounded-full bg-rose-100 text-rose-700 border border-rose-200';
-                            statusBadge.innerText = `✕ Sai (Đáp án: ${'ABCD'[correctAnsIdx]})`;
-                        }
-                        if (paletteBtn) {
-                            paletteBtn.className = 'h-7 rounded-lg text-xs font-extrabold bg-rose-500 text-white shadow-sm';
-                        }
-                    }
-                } else {
-                    if (qBox) qBox.setAttribute('data-status', 'unanswered');
-                    if (statusBadge) {
-                        statusBadge.className = 'text-xs font-bold px-2.5 py-0.5 rounded-full bg-amber-100 text-amber-800 border border-amber-200';
-                        statusBadge.innerText = `Chưa làm (Đáp án: ${'ABCD'[correctAnsIdx]})`;
-                    }
-                    if (paletteBtn) {
-                        paletteBtn.className = 'h-7 rounded-lg text-xs font-extrabold bg-rose-500 text-white opacity-80';
-                    }
-                }
-            });
-
-            const wrongCount = total - correctCount;
-            const percent = Math.round((correctCount / total) * 100);
-
-            document.getElementById('score-display').innerText = `${correctCount}/${total}`;
-            document.getElementById('correct-display').innerText = correctCount;
-            document.getElementById('wrong-display').innerText = wrongCount;
-            document.getElementById('percent-display').innerText = `${percent}%`;
-
-            let msg = "";
-            if (percent === 100) msg = "🎯 Tuyệt đỉnh! Bạn đã đạt điểm tuyệt đối. Phong độ xứng đáng giải Nhất HSG cấp Tỉnh!";
-            else if (percent >= 80) msg = "🌟 Xuất sắc! Kiến thức nâng cao của bạn rất vững vàng. Hãy xem lại một vài câu sai để vươn tới điểm tuyệt đối nhé!";
-            else if (percent >= 60) msg = "👍 Khá tốt! Bạn đã nắm chắc nền tảng đề HSG. Hãy đọc kỹ phần Giải thích chi tiết và Tapescript để bứt phá hơn.";
-            else if (percent >= 40) msg = "💪 Cố gắng lên! Đề thi HSG cấp Tỉnh có nhiều bẫy từ vựng và ngữ pháp nâng cao, hãy ôn kỹ lời giải hoặc nhờ Thầy Tiến hỗ trợ thêm nhé!";
-            else msg = "❤️ Đừng nản chí! Luyện thi Học sinh giỏi cần sự bền bỉ mỗi ngày. Hãy đọc kỹ giải thích từng câu và làm lại để ghi nhớ sâu nhé!";
-            
-            document.getElementById('motivation-message').innerText = msg;
-
-            saveProgress(currentCategory, currentUnit, currentTest, correctCount, total, percent);
-
-            document.getElementById('result-screen').classList.remove('hidden-element');
-            window.scrollTo({ top: document.getElementById('result-screen').offsetTop - 70, behavior: 'smooth' });
-        }
-
-        function startTimer() {
-            timerInterval = setInterval(() => {
-                if(timeLeft <= 0) { clearInterval(timerInterval); submitTest(); return; }
-                timeLeft--;
-                const m = Math.floor(timeLeft / 60).toString().padStart(2, '0');
-                const s = (timeLeft % 60).toString().padStart(2, '0');
-                document.getElementById('timer-display').innerText = `${m}:${s}`;
-            }, 1000);
-        }
-
-        function resetTimer() {
-            clearInterval(timerInterval);
-            const mins = (categoryConfig[currentCategory] && categoryConfig[currentCategory].defaultMinutes) || 90;
-            timeLeft = mins * 60;
-            document.getElementById('timer-display').innerText = `${String(mins).padStart(2, '0')}:00`;
-        }
-
-        /* ---------- Quản lý Hộp thoại Mật khẩu & Kích hoạt 365 ngày ---------- */
-        function continueAfterResult() { 
-            const status = evaluateLicense();
-            if (!status.active) {
-                pendingAction = null;
-                showPasswordModal(true);
-            } else {
-                document.getElementById('test-screen').classList.add('hidden-element');
-                document.getElementById('result-screen').classList.add('hidden-element');
-                document.getElementById('welcome-screen').classList.remove('hidden-element');
-                window.scrollTo({ top: 0, behavior: 'smooth' });
-            }
-        }
-
-        function showPasswordModal(forceLock) {
-            const status = evaluateLicense();
-            const modal = document.getElementById('password-modal');
-            const infoBox = document.getElementById('modal-license-info');
-            const closeBtn = document.getElementById('password-cancel-btn');
-            const titleEl = document.getElementById('modal-title');
-            const subEl = document.getElementById('password-modal-desc');
-            const iconBox = document.getElementById('modal-icon-container');
-            const formArea = document.getElementById('password-form-area');
-
-            modal.classList.remove('hidden-element');
-            document.getElementById('password-error').classList.add('hidden-element');
-            document.getElementById('password-input').value = '';
-
-            if (status.mode === 'vip') {
-                iconBox.innerText = '👑';
-                titleEl.innerText = 'Bản quyền VIP 365 ngày';
-                subEl.innerText = 'Thiết bị của bạn đã được kích hoạt bản quyền đầy đủ.';
-                infoBox.innerHTML = `
-                    <div class="flex justify-between"><span>Trạng thái:</span> <strong class="text-emerald-700">Đang hoạt động (VIP 365 ngày)</strong></div>
-                    <div class="flex justify-between"><span>Ngày kích hoạt:</span> <strong>${formatDateVN(status.startDate)}</strong></div>
-                    <div class="flex justify-between"><span>Ngày hết hạn:</span> <strong>${formatDateVN(status.expireDate)}</strong></div>
-                    <div class="flex justify-between"><span>Thời gian còn lại:</span> <strong class="text-blue-700">${status.daysLeft} ngày</strong></div>
-                `;
-                formArea.classList.add('hidden-element');
-                closeBtn.classList.remove('hidden-element');
-            } else if (status.mode === 'trial') {
-                iconBox.innerText = '⏳';
-                titleEl.innerText = 'Kích hoạt Bản quyền 365 ngày';
-                subEl.innerText = 'Bạn đang trong 10 ngày dùng thử. Nhập mật khẩu dưới đây nếu muốn kích hoạt ngay gói 365 ngày.';
-                infoBox.innerHTML = `
-                    <div class="flex justify-between"><span>Chế độ hiện tại:</span> <strong class="text-amber-700">Dùng thử 10 ngày</strong></div>
-                    <div class="flex justify-between"><span>Ngày bắt đầu:</span> <strong>${formatDateVN(status.startDate)}</strong></div>
-                    <div class="flex justify-between"><span>Hết hạn dùng thử:</span> <strong>${formatDateVN(status.expireDate)} (còn ${status.daysLeft} ngày)</strong></div>
-                `;
-                formArea.classList.remove('hidden-element');
-                closeBtn.classList.remove('hidden-element');
-                setTimeout(() => document.getElementById('password-input').focus(), 50);
-            } else {
-                iconBox.innerText = '🔒';
-                titleEl.innerText = status.mode === 'trial_expired' ? 'Đã hết 10 ngày dùng thử!' : 'Bản quyền 365 ngày đã hết hạn!';
-                subEl.innerText = 'Vui lòng nhập mật khẩu bản quyền để tiếp tục sử dụng toàn bộ ngân hàng đề thi HSG trong 365 ngày.';
-                infoBox.innerHTML = `
-                    <div class="flex justify-between"><span>Trạng thái:</span> <strong class="text-rose-600">Đã hết hạn sử dụng</strong></div>
-                    <div class="flex justify-between"><span>Ngày hết hạn:</span> <strong>${formatDateVN(status.expireDate)}</strong></div>
-                `;
-                formArea.classList.remove('hidden-element');
-                closeBtn.classList.toggle('hidden-element', !!forceLock || !status.active);
-                setTimeout(() => document.getElementById('password-input').focus(), 50);
-            }
-        }
-
-        function closeModal() {
-            const status = evaluateLicense();
-            if (!status.active) return;
-            document.getElementById('password-modal').classList.add('hidden-element');
-            pendingAction = null;
-        }
-
-        function checkPassword() {
-            const pwd = document.getElementById('password-input').value.trim();
-            if (pwd === ACTIVATION_PASSWORD) {
-                const now = Date.now();
-                const data = getLicenseData();
-                data.vipStart = now;
-                data.vipExpire = now + VIP_DAYS * DAY_MS;
-                data.lastSeen = now;
-                localStorage.setItem(LICENSE_STORAGE_KEY, JSON.stringify(data));
-
-                document.getElementById('password-modal').classList.add('hidden-element');
-                refreshLicenseUI();
-
-                alert(`Kích hoạt thành công! Bạn được quyền sử dụng toàn bộ hệ thống trong ${VIP_DAYS} ngày (đến hết ngày ${formatDateVN(new Date(data.vipExpire))}).`);
-                
-                if (pendingAction) {
-                    if (pendingAction.type === 'category') selectCategory(pendingAction.val);
-                    else if (pendingAction.type === 'unit') toggleUnit(pendingAction.val);
-                    else if (pendingAction.type === 'test') selectTest(pendingAction.unit, pendingAction.test);
-                    pendingAction = null;
-                }
-            } else {
-                document.getElementById('password-error').classList.remove('hidden-element');
-            }
-        }
-    </script>
-
-    <!-- XUẤT FILE WORD (.docx) CHUẨN ĐỀ HSG THANH HÓA (ĐỀ + ĐÁP ÁN + GIẢI THÍCH + TAPESCRIPT) -->
-    <script>
-        (function () {
-            const PAGE = { w: 11907, h: 16840, top: 850, bottom: 850, left: 567, right: 567, header: 426, footer: 400 };
-            const COL4 = [2693, 5386, 8079];
-            const COL4_INLINE = [1400, 3900, 6400, 8900];
-            const COL2 = [5386];
-            const GAP = 220;
-
-            const TNR = [250,333,408,500,500,833,778,333,333,333,500,564,250,333,250,278,
-                         500,500,500,500,500,500,500,500,500,500,278,278,564,564,564,444,
-                         921,722,667,667,722,611,556,722,722,333,389,722,611,889,722,722,
-                         556,722,667,556,611,722,722,944,722,722,611,333,278,333,469,500,
-                         333,444,500,444,500,444,333,500,500,278,278,500,278,778,500,500,
-                         500,500,333,389,278,500,500,722,500,500,444,480,200,480,541];
-            function textWidthTw(s, bold) {
-                let u = 0;
-                for (const ch of s) {
-                    const c = ch.codePointAt(0);
-                    u += (c >= 32 && c <= 126) ? TNR[c - 32] : (c === 9 ? 0 : 500);
-                }
-                return Math.ceil(u * 11 * 20 / 1000 * (bold ? 1.04 : 1));
-            }
-
-            const esc = s => String(s).replace(/[\u0000-\u0008\u000B\u000C\u000E-\u001F]/g, '')
-                .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
-
-            function normalizeMarkup(s) {
-                return String(s == null ? '' : s)
-                    .replace(/\r\n?/g, '\n')
-                    .replace(/\*\*(.+?)\*\*/g, '<b>$1</b>')
-                    .replace(/<br\s*\/?>/gi, '\n')
-                    .replace(/<\/(p|div|li|h[1-6])>/gi, '\n');
-            }
-            function inlineRuns(html) {
-                const doc = new DOMParser().parseFromString('<body>' + html + '</body>', 'text/html');
-                const out = [];
-                (function walk(node, f) {
-                    node.childNodes.forEach(n => {
-                        if (n.nodeType === 3) { if (n.nodeValue) out.push(Object.assign({ t: n.nodeValue }, f)); return; }
-                        if (n.nodeType !== 1) return;
-                        const tag = n.tagName.toLowerCase();
-                        const g = Object.assign({}, f);
-                        if (tag === 'b' || tag === 'strong' || /^h[1-6]$/.test(tag)) g.b = true;
-                        if (tag === 'i' || tag === 'em') g.i = true;
-                        if (tag === 'u' || tag === 'ins') g.u = true;
-                        if (tag === 'sup') g.sup = true;
-                        if (tag === 'sub') g.sub = true;
-                        const cls = n.getAttribute('class') || '', st = (n.getAttribute('style') || '').toLowerCase();
-                        if (/\bfont-(bold|semibold|extrabold|black)\b/.test(cls) || /font-weight:\s*(bold|[6-9]00)/.test(st)) g.b = true;
-                        if (/\bunderline\b/.test(cls) || /text-decoration[^;]*underline/.test(st)) g.u = true;
-                        if (/\bitalic\b/.test(cls) || /font-style:\s*italic/.test(st)) g.i = true;
-                        walk(n, g);
-                    });
-                })(doc.body, {});
-                return out;
-            }
-            function toLines(html) {
-                return normalizeMarkup(html).split('\n')
-                    .map(l => inlineRuns(l.replace(/\u00a0/g, ' ')))
-                    .filter(rs => rs.some(r => r.t.trim() !== ''));
-            }
-            const plain = runs => runs.map(r => r.t).join('');
-
-            function runXml(r, base) {
-                const f = Object.assign({}, base || {}, r);
-                let pr = '';
-                if (f.b) pr += '<w:b/><w:bCs/>';
-                if (f.i) pr += '<w:i/><w:iCs/>';
-                if (f.sz) pr += `<w:sz w:val="${f.sz}"/><w:szCs w:val="${f.sz}"/>`;
-                if (f.u) pr += '<w:u w:val="single"/>';
-                if (f.sup) pr += '<w:vertAlign w:val="superscript"/>';
-                if (f.sub) pr += '<w:vertAlign w:val="subscript"/>';
-                const parts = String(f.t).split('\t');
-                const inner = parts.map((s, i) => (i ? '<w:tab/>' : '') + (s ? `<w:t xml:space="preserve">${esc(s)}</w:t>` : '')).join('');
-                return `<w:r>${pr ? `<w:rPr>${pr}</w:rPr>` : ''}${inner}</w:r>`;
-            }
-            const runsXml = (runs, base) => runs.map(r => runXml(r, base)).join('');
-            const tabsXml = pos => pos && pos.length ? '<w:tabs>' + pos.map(p => `<w:tab w:val="left" w:pos="${p}"/>`).join('') + '</w:tabs>' : '';
-
-            function P(content, o) {
-                o = o || {};
-                const pPr = (o.keepNext ? '<w:keepNext/>' : '') + '<w:keepLines/>' + (o.pageBreakBefore ? '<w:pageBreakBefore/>' : '') +
-                    tabsXml(o.tabs) + (o.before ? `<w:spacing w:before="${o.before}"/>` : '') + '<w:contextualSpacing/>' +
-                    (o.jc ? `<w:jc w:val="${o.jc}"/>` : '');
-                return `<w:p><w:pPr>${pPr}</w:pPr>${content}</w:p>`;
-            }
-            const B = (t, extra) => runXml(Object.assign({ t, b: true }, extra || {}));
-
-            function optionParagraphs(optRuns, inlineLabelXml) {
-                const widths = optRuns.map(rs => textWidthTw(plain(rs)));
-                const wMax = Math.max.apply(null, widths);
-                const cell = rs => runsXml(rs);
-                if (inlineLabelXml !== undefined && wMax <= 2500 - GAP) {
-                    return [P(inlineLabelXml + optRuns.map(rs => '<w:r><w:tab/></w:r>' + cell(rs)).join(''), { tabs: COL4_INLINE })];
-                }
-                const label = inlineLabelXml !== undefined ? [P(inlineLabelXml, { keepNext: true })] : [];
-                if (inlineLabelXml === undefined) {
-                    if (wMax <= COL4[0] - GAP) {
-                        return [P(optRuns.map((rs, i) => (i ? '<w:r><w:tab/></w:r>' : '') + cell(rs)).join(''), { tabs: COL4 })];
-                    }
-                    if (wMax <= COL2[0] - GAP) {
-                        return [
-                            P(cell(optRuns[0]) + '<w:r><w:tab/></w:r>' + cell(optRuns[1]), { tabs: COL2, keepNext: true }),
-                            P(cell(optRuns[2]) + '<w:r><w:tab/></w:r>' + cell(optRuns[3]), { tabs: COL2 })
-                        ];
-                    }
-                }
-                return label.concat(optRuns.map((rs, i) => P(cell(rs), { keepNext: i < 3 })));
-            }
-
-            function isTitleLine(runs) {
-                const s = plain(runs).trim();
-                if (!s || s.length > 100 || /\(\s*\d+\s*\)\s*[_…\.]{2,}/.test(s) || /_{3,}/.test(s)) return false;
-                const letters = s.replace(/[^A-Za-zÀ-ỹ]/g, '');
-                const allCaps = letters.length >= 3 && letters === letters.toUpperCase();
-                const allBold = runs.every(r => r.t.trim() === '' || r.b);
-                return allCaps || (allBold && !/[.!?:,;]$/.test(s));
-            }
-            const isSourceLine = s => /^\(\s*(adapted|source|sources|retrieved|nguồn)\b/i.test(s.trim());
-
-            function buildPartI(questions) {
-                const out = [P(B('PHẦN I: ĐỀ THI TRẮC NGHIỆM', { sz: 26 }), { jc: 'center' })];
-
-                const groups = []; let cur = null;
-                questions.forEach((q, idx) => {
-                    if (!cur || q.instruction !== cur.instruction) {
-                        cur = { instruction: q.instruction || '', passage: q.passage || null, items: [] };
-                        groups.push(cur);
-                    } else if (q.passage && !cur.passage) cur.passage = q.passage;
-                    cur.items.push({ q, idx });
-                });
-
-                groups.forEach(g => {
-                    const insLines = toLines(g.instruction);
-                    if (insLines.length) out.push(P(runsXml(insLines[0], { b: true }), { keepNext: true, before: 140, jc: 'both' }));
-
-                    if (g.passage) {
-                        toLines(g.passage).forEach(rs => {
-                            const s = plain(rs);
-                            if (isSourceLine(s)) out.push(P(runsXml(rs)));
-                            else if (isTitleLine(rs)) out.push(P(runsXml(rs, { b: true }), { jc: 'center' }));
-                            else out.push(P(runsXml(rs), { jc: 'both' }));
-                        });
-                    }
-
-                    g.items.forEach(({ q, idx }) => {
-                        const qNumber = q.origNum || (idx + 1);
-                        const label = B('Question ' + qNumber + '.');
-                        const stem = toLines(q.text || '');
-                        const opts = (q.options || []).map((o, i) => {
-                            const rs = inlineRuns(normalizeMarkup(o).replace(/\n+/g, ' ').replace(/\u00a0/g, ' '));
-                            return [{ t: 'ABCD'[i] + '. ' }].concat(rs);
-                        });
-                        while (opts.length < 4) opts.push([{ t: 'ABCD'[opts.length] + '. ' }]);
-
-                        if (!stem.length) {
-                            out.push.apply(out, optionParagraphs(opts, label));
-                        } else {
-                            const listLike = /^[a-e]\.\s/.test(plain(stem[0]).trim());
-                            if (listLike) { out.push(P(label, { keepNext: true })); }
-                            else { out.push(P(label + runsXml([{ t: ' ' }].concat(stem[0])), { keepNext: true })); stem.shift(); }
-                            stem.forEach(rs => {
-                                const s = plain(rs).trim();
-                                const item = /^[a-e]\.\s/.test(s);
-                                const dialogue = /^[a-e]\.\s+[^:]{1,25}:/.test(s);
-                                out.push(P(runsXml(rs), { keepNext: true, jc: (listLike && item && !dialogue) ? 'both' : undefined }));
-                            });
-                            out.push.apply(out, optionParagraphs(opts));
-                        }
-                    });
-                });
-                return out;
-            }
-
-            function ansLetter(q) {
-                const a = q.answer;
-                if (typeof a === 'number' && a >= 0 && a <= 3) return 'ABCD'[a];
-                if (typeof a === 'string' && /^[A-Da-d]$/.test(a.trim())) return a.trim().toUpperCase();
-                if (typeof a === 'string' && /^[0-3]$/.test(a.trim())) return 'ABCD'[+a];
-                return '?';
-            }
-            function explanationOf(q) {
-                const v = q.explanation || q.explain || q.giaiThich || q.giai_thich || q.solution || q.huongDan || q.huong_dan || q.exp;
-                return (typeof v === 'string') ? v.trim() : '';
-            }
-            function answerTable(questions) {
-                const COLS = 10, CW = 1077;
-                const border = '<w:top w:val="single" w:sz="4" w:space="0" w:color="999999"/><w:left w:val="single" w:sz="4" w:space="0" w:color="999999"/><w:bottom w:val="single" w:sz="4" w:space="0" w:color="999999"/><w:right w:val="single" w:sz="4" w:space="0" w:color="999999"/>';
-                const rows = Math.ceil(questions.length / COLS);
-                let x = '<w:tbl><w:tblPr><w:tblW w:w="10770" w:type="dxa"/><w:tblInd w:w="-15" w:type="dxa"/>' +
-                    '<w:tblBorders><w:top w:val="single" w:sz="4" w:space="0" w:color="auto"/><w:left w:val="single" w:sz="4" w:space="0" w:color="auto"/><w:bottom w:val="single" w:sz="4" w:space="0" w:color="auto"/><w:right w:val="single" w:sz="4" w:space="0" w:color="auto"/><w:insideH w:val="single" w:sz="4" w:space="0" w:color="auto"/><w:insideV w:val="single" w:sz="4" w:space="0" w:color="auto"/></w:tblBorders>' +
-                    '<w:tblLayout w:type="fixed"/><w:tblCellMar><w:left w:w="10" w:type="dxa"/><w:right w:w="10" w:type="dxa"/></w:tblCellMar><w:tblLook w:val="0000" w:firstRow="0" w:lastRow="0" w:firstColumn="0" w:lastColumn="0" w:noHBand="0" w:noVBand="0"/></w:tblPr><w:tblGrid>' +
-                    '<w:gridCol w:w="1077"/>'.repeat(COLS) + '</w:tblGrid>';
-                for (let r = 0; r < rows; r++) {
-                    const fill = (r % 2 === 0) ? 'F2F2F2' : 'FFFFFF';
-                    x += '<w:tr><w:trPr><w:cantSplit/></w:trPr>';
-                    for (let c = 0; c < COLS; c++) {
-                        const i = r * COLS + c, q = questions[i];
-                        const qNumber = q ? (q.origNum || (i + 1)) : '';
-                        const para = q
-                            ? `<w:p><w:pPr><w:contextualSpacing/><w:jc w:val="center"/></w:pPr>${B(qNumber + '.')}${runXml({ t: ' ' + ansLetter(q) })}</w:p>`
-                            : '<w:p><w:pPr><w:contextualSpacing/><w:jc w:val="center"/></w:pPr></w:p>';
-                        x += `<w:tc><w:tcPr><w:tcW w:w="${CW}" w:type="dxa"/><w:tcBorders>${border}</w:tcBorders><w:shd w:val="clear" w:color="auto" w:fill="${fill}"/><w:tcMar><w:top w:w="60" w:type="dxa"/><w:left w:w="80" w:type="dxa"/><w:bottom w:w="60" w:type="dxa"/><w:right w:w="80" w:type="dxa"/></w:tcMar></w:tcPr>${para}</w:tc>`;
-                    }
-                    x += '</w:tr>';
-                }
-                return x + '</w:tbl>';
-            }
-            function buildPartII(questions) {
-                const out = [
-                    P(B('PHẦN II: ĐÁP ÁN, GIẢI THÍCH CHI TIẾT VÀ TAPESCRIPT', { sz: 26 }), { jc: 'center', pageBreakBefore: true }),
-                    P(B('1. Bảng đáp án'), { keepNext: true }),
-                    answerTable(questions),
-                    P('')
-                ];
-                const exps = questions.map(explanationOf);
-                if (exps.some(Boolean)) {
-                    out.push(P(B('2. Giải thích chi tiết'), { keepNext: true, before: 60 }));
-                    questions.forEach((q, i) => {
-                        if (!exps[i]) return;
-                        const qNumber = q.origNum || (i + 1);
-                        const lines = toLines(exps[i]);
-                        const head = B('Question ' + qNumber + '. Đáp án ' + ansLetter(q) + '.');
-                        out.push(P(head + runsXml([{ t: ' ' }].concat(lines[0] || [])), { jc: 'both' }));
-                        lines.slice(1).forEach(rs => out.push(P(runsXml(rs), { jc: 'both' })));
-                    });
-                }
-                const scripts = questions.map(q => (q.tapescript || '').trim()).filter(Boolean);
-                if (scripts.length) {
-                    out.push(P(B('3. Nội dung bài nghe (Tapescript)'), { keepNext: true, before: 120 }));
-                    scripts.forEach(sc => {
-                        toLines(sc).forEach(rs => out.push(P(runsXml(rs), { jc: 'both' })));
-                        out.push(P(''));
-                    });
-                }
-                return out;
-            }
-
-            const NS = 'xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main" xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships"';
-            const XML = '<?xml version="1.0" encoding="UTF-8" standalone="yes"?>\n';
-            function documentXml(bodyParts) {
-                return XML + `<w:document ${NS}><w:body>${bodyParts.join('')}` +
-                    `<w:sectPr><w:footerReference w:type="default" r:id="rId3"/><w:pgSz w:w="${PAGE.w}" w:h="${PAGE.h}"/>` +
-                    `<w:pgMar w:top="${PAGE.top}" w:right="${PAGE.right}" w:bottom="${PAGE.bottom}" w:left="${PAGE.left}" w:header="${PAGE.header}" w:footer="${PAGE.footer}" w:gutter="0"/>` +
-                    `<w:cols w:space="720"/><w:docGrid w:linePitch="360"/></w:sectPr></w:body></w:document>`;
-            }
-            const STYLES = XML + `<w:styles ${NS}><w:docDefaults><w:rPrDefault><w:rPr><w:rFonts w:ascii="Times New Roman" w:eastAsia="Times New Roman" w:hAnsi="Times New Roman" w:cs="Times New Roman"/><w:sz w:val="22"/><w:szCs w:val="22"/><w:lang w:val="en-US" w:eastAsia="en-US" w:bidi="ar-SA"/></w:rPr></w:rPrDefault><w:pPrDefault/></w:docDefaults>` +
-                `<w:style w:type="paragraph" w:default="1" w:styleId="Normal"><w:name w:val="Normal"/><w:qFormat/></w:style>` +
-                `<w:style w:type="character" w:default="1" w:styleId="DefaultParagraphFont"><w:name w:val="Default Paragraph Font"/><w:uiPriority w:val="1"/><w:semiHidden/><w:unhideWhenUsed/></w:style>` +
-                `<w:style w:type="table" w:default="1" w:styleId="TableNormal"><w:name w:val="Normal Table"/><w:uiPriority w:val="99"/><w:semiHidden/><w:unhideWhenUsed/><w:tblPr><w:tblInd w:w="0" w:type="dxa"/><w:tblCellMar><w:top w:w="0" w:type="dxa"/><w:left w:w="108" w:type="dxa"/><w:bottom w:w="0" w:type="dxa"/><w:right w:w="108" w:type="dxa"/></w:tblCellMar></w:tblPr></w:style>` +
-                `<w:style w:type="numbering" w:default="1" w:styleId="NoList"><w:name w:val="No List"/><w:uiPriority w:val="99"/><w:semiHidden/><w:unhideWhenUsed/></w:style></w:styles>`;
-            const SETTINGS = XML + `<w:settings ${NS}><w:defaultTabStop w:val="720"/><w:characterSpacingControl w:val="doNotCompress"/><w:compat><w:compatSetting w:name="compatibilityMode" w:uri="http://schemas.microsoft.com/office/word" w:val="15"/></w:compat><w:themeFontLang w:val="en-US"/><w:decimalSymbol w:val="."/><w:listSeparator w:val=","/></w:settings>`;
-            const fr = t => `<w:r><w:rPr><w:sz w:val="18"/><w:szCs w:val="18"/></w:rPr>${t}</w:r>`;
-            const FOOTER = XML + `<w:ftr ${NS}><w:p><w:pPr><w:jc w:val="center"/></w:pPr>${fr('<w:t xml:space="preserve">Trang </w:t>')}${fr('<w:fldChar w:fldCharType="begin"/>')}${fr('<w:instrText xml:space="preserve"> PAGE </w:instrText>')}${fr('<w:fldChar w:fldCharType="separate"/>')}<w:r><w:rPr><w:noProof/><w:sz w:val="18"/><w:szCs w:val="18"/></w:rPr><w:t>1</w:t></w:r>${fr('<w:fldChar w:fldCharType="end"/>')}</w:p></w:ftr>`;
-            const CONTENT_TYPES = XML + '<Types xmlns="http://schemas.openxmlformats.org/package/2006/content-types"><Default Extension="rels" ContentType="application/vnd.openxmlformats-package.relationships+xml"/><Default Extension="xml" ContentType="application/xml"/>' +
-                '<Override PartName="/word/document.xml" ContentType="application/vnd.openxmlformats-officedocument.wordprocessingml.document.main+xml"/>' +
-                '<Override PartName="/word/styles.xml" ContentType="application/vnd.openxmlformats-officedocument.wordprocessingml.styles+xml"/>' +
-                '<Override PartName="/word/settings.xml" ContentType="application/vnd.openxmlformats-officedocument.wordprocessingml.settings+xml"/>' +
-                '<Override PartName="/word/footer1.xml" ContentType="application/vnd.openxmlformats-officedocument.wordprocessingml.footer+xml"/>' +
-                '<Override PartName="/docProps/core.xml" ContentType="application/vnd.openxmlformats-package.core-properties+xml"/>' +
-                '<Override PartName="/docProps/app.xml" ContentType="application/vnd.openxmlformats-officedocument.extended-properties+xml"/></Types>';
-            const ROOT_RELS = XML + '<Relationships xmlns="http://schemas.openxmlformats.org/package/2006/relationships"><Relationship Id="rId1" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/officeDocument" Target="word/document.xml"/><Relationship Id="rId2" Type="http://schemas.openxmlformats.org/package/2006/relationships/metadata/core-properties" Target="docProps/core.xml"/><Relationship Id="rId3" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/extended-properties" Target="docProps/app.xml"/></Relationships>';
-            const DOC_RELS = XML + '<Relationships xmlns="http://schemas.openxmlformats.org/package/2006/relationships"><Relationship Id="rId1" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/styles" Target="styles.xml"/><Relationship Id="rId2" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/settings" Target="settings.xml"/><Relationship Id="rId3" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/footer" Target="footer1.xml"/></Relationships>';
-            const APP = XML + '<Properties xmlns="http://schemas.openxmlformats.org/officeDocument/2006/extended-properties"><Application>Microsoft Office Word</Application></Properties>';
-            const coreXml = title => XML + '<cp:coreProperties xmlns:cp="http://schemas.openxmlformats.org/package/2006/metadata/core-properties" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">' +
-                `<dc:title>${esc(title)}</dc:title><dc:creator>Ngân hàng đề thi HSG Tiếng Anh Tỉnh Thanh Hóa</dc:creator>` +
-                `<dcterms:created xsi:type="dcterms:W3CDTF">${new Date().toISOString().replace(/\.\d+Z$/, 'Z')}</dcterms:created></cp:coreProperties>`;
-
-            function loadScript(src) {
-                return new Promise((ok, fail) => {
-                    const s = document.createElement('script');
-                    s.src = src; s.onload = ok; s.onerror = () => { s.remove(); fail(new Error(src)); };
-                    document.head.appendChild(s);
-                });
-            }
-            async function ensureJSZip() {
-                if (window.JSZip) return;
-                const urls = [
-                    'https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js',
-                    'https://cdn.jsdelivr.net/npm/jszip@3.10.1/dist/jszip.min.js',
-                    'https://unpkg.com/jszip@3.10.1/dist/jszip.min.js'
-                ];
-                for (const u of urls) { try { await loadScript(u); if (window.JSZip) return; } catch (e) {} }
-                throw new Error('Không tải được thư viện JSZip. Vui lòng kiểm tra kết nối mạng rồi thử lại.');
-            }
-
-            async function buildDocxBlob(questions, withAnswers, title) {
-                await ensureJSZip();
-                const body = buildPartI(questions);
-                if (withAnswers) body.push.apply(body, buildPartII(questions));
-                const zip = new JSZip();
-                zip.file('[Content_Types].xml', CONTENT_TYPES);
-                zip.file('_rels/.rels', ROOT_RELS);
-                zip.file('docProps/core.xml', coreXml(title));
-                zip.file('docProps/app.xml', APP);
-                zip.file('word/document.xml', documentXml(body));
-                zip.file('word/_rels/document.xml.rels', DOC_RELS);
-                zip.file('word/styles.xml', STYLES);
-                zip.file('word/settings.xml', SETTINGS);
-                zip.file('word/footer1.xml', FOOTER);
-                return zip.generateAsync({ type: 'blob', mimeType: 'application/vnd.openxmlformats-officedocument.wordprocessingml.document', compression: 'DEFLATE' });
-            }
-            function download(blob, name) {
-                const a = document.createElement('a');
-                a.href = URL.createObjectURL(blob); a.download = name;
-                document.body.appendChild(a); a.click(); a.remove();
-                setTimeout(() => URL.revokeObjectURL(a.href), 4000);
-            }
-
-            window.exportDocx = async function (withAnswers) {
-                const status = evaluateLicense();
-                if (!status.active) {
-                    showPasswordModal(true);
-                    return;
-                }
-                let questions = [];
-                try { questions = examDatabase[currentCategory][currentUnit][currentTest] || []; } catch (e) {}
-                if (!questions.length) { alert('Đề thi này chưa có nội dung để xuất.'); return; }
-                const btns = document.querySelectorAll('.docx-export-btn');
-                btns.forEach(b => { b.disabled = true; b.classList.add('opacity-60'); });
-                try {
-                    const title = `HSG Thanh Hóa - ${currentCategory.toUpperCase()} - Chuyên đề ${currentUnit} - Test ${currentTest}`;
-                    const blob = await buildDocxBlob(questions, withAnswers !== false, title);
-                    download(blob, `DE_HSG_THANH_HOA_${currentCategory.toUpperCase()}_DANG${currentUnit}_TEST${currentTest}${withAnswers === false ? '_CHI_DE' : ''}.docx`);
-                } catch (e) {
-                    console.error(e);
-                    alert('Xuất file Word không thành công: ' + (e && e.message ? e.message : e));
-                } finally {
-                    btns.forEach(b => { b.disabled = false; b.classList.remove('opacity-60'); });
-                }
-            };
-        })();
-    </script>
-</body>
-</html>
+                            statusBadge.className = 'text-xs font-bold px-2.5 py-0.5 rounded-full bg-rose-100 text-rose-700 border border-rose-2
