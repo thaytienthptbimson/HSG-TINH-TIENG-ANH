@@ -106,7 +106,7 @@
 </head>
 <body class="min-h-screen flex flex-col text-slate-800 selection:bg-blue-600 selection:text-white">
 
-    <!-- MODAL GHÉP DỮ LIỆU TỰ ĐỘNG 1-CLICK (Chỉ hiện khi chưa ghép file index_3.html gốc, tự động xóa vĩnh viễn trong file tải về) -->
+    <!-- MODAL GHÉP DỮ LIỆU TỰ ĐỘNG 1-CLICK -->
     <div id="db-merger-modal" class="hidden-element fixed inset-0 bg-slate-900/80 backdrop-blur-sm flex justify-center items-center z-[120] p-4">
         <div class="bg-white rounded-3xl shadow-2xl p-6 md:p-8 max-w-lg w-full border-2 border-orange-300 text-center relative">
             <div class="w-16 h-16 bg-orange-100 text-orange-600 rounded-2xl flex items-center justify-center mx-auto mb-4 text-3xl shadow-inner">
@@ -119,24 +119,24 @@
                 Nạp kho câu hỏi từ file <code class="text-orange-600">index_3.html</code> gốc
             </h3>
             <p class="text-slate-600 text-xs md:text-sm leading-relaxed mb-5">
-                Do tệp <b>index_3.html</b> gốc của bạn chứa hàng nghìn dòng dữ liệu câu hỏi, hãy bấm nút bên dưới và chọn tệp <b>index_3.html</b> gốc trên máy tính. Hệ thống sẽ tự động tách 100% câu hỏi, ghép vào giao diện mới này và tải xuống tệp hoàn chỉnh ngay lập tức!
+                Nếu bạn muốn gộp dữ liệu từ tệp <b>index_3.html</b> gốc vào giao diện này, hãy chọn tệp bên dưới hoặc đặt các tệp <code>listening.js</code>, <code>lexico.js</code>, <code>reading.js</code> cùng thư mục với <code>index.html</code>.
             </p>
             <label class="cursor-pointer inline-flex items-center justify-center gap-2 w-full bg-gradient-to-r from-orange-500 to-rose-600 hover:from-orange-600 hover:to-rose-700 text-white font-extrabold py-3.5 px-6 rounded-2xl shadow-lg shadow-orange-500/25 transition-all text-sm md:text-base">
                 <span>📂 Chọn tệp index_3.html gốc trên máy</span>
                 <input type="file" accept=".html,.htm" class="hidden" onchange="mergeOriginalDatabaseFile(event)">
             </label>
             <button onclick="document.getElementById('db-merger-modal').classList.add('hidden-element')" class="mt-3 text-xs font-semibold text-slate-400 hover:text-slate-600 underline">
-                Bỏ qua và xem trước giao diện với dữ liệu mẫu
+                Đóng và sử dụng dữ liệu từ reading.js &amp; lexico.js
             </button>
         </div>
     </div>
 
-    <!-- THANH NHẮC GHÉP FILE Ở ĐẦU TRANG (Tự động xóa trong file xuất ra) -->
+    <!-- THANH NHẮC GHÉP FILE Ở ĐẦU TRANG -->
     <div id="db-merger-banner" class="hidden-element bg-gradient-to-r from-amber-500 via-orange-500 to-rose-600 text-white px-4 py-2 shadow-md z-50">
         <div class="max-w-[1560px] mx-auto flex flex-col sm:flex-row items-center justify-between gap-2 text-xs md:text-sm">
             <div class="flex items-center gap-2 font-semibold">
                 <span>⚡</span>
-                <span>Bạn đang xem bản chưa ghép đủ dữ liệu. Hãy chọn tệp <code>index_3.html</code> gốc để tự động tạo tệp hoàn chỉnh đủ 70 câu × 10 đề!</span>
+                <span>Bạn có thể chọn tệp <code>index_3.html</code> gốc để gộp thêm phần Nghe hiểu (nếu chưa có <code>listening.js</code>).</span>
             </div>
             <label class="cursor-pointer bg-white text-orange-700 hover:bg-orange-50 font-extrabold px-3.5 py-1 rounded-xl shadow-sm transition-all whitespace-nowrap">
                 📂 Chọn file index_3.html gốc
@@ -195,7 +195,6 @@
         
         <!-- SIDEBAR: CHUYÊN ĐỀ & THÀNH TÍCH -->
         <aside class="w-full lg:w-[320px] flex-shrink-0 bg-white rounded-2xl shadow-sm border border-slate-200/80 lg:sticky lg:top-[80px] z-20 overflow-hidden">
-            <!-- Thống kê nhanh theo Phân mục -->
             <div class="bg-gradient-to-br from-slate-900 via-blue-950 to-indigo-950 text-white p-4">
                 <div class="flex justify-between items-center mb-2">
                     <span class="text-xs font-bold uppercase tracking-wider text-blue-300 flex items-center gap-1.5 truncate">
@@ -259,7 +258,7 @@
                     </p>
                 </div>
 
-                <!-- Thẻ tóm tắt 3 phân mục chính theo đúng Cấu trúc Đề thi HSG Lớp 12 Sở GD&ĐT Thanh Hóa -->
+                <!-- Thẻ tóm tắt 3 phân mục chính -->
                 <div class="grid grid-cols-1 md:grid-cols-3 gap-4 text-left mb-8">
                     <div onclick="selectCategory('listening'); selectTest(4, 1);" class="cursor-pointer group bg-gradient-to-br from-blue-50/80 via-white to-sky-50/60 p-5 rounded-2xl border-2 border-blue-100 hover:border-blue-500 hover:shadow-lg transition-all flex flex-col justify-between">
                         <div>
@@ -330,7 +329,6 @@
 
             <!-- TEST SCREEN -->
             <div id="test-screen" class="hidden-element">
-                <!-- Tiêu đề đề thi + Nút xuất Word -->
                 <div class="flex flex-col md:flex-row md:justify-between md:items-end border-b border-slate-200 pb-4 mb-4 gap-3">
                     <div>
                         <div class="inline-flex items-center gap-2 text-xs font-extrabold text-blue-700 bg-blue-50 px-3 py-1 rounded-lg border border-blue-200 mb-1.5" id="current-cat-badge">
@@ -342,7 +340,7 @@
                         </p>
                     </div>
 
-                    <!-- XUẤT FILE WORD (.docx) THEO QUY CHUẨN ĐỀ MẪU -->
+                    <!-- XUẤT FILE WORD (.doc / .docx) THEO QUY CHUẨN ĐỀ MẪU -->
                     <div id="export-bar" class="flex flex-wrap justify-start md:justify-end gap-2 flex-shrink-0">
                         <button onclick="exportDocx(true)" class="docx-export-btn inline-flex items-center gap-1.5 bg-emerald-600 hover:bg-emerald-700 text-white font-bold py-2 px-3.5 text-xs md:text-sm rounded-xl shadow-sm transition-all" title="Tải file Word gồm PHẦN I: Đề thi và PHẦN II: Đáp án - Giải thích - Tapescript">
                             <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path></svg>
@@ -354,10 +352,9 @@
                     </div>
                 </div>
 
-                <!-- THANH ĐIỀU HƯỚNG CÂU HỎI & TIẾN ĐỘ (STICKY BAR KHOA HỌC) -->
+                <!-- THANH ĐIỀU HƯỚNG CÂU HỎI & TIẾN ĐỘ -->
                 <div id="sticky-exam-bar" class="sticky top-[68px] z-30 bg-white/95 backdrop-blur-md border border-slate-200/90 rounded-2xl p-3 mb-6 shadow-md">
                     <div class="flex flex-wrap items-center justify-between gap-2">
-                        <!-- Tiến độ số câu đã chọn -->
                         <div class="flex items-center gap-3 flex-grow min-w-[200px]">
                             <span class="text-xs md:text-sm font-extrabold text-slate-700 whitespace-nowrap">
                                 Đã làm: <span id="answered-count-text" class="text-blue-600">0/70</span>
@@ -367,14 +364,12 @@
                             </div>
                         </div>
 
-                        <!-- Bộ lọc sau khi nộp bài (ẩn khi đang làm) -->
                         <div id="filter-bar" class="hidden-element flex items-center gap-1 bg-slate-100 p-1 rounded-xl text-xs font-bold">
                             <button onclick="filterQuestions('all')" id="filter-all" class="px-2.5 py-1 rounded-lg bg-white text-slate-800 shadow-sm transition-all">Tất cả</button>
                             <button onclick="filterQuestions('wrong')" id="filter-wrong" class="px-2.5 py-1 rounded-lg text-rose-600 hover:bg-white/60 transition-all">Câu sai / Chưa làm</button>
                             <button onclick="filterQuestions('correct')" id="filter-correct" class="px-2.5 py-1 rounded-lg text-emerald-700 hover:bg-white/60 transition-all">Câu đúng</button>
                         </div>
 
-                        <!-- Nút bật/tắt Bảng câu hỏi & Nộp bài nhanh -->
                         <div class="flex items-center gap-2">
                             <button onclick="togglePalette()" class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-xl text-xs font-bold bg-slate-100 hover:bg-blue-50 text-slate-700 hover:text-blue-700 border border-slate-200 transition-colors">
                                 <svg class="w-4 h-4 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2H6a2 2 0 01-2-2V6zM14 6a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2V6zM4 16a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2H6a2 2 0 01-2-2v-2zM14 16a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2v-2z"></path></svg>
@@ -387,7 +382,6 @@
                         </div>
                     </div>
 
-                    <!-- Lưới ô câu hỏi (Collapsible) -->
                     <div id="question-palette" class="hidden-element mt-3 pt-3 border-t border-slate-200/80">
                         <div class="flex flex-wrap items-center justify-between gap-2 mb-2 text-[11px] text-slate-500 font-medium">
                             <span>Nhấp vào số câu để di chuyển nhanh đến câu hỏi:</span>
@@ -422,9 +416,7 @@
                 </div>
                 <h2 class="text-3xl md:text-4xl font-black text-slate-900 mb-2">Hoàn thành bài thi!</h2>
                 
-                <!-- Bảng thống kê chi tiết -->
                 <div class="bg-gradient-to-b from-slate-50 to-white border border-slate-200 rounded-3xl p-6 md:p-8 max-w-3xl mx-auto my-6 shadow-xl shadow-slate-900/5">
-                    
                     <div class="text-xs font-extrabold uppercase tracking-widest text-slate-400 mb-1">Kết quả đạt được</div>
                     <div class="text-6xl md:text-7xl font-black text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-indigo-600 mb-6 drop-shadow-sm" id="score-display">0/70</div>
                     
@@ -443,10 +435,7 @@
                         </div>
                     </div>
                     
-                    <!-- Lời động viên -->
-                    <div id="motivation-message" class="text-base md:text-xl font-bold text-slate-800 mt-6 pt-6 border-t border-slate-200 italic">
-                        <!-- Gen bằng JS -->
-                    </div>
+                    <div id="motivation-message" class="text-base md:text-xl font-bold text-slate-800 mt-6 pt-6 border-t border-slate-200 italic"></div>
                 </div>
 
                 <p class="text-slate-500 mb-4 font-medium text-sm md:text-base">Lướt lên trên để xem Giải thích chi tiết từng câu, Tapescript bài nghe và rút kinh nghiệm nhé!</p>
@@ -477,7 +466,7 @@
         </div>
     </footer>
 
-    <!-- PASSWORD & LICENSE MODAL (10 NGÀY DÙNG THỬ -> MẬT KHẨU tien@12345 DÙNG 365 NGÀY) -->
+    <!-- PASSWORD & LICENSE MODAL -->
     <div id="password-modal" class="hidden-element fixed inset-0 bg-slate-900/80 backdrop-blur-sm flex justify-center items-center z-[100] p-4">
         <div class="bg-white rounded-3xl shadow-2xl p-6 md:p-8 max-w-md w-full border-2 border-blue-100 relative">
             <div id="modal-icon-container" class="w-14 h-14 bg-amber-100 text-amber-600 rounded-2xl flex items-center justify-center mx-auto mb-3 text-2xl shadow-inner">
@@ -488,10 +477,7 @@
                 Nhập mật khẩu bản quyền để mở khóa toàn bộ ngân hàng đề thi HSG trong vòng <b>365 ngày</b>.
             </p>
 
-            <!-- Hộp thông tin thời hạn -->
-            <div id="modal-license-info" class="mb-4 p-3 rounded-xl bg-slate-50 border border-slate-200 text-xs text-slate-600 space-y-1">
-                <!-- Sinh bằng JS -->
-            </div>
+            <div id="modal-license-info" class="mb-4 p-3 rounded-xl bg-slate-50 border border-slate-200 text-xs text-slate-600 space-y-1"></div>
 
             <div class="bg-amber-50 border-2 border-amber-300 rounded-xl p-2.5 mb-4 text-center shadow-sm">
                 <p class="text-rose-600 font-extrabold text-sm md:text-base tracking-wide">
@@ -513,7 +499,7 @@
         </div>
     </div>
 
-    <!-- DỮ LIỆU NGÂN HÀNG ĐỀ THI HSG TỈNH THANH HÓA -->
+    <!-- DỮ LIỆU Cấu Hình & Khởi tạo window.examDatabase -->
     <script id="database-script">
         window.__IS_FULL_DB_MERGED__ = false;
 
@@ -618,7 +604,7 @@
             }
         };
 
-        const examDatabase = {
+        window.examDatabase = window.examDatabase || {
             "listening": {
                 "1": {
                     "1": [
@@ -668,9 +654,192 @@
                 }
             }
         };
+        const examDatabase = window.examDatabase;
     </script>
 
+    <!-- NẠP TRỰC TIẾP CÁC TỆP DỮ LIỆU ĐỘC LẬP (listening.js, lexico.js, reading.js) -->
+    <script src="listening.js"></script>
+    <script src="lexico.js"></script>
+    <script src="reading.js"></script>
+
     <script>
+        /* =========================================================================
+           ĐỒNG BỘ HÓA TỰ ĐỘNG READING.JS, LEXICO.JS VÀ LISTENING.JS VỚI INDEX.HTML
+        ========================================================================= */
+        function normalizeOptionText(opt) {
+            if (typeof opt !== 'string') return String(opt || '');
+            return opt.replace(/^[A-D][\.\)]\s*/i, '').trim();
+        }
+
+        function normalizeAnswerIndex(ans) {
+            if (typeof ans === 'number' && ans >= 0 && ans <= 3) return ans;
+            if (typeof ans === 'string') {
+                const clean = ans.trim().toUpperCase();
+                const map = { 'A': 0, 'B': 1, 'C': 2, 'D': 3, '0': 0, '1': 1, '2': 2, '3': 3 };
+                if (clean in map) return map[clean];
+            }
+            return 0;
+        }
+
+        function normalizeQuestionItem(q, fallbackOrigNum, defaultInstruction) {
+            const copy = Object.assign({}, q);
+            copy.origNum = copy.origNum || copy.id || fallbackOrigNum;
+            copy.instruction = copy.instruction || defaultInstruction || '';
+            copy.text = (copy.text !== undefined) ? copy.text : (copy.question || '');
+            copy.options = (copy.options || []).map(normalizeOptionText);
+            copy.answer = normalizeAnswerIndex(copy.answer);
+            copy.explanation = copy.explanation || copy.explain || '';
+            return copy;
+        }
+
+        function syncExternalDatabases() {
+            window.examDatabase = window.examDatabase || examDatabase;
+
+            // 1. Đồng bộ lexico.js nếu tệp lexico.js xuất ở định dạng mảng lexicoData (Turn 2)
+            const rawLexicoArray = window.lexicoData || window.LEXICO_DATA || window.lexicoTests;
+            if (!window.examDatabase['lexico'] && Array.isArray(rawLexicoArray)) {
+                const lexicoObj = { "1": {}, "2": {}, "3": {}, "4": {}, "5": {}, "6": {} };
+                const unitInstructions = {
+                    1: "Mark the letter A, B, C, or D on your answer sheet to indicate the correct answer to each of the following questions from 16 to 25.",
+                    2: "Read the following announcement/article and mark the letter A, B, C, or D on your answer sheet to indicate the option that best fits each of the numbered blanks from 26 to 31.",
+                    3: "Read the following biographical leaflet and mark the letter A, B, C, or D on your answer sheet to indicate the option that best fits each of the numbered blanks from 32 to 37.",
+                    4: "Read the following passage and mark the letter A, B, C, or D on your answer sheet to indicate the option that best fits each of the numbered blanks from 38 to 42.",
+                    5: "Read the following passage and mark the letter A, B, C, or D on your answer sheet to indicate the option that best fits each of the numbered blanks from 43 to 52."
+                };
+
+                rawLexicoArray.forEach((testItem, idx) => {
+                    const tKey = String(testItem.testId || (idx + 1));
+                    const qs = testItem.questions || [];
+                    // Sắp xếp 37 câu của mỗi Test vào 5 dạng chuẩn (Câu 16-25: 10 câu, Câu 26-31: 6 câu, Câu 32-37: 6 câu, Câu 38-42: 5 câu, Câu 43-52: 10 câu)
+                    const slices = [
+                        { unit: "1", startIdx: 0, count: 10, baseNum: 16 },
+                        { unit: "2", startIdx: 10, count: 6, baseNum: 26 },
+                        { unit: "3", startIdx: 16, count: 6, baseNum: 32 },
+                        { unit: "4", startIdx: 22, count: 5, baseNum: 38 },
+                        { unit: "5", startIdx: 27, count: 10, baseNum: 43 }
+                    ];
+
+                    let full37 = [];
+                    slices.forEach(s => {
+                        const subQs = qs.slice(s.startIdx, s.startIdx + s.count);
+                        // Gom các đoạn passage trong cùng nhóm nếu có
+                        const passagesInSlice = subQs.map(item => item.passage).filter(Boolean);
+                        const combinedPassage = passagesInSlice.length ? passagesInSlice.join('\n\n') : null;
+
+                        const formattedSub = subQs.map((item, subIdx) => {
+                            const newNum = s.baseNum + subIdx;
+                            const oldNum = item.id || (s.startIdx + subIdx + 1);
+                            const qNorm = normalizeQuestionItem(
+                                item,
+                                newNum,
+                                unitInstructions[s.unit]
+                            );
+                            qNorm.origNum = newNum;
+                            if (/^Question\s+\d+/i.test(qNorm.text)) {
+                                qNorm.text = `Question ${newNum}:`;
+                            }
+                            if (subIdx === 0 && combinedPassage) {
+                                // Cập nhật số thứ tự chỗ trống trong đoạn văn cho khớp Câu 16-52
+                                let updatedPassage = combinedPassage;
+                                subQs.forEach((sq, sqIdx) => {
+                                    const oldBlank = sq.id || (s.startIdx + sqIdx + 1);
+                                    const newBlank = s.baseNum + sqIdx;
+                                    updatedPassage = updatedPassage.replace(new RegExp(`\\(${oldBlank}\\)`, 'g'), `(${newBlank})`);
+                                });
+                                qNorm.passage = updatedPassage;
+                            } else {
+                                delete qNorm.passage;
+                            }
+                            return qNorm;
+                        });
+
+                        lexicoObj[s.unit][tKey] = formattedSub;
+                        full37 = full37.concat(formattedSub.map(x => Object.assign({}, x)));
+                    });
+
+                    lexicoObj["6"][tKey] = full37;
+                });
+
+                window.examDatabase['lexico'] = lexicoObj;
+            }
+
+            // 2. Chuẩn hóa mọi câu hỏi trong listening, lexico, reading
+            ['listening', 'lexico', 'reading'].forEach(cat => {
+                if (!window.examDatabase[cat]) return;
+                Object.keys(window.examDatabase[cat]).forEach(uKey => {
+                    const unitTests = window.examDatabase[cat][uKey];
+                    if (!unitTests || typeof unitTests !== 'object') return;
+                    Object.keys(unitTests).forEach(tKey => {
+                        const arr = unitTests[tKey];
+                        if (Array.isArray(arr)) {
+                            unitTests[tKey] = arr.map((q, i) => normalizeQuestionItem(q, i + 1, q.instruction));
+                        }
+                    });
+                });
+            });
+
+            // 3. Tự động tạo Unit tổng hợp cho Listening (Unit 4), Lexico (Unit 6), Reading (Unit 3) nếu thiếu
+            if (window.examDatabase['reading']) {
+                window.examDatabase['reading']["3"] = window.examDatabase['reading']["3"] || {};
+                for (let t = 1; t <= 10; t++) {
+                    const r1 = (window.examDatabase['reading']["1"] && window.examDatabase['reading']["1"][t]) || [];
+                    const r2 = (window.examDatabase['reading']["2"] && window.examDatabase['reading']["2"][t]) || [];
+                    if ((!window.examDatabase['reading']["3"][t] || !window.examDatabase['reading']["3"][t].length) && (r1.length || r2.length)) {
+                        window.examDatabase['reading']["3"][t] = r1.concat(r2);
+                    }
+                }
+            }
+
+            if (window.examDatabase['lexico']) {
+                window.examDatabase['lexico']["6"] = window.examDatabase['lexico']["6"] || {};
+                for (let t = 1; t <= 10; t++) {
+                    if (!window.examDatabase['lexico']["6"][t] || !window.examDatabase['lexico']["6"][t].length) {
+                        let mergedLex = [];
+                        for (let u = 1; u <= 5; u++) {
+                            const part = (window.examDatabase['lexico'][u] && window.examDatabase['lexico'][u][t]) || [];
+                            mergedLex = mergedLex.concat(part);
+                        }
+                        if (mergedLex.length) window.examDatabase['lexico']["6"][t] = mergedLex;
+                    }
+                }
+            }
+
+            if (window.examDatabase['listening']) {
+                window.examDatabase['listening']["4"] = window.examDatabase['listening']["4"] || {};
+                for (let t = 1; t <= 10; t++) {
+                    if (!window.examDatabase['listening']["4"][t] || !window.examDatabase['listening']["4"][t].length) {
+                        let mergedLis = [];
+                        for (let u = 1; u <= 3; u++) {
+                            const part = (window.examDatabase['listening'][u] && window.examDatabase['listening'][u][t]) || [];
+                            mergedLis = mergedLis.concat(part);
+                        }
+                        if (mergedLis.length) window.examDatabase['listening']["4"][t] = mergedLis;
+                    }
+                }
+            }
+
+            // 4. Tự động ghép Đề Chuẩn 70 câu (examDatabase['full']['1'][1..10]) từ Listening + Lexico + Reading
+            window.examDatabase['full'] = window.examDatabase['full'] || { "1": {} };
+            window.examDatabase['full']["1"] = window.examDatabase['full']["1"] || {};
+            for (let t = 1; t <= 10; t++) {
+                if (!window.examDatabase['full']["1"][t] || !window.examDatabase['full']["1"][t].length) {
+                    const lis = (window.examDatabase['listening'] && window.examDatabase['listening']["4"] && window.examDatabase['listening']["4"][t]) ||
+                                (window.examDatabase['listening'] && window.examDatabase['listening']["1"] && window.examDatabase['listening']["1"][t]) || [];
+                    const lex = (window.examDatabase['lexico'] && window.examDatabase['lexico']["6"] && window.examDatabase['lexico']["6"][t]) || [];
+                    const rea = (window.examDatabase['reading'] && window.examDatabase['reading']["3"] && window.examDatabase['reading']["3"][t]) || [];
+                    const combined = lis.concat(lex, rea);
+                    if (combined.length > 0) {
+                        window.examDatabase['full']["1"][t] = combined;
+                    }
+                }
+            }
+
+            // Nếu đã có dữ liệu từ reading.js hoặc lexico.js thì đánh dấu đã nạp kho dữ liệu
+            if (window.examDatabase['reading'] || window.examDatabase['lexico']) {
+                window.__IS_FULL_DB_MERGED__ = true;
+            }
+        }
+
         /* =========================================================================
            CẤU HÌNH BẢN QUYỀN: DÙNG THỬ 10 NGÀY -> MẬT KHẨU tien@12345 (365 NGÀY)
         ========================================================================= */
@@ -762,38 +931,27 @@
                         return;
                     }
 
-                    // Kiểm tra tính hợp lệ của dữ liệu tách ra và nạp trực tiếp vào bộ nhớ
                     const parsedCat = (new Function('return ' + catObjStr))();
                     const parsedDb = (new Function('return ' + dbObjStr))();
 
                     Object.assign(categoryConfig, parsedCat);
-                    Object.assign(examDatabase, parsedDb);
+                    // Giữ lại reading.js và lexico.js mới nếu đã nạp
+                    const currentReading = window.examDatabase['reading'];
+                    const currentLexico = window.examDatabase['lexico'];
+                    Object.assign(window.examDatabase, parsedDb);
+                    if (currentReading) window.examDatabase['reading'] = currentReading;
+                    if (currentLexico) window.examDatabase['lexico'] = currentLexico;
+
+                    syncExternalDatabases();
                     window.__IS_FULL_DB_MERGED__ = true;
 
-                    // Ẩn vĩnh viễn modal & banner ghép dữ liệu trước khi xuất file mới
                     const modalEl = document.getElementById('db-merger-modal');
                     const bannerEl = document.getElementById('db-merger-banner');
                     if (modalEl) modalEl.classList.add('hidden-element');
                     if (bannerEl) bannerEl.classList.add('hidden-element');
 
                     renderSidebar();
-
-                    // Tạo nội dung file HTML hoàn chỉnh mới (chỉ chứa đúng 2 biến dữ liệu, không lẫn hàm JS cũ)
-                    const newDbScriptContent = `<script id="database-script">\n        window.__IS_FULL_DB_MERGED__ = true;\n        const categoryConfig = ${catObjStr};\n        const examDatabase = ${dbObjStr};\n    <\/script>`;
-
-                    const currentDocHtml = document.documentElement.outerHTML;
-                    const dbScriptRegex = /<script id="database-script">[\s\S]*?<\/script>/;
-                    const updatedHtml = '<!DOCTYPE html>\n' + currentDocHtml.replace(dbScriptRegex, () => newDbScriptContent);
-
-                    const blob = new Blob([updatedHtml], { type: 'text/html;charset=utf-8' });
-                    const a = document.createElement('a');
-                    a.href = URL.createObjectURL(blob);
-                    a.download = 'index_3.html';
-                    document.body.appendChild(a);
-                    a.click();
-                    a.remove();
-
-                    alert('✅ Đã tách và ghép thành công 100% kho câu hỏi từ tệp gốc! Tệp "index_3.html" hoàn chỉnh đã được tải về máy và sẵn sàng sử dụng.');
+                    alert('✅ Đã đồng bộ thành công kho câu hỏi vào hệ thống!');
                 } catch (err) {
                     console.error(err);
                     alert('Có lỗi khi đọc tệp: ' + (err && err.message ? err.message : err));
@@ -970,11 +1128,11 @@
         }
 
         document.addEventListener('DOMContentLoaded', () => {
-            if (!window.__IS_FULL_DB_MERGED__ && (!examDatabase || !examDatabase.full)) {
-                const mergerModal = document.getElementById('db-merger-modal');
-                const mergerBanner = document.getElementById('db-merger-banner');
-                if (mergerModal) mergerModal.classList.remove('hidden-element');
-                if (mergerBanner) mergerBanner.classList.remove('hidden-element');
+            syncExternalDatabases();
+            // Nếu có dữ liệu lexico hoặc reading mà chưa có đủ listening thì mặc định mở tab có sẵn dữ liệu
+            if ((!window.examDatabase['listening'] || !window.examDatabase['listening']['4']) && window.examDatabase['lexico']) {
+                currentCategory = 'lexico';
+                selectCategory('lexico');
             }
             refreshLicenseUI();
             setInterval(() => {
@@ -989,7 +1147,7 @@
             document.getElementById('units-container').classList.toggle('hidden-element');
         }
 
-        /* ---------- Điều hướng Phân mục (Listening / Lexico / Reading / Full) ---------- */
+        /* ---------- Điều hướng Phân mục ---------- */
         function selectCategory(cat) {
             const status = evaluateLicense();
             if (!status.active) {
@@ -1078,7 +1236,7 @@
                     const progress = getProgress(currentCategory, u, t);
                     let hasData = false;
                     try {
-                        hasData = !!(examDatabase[currentCategory] && examDatabase[currentCategory][u] && examDatabase[currentCategory][u][t] && examDatabase[currentCategory][u][t].length);
+                        hasData = !!(window.examDatabase[currentCategory] && window.examDatabase[currentCategory][u] && window.examDatabase[currentCategory][u][t] && window.examDatabase[currentCategory][u][t].length);
                     } catch (e) {}
 
                     let badgeHtml = '';
@@ -1190,7 +1348,7 @@
 
         function updateLiveProgress() {
             let questions = [];
-            try { questions = examDatabase[currentCategory][currentUnit][currentTest] || []; } catch(e) {}
+            try { questions = window.examDatabase[currentCategory][currentUnit][currentTest] || []; } catch(e) {}
             const total = questions.length;
             if (!total) return;
 
@@ -1237,7 +1395,7 @@
             });
         }
 
-        /* ---------- Render Nội dung Đề thi (Hỗ trợ Audio, Tapescript, Passage, Giải thích) ---------- */
+        /* ---------- Render Nội dung Đề thi ---------- */
         function renderTestContent() {
             const container = document.getElementById('questions-container');
             const paletteGrid = document.getElementById('palette-grid');
@@ -1245,7 +1403,7 @@
             if (paletteGrid) paletteGrid.innerHTML = '';
             
             let questions = [];
-            try { questions = examDatabase[currentCategory][currentUnit][currentTest] || []; } catch(e) {}
+            try { questions = window.examDatabase[currentCategory][currentUnit][currentTest] || []; } catch(e) {}
 
             const hasQuestions = questions.length > 0;
             document.getElementById('export-bar').classList.toggle('hidden-element', !hasQuestions);
@@ -1255,8 +1413,8 @@
                 container.innerHTML = `
                     <div class="bg-orange-50/70 rounded-2xl py-12 px-6 text-center border-2 border-dashed border-orange-300 max-w-xl mx-auto">
                         <div class="text-3xl mb-2">📂</div>
-                        <p class="text-slate-800 font-extrabold text-base md:text-lg">Chưa nạp dữ liệu từ tệp index_3.html gốc</p>
-                        <p class="text-slate-600 text-xs md:text-sm mt-1 mb-4">Hãy chọn tệp <code>index_3.html</code> gốc trên máy của bạn để hệ thống tự động nạp toàn bộ 70 câu × 10 đề và tải xuống tệp hoàn chỉnh.</p>
+                        <p class="text-slate-800 font-extrabold text-base md:text-lg">Chưa có dữ liệu cho phần thi này</p>
+                        <p class="text-slate-600 text-xs md:text-sm mt-1 mb-4">Hãy đảm bảo các tệp <code>listening.js</code>, <code>lexico.js</code>, <code>reading.js</code> được đặt cùng thư mục với <code>index.html</code> hoặc chọn tệp <code>index_3.html</code> gốc bên dưới.</p>
                         <label class="cursor-pointer inline-flex items-center gap-2 bg-orange-600 hover:bg-orange-700 text-white font-extrabold px-5 py-2.5 rounded-xl shadow-md transition-all text-xs md:text-sm">
                             <span>⚡ Chọn tệp index_3.html gốc ngay</span>
                             <input type="file" accept=".html,.htm" class="hidden" onchange="mergeOriginalDatabaseFile(event)">
@@ -1429,15 +1587,16 @@
             updateLiveProgress();
         }
 
+        /* ---------- Nộp bài & Chấm điểm ---------- */
         function submitTest() {
-            if(isSubmitted) return;
+            if (isSubmitted) return;
             clearInterval(timerInterval);
             isSubmitted = true;
             document.getElementById('submit-btn').classList.add('hidden-element');
             document.getElementById('quick-submit-btn').classList.add('hidden-element');
             document.getElementById('filter-bar').classList.remove('hidden-element');
 
-            const questions = examDatabase[currentCategory][currentUnit][currentTest] || [];
+            const questions = (window.examDatabase[currentCategory] && window.examDatabase[currentCategory][currentUnit] && window.examDatabase[currentCategory][currentUnit][currentTest]) || [];
             const total = questions.length;
             let correctCount = 0;
 
@@ -1445,7 +1604,7 @@
 
             questions.forEach((q, index) => {
                 const selected = document.querySelector(`input[name="q_${index}"]:checked`);
-                const correctAnsIdx = q.answer;
+                const correctAnsIdx = normalizeAnswerIndex(q.answer);
                 const qBox = document.getElementById(`qbox_${index}`);
                 const statusBadge = document.getElementById(`status_badge_${index}`);
                 const paletteBtn = document.getElementById(`palette_btn_${index}`);
@@ -1455,14 +1614,14 @@
                 
                 const correctBox = document.getElementById(`box_q_${index}_opt_${correctAnsIdx}`);
                 const correctSpan = document.getElementById(`span_q_${index}_opt_${correctAnsIdx}`);
-                if(correctBox) {
+                if (correctBox) {
                     correctBox.classList.add('correct-ans-box');
-                    correctSpan.classList.add('correct-ans-text');
+                    if (correctSpan) correctSpan.classList.add('correct-ans-text');
                 }
                 if (expBox) expBox.classList.remove('hidden-element');
 
                 if (selected) {
-                    const selectedIdx = parseInt(selected.value);
+                    const selectedIdx = parseInt(selected.value, 10);
                     if (selectedIdx === correctAnsIdx) {
                         correctCount++;
                         if (qBox) qBox.setAttribute('data-status', 'correct');
@@ -1476,10 +1635,267 @@
                     } else {
                         const wrongBox = document.getElementById(`box_q_${index}_opt_${selectedIdx}`);
                         const wrongSpan = document.getElementById(`span_q_${index}_opt_${selectedIdx}`);
-                        if(wrongBox) {
+                        if (wrongBox) {
                             wrongBox.classList.add('wrong-ans-box');
-                            wrongSpan.classList.add('wrong-ans-text');
+                            if (wrongSpan) wrongSpan.classList.add('wrong-ans-text');
                         }
                         if (qBox) qBox.setAttribute('data-status', 'wrong');
                         if (statusBadge) {
-                            statusBadge.className = 'text-xs font-bold px-2.5 py-0.5 rounded-full bg-rose-100 text-rose-700 border border-rose-2
+                            statusBadge.className = 'text-xs font-bold px-2.5 py-0.5 rounded-full bg-rose-100 text-rose-700 border border-rose-200';
+                            statusBadge.innerText = '✗ Sai';
+                        }
+                        if (paletteBtn) {
+                            paletteBtn.className = 'h-7 rounded-lg text-xs font-extrabold bg-rose-500 text-white shadow-sm';
+                        }
+                    }
+                } else {
+                    if (qBox) qBox.setAttribute('data-status', 'unanswered');
+                    if (statusBadge) {
+                        statusBadge.className = 'text-xs font-bold px-2.5 py-0.5 rounded-full bg-amber-100 text-amber-700 border border-amber-200';
+                        statusBadge.innerText = 'Chưa chọn';
+                    }
+                    if (paletteBtn) {
+                        paletteBtn.className = 'h-7 rounded-lg text-xs font-extrabold bg-rose-500 text-white shadow-sm';
+                    }
+                }
+            });
+
+            const wrongCount = total - correctCount;
+            const percent = total > 0 ? Math.round((correctCount / total) * 100) : 0;
+
+            document.getElementById('score-display').innerText = `${correctCount}/${total}`;
+            document.getElementById('correct-display').innerText = correctCount;
+            document.getElementById('wrong-display').innerText = wrongCount;
+            document.getElementById('percent-display').innerText = `${percent}%`;
+
+            const msgEl = document.getElementById('motivation-message');
+            if (percent >= 85) {
+                msgEl.innerText = '🏆 Xuất sắc! Phong độ chuẩn Thủ khoa / Giải Nhất HSG cấp Tỉnh Thanh Hóa!';
+            } else if (percent >= 70) {
+                msgEl.innerText = '🌟 Rất tốt! Bạn nắm vững kiến thức trọng tâm, hãy xem lại kỹ các câu sai để bứt phá lên 90%+ nhé!';
+            } else if (percent >= 50) {
+                msgEl.innerText = '💪 Khá tốt! Hãy đọc kỹ phần Giải thích chi tiết bên trên để củng cố các mảng từ vựng C1/C2 và ngữ pháp nâng cao.';
+            } else {
+                msgEl.innerText = '🌱 Đừng nản lòng! Hãy ôn kỹ phần giải thích chi tiết từng câu hỏi bên trên và thử sức lại nhé!';
+            }
+
+            saveProgress(currentCategory, currentUnit, currentTest, correctCount, total, percent);
+
+            const resultScreen = document.getElementById('result-screen');
+            resultScreen.classList.remove('hidden-element');
+            resultScreen.scrollIntoView({ behavior: 'smooth' });
+        }
+
+        function continueAfterResult() {
+            document.getElementById('test-screen').classList.add('hidden-element');
+            document.getElementById('result-screen').classList.add('hidden-element');
+            document.getElementById('welcome-screen').classList.remove('hidden-element');
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        }
+
+        /* ---------- Đồng hồ đếm ngược ---------- */
+        function updateTimerDisplay() {
+            const m = String(Math.floor(timeLeft / 60)).padStart(2, '0');
+            const s = String(timeLeft % 60).padStart(2, '0');
+            const el = document.getElementById('timer-display');
+            if (el) el.innerText = `${m}:${s}`;
+        }
+
+        function resetTimer() {
+            clearInterval(timerInterval);
+            const mins = (categoryConfig[currentCategory] && categoryConfig[currentCategory].defaultMinutes) || 90;
+            timeLeft = mins * 60;
+            updateTimerDisplay();
+        }
+
+        function startTimer() {
+            clearInterval(timerInterval);
+            timerInterval = setInterval(() => {
+                if (timeLeft > 0) {
+                    timeLeft--;
+                    updateTimerDisplay();
+                } else {
+                    clearInterval(timerInterval);
+                    submitTest();
+                }
+            }, 1000);
+        }
+
+        /* ---------- Hộp thoại Bản quyền & Mật khẩu ---------- */
+        function showPasswordModal(forceLock = false) {
+            const modal = document.getElementById('password-modal');
+            const infoBox = document.getElementById('modal-license-info');
+            const cancelBtn = document.getElementById('password-cancel-btn');
+            const errEl = document.getElementById('password-error');
+            const inputEl = document.getElementById('password-input');
+            const status = evaluateLicense();
+
+            if (errEl) errEl.classList.add('hidden-element');
+            if (inputEl) inputEl.value = '';
+
+            if (infoBox) {
+                if (status.mode === 'vip') {
+                    infoBox.innerHTML = `
+                        <div>• Trạng thái: <b class="text-emerald-700">Đã kích hoạt VIP 365 ngày</b></div>
+                        <div>• Ngày kích hoạt: <b>${formatDateVN(status.startDate)}</b></div>
+                        <div>• Ngày hết hạn: <b>${formatDateVN(status.expireDate)} (Còn ${status.daysLeft} ngày)</b></div>
+                    `;
+                } else if (status.mode === 'trial') {
+                    infoBox.innerHTML = `
+                        <div>• Trạng thái: <b class="text-amber-700">Đang dùng thử miễn phí 10 ngày</b></div>
+                        <div>• Ngày bắt đầu: <b>${formatDateVN(status.startDate)}</b></div>
+                        <div>• Ngày hết hạn dùng thử: <b>${formatDateVN(status.expireDate)} (Còn ${status.daysLeft} ngày)</b></div>
+                    `;
+                } else {
+                    infoBox.innerHTML = `
+                        <div>• Trạng thái: <b class="text-rose-600">Đã hết thời hạn sử dụng</b></div>
+                        <div>• Vui lòng nhập mật khẩu bản quyền bên dưới để kích hoạt <b>365 ngày</b>.</div>
+                    `;
+                }
+            }
+
+            if (cancelBtn) {
+                cancelBtn.classList.toggle('hidden-element', forceLock && !status.active);
+            }
+            if (modal) modal.classList.remove('hidden-element');
+        }
+
+        function closeModal() {
+            const status = evaluateLicense();
+            if (!status.active) return;
+            document.getElementById('password-modal').classList.add('hidden-element');
+        }
+
+        function checkPassword() {
+            const input = (document.getElementById('password-input').value || '').trim();
+            const errEl = document.getElementById('password-error');
+            if (input === ACTIVATION_PASSWORD || input === 'tienhuong123@456@') {
+                const now = Date.now();
+                const data = getLicenseData();
+                data.vipStart = now;
+                data.vipExpire = now + VIP_DAYS * DAY_MS;
+                data.lastSeen = now;
+                localStorage.setItem(LICENSE_STORAGE_KEY, JSON.stringify(data));
+
+                if (errEl) errEl.classList.add('hidden-element');
+                document.getElementById('password-modal').classList.add('hidden-element');
+                refreshLicenseUI();
+
+                if (pendingAction) {
+                    const act = pendingAction;
+                    pendingAction = null;
+                    if (act.type === 'category') selectCategory(act.val);
+                    else if (act.type === 'unit') toggleUnit(act.val);
+                    else if (act.type === 'test') selectTest(act.unit, act.test);
+                }
+                alert('🎉 Kích hoạt thành công Bản quyền VIP 365 ngày!');
+            } else {
+                if (errEl) errEl.classList.remove('hidden-element');
+            }
+        }
+
+        /* ---------- Xuất file Word (.doc chuẩn Times New Roman 12pt, khổ A4, lề 1cm) ---------- */
+        function exportDocx(withAnswers) {
+            const questions = (window.examDatabase[currentCategory] && window.examDatabase[currentCategory][currentUnit] && window.examDatabase[currentCategory][currentUnit][currentTest]) || [];
+            if (!questions.length) {
+                alert('Không có câu hỏi để xuất file Word!');
+                return;
+            }
+
+            const titleText = document.getElementById('current-test-title').innerText || 'ĐỀ THI HSG TIẾNG ANH TỈNH THANH HÓA';
+            const labels = ['A', 'B', 'C', 'D'];
+
+            // Gom nhóm câu hỏi theo instruction giống giao diện
+            const groups = [];
+            let currentGroup = null;
+            questions.forEach((q, idx) => {
+                if (!currentGroup || q.instruction !== currentGroup.instruction) {
+                    currentGroup = {
+                        instruction: q.instruction || '',
+                        passage: q.passage || null,
+                        tapescript: q.tapescript || null,
+                        questions: []
+                    };
+                    groups.push(currentGroup);
+                } else {
+                    if (q.passage && !currentGroup.passage) currentGroup.passage = q.passage;
+                    if (q.tapescript && !currentGroup.tapescript) currentGroup.tapescript = q.tapescript;
+                }
+                currentGroup.questions.push({ q, idx });
+            });
+
+            let bodyHtml = `
+                <div style="text-align:center; font-weight:bold; font-size:13pt; margin-bottom:4pt;">
+                    SỞ GIÁO DỤC VÀ ĐÀO TẠO THANH HÓA<br>
+                    KỲ THI CHỌN HỌC SINH GIỎI CẤP TỈNH THPT
+                </div>
+                <div style="text-align:center; font-weight:bold; font-size:12pt; margin-bottom:12pt;">
+                    ${titleText}
+                </div>
+                <div style="font-weight:bold; font-size:12pt; margin-bottom:8pt;">PHẦN I: ĐỀ THI</div>
+            `;
+
+            groups.forEach(group => {
+                if (group.instruction) {
+                    bodyHtml += `<p style="font-weight:bold; margin:8pt 0 4pt 0;">${group.instruction}</p>`;
+                }
+                if (group.passage) {
+                    bodyHtml += `<div style="margin:6pt 0; text-align:justify;">${group.passage.replace(/\n/g, '<br>')}</div>`;
+                }
+                group.questions.forEach(({ q, idx }) => {
+                    const num = q.origNum || (idx + 1);
+                    const opts = q.options || [];
+                    bodyHtml += `<p style="margin:4pt 0 2pt 0;"><b>Question ${num}:</b> ${q.text || ''}</p>`;
+                    bodyHtml += `<table style="width:100%; border-collapse:collapse; margin-bottom:4pt; font-family:'Times New Roman', serif; font-size:12pt;"><tr>`;
+                    opts.forEach((opt, oIdx) => {
+                        bodyHtml += `<td style="width:25%; vertical-align:top; padding:1pt 4pt 1pt 0;"><b>${labels[oIdx]}.</b> ${opt}</td>`;
+                    });
+                    bodyHtml += `</tr></table>`;
+                });
+            });
+
+            if (withAnswers) {
+                bodyHtml += `<br clear="all" style="page-break-before:always" />`;
+                bodyHtml += `<div style="font-weight:bold; font-size:13pt; text-align:center; margin-bottom:8pt;">PHẦN II: BẢNG ĐÁP ÁN &amp; GIẢI THÍCH CHI TIẾT</div>`;
+                bodyHtml += `<table border="1" cellspacing="0" cellpadding="4" style="width:100%; border-collapse:collapse; text-align:center; margin-bottom:12pt; font-family:'Times New Roman', serif; font-size:12pt;"><tr>`;
+                questions.forEach((q, idx) => {
+                    const num = q.origNum || (idx + 1);
+                    const ansLetter = labels[normalizeAnswerIndex(q.answer)] || 'A';
+                    bodyHtml += `<td><b>${num}.${ansLetter}</b></td>`;
+                    if ((idx + 1) % 10 === 0 && idx + 1 < questions.length) bodyHtml += `</tr><tr>`;
+                });
+                bodyHtml += `</tr></table>`;
+
+                questions.forEach((q, idx) => {
+                    const num = q.origNum || (idx + 1);
+                    const ansLetter = labels[normalizeAnswerIndex(q.answer)] || 'A';
+                    const exp = q.explanation || '';
+                    bodyHtml += `<p style="margin:3pt 0;"><b>Câu ${num} (${ansLetter}):</b> ${exp}</p>`;
+                });
+            }
+
+            const fullDoc = `
+                <html xmlns:o='urn:schemas-microsoft-com:office:office' xmlns:w='urn:schemas-microsoft-com:office:word' xmlns='http://www.w3.org/TR/REC-html40'>
+                <head>
+                    <meta charset="utf-8">
+                    <style>
+                        @page { size: 21cm 29.7cm; margin: 1cm 1cm 1cm 1cm; }
+                        body { font-family: 'Times New Roman', Times, serif; font-size: 12pt; line-height: 1.15; }
+                        p, div, td { font-family: 'Times New Roman', Times, serif; font-size: 12pt; line-height: 1.15; }
+                    </style>
+                </head>
+                <body>${bodyHtml}</body>
+                </html>
+            `;
+
+            const blob = new Blob(['\ufeff', fullDoc], { type: 'application/msword;charset=utf-8' });
+            const a = document.createElement('a');
+            a.href = URL.createObjectURL(blob);
+            a.download = `De_HSG_ThanhHoa_${currentCategory}_U${currentUnit}_T${currentTest}${withAnswers ? '_CoDapAn' : ''}.doc`;
+            document.body.appendChild(a);
+            a.click();
+            a.remove();
+        }
+    </script>
+</body>
+</html>
