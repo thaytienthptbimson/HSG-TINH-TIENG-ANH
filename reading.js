@@ -46,15 +46,15 @@ window.examDatabase['reading'] = {
       {
         "origNum": 56,
         "instruction": "Read the following passage and mark the letter A, B, C, D on your answer sheet to indicate the best answer to each of the following questions from 53 to 60.",
-        "text": "The pronoun “<b><u>This</u></b>” in the last sentence of paragraph 3 refers to __________.",
+        "text": "What does the pronoun “<b><u>This</u></b>” in the final sentence of paragraph 3 refer to regarding degraded ecosystems?",
         "options": [
-          "the removal of subsidies that damage nature",
-          "the decline of biodiversity at an unprecedented rate",
-          "the difficulty of restoring an ecosystem once it has tipped",
-          "the heavier dependence of low-income countries on nature"
+          "the removal of government subsidies that damage nature",
+          "the unprecedented speed at which global biodiversity is declining",
+          "the high cost and extreme difficulty of restoring an ecosystem once it passes a tipping point",
+          "the heavy reliance of low-income economies on domestic natural resources"
         ],
         "answer": 2,
-        "explanation": "“This” = việc khôi phục hệ sinh thái sau khi vượt ngưỡng là tốn kém, khó khăn (câu trước đó), không phải bản thân việc vượt ngưỡng."
+        "explanation": "“This” quy chiếu cho mệnh đề ngay trước đó: một khi hệ sinh thái đã vượt ngưỡng (tipped), việc phục hồi nó vừa tốn kém vừa vô cùng khó khăn → C."
       },
       {
         "origNum": 57,
@@ -72,15 +72,15 @@ window.examDatabase['reading'] = {
       {
         "origNum": 58,
         "instruction": "Read the following passage and mark the letter A, B, C, D on your answer sheet to indicate the best answer to each of the following questions from 53 to 60.",
-        "text": "Which of the following is TRUE according to the passage?",
+        "text": "According to paragraph 1, how did global capital stocks per person change between 1992 and 2014?",
         "options": [
-          "Wealthy countries depend more heavily on domestic natural resources than low-income ones do.",
-          "Gross domestic product already deducts the depreciation of natural assets.",
-          "Protecting an ecosystem in time costs far less than trying to revive it after it has tipped.",
-          "The review treats the Marshall Plan as a ready-made blueprint for conservation funding."
+          "Wealthy nations reduced their produced capital by 13% to conserve domestic forests.",
+          "Gross domestic product fell by 40% after economists deducted natural asset depreciation.",
+          "Natural capital per person dropped by nearly two-fifths even as produced and human capital grew.",
+          "Produced, human and natural capital per person all expanded at a similar rate worldwide."
         ],
         "answer": 2,
-        "explanation": "Đoạn 3: “coaxing it back to health is costly and difficult… early action is far cheaper than delay”."
+        "explanation": "Đoạn 1 nêu rõ: từ 1992 đến 2014, vốn sản xuất bình quân đầu người tăng gấp đôi, vốn con người tăng khoảng 13%, nhưng vốn tự nhiên lại giảm gần 40% (nearly two-fifths) → C."
       },
       {
         "origNum": 59,
@@ -122,7 +122,7 @@ window.examDatabase['reading'] = {
         ],
         "answer": 0,
         "explanation": "eclipsed = outweighed / overshadowed (bị lấn át, vượt xa bởi khoản chi mở rộng đường).",
-        "passage": "<b>THE ARCHITECTURE OF URBAN SILENCE</b>\nIn contemporary urban planning, noise is still widely treated as an unavoidable byproduct of economic vitality rather than a pollutant in its own right. <u><b>Cities have expanded at breakneck speed over the past half-century, yet the acoustic environment in which millions of residents live has deteriorated to a point that alarms public-health researchers.</b></u> According to data compiled by the European Environment Agency, more than 110 million people across Europe are exposed to long-term traffic noise levels above 55 decibels, a threshold linked to sleep disruption, hypertension and measurable declines in children’s reading comprehension.\nThe persistence of urban din stems less from a lack of engineering solutions than from the way municipalities evaluate infrastructure projects. Acoustic impact assessments are routinely conducted at the tail end of planning, when road alignments and building materials have already been locked in. Compounding the problem, sound behaves in notoriously complex ways: it ricochets off glass facades, funnels through narrow street canyons and travels farther on cool nights, making simple decibel caps difficult to enforce. Municipal budgets further skew priorities, as transport departments are rewarded for moving vehicles quickly rather than quietly, while funds earmarked for low-noise porous asphalt or vegetated buffer zones are <u><b>eclipsed</b></u> by spending on road widening.\nThe repercussions reach far beyond human annoyance. Chronic anthropogenic noise scrambles the acoustic signals that urban wildlife rely upon to attract mates, defend territory and detect predators. Songbirds such as great tits have been forced to sing at higher frequencies to be heard above low-frequency traffic rumble, an adaptation that expends extra energy and reduces reproductive success. Once a city’s soundscape crosses a certain saturation point, retrofitting acoustic barriers onto existing ring roads is prohibitively expensive and visually intrusive. <u><b>Such retrofitting</b></u> explains why acoustic ecologists argue that quietness must be designed into neighbourhoods from the outset.\nA genuine shift, urban acousticians contend, requires treating silence as a shared civic amenity rather than a luxury commodity sold only in gated developments. Forward-thinking cities such as Zurich and Oslo have begun pairing congestion pricing with ‘quiet pavement’ mandates and interconnected tranquil courtyards that are <u><b>insulated</b></u> from arterial traffic. Reforming building codes to penalise reverberant glass-and-steel canyons, alongside mapping ‘calm zones’ with the same rigour applied to air-quality monitoring, would allow planners to judge urban growth by how restorative a city sounds, not merely by how fast it moves.\n<i>(Adapted from European Environment Agency, Environmental Noise in Europe, and The Guardian)</i>"
+        "passage": "<b>THE ARCHITECTURE OF URBAN SILENCE</b>\nIn contemporary urban planning, noise is still widely treated as an unavoidable byproduct of economic vitality rather than a pollutant in its own right. <u><b>Cities have expanded at breakneck speed over the past half-century, yet the acoustic environment in which millions of residents live has deteriorated to a point that alarms public-health researchers.</b></u> According to data compiled by the European Environment Agency, more than 110 million people across Europe are exposed to long-term traffic noise levels above 55 decibels, a threshold linked to sleep disruption, hypertension and measurable declines in children’s reading comprehension.\nThe persistence of urban din stems less from a lack of engineering solutions than from the way municipalities evaluate infrastructure projects. Acoustic impact assessments are routinely conducted at the tail end of planning, when road alignments and building materials have already been locked in. Compounding the problem, sound behaves in notoriously complex ways: it ricochets off glass facades, funnels through narrow street canyons and travels farther on cool nights, making simple decibel caps difficult to enforce. Municipal budgets further skew priorities, as transport departments are rewarded for moving vehicles quickly rather than quietly, while funds earmarked for low-noise porous asphalt or vegetated buffer zones are <u><b>eclipsed</b></u> by spending on road widening.\nThe repercussions reach far beyond human annoyance. Chronic anthropogenic noise scrambles the acoustic signals that urban wildlife rely upon to attract mates, defend territory and detect predators. Songbirds such as great tits have been forced to sing at higher frequencies to be heard above low-frequency traffic rumble, <u><b>an adaptation</b></u> that expends extra energy and reduces reproductive success. Once a city’s soundscape crosses a certain saturation point, retrofitting acoustic barriers onto existing ring roads is prohibitively expensive and visually intrusive. This explains why acoustic ecologists argue that quietness must be designed into neighbourhoods from the outset.\nA genuine shift, urban acousticians contend, requires treating silence as a shared civic amenity rather than a luxury commodity sold only in gated developments. Forward-thinking cities such as Zurich and Oslo have begun pairing congestion pricing with ‘quiet pavement’ mandates and interconnected tranquil courtyards that are <u><b>insulated</b></u> from arterial traffic. Reforming building codes to penalise reverberant glass-and-steel canyons, alongside mapping ‘calm zones’ with the same rigour applied to air-quality monitoring, would allow planners to judge urban growth by how restorative a city sounds, not merely by how fast it moves.\n<i>(Adapted from European Environment Agency, Environmental Noise in Europe, and The Guardian)</i>"
       },
       {
         "origNum": 54,
@@ -153,15 +153,15 @@ window.examDatabase['reading'] = {
       {
         "origNum": 56,
         "instruction": "Read the following passage and mark the letter A, B, C, D on your answer sheet to indicate the best answer to each of the following questions from 53 to 60.",
-        "text": "The phrase “<b><u>Such retrofitting</u></b>” in the last sentence of paragraph 3 refers to __________.",
+        "text": "The phrase “<b><u>an adaptation</u></b>” in paragraph 3 refers to urban songbirds’ practice of __________.",
         "options": [
-          "the tendency of songbirds to sing at higher frequencies in cities",
-          "the high cost and visual intrusiveness of retrofitting noise barriers later",
-          "the scrambling of acoustic signals among urban predators",
-          "the measurement of reading comprehension declines in children"
+          "migrating away from ring roads during cool nights",
+          "singing at higher pitches to be heard above low-frequency traffic rumble",
+          "nesting inside reverberant glass-and-steel street canyons",
+          "mimicking the acoustic warnings of urban predators"
         ],
         "answer": 1,
-        "explanation": "“This” quy chiếu cho mệnh đề ngay câu trước: việc lắp đặt bổ sung rào chắn âm thanh sau khi đô thị đã quá ồn vừa cực kỳ tốn kém vừa gây chướng mắt."
+        "explanation": "Đoạn 3: “Songbirds such as great tits have been forced to sing at higher frequencies to be heard above low-frequency traffic rumble, an adaptation that expends extra energy...” → chỉ việc chim phải hót ở tần số cao hơn để át tiếng ồn giao thông → B."
       },
       {
         "origNum": 57,
@@ -179,15 +179,15 @@ window.examDatabase['reading'] = {
       {
         "origNum": 58,
         "instruction": "Read the following passage and mark the letter A, B, C, D on your answer sheet to indicate the best answer to each of the following questions from 53 to 60.",
-        "text": "Which of the following is TRUE according to the passage?",
+        "text": "What urban-planning measures have Zurich and Oslo implemented to improve their soundscapes?",
         "options": [
-          "Low-frequency traffic rumble helps urban songbirds attract mates more easily.",
-          "Incorporating quiet design early is more economical than adding noise barriers afterwards.",
-          "Acoustic impact assessments are always completed before road alignments are chosen.",
-          "Less than 50 million Europeans are affected by traffic noise above 55 decibels."
+          "They have replaced all glass facades with tall roadside acoustic barriers.",
+          "They have paired congestion charges with low-noise road surfaces and sheltered courtyards.",
+          "They have restricted quiet courtyards exclusively to private gated developments.",
+          "They have abolished air-quality monitoring in order to fund decibel caps."
         ],
         "answer": 1,
-        "explanation": "Đoạn 3 nêu rõ việc cải tạo lắp rào chắn sau khi đã ồn là cực kỳ đắt đỏ, nên cần thiết kế sự yên tĩnh ngay từ đầu."
+        "explanation": "Đoạn 4: “Zurich and Oslo have begun pairing congestion pricing with ‘quiet pavement’ mandates and interconnected tranquil courtyards that are insulated from arterial traffic.” → B."
       },
       {
         "origNum": 59,
@@ -229,7 +229,7 @@ window.examDatabase['reading'] = {
         ],
         "answer": 2,
         "explanation": "outstripped = exceeded / overshadowed (bị vượt xa, lấn át bởi khoản chi chiếu sáng trang trí).",
-        "passage": "<b>THE ECOLOGY OF DARK SKIES</b>\nFor most of human history, the Milky Way arched clearly across the night sky above every village and town. <u><b>Artificial outdoor lighting has transformed nocturnal commerce and public safety over the past century, yet the resulting skyglow has disrupted biological rhythms across entire ecosystems.</b></u> According to the <i>World Atlas of Artificial Night Sky Brightness</i>, more than 80 percent of the world’s population—and 99 percent of Europeans and North Americans—now live under skies polluted by scattering artificial light.\nThe persistence of light pollution stems less from a need for security than from wasteful luminaire design and the rapid switch to blue-rich white light-emitting diodes (LEDs). Many street and car-park fixtures remain unshielded, casting a large share of their lumens horizontally into bedroom windows or straight upwards into clouds. Compounding the problem, blue-wavelength light scatters far more readily in the atmosphere than warm amber light and suppresses the hormone melatonin in vertebrates at very low intensities. Municipal lighting budgets rarely account for these biological externalities, while modest grants for dark-sky retrofits are <u><b>outstripped</b></u> by spending on decorative floodlighting for commercial landmarks.\nThe ecological consequences cascade through food webs. Nocturnal pollinators such as hawkmoths abandon brightly lit meadows, reducing seed set in night-blooming wildflowers even for daytime bees that visit the same plants. Migratory songbirds, which navigate by stellar cues, are drawn off course by illuminated skyscrapers and suffer millions of fatal window collisions each autumn. Once coastal dunes are bathed in beachfront hotel glare, newly hatched sea turtles become disoriented and crawl inland toward highways rather than toward the moonlit ocean. <u><b>That fatal hazard</b></u> explains why marine biologists argue that shielding coastal lights is just as vital as protecting nesting beaches from poachers.\nUnlike chemical pollutants that linger in soil or rivers for decades, light pollution vanishes the instant a switch is flipped. Dark-sky advocates contend that cities can slash skyglow without compromising pedestrian safety by adopting three simple rules: installing fully shielded downward-facing fixtures, capping colour temperatures below 2,700 Kelvin so fixtures emit warm amber light that is <u><b>benign</b></u> to nocturnal wildlife, and dimming streetlights with motion sensors after midnight. Treating darkness as a natural habitat worth conserving would allow modern cities to remain safe underfoot while restoring the stars overhead.\n<i>(Adapted from Falchi et al., Science Advances, and DarkSky International Reports)</i>"
+        "passage": "<b>THE ECOLOGY OF DARK SKIES</b>\nFor most of human history, the Milky Way arched clearly across the night sky above every village and town. <u><b>Artificial outdoor lighting has transformed nocturnal commerce and public safety over the past century, yet the resulting skyglow has disrupted biological rhythms across entire ecosystems.</b></u> According to the <i>World Atlas of Artificial Night Sky Brightness</i>, more than 80 percent of the world’s population—and 99 percent of Europeans and North Americans—now live under skies polluted by scattering artificial light.\nThe persistence of light pollution stems less from a need for security than from wasteful luminaire design and the rapid switch to blue-rich white light-emitting diodes (LEDs). Many street and car-park fixtures remain unshielded, casting a large share of <u><b>their</b></u> lumens horizontally into bedroom windows or straight upwards into clouds. Compounding the problem, blue-wavelength light scatters far more readily in the atmosphere than warm amber light and suppresses the hormone melatonin in vertebrates at very low intensities. Municipal lighting budgets rarely account for these biological externalities, while modest grants for dark-sky retrofits are <u><b>outstripped</b></u> by spending on decorative floodlighting for commercial landmarks.\nThe ecological consequences cascade through food webs. Nocturnal pollinators such as hawkmoths abandon brightly lit meadows, reducing seed set in night-blooming wildflowers even for daytime bees that visit the same plants. Migratory songbirds, which navigate by stellar cues, are drawn off course by illuminated skyscrapers and suffer millions of fatal window collisions each autumn. Once coastal dunes are bathed in beachfront hotel glare, newly hatched sea turtles become disoriented and crawl inland toward highways rather than toward the moonlit ocean. This explains why marine biologists argue that shielding coastal lights is just as vital as protecting nesting beaches from poachers.\nUnlike chemical pollutants that linger in soil or rivers for decades, light pollution vanishes the instant a switch is flipped. Dark-sky advocates contend that cities can slash skyglow without compromising pedestrian safety by adopting three simple rules: installing fully shielded downward-facing fixtures, capping colour temperatures below 2,700 Kelvin so fixtures emit warm amber light that is <u><b>benign</b></u> to nocturnal wildlife, and dimming streetlights with motion sensors after midnight. Treating darkness as a natural habitat worth conserving would allow modern cities to remain safe underfoot while restoring the stars overhead.\n<i>(Adapted from Falchi et al., Science Advances, and DarkSky International Reports)</i>"
       },
       {
         "origNum": 54,
@@ -242,7 +242,7 @@ window.examDatabase['reading'] = {
           "Municipal budgets spend heavily on decorative floodlighting for landmarks."
         ],
         "answer": 0,
-        "explanation": "Đoạn 2 nêu đèn không có chao chắn (A), đèn LED trắng-xanh tán xạ mạnh (B), ngân sách chi nhiều cho chiếu sáng trang trí (D); KHÔNG nói công ty điện lực giảm giá điện ban đêm cho trung tâm thương mại (C)."
+        "explanation": "Đoạn 2 nêu đèn không có chao chắn (B), đèn LED trắng-xanh tán xạ mạnh (C), ngân sách chi nhiều cho chiếu sáng trang trí (D); KHÔNG nói công ty điện lực giảm giá điện ban đêm cho trung tâm thương mại → A."
       },
       {
         "origNum": 55,
@@ -260,15 +260,15 @@ window.examDatabase['reading'] = {
       {
         "origNum": 56,
         "instruction": "Read the following passage and mark the letter A, B, C, D on your answer sheet to indicate the best answer to each of the following questions from 53 to 60.",
-        "text": "The phrase “<b><u>That fatal hazard</u></b>” in the last sentence of paragraph 3 refers to __________.",
+        "text": "The word “<b><u>their</u></b>” in paragraph 2 refers to the light output of __________.",
         "options": [
-          "the reduction in daytime bee visits to wildflowers",
-          "the fatal disorientation of sea-turtle hatchlings caused by beachfront glare",
-          "the ability of migratory songbirds to navigate using stellar cues",
-          "the suppression of melatonin in human shift workers"
+          "unshielded street and car-park fixtures",
+          "bedroom windows and clouds",
+          "commercial landmarks",
+          "motion sensors after midnight"
         ],
-        "answer": 1,
-        "explanation": "“This” quy chiếu cho câu ngay trước đó: rùa con mới nở bị ánh đèn khách sạn ven biển làm mất phương hướng và bò vào đường cao tốc thay vì ra biển."
+        "answer": 0,
+        "explanation": "Đoạn 2: “Many street and car-park fixtures remain unshielded, casting a large share of their lumens horizontally...” → “their” quy chiếu cho “unshielded street and car-park fixtures” → A."
       },
       {
         "origNum": 57,
@@ -286,15 +286,15 @@ window.examDatabase['reading'] = {
       {
         "origNum": 58,
         "instruction": "Read the following passage and mark the letter A, B, C, D on your answer sheet to indicate the best answer to each of the following questions from 53 to 60.",
-        "text": "Which of the following is TRUE according to the passage?",
+        "text": "How does bright artificial lighting over meadows indirectly harm daytime bees?",
         "options": [
-          "Disrupting nocturnal pollinators can also reduce seed production in wildflowers visited by daytime bees.",
-          "Light pollution remains in the atmosphere for decades after lamps are switched off.",
-          "Less than half of Europeans live under skies affected by artificial light.",
-          "High-intensity blue LEDs help migratory songbirds avoid tall glass buildings."
+          "It drives away nocturnal pollinators, reducing seed production in wildflowers that daytime bees also visit.",
+          "It suppresses melatonin in daytime bees and forces them to forage at midnight.",
+          "It draws daytime bees toward illuminated skyscrapers during autumn migration.",
+          "It raises meadow temperatures above 2,700 Kelvin and evaporates flower nectar."
         ],
         "answer": 0,
-        "explanation": "Đoạn 3 nêu rõ: “Nocturnal pollinators such as hawkmoths abandon brightly lit meadows, reducing seed set in night-blooming wildflowers even for daytime bees that visit the same plants.”"
+        "explanation": "Đoạn 3: “Nocturnal pollinators such as hawkmoths abandon brightly lit meadows, reducing seed set in night-blooming wildflowers even for daytime bees that visit the same plants.” → A."
       },
       {
         "origNum": 59,
@@ -336,7 +336,7 @@ window.examDatabase['reading'] = {
         ],
         "answer": 1,
         "explanation": "marginalised = sidelined (bị gạt ra bên lề, bị coi nhẹ so với các khoản trợ cấp phân bón hóa học).",
-        "passage": "<b>THE HIDDEN LIFE OF SOIL MICROBIOMES</b>\nBeneath every healthy pasture and forest floor lies an intricate subterranean metropolis. <u><b>Modern agronomy has multiplied grain harvests over the past seventy years, yet intensive tillage and synthetic fertilisers have quietly degraded the underground fungal networks that sustain soil fertility.</b></u> A single teaspoon of undisturbed grassland soil contains billions of bacteria and metres of microscopic mycorrhizal fungal threads that trade minerals for plant sugars.\nThe neglect of soil biology stems less from agricultural malice than from mid-twentieth-century models that treated earth as an inert physical sponge for holding chemical inputs. Deep mechanical ploughing slices through fungal hyphae, exposes stored organic carbon to oxygen, and accelerates erosion during heavy downpours. Compounding the difficulty, high doses of soluble nitrogen and phosphorus prompt crops to curtail <u><b>their</b></u> sugar payments to symbiotic fungi, starving the underground network. National farm subsidies reinforce this short-termism: public grants for regenerative cover-cropping remain modest and are <u><b>marginalised</b></u> by support linked to synthetic input volumes.\nThe consequences extend far beyond the farm gate. Stripped of the sticky glomalin proteins secreted by mycorrhizal fungi, ploughed soils lose their crumbly structure and compact into hardpans that shed rainwater rather than absorbing it, worsening downstream flash floods. Crops deprived of microbial partners also take up fewer trace micronutrients such as zinc and iron. Once a topsoil’s biological community has collapsed and its organic matter has oxidised into the air, rebuilding that living sponge takes decades of careful organic additions. This is why soil scientists warn that preventing microbial degradation is infinitely easier than reversing it.\nRestoring underground ecosystems, agro-ecologists argue, requires viewing soil as a living partnership rather than an lifeless substrate. Farmers adopting ‘no-till’ drilling, diverse winter cover crops and rotational grazing have shown that intact fungal networks can remain <u><b>robust</b></u> even during summer droughts, ferrying moisture from micropores that plant roots cannot reach alone. Rewarding land managers for measurable gains in soil organic carbon—alongside training agronomists in rhizosphere ecology—would align harvest security with planetary health.\n<i>(Adapted from FAO, State of Knowledge of Soil Biodiversity, and Nature Reviews)</i>"
+        "passage": "<b>THE HIDDEN LIFE OF SOIL MICROBIOMES</b>\nBeneath every healthy pasture and forest floor lies an intricate subterranean metropolis. <u><b>Modern agronomy has multiplied grain harvests over the past seventy years, yet intensive tillage and synthetic fertilisers have quietly degraded the underground fungal networks that sustain soil fertility.</b></u> A single teaspoon of undisturbed grassland soil contains billions of bacteria and metres of microscopic mycorrhizal fungal threads that trade minerals for plant sugars.\nThe neglect of soil biology stems less from agricultural malice than from mid-twentieth-century models that treated earth as an inert physical sponge for holding chemical inputs. Deep mechanical ploughing slices through fungal hyphae, exposes stored organic carbon to oxygen, and accelerates erosion during heavy downpours. Compounding the difficulty, high doses of soluble nitrogen and phosphorus prompt crops to curtail <u><b>their</b></u> sugar payments to symbiotic fungi, starving the underground network. National farm subsidies reinforce this short-termism: public grants for regenerative cover-cropping remain modest and are <u><b>marginalised</b></u> by support linked to synthetic input volumes.\nThe consequences extend far beyond the farm gate. Stripped of the sticky glomalin proteins secreted by mycorrhizal fungi, ploughed soils lose their crumbly structure and compact into hardpans that shed rainwater rather than absorbing it, worsening downstream flash floods. Crops deprived of microbial partners also take up fewer trace micronutrients such as zinc and iron. Once a topsoil’s biological community has collapsed and its organic matter has oxidised into the air, rebuilding that living sponge takes decades of careful organic additions. This is why soil scientists warn that preventing microbial degradation is infinitely easier than reversing it.\nRestoring underground ecosystems, agro-ecologists argue, requires viewing soil as a living partnership rather than a lifeless substrate. Farmers adopting ‘no-till’ drilling, diverse winter cover crops and rotational grazing have shown that intact fungal networks can remain <u><b>robust</b></u> even during summer droughts, ferrying moisture from micropores that plant roots cannot reach alone. Rewarding land managers for measurable gains in soil organic carbon—alongside training agronomists in rhizosphere ecology—would align harvest security with planetary health.\n<i>(Adapted from FAO, State of Knowledge of Soil Biodiversity, and Nature Reviews)</i>"
       },
       {
         "origNum": 54,
@@ -349,7 +349,7 @@ window.examDatabase['reading'] = {
           "Heavy tractors compact subsoil layers three metres underground."
         ],
         "answer": 3,
-        "explanation": "Đoạn 2 nêu: cày sâu cắt đứt sợi nấm (A), làm lộ carbon hữu cơ ra oxy (B), phân hóa học liều cao khiến cây giảm tiết đường cho nấm cộng sinh (D); KHÔNG nói máy kéo nặng nén chặt tầng đất sâu 3 mét (C)."
+        "explanation": "Đoạn 2 nêu: cày sâu cắt đứt sợi nấm (A), làm lộ carbon hữu cơ ra oxy (B), phân hóa học liều cao khiến cây giảm tiết đường cho nấm cộng sinh (C); KHÔNG nói máy kéo nặng nén chặt tầng đất sâu 3 mét → D."
       },
       {
         "origNum": 55,
@@ -367,7 +367,7 @@ window.examDatabase['reading'] = {
       {
         "origNum": 56,
         "instruction": "Read the following passage and mark the letter A, B, C, D on your answer sheet to indicate the best answer to each of the following questions from 53 to 60.",
-        "text": "The word “<b><u>their</u></b>” in paragraph 2 refers to __________.",
+        "text": "In paragraph 2, the possessive adjective “<b><u>their</u></b>” in the phrase “curtail their sugar payments” refers to __________.",
         "options": [
           "chemical inputs",
           "symbiotic fungi",
@@ -375,7 +375,7 @@ window.examDatabase['reading'] = {
           "heavy downpours"
         ],
         "answer": 2,
-        "explanation": "“prompt crops to curtail their sugar payments to symbiotic fungi” → their quy chiếu cho 'crops' (cây trồng)."
+        "explanation": "Đoạn 2: “high doses of soluble nitrogen and phosphorus prompt crops to curtail their sugar payments to symbiotic fungi” → “their” quy chiếu cho “crops” (cây trồng) → C."
       },
       {
         "origNum": 57,
@@ -393,15 +393,15 @@ window.examDatabase['reading'] = {
       {
         "origNum": 58,
         "instruction": "Read the following passage and mark the letter A, B, C, D on your answer sheet to indicate the best answer to each of the following questions from 53 to 60.",
-        "text": "Which of the following is TRUE according to the passage?",
+        "text": "Why does heavily ploughed soil lacking mycorrhizal fungi worsen downstream flash floods?",
         "options": [
-          "High doses of synthetic nitrogen encourage crops to feed more sugar to soil fungi.",
-          "Mycorrhizal fungi help soil retain a crumbly structure that absorbs rainwater.",
-          "Plants supply minerals to mycorrhizal fungi in exchange for atmospheric carbon.",
-          "Soils without fungal networks absorb floodwater faster than undisturbed pastures."
+          "Fungal hyphae pump underground water to the surface during heavy downpours.",
+          "Without sticky glomalin proteins from fungi, the soil compacts into hardpans that shed rainwater instead of absorbing it.",
+          "Plants exchange atmospheric carbon for rainwater stored inside fungal threads.",
+          "Synthetic nitrogen fertilisers dissolve clay particles and block river channels."
         ],
         "answer": 1,
-        "explanation": "Đoạn 3 nêu rõ protein glomalin do nấm mycorrhizal tiết ra giúp đất giữ cấu trúc tơi xốp thấm nước mưa, ngăn lũ quét."
+        "explanation": "Đoạn 3: Khi mất protein glomalin kết dính do nấm tiết ra, đất cày xới mất cấu trúc tơi xốp và nén chặt thành tầng cứng (hardpans) làm nước mưa chảy tràn thay vì thấm xuống đất → B."
       },
       {
         "origNum": 59,
@@ -456,7 +456,7 @@ window.examDatabase['reading'] = {
           "Job markets that reward fluency in national or global languages."
         ],
         "answer": 2,
-        "explanation": "Đoạn 2 nêu chính sách trường nội trú trước đây (A), nền tảng trực tuyến & giao diện điện thoại (B), thị trường việc làm (D); KHÔNG nói khác biệt di truyền làm trẻ khó học song ngữ (C)."
+        "explanation": "Đoạn 2 nêu: sự thống trị của các ngôn ngữ lớn trên điện thoại/trực tuyến (A), chính sách trường học trước đây phạt trẻ nói tiếng mẹ đẻ (B), thị trường việc làm (D); KHÔNG nói khác biệt di truyền làm trẻ khó học song ngữ → C."
       },
       {
         "origNum": 55,
@@ -474,15 +474,15 @@ window.examDatabase['reading'] = {
       {
         "origNum": 56,
         "instruction": "Read the following passage and mark the letter A, B, C, D on your answer sheet to indicate the best answer to each of the following questions from 53 to 60.",
-        "text": "The pronoun “<b><u>it</u></b>” in paragraph 4 refers to __________.",
+        "text": "What does the pronoun “<b><u>it</u></b>” in the first sentence of paragraph 4 refer to?",
         "options": [
           "dictionary archiving",
-          "a podcast network",
+          "an indigenous podcast network",
           "social stigma",
           "a language"
         ],
         "answer": 3,
-        "explanation": "“a language survives only when it is transmitted naturally between generations” → it quy chiếu cho 'a language'."
+        "explanation": "Đoạn 4: “a language survives only when it is transmitted naturally between generations at home” → “it” quy chiếu cho “a language” → D."
       },
       {
         "origNum": 57,
@@ -500,15 +500,15 @@ window.examDatabase['reading'] = {
       {
         "origNum": 58,
         "instruction": "Read the following passage and mark the letter A, B, C, D on your answer sheet to indicate the best answer to each of the following questions from 53 to 60.",
-        "text": "Which of the following is TRUE according to the passage?",
+        "text": "Why do field linguists race to make audio-visual recordings while fluent elders are still active?",
         "options": [
-          "All indigenous ecological terms have exact one-word equivalents in European languages.",
-          "Fewer than ten percent of the world’s spoken languages are currently at risk.",
-          "Children in Welsh-medium and Māori immersion programmes are forbidden to use technology.",
-          "Saving a language requires intergenerational use rather than just compiling dictionaries."
+          "Elderly speakers are prohibited from teaching their mother tongue inside immersion nurseries.",
+          "Voice-recognition software cannot process languages that have written dictionaries.",
+          "Living prosody and natural idioms cannot be reconstructed solely from fragmentary word-lists once speakers pass away.",
+          "European languages lack any grammatical structures for expressing time and space."
         ],
-        "answer": 3,
-        "explanation": "Đoạn 4 nêu rõ: “cannot succeed through dictionary archiving alone; a language survives only when it is transmitted naturally between generations at home.”"
+        "answer": 2,
+        "explanation": "Đoạn 3: “Once the last fluent elders pass away without audio-visual documentation or child speakers, reconstructing a living prosody and idiom from fragmentary word-lists is virtually impossible.” → C."
       },
       {
         "origNum": 59,
@@ -563,7 +563,7 @@ window.examDatabase['reading'] = {
           "Software locks that reject replacement parts not verified by factory servers."
         ],
         "answer": 1,
-        "explanation": "Đoạn 2 nêu: giấu sơ đồ mạch điện (A), định giá linh kiện đắt gần bằng máy mới (B), phần mềm parts-pairing khóa linh kiện thay thế (D); KHÔNG nói thiếu trường dạy nghề hàn mạch (C)."
+        "explanation": "Đoạn 2 nêu: giấu sơ đồ mạch điện (A), định giá linh kiện đắt gần bằng máy mới (C), phần mềm khóa linh kiện thay thế (D); KHÔNG nói thiếu trường dạy nghề hàn mạch → B."
       },
       {
         "origNum": 55,
@@ -581,15 +581,15 @@ window.examDatabase['reading'] = {
       {
         "origNum": 56,
         "instruction": "Read the following passage and mark the letter A, B, C, D on your answer sheet to indicate the best answer to each of the following questions from 53 to 60.",
-        "text": "The pronoun “<b><u>it</u></b>” in paragraph 2 refers to __________.",
+        "text": "In paragraph 2, what does the pronoun “<b><u>it</u></b>” in the clause “unless it is authorised by the factory’s server” refer to?",
         "options": [
           "a replacement screen",
           "an independent workshop",
-          "the factory’s server",
+          "a municipal repair voucher",
           "a circuit diagram"
         ],
         "answer": 0,
-        "explanation": "“disables a replacement screen unless it is authorised by the factory’s server” → it quy chiếu cho 'a replacement screen'."
+        "explanation": "Đoạn 2: “‘parts-pairing’ software that disables a replacement screen unless it is authorised by the factory’s server” → “it” quy chiếu cho “a replacement screen” → A."
       },
       {
         "origNum": 57,
@@ -607,15 +607,15 @@ window.examDatabase['reading'] = {
       {
         "origNum": 58,
         "instruction": "Read the following passage and mark the letter A, B, C, D on your answer sheet to indicate the best answer to each of the following questions from 53 to 60.",
-        "text": "Which of the following is TRUE according to the passage?",
+        "text": "Why do circular-economy researchers consider extending product lifespans far greener than mechanical recycling?",
         "options": [
-          "Shredding glued tablets allows recyclers to recover all rare-earth metals effortlessly.",
-          "The average lifespan of European washing machines has increased by three years since 2005.",
-          "Most of a smartphone’s lifetime carbon footprint is generated during manufacturing before first use.",
-          "Parts-pairing software helps independent repair shops install cheaper third-party screens."
+          "Mechanical shredders generate 80 percent of a laptop’s lifetime carbon emissions.",
+          "European Union directives have prohibited the recovery of cobalt and neodymium from tablets.",
+          "Up to 80 percent of a device’s carbon emissions occur before first use, and extracting pure trace metals from shredded devices is energy-intensive.",
+          "Independent repair workshops use zero electricity when replacing capacitors and batteries."
         ],
         "answer": 2,
-        "explanation": "Đoạn 3 nêu rõ: “mining and smelting the metals for a new smartphone or laptop generates up to 80 percent of the device’s lifetime carbon emissions before it is even switched on.”"
+        "explanation": "Đoạn 3: Khai mỏ và luyện kim để sản xuất thiết bị mới đã tạo ra tới 80% lượng khí thải carbon cả vòng đời, đồng thời việc thu hồi kim loại hiếm tinh khiết từ thiết bị nghiền nát rất phức tạp và tốn năng lượng → C."
       },
       {
         "origNum": 59,
@@ -657,7 +657,7 @@ window.examDatabase['reading'] = {
         ],
         "answer": 3,
         "explanation": "paltry = meagre / negligible (ít ỏi, nhỏ bé không đáng kể so với trợ cấp mở rộng cảng).",
-        "passage": "<b>THE ECOLOGICAL TOLL OF OCEAN NOISE</b>\nFor millions of years, the underwater world was governed by acoustic cues. Light penetrates barely two hundred metres beneath the waves, whereas sound travels four times faster in water than in air and crosses entire ocean basins. <u><b>Global maritime trade and offshore energy exploration have connected continents at remarkably low cost, yet they have filled the seas with a relentless low-frequency din that blinds marine life acoustically.</b></u> Hydrophone arrays indicate that ambient noise in busy shipping lanes has doubled every decade since the 1950s.\nThe ubiquity of underwater noise stems less from deliberate harm than from the physics of propeller cavitation and seismic surveying. As conventional ship propellers spin rapidly, they create millones of tiny low-pressure vapour bubbles that collapse with a continuous roar in the exact frequency band—10 to 300 hertz—used by baleen whales to communicate. Compounding the disturbance, seismic airgun arrays towed behind oil-and-gas survey vessels fire intense pulses of compressed air every ten seconds for weeks on end. International maritime treaties strictly regulate oil spills and ballast water, yet acoustic emissions remain largely unpriced, and research grants for quiet-propeller retrofits remain <u><b>paltry</b></u> compared with subsidies for port expansion.\nThe biological consequences reach from giant cetaceans to microscopic larvae. Right whales and humpbacks suffer a ninety-percent shrinkage in their ‘communication space’, struggling to locate mates or warn calves of approaching hulls. Deep-diving beaked whales exposed to mid-frequency sonar or airguns can panic and surface too rapidly, suffering decompression sickness and mass strandings. Even free-swimming coral and reef-fish larvae rely on the crackling sound of snapping shrimp to locate healthy reefs on which to settle; when shipping noise masks <u><b>that natural beacon</b></u>, damaged reefs fail to recruit new life. This explains why marine acousticians view noise abatement as a prerequisite for coral-reef recovery.\nEncouragingly, ocean noise is a pollutant with an immediate off-switch. Reducing a cargo vessel’s speed by just ten percent cuts its acoustic output by nearly half while burning less fuel, and new skewed propeller blades suppress cavitation bubbles before they form. Port authorities in Vancouver have already introduced discounted harbour dues for ships certified as acoustically <u><b>unobtrusive</b></u>, while offshore wind developers are surrounding pile-driving rigs with ‘bubble curtains’ that absorb ninety percent of impact sound. Quieting the world’s fleets would allow marine ecosystems to hear themselves think once again.\n<i>(Adapted from Duarte et al., Science (2021), and International Maritime Organization Briefings)</i>"
+        "passage": "<b>THE ECOLOGICAL TOLL OF OCEAN NOISE</b>\nFor millions of years, the underwater world was governed by acoustic cues. Light penetrates barely two hundred metres beneath the waves, whereas sound travels four times faster in water than in air and crosses entire ocean basins. <u><b>Global maritime trade and offshore energy exploration have connected continents at remarkably low cost, yet they have filled the seas with a relentless low-frequency din that blinds marine life acoustically.</b></u> Hydrophone arrays indicate that ambient noise in busy shipping lanes has doubled every decade since the 1950s.\nThe ubiquity of underwater noise stems less from deliberate harm than from the physics of propeller cavitation and seismic surveying. As conventional ship propellers spin rapidly, they create millions of tiny low-pressure vapour bubbles that collapse with a continuous roar in the exact frequency band—10 to 300 hertz—used by baleen whales to communicate. Compounding the disturbance, seismic airgun arrays towed behind oil-and-gas survey vessels fire intense pulses of compressed air every ten seconds for weeks on end. International maritime treaties strictly regulate oil spills and ballast water, yet acoustic emissions remain largely unpriced, and research grants for quiet-propeller retrofits remain <u><b>paltry</b></u> compared with subsidies for port expansion.\nThe biological consequences reach from giant cetaceans to microscopic larvae. Right whales and humpbacks suffer a ninety-percent shrinkage in their ‘communication space’, struggling to locate mates or warn calves of approaching hulls. Deep-diving beaked whales exposed to mid-frequency sonar or airguns can panic and surface too rapidly, suffering decompression sickness and mass strandings. Even free-swimming coral and reef-fish larvae rely on the crackling sound of snapping shrimp to locate healthy reefs on which to settle; when shipping noise masks <u><b>that natural beacon</b></u>, damaged reefs fail to recruit new life. This explains why marine acousticians view noise abatement as a prerequisite for coral-reef recovery.\nEncouragingly, ocean noise is a pollutant with an immediate off-switch. Reducing a cargo vessel’s speed by just ten percent cuts its acoustic output by nearly half while burning less fuel, and new skewed propeller blades suppress cavitation bubbles before they form. Port authorities in Vancouver have already introduced discounted harbour dues for ships certified as acoustically <u><b>unobtrusive</b></u>, while offshore wind developers are surrounding pile-driving rigs with ‘bubble curtains’ that absorb ninety percent of impact sound. Quieting the world’s fleets would allow marine ecosystems to hear themselves think once again.\n<i>(Adapted from Duarte et al., Science (2021), and International Maritime Organization Briefings)</i>"
       },
       {
         "origNum": 54,
@@ -670,7 +670,7 @@ window.examDatabase['reading'] = {
           "Ship noise overlapping with the 10–300 hertz frequency band of baleen whales."
         ],
         "answer": 0,
-        "explanation": "Đoạn 2 nêu: bong bóng xâm thực trên chân vịt tàu (A), súng hơi địa chấn khảo sát dầu khí (B), dải tần 10–300 Hz trùng với cá voi tấm sừng (D); KHÔNG đề cập máy ủi khai khoáng đáy biển (C)."
+        "explanation": "Đoạn 2 nêu: bong bóng xâm thực trên chân vịt tàu (B), súng hơi địa chấn khảo sát năng lượng (C), tiếng ồn tàu trùng dải tần 10–300 Hz của cá voi tấm sừng (D); KHÔNG đề cập máy ủi khai khoáng đáy biển → A."
       },
       {
         "origNum": 55,
@@ -714,15 +714,15 @@ window.examDatabase['reading'] = {
       {
         "origNum": 58,
         "instruction": "Read the following passage and mark the letter A, B, C, D on your answer sheet to indicate the best answer to each of the following questions from 53 to 60.",
-        "text": "Which of the following is TRUE according to the passage?",
+        "text": "According to paragraph 4, what happens when a cargo vessel reduces its speed by ten percent?",
         "options": [
-          "Slowing cargo ships slightly reduces both underwater noise and fuel consumption.",
-          "Bubble curtains are used to help baleen whales swim faster in shipping lanes.",
-          "Light travels four times farther than soundwaves in deep ocean water.",
-          "International maritime treaties already tax ships heavily for every decibel of noise."
+          "Its underwater acoustic output drops by nearly half while its fuel consumption also decreases.",
+          "Its propeller blades generate twice as many low-pressure cavitation bubbles.",
+          "It masks the crackling sound of snapping shrimp across coral reefs.",
+          "It becomes subject to higher harbour dues at the Port of Vancouver."
         ],
         "answer": 0,
-        "explanation": "Đoạn 4 nêu rõ: “Reducing a cargo vessel’s speed by just ten percent cuts its acoustic output by nearly half while burning less fuel”."
+        "explanation": "Đoạn 4: “Reducing a cargo vessel’s speed by just ten percent cuts its acoustic output by nearly half while burning less fuel” → A."
       },
       {
         "origNum": 59,
@@ -821,15 +821,15 @@ window.examDatabase['reading'] = {
       {
         "origNum": 58,
         "instruction": "Read the following passage and mark the letter A, B, C, D on your answer sheet to indicate the best answer to each of the following questions from 53 to 60.",
-        "text": "Which of the following is TRUE according to the passage?",
+        "text": "According to neuroscientist Maryanne Wolf, what cognitive processes are activated by slow, immersive deep reading?",
         "options": [
-          "The brain’s orienting reflex evolved specifically to read printed books.",
-          "Deep reading activates neural pathways linked to empathy and critical thinking.",
-          "Cognitive psychologists recommend banning all computers from universities.",
-          "Habitual skimming improves students’ ability to spot subtle irony and logical fallacies."
+          "The evolutionary orienting reflex that scans the horizon for sudden threats.",
+          "Brain regions linked to perspective-taking, critical analysis and empathy.",
+          "F-pattern visual scanning designed to extract rapid bullet-point facts.",
+          "Continuous partial attention triggered by variable digital rewards."
         ],
         "answer": 1,
-        "explanation": "Đoạn 3 nêu rõ: “‘deep reading’... activates brain regions responsible for perspective-taking, critical analysis and empathy.”"
+        "explanation": "Đoạn 3: “‘deep reading’—the slow, immersive processing of rich syntax and metaphor—activates brain regions responsible for perspective-taking, critical analysis and empathy.” → B."
       },
       {
         "origNum": 59,
@@ -884,7 +884,7 @@ window.examDatabase['reading'] = {
           "A global ban on using diamond-tipped drill bits outside the petroleum industry."
         ],
         "answer": 3,
-        "explanation": "Đoạn 2 nêu: phải khoan sâu 3–6 km qua đá granit cứng (A), rủi ro mất hàng chục triệu USD nếu giếng thăm dò không gặp khe nứt thấm (B), đấu thầu năng lượng sạch không bảo hiểm rủi ro địa chất (D); KHÔNG nói có lệnh cấm dùng mũi khoan kim cương (C)."
+        "explanation": "Đoạn 2 nêu: rủi ro mất hàng chục triệu USD nếu giếng khoan gặp đá không thấm (A), phải khoan sâu nhiều km qua đá granit cứng (B), đấu thầu năng lượng sạch không bảo hiểm rủi ro địa chất (C); KHÔNG nói có lệnh cấm mũi khoan kim cương → D."
       },
       {
         "origNum": 55,
@@ -928,15 +928,15 @@ window.examDatabase['reading'] = {
       {
         "origNum": 58,
         "instruction": "Read the following passage and mark the letter A, B, C, D on your answer sheet to indicate the best answer to each of the following questions from 53 to 60.",
-        "text": "Which of the following is TRUE according to the passage?",
+        "text": "How do closed-loop geothermal systems eliminate the seismic risks seen in Enhanced Geothermal Systems (EGS)?",
         "options": [
-          "Geothermal plants currently generate more than twenty percent of global electricity.",
-          "Enhanced Geothermal Systems can only operate inside active volcanic craters.",
-          "Closed-loop geothermal systems circulate fluid inside sealed pipes without fracturing rock.",
-          "Retiring coal power stations cannot reuse their existing grid transformers for geothermal power."
+          "They operate exclusively inside shallow volcanic craters in Iceland and Kenya.",
+          "They inject high-pressure steam directly into dormant fault lines.",
+          "They circulate fluid inside sealed underground U-tubes without fracturing the surrounding rock.",
+          "They burn coal alongside geothermal steam to stabilise underground pressure."
         ],
         "answer": 2,
-        "explanation": "Đoạn 4 nêu rõ: “Closed-loop systems—which circulate fluid inside sealed underground U-tubes... without fracturing the surrounding rock”."
+        "explanation": "Đoạn 4: “Closed-loop systems—which circulate fluid inside sealed underground U-tubes like a giant radiator without fracturing the surrounding rock—promise to make geothermal power geological-risk-free” → C."
       },
       {
         "origNum": 59,
@@ -978,7 +978,7 @@ window.examDatabase['reading'] = {
         ],
         "answer": 2,
         "explanation": "inertia = inaction / resistance to change (sự trì trệ, sức ỳ của bộ máy thể chế).",
-        "passage": "<b>THE ECOLOGY OF DAM REMOVAL</b>\nThroughout the twentieth century, concrete dams were celebrated as monuments to industrial progress, taming wild rivers for hydropower, irrigation and flood storage. <u><b>Tens of thousands of barriers now fragment the world’s river basins, yet a growing wave of dam removals in Europe and North America is proving that rivers can heal with astonishing speed once set free.</b></u> According to Dam Removal Europe, a record 487 obsolete river barriers—from crumbling nineteenth-century mill weirs to tall concrete dams—were dismantled across fifteen European countries in 2023 alone.\nThe case for keeping every ageing barrier intact stems less from current economic utility than from institutional <u><b>inertia</b></u>. Across Europe and the United States, thousands of small weirs and dams built over a century ago no longer generate electricity or store irrigation water, yet <u><b>their</b></u> reservoirs have silted up with mud and their cracked spillways pose a growing flood hazard during extreme storms. Compounding the problem, repairing a century-old dam to modern safety standards often costs three times more than dismantling it. Even so, national river-restoration budgets remain modest and lag behind subsidies for new concrete river-channel engineering.\nThe ecological price of river fragmentation has been severe. Dams block migratory fish—such as Atlantic salmon, European eels and sturgeon—from reaching their gravelly upstream spawning beds, driving migratory freshwater fish populations down by more than 80 percent globally since 1970. Stagnant reservoirs also warm up in summer, breed toxic cyanobacteria and trap the natural flow of sand and pebbles needed to replenish coastal beaches and deltas. Once a river’s sediment supply is cut off for decades, downstream estuaries erode and riverbed habitats turn into lifeless bedrock. This is why fluvial geomorphologists argue that restoring free-flowing connectivity is the single most effective measure for freshwater recovery.\nWhen barriers come down, the rebound is dramatic. Following the removal of two high dams on Washington State’s Elwha River in 2014 and four dams on the Klamath River in 2024, Chinook salmon swam past the former dam sites within days to spawn in headwaters they had not reached for a century. Far from being <u><b>futile</b></u>, selective dam removal—targeting obsolete, low-output structures while upgrading turbines on strategic high-capacity hydropower dams—shows that nations can balance renewable electricity with living, connected rivers.\n<i>(Adapted from Dam Removal Europe Annual Report and Science)</i>"
+        "passage": "<b>THE ECOLOGY OF DAM REMOVAL</b>\nThroughout the twentieth century, concrete dams were celebrated as monuments to industrial progress, taming wild rivers for hydropower, irrigation and flood storage. <u><b>Tens of thousands of barriers now fragment the world’s river basins, yet a growing wave of dam removals in Europe and North America is proving that rivers can heal with astonishing speed once set free.</b></u> According to Dam Removal Europe, a record 487 obsolete river barriers—from crumbling nineteenth-century mill weirs to tall concrete dams—were dismantled across fifteen European countries in 2023 alone.\nThe case for keeping every ageing barrier intact stems less from current economic utility than from institutional <u><b>inertia</b></u>. Across Europe and the United States, thousands of small weirs and dams built over a century ago no longer generate electricity or store irrigation water, yet their reservoirs have silted up with mud and their cracked spillways pose a growing flood hazard during extreme storms. Compounding the problem, repairing a century-old dam to modern safety standards often costs three times more than dismantling it. Even so, national river-restoration budgets remain modest and lag behind subsidies for new concrete river-channel engineering.\nThe ecological price of river fragmentation has been severe. Dams block migratory fish—such as Atlantic salmon, European eels and sturgeon—from reaching their gravelly upstream spawning beds, driving migratory freshwater fish populations down by more than 80 percent globally since 1970. Stagnant reservoirs also warm up in summer, breed toxic cyanobacteria and trap the natural flow of sand and pebbles needed to replenish coastal beaches and deltas. Once a river’s sediment supply is cut off for decades, downstream estuaries erode and riverbed habitats turn into lifeless bedrock. This is why fluvial geomorphologists argue that restoring free-flowing connectivity is the single most effective measure for freshwater recovery.\nWhen barriers come down, the rebound is dramatic. Following the removal of two high dams on Washington State’s Elwha River in 2014 and four dams on the Klamath River in 2024, Chinook salmon swam past the former dam sites within days to spawn in headwaters <u><b>they</b></u> had not reached for a century. Far from being <u><b>futile</b></u>, selective dam removal—targeting obsolete, low-output structures while upgrading turbines on strategic high-capacity hydropower dams—shows that nations can balance renewable electricity with living, connected rivers.\n<i>(Adapted from Dam Removal Europe Annual Report and Science)</i>"
       },
       {
         "origNum": 54,
@@ -991,7 +991,7 @@ window.examDatabase['reading'] = {
           "Reservoirs behind old dams have filled up with accumulated silt."
         ],
         "answer": 1,
-        "explanation": "Đoạn 2 nêu: nhiều đập cũ không còn phát điện/tưới tiêu (A), lòng hồ bồi lắng bùn (B), tràn xả lũ nứt gây nguy cơ lũ (C); KHÔNG nói đập bê tông cũ rò rỉ khoáng chất phóng xạ (D)."
+        "explanation": "Đoạn 2 nêu: nhiều đập cũ không còn phát điện/tưới tiêu (A), tràn xả lũ nứt gây nguy cơ mất an toàn khi bão lớn (C), lòng hồ bồi lắng bùn (D); KHÔNG nói đập bê tông cũ rò rỉ khoáng chất phóng xạ → B."
       },
       {
         "origNum": 55,
@@ -1009,15 +1009,15 @@ window.examDatabase['reading'] = {
       {
         "origNum": 56,
         "instruction": "Read the following passage and mark the letter A, B, C, D on your answer sheet to indicate the best answer to each of the following questions from 53 to 60.",
-        "text": "The word “<b><u>their</u></b>” in paragraph 2 refers to __________.",
+        "text": "The pronoun “<b><u>they</u></b>” in paragraph 4 refers to __________.",
         "options": [
-          "modern safety standards",
-          "extreme storms",
-          "European countries",
-          "thousands of small weirs and dams"
+          "Chinook salmon",
+          "obsolete mill weirs",
+          "fluvial geomorphologists",
+          "strategic hydropower turbines"
         ],
-        "answer": 3,
-        "explanation": "“thousands of small weirs and dams built over a century ago... yet their reservoirs have silted up” → their quy chiếu cho 'thousands of small weirs and dams'."
+        "answer": 0,
+        "explanation": "Đoạn 4: “Chinook salmon swam past the former dam sites within days to spawn in headwaters they had not reached for a century.” → “they” quy chiếu cho “Chinook salmon” → A."
       },
       {
         "origNum": 57,
@@ -1035,15 +1035,15 @@ window.examDatabase['reading'] = {
       {
         "origNum": 58,
         "instruction": "Read the following passage and mark the letter A, B, C, D on your answer sheet to indicate the best answer to each of the following questions from 53 to 60.",
-        "text": "Which of the following is TRUE according to the passage?",
+        "text": "According to paragraph 2, why is keeping an obsolete century-old dam often economically irrational?",
         "options": [
-          "Every dam removed in Europe in 2023 was an active mega-hydropower plant.",
-          "Chinook salmon took more than twenty years to pass the former Elwha River dam sites.",
-          "Dams increase the amount of natural sand and pebbles reaching coastal beaches.",
-          "Repairing an obsolete century-old dam often costs more than removing it."
+          "Dismantling an old weir costs three times more than building a new nuclear plant.",
+          "Upgrading a century-old dam to modern safety standards frequently costs three times as much as removing it.",
+          "Silted reservoirs generate too much electricity for local power grids to absorb.",
+          "European governments fine municipalities that remove nineteenth-century mill weirs."
         ],
-        "answer": 3,
-        "explanation": "Đoạn 2 nêu rõ: “repairing a century-old dam to modern safety standards often costs three times more than dismantling it.”"
+        "answer": 1,
+        "explanation": "Đoạn 2: “repairing a century-old dam to modern safety standards often costs three times more than dismantling it.” → B."
       },
       {
         "origNum": 59,
@@ -1105,7 +1105,7 @@ window.examDatabase['reading'] = {
       {
         "origNum": 63,
         "instruction": "Read the following passage and mark the letter A, B, C, D on your answer sheet to indicate the best answer to each of the following questions from 61 to 70.",
-        "text": "The word “<b><u>It</u></b>” in paragraph 4 refers to __________.",
+        "text": "In paragraph 4, what does the pronoun “<b><u>It</u></b>” in the sentence “It raised water levels by 11 feet in just seven months” refer to?",
         "options": [
           "the Syr Darya",
           "the Kokaral Dam",
@@ -1131,7 +1131,7 @@ window.examDatabase['reading'] = {
       {
         "origNum": 65,
         "instruction": "Read the following passage and mark the letter A, B, C, D on your answer sheet to indicate the best answer to each of the following questions from 61 to 70.",
-        "text": "Which of the following best summarises paragraph 5?",
+        "text": "Which of the following best summarises the ecological and economic revival described in paragraph 5?",
         "options": [
           "Declining salinity has driven native species out of the North Aral Sea and ruined its fisheries.",
           "Falling salinity has revived fish stocks and, with them, local commerce and settlement.",
@@ -1144,7 +1144,7 @@ window.examDatabase['reading'] = {
       {
         "origNum": 66,
         "instruction": "Read the following passage and mark the letter A, B, C, D on your answer sheet to indicate the best answer to each of the following questions from 61 to 70.",
-        "text": "According to the passage, which of the following is TRUE?",
+        "text": "What does the passage state about commercial fishing in the Aral Sea between 1957 and 1987?",
         "options": [
           "Water has completely disappeared from the South Aral Sea.",
           "Kazakhstan paid for the Kokaral Dam without any outside financing.",
@@ -1183,7 +1183,7 @@ window.examDatabase['reading'] = {
       {
         "origNum": 69,
         "instruction": "Read the following passage and mark the letter A, B, C, D on your answer sheet to indicate the best answer to each of the following questions from 61 to 70.",
-        "text": "Which of the following can be inferred from the passage?",
+        "text": "What can be inferred from paragraph 6 about the long-term sustainability of the North Aral Sea’s fisheries?",
         "options": [
           "Illegal fishing is rare because the authorities control the breeding season effectively.",
           "The recovery of the North Aral Sea proves that the whole lake could be restored to its original size.",
@@ -1196,7 +1196,7 @@ window.examDatabase['reading'] = {
       {
         "origNum": 70,
         "instruction": "Read the following passage and mark the letter A, B, C, D on your answer sheet to indicate the best answer to each of the following questions from 61 to 70.",
-        "text": "Which of the following best summarises the passage?",
+        "text": "Which of the following best summarises the passage on the North Aral Sea?",
         "options": [
           "Human intervention drained most of the Aral Sea, yet a targeted restoration project has revived part of it, although illegal fishing and weak management still threaten that recovery.",
           "The Aral Sea’s decline was caused by natural climate change, but Kazakhstan reversed it by means of a World Bank loan.",
@@ -1238,7 +1238,7 @@ window.examDatabase['reading'] = {
       {
         "origNum": 63,
         "instruction": "Read the following passage and mark the letter A, B, C, D on your answer sheet to indicate the best answer to each of the following questions from 61 to 70.",
-        "text": "The word “<b><u>They</u></b>” in paragraph 4 refers to __________.",
+        "text": "In paragraph 4, the pronoun “<b><u>They</u></b>” in “They also acted as natural bio-filters” refers to ___________.",
         "options": [
           "dozens of cottages",
           "the beaver dams and ponds",
@@ -1264,7 +1264,7 @@ window.examDatabase['reading'] = {
       {
         "origNum": 65,
         "instruction": "Read the following passage and mark the letter A, B, C, D on your answer sheet to indicate the best answer to each of the following questions from 61 to 70.",
-        "text": "Which of the following best summarises paragraph 5?",
+        "text": "Which of the following best summarises the biodiversity outcomes reported in paragraph 5?",
         "options": [
           "Beaver dams have caused invasive fish species to displace native brown trout and amphibians.",
           "The wetlands created by beavers have triggered a rapid rebound in local biodiversity and earned legal recognition.",
@@ -1277,7 +1277,7 @@ window.examDatabase['reading'] = {
       {
         "origNum": 66,
         "instruction": "Read the following passage and mark the letter A, B, C, D on your answer sheet to indicate the best answer to each of the following questions from 61 to 70.",
-        "text": "According to the passage, which of the following is TRUE?",
+        "text": "How do conservation officers in Bavaria and Scotland resolve waterlogging conflicts caused by beaver dams?",
         "options": [
           "Straightening rivers in the industrial era helped catchments retain rainwater longer.",
           "Beaver dams completely block all water from flowing downstream during dry periods.",
@@ -1316,7 +1316,7 @@ window.examDatabase['reading'] = {
       {
         "origNum": 69,
         "instruction": "Read the following passage and mark the letter A, B, C, D on your answer sheet to indicate the best answer to each of the following questions from 61 to 70.",
-        "text": "Which of the following can be inferred from the passage?",
+        "text": "What can be inferred from the passage about reintroducing Eurasian beavers into farmed catchments?",
         "options": [
           "Eliminating all bankside willow trees is the most effective way to encourage beaver reintroduction.",
           "Successful beaver reintroduction depends on balancing ecological benefits with practical measures to resolve conflicts with farmers.",
@@ -1329,7 +1329,7 @@ window.examDatabase['reading'] = {
       {
         "origNum": 70,
         "instruction": "Read the following passage and mark the letter A, B, C, D on your answer sheet to indicate the best answer to each of the following questions from 61 to 70.",
-        "text": "Which of the following best summarises the passage?",
+        "text": "Which of the following best summarises the passage on the return of the European beaver?",
         "options": [
           "Industrial river engineering eliminated flooding in Europe, but the accidental release of beavers in Devon has threatened agricultural productivity.",
           "The University of Exeter proved that beaver dams are mainly useful for purifying agricultural nitrates rather than reducing winter flood peaks.",
@@ -1353,7 +1353,7 @@ window.examDatabase['reading'] = {
         ],
         "answer": 2,
         "explanation": "Paraphrase chính xác: Sau gần 7 thập kỷ vắng bóng ở phía bắc dãy Rockies, sói xám trở lại vào năm 1995 và khởi phát sự chuyển dịch sinh thái được sách giáo khoa gọi là chuỗi thức ăn phân tầng cổ điển.",
-        "passage": "<b>WOLF REINTRODUCTION IN YELLOWSTONE</b>\nWhen the last grey wolf pack in Yellowstone National Park was shot by government hunters in 1926, park managers believed they were protecting prized elk herds for tourists. <b>[I]</b> <u><b>Eliminated from the northern Rockies for nearly seven decades, the grey wolf returned in 1995 and triggered an ecological transformation that textbooks now call a classic trophic cascade.</b></u> Biologists regard the experiment as one of the clearest demonstrations of how apex predators regulate entire landscapes.\nIn the absence of wolves, Yellowstone’s elk population multiplied unchecked. <b>[II]</b> For seventy winters, huge herds lingered along valley bottoms and riverbanks, browsing young willow, cottonwood and aspen shoots down to the ground before they could grow into mature trees. Stripped of root networks, stream banks eroded, channels widened and shallowed, and water temperatures climbed to levels that were <u><b>inhospitable</b></u> to native cutthroat trout. Even culling thousands of elk by rifle in the 1960s failed to change where the surviving animals chose to feed.\nThe turning point arrived in January 1995 and 1996, when the US Fish and Wildlife Service captured forty-one wild wolves in Canada and released them into acclimatisation pens in Yellowstone. <b>[III]</b> Within five years, the translocated packs had established territories across the park’s northern range, and elk numbers began a steady decline toward historical norms.\nJust as important as the smaller herd size was a shift in elk behaviour—what ecologists term the ‘landscape of fear’. Because wolves could ambush prey easily in narrow stream gullies, elk stopped loafing by the riverbanks and kept moving across higher forested slopes. <u><b>They</b></u> consequently had a chance to shoot up past browsing height for the first time since the 1920s, with willow and cottonwood stands along Blacktail Creek quadrupling in stature within a decade.\n<b>[IV]</b> The rebounding riverside woods soon began to <u><b>pay dividends</b></u> across the food web. Songbirds such as warblers and willow flycatchers returned to nest in the dense foliage, while beaver colonies—which had vanished from the northern range—multiplied from a single colony in 1996 to nine by 2009. Beaver dams, in turn, created deep, cool pools for trout and amphibians, while wolf kills provided winter carrion for grizzly bears, bald eagles and ravens.\nThe story is not without scientific nuance and political friction, however. Long-term studies show that in areas where deep stream channels had already dropped the water table, keeping elk away was not enough on its own to revive willows without beaver dams to raise groundwater levels. Outside the park’s boundaries, cattle ranchers remain concerned about livestock predation, prompting conservation trusts to fund range-riders and compensation funds. Even so, Yellowstone’s wolves prove that restoring a missing apex predator can set long-stalled ecological processes back in motion.\n<i>(Adapted from W. J. Ripple & R. L. Beschta, Biological Conservation, and National Geographic)</i>"
+        "passage": "<b>WOLF REINTRODUCTION IN YELLOWSTONE</b>\nWhen the last grey wolf pack in Yellowstone National Park was shot by government hunters in 1926, park managers believed they were protecting prized elk herds for tourists. <b>[I]</b> <u><b>Eliminated from the northern Rockies for nearly seven decades, the grey wolf returned in 1995 and triggered an ecological transformation that textbooks now call a classic trophic cascade.</b></u> Biologists regard the experiment as one of the clearest demonstrations of how apex predators regulate entire landscapes.\nIn the absence of wolves, Yellowstone’s elk population multiplied unchecked. <b>[II]</b> For seventy winters, huge herds lingered along valley bottoms and riverbanks, browsing young willow, cottonwood and aspen shoots down to the ground before <u><b>they</b></u> could grow into mature trees. Stripped of root networks, stream banks eroded, channels widened and shallowed, and water temperatures climbed to levels that were <u><b>inhospitable</b></u> to native cutthroat trout. Even culling thousands of elk by rifle in the 1960s failed to change where the surviving animals chose to feed.\nThe turning point arrived in January 1995 and 1996, when the US Fish and Wildlife Service captured forty-one wild wolves in Canada and released them into acclimatisation pens in Yellowstone. <b>[III]</b> Within five years, the translocated packs had established territories across the park’s northern range, and elk numbers began a steady decline toward historical norms.\nJust as important as the smaller herd size was a shift in elk behaviour—what ecologists term the ‘landscape of fear’. Because wolves could ambush prey easily in narrow stream gullies, elk stopped loafing by the riverbanks and kept moving across higher forested slopes. Young streamside trees consequently had a chance to shoot up past browsing height for the first time since the 1920s, with willow and cottonwood stands along Blacktail Creek quadrupling in stature within a decade.\n<b>[IV]</b> The rebounding riverside woods soon began to <u><b>pay dividends</b></u> across the food web. Songbirds such as warblers and willow flycatchers returned to nest in the dense foliage, while beaver colonies—which had vanished from the northern range—multiplied from a single colony in 1996 to nine by 2009. Beaver dams, in turn, created deep, cool pools for trout and amphibians, while wolf kills provided winter carrion for grizzly bears, bald eagles and ravens.\nThe story is not without scientific nuance and political friction, however. Long-term studies show that in areas where deep stream channels had already dropped the water table, keeping elk away was not enough on its own to revive willows without beaver dams to raise groundwater levels. Outside the park’s boundaries, cattle ranchers remain concerned about livestock predation, prompting conservation trusts to fund range-riders and compensation funds. Even so, Yellowstone’s wolves prove that restoring a missing apex predator can set long-stalled ecological processes back in motion.\n<i>(Adapted from W. J. Ripple & R. L. Beschta, Biological Conservation, and National Geographic)</i>"
       },
       {
         "origNum": 62,
@@ -1371,15 +1371,15 @@ window.examDatabase['reading'] = {
       {
         "origNum": 63,
         "instruction": "Read the following passage and mark the letter A, B, C, D on your answer sheet to indicate the best answer to each of the following questions from 61 to 70.",
-        "text": "The word “<b><u>They</u></b>” in paragraph 4 refers to __________.",
+        "text": "In paragraph 2, what does the pronoun “<b><u>they</u></b>” in “before they could grow into mature trees” refer to?",
         "options": [
-          "young streamside trees such as willow and cottonwood",
+          "young willow, cottonwood and aspen shoots",
           "narrow stream gullies",
           "Canadian wolf packs",
           "government hunters"
         ],
         "answer": 0,
-        "explanation": "“They consequently had a chance to shoot up past browsing height... with willow and cottonwood stands... quadrupling in stature” → They chỉ các cây non ven suối (liễu, dương)."
+        "explanation": "Đoạn 2: “browsing young willow, cottonwood and aspen shoots down to the ground before they could grow into mature trees” → “they” chỉ các chồi cây liễu, bông gòn và dương non → A."
       },
       {
         "origNum": 64,
@@ -1392,12 +1392,12 @@ window.examDatabase['reading'] = {
           "The exact cost of transporting the wolves by aircraft."
         ],
         "answer": 3,
-        "explanation": "Đoạn 3 & 4 nêu: bắt 41 con sói từ Canada (A), nhốt làm quen trong chuồng acclimatisation pens (B), sự thay đổi nơi kiếm ăn của đàn nai (D); KHÔNG nêu chi phí vận chuyển bằng máy bay (C)."
+        "explanation": "Đoạn 3 & 4 nêu: quốc gia nơi bắt 41 con sói là Canada (A), nhốt làm quen trong chuồng acclimatisation pens (B), sự thay đổi nơi kiếm ăn của đàn nai (C); KHÔNG nêu chi phí vận chuyển bằng máy bay → D."
       },
       {
         "origNum": 65,
         "instruction": "Read the following passage and mark the letter A, B, C, D on your answer sheet to indicate the best answer to each of the following questions from 61 to 70.",
-        "text": "Which of the following best summarises paragraph 5?",
+        "text": "Which statement best summarises the cascading food-web benefits described in paragraph 5?",
         "options": [
           "Songbirds and bald eagles struggled to survive after willow trees grew taller along Blacktail Creek.",
           "Regenerating streamside trees triggered a rebound in birds, beavers and scavengers across the ecosystem.",
@@ -1410,7 +1410,7 @@ window.examDatabase['reading'] = {
       {
         "origNum": 66,
         "instruction": "Read the following passage and mark the letter A, B, C, D on your answer sheet to indicate the best answer to each of the following questions from 61 to 70.",
-        "text": "According to the passage, which of the following is TRUE?",
+        "text": "What does paragraph 2 reveal about the 1960s programme of culling Yellowstone’s elk with rifles?",
         "options": [
           "Willow trees recovered equally fast everywhere regardless of groundwater levels.",
           "Grey wolves were never completely eliminated from Yellowstone in the twentieth century.",
@@ -1449,7 +1449,7 @@ window.examDatabase['reading'] = {
       {
         "origNum": 69,
         "instruction": "Read the following passage and mark the letter A, B, C, D on your answer sheet to indicate the best answer to each of the following questions from 61 to 70.",
-        "text": "Which of the following can be inferred from the passage?",
+        "text": "What can be inferred from the passage about how apex predators restore degraded landscapes?",
         "options": [
           "Apex predators can immediately reverse all hydrological damage even without beavers.",
           "Removing beavers is the fastest way to cool down shallow mountain streams.",
@@ -1462,7 +1462,7 @@ window.examDatabase['reading'] = {
       {
         "origNum": 70,
         "instruction": "Read the following passage and mark the letter A, B, C, D on your answer sheet to indicate the best answer to each of the following questions from 61 to 70.",
-        "text": "Which of the following best summarises the passage?",
+        "text": "Which of the following best summarises the passage on wolf reintroduction in Yellowstone?",
         "options": [
           "Beavers rather than wolves were solely responsible for the decline of Yellowstone’s elk herds after 1995.",
           "Eliminating wolves in 1926 led to severe overgrazing in Yellowstone, whereas their 1995 reintroduction altered elk behaviour and revived streamside habitats, though hydrological limits and ranching conflicts remain.",
@@ -1486,7 +1486,7 @@ window.examDatabase['reading'] = {
         ],
         "answer": 3,
         "explanation": "Paraphrase chính xác: Mở cửa năm 2008 như một kho dự phòng an toàn tuyệt đối cho đa dạng nông nghiệp nhân loại, Hầm hạt giống toàn cầu Svalbard hiện bảo vệ hơn 1,2 triệu mẫu hạt giống từ hầu khắp các quốc gia.",
-        "passage": "<b>THE SVALBARD GLOBAL SEED VAULT</b>\nCarved deep into a sandstone mountain on the Norwegian island of Spitsbergen, roughly a thousand kilometres from the North Pole, stands a concrete portal gleaming against the Arctic snow. <b>[I]</b> <u><b>Opened in 2008 as a fail-safe backup for humanity’s agricultural diversity, the Svalbard Global Seed Vault now safeguards over 1.2 million seed samples from nearly every country on Earth.</b></u> Agronomists often dub the facility the ‘Doomsday Vault’, though its everyday mission is far more practical: insuring national gene banks against war, equipment failure and natural disasters.\nThe need for a global backup became painfully clear in the late twentieth century. Around the world, some 1,700 national and regional gene banks hold collections of local crop varieties—the genetic raw material breeders need to develop pest-resistant wheat, drought-tolerant rice and heat-hardy beans. <b>[II]</b> Yet many of these facilities sit in politically <u><b>volatile</b></u> regions or rely on ageing freezers vulnerable to power cuts. In the 1990s and 2000s, civil wars destroyed irreplaceable seed collections in Somalia, Rwanda and Iraq, while a typhoon flooded a major national seed bank in the Philippines.\nSvalbard was chosen for its unique combination of geology and geopolitics. <b>[III]</b> Situated 130 metres above current sea level, the vault’s three underground chambers will remain dry even if the polar ice caps melt completely. Because the surrounding rock is permanently frozen permafrost, the seeds would stay below freezing for months even if the electric cooling units—which chill the rooms to minus eighteen degrees Celsius—were to fail.\nOwnership of the seeds is structured like a bank safe-deposit box. The Norwegian government funded the $9 million construction cost, while the Crop Trust and the Nordic Genetic Resource Center cover ongoing operations. Each depositing institution retains sole legal control over the sealed foil packets it places inside the mountain. <u><b>That depositor</b></u> is the only party permitted to request their return should its own home collection be lost.\n<b>[IV]</b> That insurance policy was <u><b>put to the test</b></u> sooner than anyone had anticipated. When civil war engulfed Aleppo in Syria, researchers at the International Center for Agricultural Research in the Dry Areas (ICARDA) were forced to abandon their headquarters, which held 140,000 prized samples of ancient Middle Eastern wheat, barley and lentils adapted to extreme heat. Fortunately, ICARDA had shipped duplicate boxes to Svalbard before the fighting escalated. In 2015 and 2017, the vault made its first-ever withdrawals, sending tens of thousands of seeds to new nurseries in Morocco and Lebanon, where scientists multiplied the crops and returned fresh replacement seeds to the Arctic.\nEven an Arctic fortress, however, cannot ignore a warming planet. In October 2016, unseasonably heavy autumn rain and thawing surface permafrost caused meltwater to seep into the vault’s outer access tunnel and freeze into a sheet of ice—though the seed chambers themselves were never breached. Norway responded by investing over $20 million to waterproof the tunnel, remove heat-generating transformers and install cooling pipes in the soil overhead. As climate extremes intensify, Svalbard’s frozen library stands as both a monument to international cooperation and a reminder that no refuge is entirely immune to global warming.\n<i>(Adapted from Crop Trust, Svalbard Global Seed Vault Annual Review, and Science)</i>"
+        "passage": "<b>THE SVALBARD GLOBAL SEED VAULT</b>\nCarved deep into a sandstone mountain on the Norwegian island of Spitsbergen, roughly a thousand kilometres from the North Pole, stands a concrete portal gleaming against the Arctic snow. <b>[I]</b> <u><b>Opened in 2008 as a fail-safe backup for humanity’s agricultural diversity, the Svalbard Global Seed Vault now safeguards over 1.2 million seed samples from nearly every country on Earth.</b></u> Agronomists often dub the facility the ‘Doomsday Vault’, though its everyday mission is far more practical: insuring national gene banks against war, equipment failure and natural disasters.\nThe need for a global backup became painfully clear in the late twentieth century. Around the world, some 1,700 national and regional gene banks hold collections of local crop varieties—the genetic raw material breeders need to develop pest-resistant wheat, drought-tolerant rice and heat-hardy beans. <b>[II]</b> Yet many of these facilities sit in politically <u><b>volatile</b></u> regions or rely on ageing freezers vulnerable to power cuts. In the 1990s and 2000s, civil wars destroyed irreplaceable seed collections in Somalia, Rwanda and Iraq, while a typhoon flooded a major national seed bank in the Philippines.\nSvalbard was chosen for its unique combination of geology and geopolitics. <b>[III]</b> Situated 130 metres above current sea level, the vault’s three underground chambers will remain dry even if the polar ice caps melt completely. Because the surrounding rock is permanently frozen permafrost, the seeds would stay below freezing for months even if the electric cooling units—which chill the rooms to minus eighteen degrees Celsius—were to fail.\nOwnership of the seeds is structured like a bank safe-deposit box. The Norwegian government funded the $9 million construction cost, while the Crop Trust and the Nordic Genetic Resource Center cover ongoing operations. Each depositing institution retains sole legal control over the sealed foil packets it places inside the mountain. It is the only party permitted to request <u><b>their</b></u> return should its own home collection be lost.\n<b>[IV]</b> That insurance policy was <u><b>put to the test</b></u> sooner than anyone had anticipated. When civil war engulfed Aleppo in Syria, researchers at the International Center for Agricultural Research in the Dry Areas (ICARDA) were forced to abandon their headquarters, which held 140,000 prized samples of ancient Middle Eastern wheat, barley and lentils adapted to extreme heat. Fortunately, ICARDA had shipped duplicate boxes to Svalbard before the fighting escalated. In 2015 and 2017, the vault made its first-ever withdrawals, sending tens of thousands of seeds to new nurseries in Morocco and Lebanon, where scientists multiplied the crops and returned fresh replacement seeds to the Arctic.\nEven an Arctic fortress, however, cannot ignore a warming planet. In October 2016, unseasonably heavy autumn rain and thawing surface permafrost caused meltwater to seep into the vault’s outer access tunnel and freeze into a sheet of ice—though the seed chambers themselves were never breached. Norway responded by investing over $20 million to waterproof the tunnel, remove heat-generating transformers and install cooling pipes in the soil overhead. As climate extremes intensify, Svalbard’s frozen library stands as both a monument to international cooperation and a reminder that no refuge is entirely immune to global warming.\n<i>(Adapted from Crop Trust, Svalbard Global Seed Vault Annual Review, and Science)</i>"
       },
       {
         "origNum": 62,
@@ -1504,15 +1504,15 @@ window.examDatabase['reading'] = {
       {
         "origNum": 63,
         "instruction": "Read the following passage and mark the letter A, B, C, D on your answer sheet to indicate the best answer to each of the following questions from 61 to 70.",
-        "text": "The phrase “<b><u>That depositor</u></b>” in paragraph 4 refers to __________.",
+        "text": "The word “<b><u>their</u></b>” in the last sentence of paragraph 4 refers to __________.",
         "options": [
-          "the Nordic Genetic Resource Center",
-          "each depositing institution",
-          "the Norwegian government",
-          "the mountain on Spitsbergen"
+          "sealed foil packets of seeds",
+          "electric cooling units",
+          "three underground chambers",
+          "depositing institutions"
         ],
-        "answer": 1,
-        "explanation": "“Each depositing institution retains sole legal control... It is the only party permitted to request their return” → It chỉ tổ chức gửi hạt giống (each depositing institution)."
+        "answer": 0,
+        "explanation": "Đoạn 4: “Each depositing institution retains sole legal control over the sealed foil packets it places inside the mountain. It is the only party permitted to request their return...” → “their” quy chiếu cho “sealed foil packets” → A."
       },
       {
         "origNum": 64,
@@ -1525,12 +1525,12 @@ window.examDatabase['reading'] = {
           "Electric cooling systems that keep chambers at minus 18 degrees Celsius."
         ],
         "answer": 0,
-        "explanation": "Đoạn 3 nêu: độ cao 130m trên mực nước biển (A), lớp đất đóng băng vĩnh cửu xung quanh (B), hệ thống làm lạnh điện giữ ở -18°C (D); KHÔNG nói có hơi nước địa nhiệt giá rẻ (C)."
+        "explanation": "Đoạn 3 nêu: độ cao 130m trên mực nước biển (B), lớp đất đóng băng vĩnh cửu xung quanh (C), hệ thống làm lạnh điện giữ ở -18°C (D); KHÔNG nói có hơi nước địa nhiệt giá rẻ → A."
       },
       {
         "origNum": 65,
         "instruction": "Read the following passage and mark the letter A, B, C, D on your answer sheet to indicate the best answer to each of the following questions from 61 to 70.",
-        "text": "Which of the following best summarises paragraph 5?",
+        "text": "Which of the following best summarises paragraph 5 regarding ICARDA’s seed withdrawals?",
         "options": [
           "The Svalbard Vault permanently closed its doors in 2017 after running out of Middle Eastern lentil seeds.",
           "The civil war in Syria prevented ICARDA from ever recovering the 140,000 seed samples it had sent to Norway.",
@@ -1543,7 +1543,7 @@ window.examDatabase['reading'] = {
       {
         "origNum": 66,
         "instruction": "Read the following passage and mark the letter A, B, C, D on your answer sheet to indicate the best answer to each of the following questions from 61 to 70.",
-        "text": "According to the passage, which of the following is TRUE?",
+        "text": "What happened at the Svalbard Global Seed Vault during the unseasonably warm autumn of October 2016?",
         "options": [
           "A typhoon destroyed the Svalbard Vault’s main freezer room in the 2000s.",
           "Norway charges poor countries a high annual rent for every box of seeds stored in the vault.",
@@ -1582,7 +1582,7 @@ window.examDatabase['reading'] = {
       {
         "origNum": 69,
         "instruction": "Read the following passage and mark the letter A, B, C, D on your answer sheet to indicate the best answer to each of the following questions from 61 to 70.",
-        "text": "Which of the following can be inferred from the passage?",
+        "text": "What can be inferred from the 2016 meltwater incident described in paragraph 6?",
         "options": [
           "Seeds stored at minus eighteen degrees Celsius lose their ability to germinate within two years.",
           "Permafrost around Svalbard is growing thicker each autumn due to heavier snowfall.",
@@ -1595,7 +1595,7 @@ window.examDatabase['reading'] = {
       {
         "origNum": 70,
         "instruction": "Read the following passage and mark the letter A, B, C, D on your answer sheet to indicate the best answer to each of the following questions from 61 to 70.",
-        "text": "Which of the following best summarises the passage?",
+        "text": "Which of the following best summarises the passage on the Svalbard Global Seed Vault?",
         "options": [
           "Because Spitsbergen is warming rapidly, the Norwegian government has decided to relocate the Doomsday Vault to Morocco.",
           "The Svalbard Global Seed Vault was constructed in 2016 to replace all 1,700 national seed banks around the world.",
@@ -1619,7 +1619,7 @@ window.examDatabase['reading'] = {
         ],
         "answer": 1,
         "explanation": "Paraphrase chính xác: Dù được thiết kế cho đô thị 4 triệu dân, hệ thống cống chung của Bazalgette đã quá tải trước một siêu đô thị thế kỷ 21 với 9 triệu dân và bề mặt bê tông không thấm nước rộng lớn.",
-        "passage": "<b>LONDON’S SUPER SEWER: THE THAMES TIDEWAY TUNNEL</b>\nWhen the civil engineer Sir Joseph Bazalgette completed London’s brick-arched sewer network in the 1860s after the ‘Great Stink’, his design was hailed as a triumph of Victorian public health. <b>[I]</b> <u><b>Designed for a city of four million people, however, Bazalgette’s combined sewers have struggled to cope with a twenty-first-century metropolis of nine million residents and vast expanses of impermeable paving.</b></u> Every year, tens of millions of tonnes of untreated storm sewage have spilled into the tidal River Thames.\nThe flaw lies in how ‘combined’ nineteenth-century sewers operate. A single network of underground pipes carries both household wastewater from kitchens and bathrooms and rainwater draining off roofs and streets. <b>[II]</b> To prevent sewage from backing up into people’s basements during heavy storms, Bazalgette built fifty-seven overflow outlets along the riverbanks. In the 1860s, those safety valves discharged only once or twice a year; by the 2010s, just two millimetres of rain was enough to trigger overflows almost every week, depleting dissolved oxygen in the river and proving <u><b>lethal</b></u> to fish.\nAfter years of legal pressure and environmental campaigning, work began in 2016 on the Thames Tideway Tunnel—dubbed London’s ‘Super Sewer’. <b>[III]</b> Stretching twenty-five kilometres from Acton in west London to Abbey Mills in the east, the concrete-lined tunnel has an internal diameter of 7.2 metres—wide enough to fit three double-decker London buses side by side—and slopes gently downward from thirty metres to sixty-six metres beneath the riverbed.\nRather than replacing Bazalgette’s Victorian brick sewers, the new tunnel works alongside them. Vertical shafts positioned at the most polluting overflow points intercept storm discharges before they can enter the open river and drop the water into the deep tunnel below. <u><b>It</b></u> then stores up to 1.6 million cubic metres of combined runoff until the storm passes and pumps the water onward to Beckton Sewage Treatment Works for full purification.\n<b>[IV]</b> As the final concrete segments were bolted into place and testing began in 2024, the £4.5 billion project started to <u><b>turn the tide</b></u> for the river’s ecology. Engineers calculate that the tunnel will capture 95 percent of the sewage volume that previously entered the tidal Thames, cutting overflow events from roughly sixty a year to no more than four. Marine biologists from the Zoological Society of London, who have documented seahorses, eels and over a hundred fish species returning to the estuary since the 1960s, expect dissolved-oxygen crashes during summer thunderstorms to become a thing of the past.\nEven a giant tunnel, nevertheless, is only half the answer. Climate projections indicate that London’s winter downpours will grow more intense over the coming decades. Urban hydrologists therefore stress that hard underground engineering must be paired with ‘sponge-city’ surface measures—such as rain gardens, permeable car parks and disconnected downpipes—that soak up rainwater before it ever enters a sewer grate. Together, Victorian brickwork, twenty-first-century tunnelling and green streets show how historic cities can adapt their hidden lifelines for a changing climate.\n<i>(Adapted from Institution of Civil Engineers and Zoological Society of London Thames Report)</i>"
+        "passage": "<b>LONDON’S SUPER SEWER: THE THAMES TIDEWAY TUNNEL</b>\nWhen the civil engineer Sir Joseph Bazalgette completed London’s brick-arched sewer network in the 1860s after the ‘Great Stink’, his design was hailed as a triumph of Victorian public health. <b>[I]</b> <u><b>Designed for a city of four million people, however, Bazalgette’s combined sewers have struggled to cope with a twenty-first-century metropolis of nine million residents and vast expanses of impermeable paving.</b></u> Every year, tens of millions of tonnes of untreated storm sewage have spilled into the tidal River Thames.\nThe flaw lies in how ‘combined’ nineteenth-century sewers operate. A single network of underground pipes carries both household wastewater from kitchens and bathrooms and rainwater draining off roofs and streets. <b>[II]</b> To prevent sewage from backing up into people’s basements during heavy storms, Bazalgette built fifty-seven overflow outlets along the riverbanks. In the 1860s, those safety valves discharged only once or twice a year; by the 2010s, just two millimetres of rain was enough to trigger overflows almost every week, depleting dissolved oxygen in the river and proving <u><b>lethal</b></u> to fish.\nAfter years of legal pressure and environmental campaigning, work began in 2016 on the Thames Tideway Tunnel—dubbed London’s ‘Super Sewer’. <b>[III]</b> Stretching twenty-five kilometres from Acton in west London to Abbey Mills in the east, the concrete-lined tunnel has an internal diameter of 7.2 metres—wide enough to fit three double-decker London buses side by side—and slopes gently downward from thirty metres to sixty-six metres beneath the riverbed.\nRather than replacing Bazalgette’s Victorian brick sewers, the new tunnel works alongside <u><b>them</b></u>. Vertical shafts positioned at the most polluting overflow points intercept storm discharges before they can enter the open river and drop the water into the deep tunnel below. It then stores up to 1.6 million cubic metres of combined runoff until the storm passes and pumps the water onward to Beckton Sewage Treatment Works for full purification.\n<b>[IV]</b> As the final concrete segments were bolted into place and testing began in 2024, the £4.5 billion project started to <u><b>turn the tide</b></u> for the river’s ecology. Engineers calculate that the tunnel will capture 95 percent of the sewage volume that previously entered the tidal Thames, cutting overflow events from roughly sixty a year to no more than four. Marine biologists from the Zoological Society of London, who have documented seahorses, eels and over a hundred fish species returning to the estuary since the 1960s, expect dissolved-oxygen crashes during summer thunderstorms to become a thing of the past.\nEven a giant tunnel, nevertheless, is only half the answer. Climate projections indicate that London’s winter downpours will grow more intense over the coming decades. Urban hydrologists therefore stress that hard underground engineering must be paired with ‘sponge-city’ surface measures—such as rain gardens, permeable car parks and disconnected downpipes—that soak up rainwater before it ever enters a sewer grate. Together, Victorian brickwork, twenty-first-century tunnelling and green streets show how historic cities can adapt their hidden lifelines for a changing climate.\n<i>(Adapted from Institution of Civil Engineers and Zoological Society of London Thames Report)</i>"
       },
       {
         "origNum": 62,
@@ -1637,15 +1637,15 @@ window.examDatabase['reading'] = {
       {
         "origNum": 63,
         "instruction": "Read the following passage and mark the letter A, B, C, D on your answer sheet to indicate the best answer to each of the following questions from 61 to 70.",
-        "text": "The word “<b><u>It</u></b>” in paragraph 4 refers to __________.",
+        "text": "The pronoun “<b><u>them</u></b>” in the first sentence of paragraph 4 refers to __________.",
         "options": [
           "Beckton Sewage Treatment Works",
-          "the open River Thames",
-          "Victorian brickwork",
-          "the new Thames Tideway Tunnel"
+          "three double-decker London buses",
+          "fifty-seven overflow outlets",
+          "Bazalgette’s Victorian brick sewers"
         ],
         "answer": 3,
-        "explanation": "“drop the water into the deep tunnel below. It then stores up to 1.6 million cubic metres...” → It chỉ đường hầm mới Thames Tideway Tunnel."
+        "explanation": "Đoạn 4: “Rather than replacing Bazalgette’s Victorian brick sewers, the new tunnel works alongside them.” → “them” quy chiếu cho hệ thống cống gạch thời Victoria của Bazalgette → D."
       },
       {
         "origNum": 64,
@@ -1658,12 +1658,12 @@ window.examDatabase['reading'] = {
           "Its depth of thirty to sixty-six metres beneath the river."
         ],
         "answer": 0,
-        "explanation": "Đoạn 3 nêu: dài 25 km (A), đường kính trong 7,2 m (B), độ sâu 30–66 m dưới lòng sông (D); KHÔNG nêu số lượng máy đào hầm TBM (C)."
+        "explanation": "Đoạn 3 nêu: đường kính trong 7,2 m (B), chiều dài 25 km (C), độ sâu 30–66 m dưới lòng sông (D); KHÔNG nêu số lượng máy đào hầm TBM → A."
       },
       {
         "origNum": 65,
         "instruction": "Read the following passage and mark the letter A, B, C, D on your answer sheet to indicate the best answer to each of the following questions from 61 to 70.",
-        "text": "Which of the following best summarises paragraph 5?",
+        "text": "Which of the following best summarises the ecological projections for the River Thames in paragraph 5?",
         "options": [
           "The £4.5 billion tunnel has failed to reduce the number of sewage spills into the tidal Thames.",
           "Seahorses and eels have disappeared from the Thames estuary since testing began in 2024.",
@@ -1676,7 +1676,7 @@ window.examDatabase['reading'] = {
       {
         "origNum": 66,
         "instruction": "Read the following passage and mark the letter A, B, C, D on your answer sheet to indicate the best answer to each of the following questions from 61 to 70.",
-        "text": "According to the passage, which of the following is TRUE?",
+        "text": "How does the new Thames Tideway Tunnel interact with Sir Joseph Bazalgette’s nineteenth-century sewer system?",
         "options": [
           "The Thames Tideway Tunnel works alongside Bazalgette’s Victorian sewers rather than demolishing them.",
           "Bazalgette’s fifty-seven overflow outlets were built in 2016.",
@@ -1715,7 +1715,7 @@ window.examDatabase['reading'] = {
       {
         "origNum": 69,
         "instruction": "Read the following passage and mark the letter A, B, C, D on your answer sheet to indicate the best answer to each of the following questions from 61 to 70.",
-        "text": "Which of the following can be inferred from the passage?",
+        "text": "What can be inferred from the passage about impermeable urban paving and storm-sewer overflows?",
         "options": [
           "Victorian engineers intentionally designed London’s sewers to pollute the River Thames every week.",
           "Expanding paved surfaces in growing cities increases the volume of rainwater rushing into sewers during storms.",
@@ -1728,7 +1728,7 @@ window.examDatabase['reading'] = {
       {
         "origNum": 70,
         "instruction": "Read the following passage and mark the letter A, B, C, D on your answer sheet to indicate the best answer to each of the following questions from 61 to 70.",
-        "text": "Which of the following best summarises the passage?",
+        "text": "Which of the following best summarises the passage on London’s Thames Tideway Tunnel?",
         "options": [
           "To stop frequent storm-sewage spills from London’s overloaded Victorian sewers, engineers built the deep Thames Tideway Tunnel, which—alongside green surface drainage—will safeguard the river’s health.",
           "Sir Joseph Bazalgette’s 1860s sewer system collapsed in 2016 and had to be completely dug up and replaced.",
@@ -1752,7 +1752,7 @@ window.examDatabase['reading'] = {
         ],
         "answer": 0,
         "explanation": "Paraphrase chính xác: Khởi đầu năm 2007 với ý tưởng một dải cây liền mạch rộng 15 km ngăn sa mạc tiến lấn, Vạn Lý Trường Thành Xanh đã phát triển thành một mạng lưới thực tế gồm các mô hình phục hồi đất do nông dân quản lý.",
-        "passage": "<b>THE GREAT GREEN WALL OF THE SAHEL</b>\nAlong the southern edge of the Sahara Desert, a semi-arid belt known as the Sahel stretches eight thousand kilometres from Senegal on the Atlantic coast to Djibouti on the Red Sea. <b>[I]</b> <u><b>Conceived by African leaders in 2007 as a monolithic fifteen-kilometre-wide strip of trees to hold back the advancing desert, the Great Green Wall has evolved into a pragmatic mosaic of farmer-managed land restoration.</b></u> Today the initiative represents one of the most ambitious ecological and livelihood projects of the twenty-first century.\nThe region’s crisis was triggered by severe droughts in the 1970s and 1980s, compounded by rapid population growth, overgrazing and the felling of trees for firewood. <b>[II]</b> Stripped of vegetation, sun-baked clay soils formed an impermeable crust; when the brief summer rains arrived, water sheeted off the surface instead of soaking in, leaving crops withered weeks later. Millions of smallholder families faced chronic food insecurity and pressure to migrate.\nEarly attempts to plant continuous plantations of nursery-grown eucalyptus and acacia saplings across uninhabited dunes met with <u><b>sobering</b></u> setbacks. <b>[III]</b> In remote districts without fences or village caretakers, up to 80 percent of the planted seedlings died from drought or were eaten by wandering goats within their first dry season. Ecologists quickly realised that ‘planting trees’ in isolation could not stop desertification, which is driven by land degradation inside farming villages rather than a literal wall of moving sand.\nThe breakthrough came from reviving indigenous water-harvesting and agroforestry techniques across Burkina Faso, Niger and Senegal. Using traditional half-moon earth pits known as <i>zaï</i> filled with compost, farmers trapped rainwater runoff so it percolated deep into the crusted soil. <u><b>They</b></u> also practised ‘farmer-managed natural regeneration’ (FMNR)—identifying living tree roots dormant beneath ploughed fields and pruning the toughest shoots so native nitrogen-fixing trees such as <i>Faidherbia albida</i> could grow right among millet and sorghum crops.\n<b>[IV]</b> This shift from top-down forestry to community stewardship soon began to <u><b>turn a corner</b></u>. In Niger alone, farmers have regenerated more than 200 million trees across five million hectares of farmland, boosting grain yields by half a million tonnes a year because <i>Faidherbia</i> trees conveniently shed their nitrogen-rich leaves at the start of the rainy season rather than shading crops. In Senegal, women’s cooperatives managing multi-purpose village gardens within the Green Wall corridor have diversified incomes by harvesting gum arabic, baobab fruit and fodder.\nFormidable obstacles still stand in the way of the project’s 2030 target of restoring 100 million hectares. Armed insecurity across parts of the central Sahel has disrupted fieldwork, and international development pledges have sometimes been slow to reach local village councils. Nevertheless, the evolution of the Great Green Wall demonstrates that dryland restoration succeeds when local farmers have legal ownership of the trees on their land and an immediate economic stake in keeping them alive.\n<i>(Adapted from UN Convention to Combat Desertification, The Great Green Wall Implementation Status Report, and Nature)</i>"
+        "passage": "<b>THE GREAT GREEN WALL OF THE SAHEL</b>\nAlong the southern edge of the Sahara Desert, a semi-arid belt known as the Sahel stretches eight thousand kilometres from Senegal on the Atlantic coast to Djibouti on the Red Sea. <b>[I]</b> <u><b>Conceived by African leaders in 2007 as a monolithic fifteen-kilometre-wide strip of trees to hold back the advancing desert, the Great Green Wall has evolved into a pragmatic mosaic of farmer-managed land restoration.</b></u> Today the initiative represents one of the most ambitious ecological and livelihood projects of the twenty-first century.\nThe region’s crisis was triggered by severe droughts in the 1970s and 1980s, compounded by rapid population growth, overgrazing and the felling of trees for firewood. <b>[II]</b> Stripped of vegetation, sun-baked clay soils formed an impermeable crust; when the brief summer rains arrived, water sheeted off the surface instead of soaking in, leaving crops withered weeks later. Millions of smallholder families faced chronic food insecurity and pressure to migrate.\nEarly attempts to plant continuous plantations of nursery-grown eucalyptus and acacia saplings across uninhabited dunes met with <u><b>sobering</b></u> setbacks. <b>[III]</b> In remote districts without fences or village caretakers, up to 80 percent of the planted seedlings died from drought or were eaten by wandering goats within their first dry season. Ecologists quickly realised that ‘planting trees’ in isolation could not stop desertification, which is driven by land degradation inside farming villages rather than a literal wall of moving sand.\nThe breakthrough came from reviving indigenous water-harvesting and agroforestry techniques across Burkina Faso, Niger and Senegal. Using traditional half-moon earth pits known as <i>zaï</i> filled with compost, farmers trapped rainwater runoff so it percolated deep into the crusted soil. They also practised ‘farmer-managed natural regeneration’ (FMNR)—identifying living tree roots dormant beneath ploughed fields and pruning the toughest shoots so native nitrogen-fixing trees such as <i>Faidherbia albida</i> could grow right among millet and sorghum crops.\n<b>[IV]</b> This shift from top-down forestry to community stewardship soon began to <u><b>turn a corner</b></u>. In Niger alone, farmers have regenerated more than 200 million trees across five million hectares of farmland, boosting grain yields by half a million tonnes a year because <i>Faidherbia</i> trees conveniently shed their nitrogen-rich leaves at the start of the rainy season rather than shading crops. In Senegal, women’s cooperatives managing multi-purpose village gardens within the Green Wall corridor have diversified incomes by harvesting gum arabic, baobab fruit and fodder.\nFormidable obstacles still stand in the way of the project’s 2030 target of restoring 100 million hectares. Armed insecurity across parts of the central Sahel has disrupted fieldwork, and international development pledges have sometimes been slow to reach local village councils. Nevertheless, the evolution of the Great Green Wall demonstrates that dryland restoration succeeds when local farmers have legal ownership of the trees on their land and an immediate economic stake in keeping <u><b>them</b></u> alive.\n<i>(Adapted from UN Convention to Combat Desertification, The Great Green Wall Implementation Status Report, and Nature)</i>"
       },
       {
         "origNum": 62,
@@ -1770,15 +1770,15 @@ window.examDatabase['reading'] = {
       {
         "origNum": 63,
         "instruction": "Read the following passage and mark the letter A, B, C, D on your answer sheet to indicate the best answer to each of the following questions from 61 to 70.",
-        "text": "The word “<b><u>They</u></b>” in paragraph 4 refers to __________.",
+        "text": "The pronoun “<b><u>them</u></b>” in the final sentence of paragraph 6 refers to __________.",
         "options": [
-          "traditional half-moon earth pits",
-          "wandering goats",
-          "farmers in Burkina Faso, Niger and Senegal",
-          "nursery-grown eucalyptus saplings"
+          "international development pledges",
+          "local village councils",
+          "the trees on local farmers’ land",
+          "traditional half-moon earth pits"
         ],
         "answer": 2,
-        "explanation": "“farmers trapped rainwater runoff... They also practised ‘farmer-managed natural regeneration’” → They chỉ những người nông dân (farmers)."
+        "explanation": "Đoạn 6: “when local farmers have legal ownership of the trees on their land and an immediate economic stake in keeping them alive.” → “them” quy chiếu cho “the trees on their land” → C."
       },
       {
         "origNum": 64,
@@ -1791,12 +1791,12 @@ window.examDatabase['reading'] = {
           "Goats browsing on the newly planted seedlings."
         ],
         "answer": 1,
-        "explanation": "Đoạn 3 nêu: không có hàng rào (A), thiếu người dân địa phương chăm sóc (B), dê ăn cây non (D); KHÔNG nói bệnh nấm từ đất bầu ngoại nhập (C)."
+        "explanation": "Đoạn 3 nêu: thiếu hàng rào bảo vệ (A), thiếu người dân địa phương chăm sóc (C), dê ăn cây non (D); KHÔNG nói bệnh nấm từ đất bầu ngoại nhập → B."
       },
       {
         "origNum": 65,
         "instruction": "Read the following passage and mark the letter A, B, C, D on your answer sheet to indicate the best answer to each of the following questions from 61 to 70.",
-        "text": "Which of the following best summarises paragraph 5?",
+        "text": "Which of the following best summarises the agricultural and livelihood gains described in paragraph 5?",
         "options": [
           "Community-led tree regeneration and village gardens have simultaneously increased crop harvests, soil fertility and rural incomes.",
           "Planting Faidherbia trees has reduced millet harvests in Niger by shading the crops during the rainy season.",
@@ -1809,7 +1809,7 @@ window.examDatabase['reading'] = {
       {
         "origNum": 66,
         "instruction": "Read the following passage and mark the letter A, B, C, D on your answer sheet to indicate the best answer to each of the following questions from 61 to 70.",
-        "text": "According to the passage, which of the following is TRUE?",
+        "text": "Why is the native tree species Faidherbia albida particularly beneficial when grown inside millet and sorghum fields?",
         "options": [
           "Desertification in the Sahel is caused solely by a wall of sand blowing out of the Sahara.",
           "More than 90 percent of the seedlings planted in early remote plantations survived.",
@@ -1848,7 +1848,7 @@ window.examDatabase['reading'] = {
       {
         "origNum": 69,
         "instruction": "Read the following passage and mark the letter A, B, C, D on your answer sheet to indicate the best answer to each of the following questions from 61 to 70.",
-        "text": "Which of the following can be inferred from the passage?",
+        "text": "What lesson can be inferred from comparing early dune plantations with farmer-managed natural regeneration?",
         "options": [
           "Digging half-moon earth pits prevents rainwater from soaking into clay soil.",
           "Eucalyptus plantations in uninhabited dunes are more effective than farmer-managed regeneration.",
@@ -1861,7 +1861,7 @@ window.examDatabase['reading'] = {
       {
         "origNum": 70,
         "instruction": "Read the following passage and mark the letter A, B, C, D on your answer sheet to indicate the best answer to each of the following questions from 61 to 70.",
-        "text": "Which of the following best summarises the passage?",
+        "text": "Which of the following best summarises the passage on the Great Green Wall of the Sahel?",
         "options": [
           "The African Union abandoned the Great Green Wall in 2007 after discovering that trees cannot grow in Niger and Senegal.",
           "After early tree-planting belts suffered high mortality, the Great Green Wall shifted toward indigenous water-harvesting and farmer-managed tree regeneration, reviving millions of hectares despite ongoing security and funding hurdles.",
@@ -1885,7 +1885,7 @@ window.examDatabase['reading'] = {
         ],
         "answer": 2,
         "explanation": "Paraphrase chính xác: Đối mặt với nền đất sét nặng khiến canh tác hiện đại liên tục thua lỗ, năm 2001 hai chủ trang trại đã đưa ra quyết định táo bạo là bán máy kéo và trả lại đất cho tự nhiên.",
-        "passage": "<b>REWILDING THE KNEPPA ESTATE</b>\nSituated just forty miles south of London in the densely populated county of West Sussex, the 3,500-acre Knepp Castle Estate was farmed intensively for decades. <b>[I]</b> <u><b>Faced with heavy clay soil that made modern arable farming persistently unprofitable, owners Charlie Burrell and Isabella Tree took the radical decision in 2001 to sell their tractors and hand the land back to nature.</b></u> Over the quarter-century since, Knepp has become Britain’s most celebrated lowland rewilding experiment.\nThe economic predicament of Knepp was typical of marginal European farmland. Despite pouring tonnes of chemical fertilisers and winter wheat seed into the sticky Wealden clay, the estate ran at a chronic loss whenever global grain prices dipped. <b>[II]</b> Heavy machinery compacted the wet ground, while routine insecticide spraying rendered the fields biologically <u><b>sterile</b></u>. By 2000, the farm’s overdraft exceeded £1.5 million, and conventional agricultural advisers urged the owners to plough even harder.\nInstead, inspired by the Dutch ecologist Frans Vera, Burrell and Tree adopted ‘process-led’ conservation. <b>[III]</b> Rather than managing the land for a single target species, they removed internal barbed-wire fences, blocked agricultural drainage ditches so winter streams could spill out across the meadows, and allowed thorny scrub—bramble, hawthorn and blackthorn—to colonise the former wheat fields.\nTo replicate the disturbance once caused by prehistoric wild herbivores such as aurochs and tarpan, the estate introduced free-roaming herds of hardy traditional livestock: Old English longhorn cattle, Exmoor ponies, Tamworth pigs and fallow deer. <u><b>These hardy grazers</b></u> browsed saplings, trampled tussocks and rootled in the mud, creating a shifting mosaic of sunny glades, thorny thickets and temporary puddles that no mechanical mower could ever imitate.\n<b>[IV]</b> Within a decade, this messy, thorn-scrub landscape began to <u><b>work wonders</b></u> for Britain’s rarest wildlife. Nightingales, turtle doves and purple emperor butterflies—species plunging toward extinction across the wider English countryside—flocked to Knepp in nationally significant numbers, finding safe nesting cover inside the thorny bramble domes that protected saplings from deer. Soil carbon and earthworm biomass doubled, while ecotourism safaris, glamping and pasture-fed meat turned the formerly loss-making estate into a thriving business.\nRewilding in a crowded island, nonetheless, provokes lively debate. Neighbouring farmers initially complained about creeping thistle seeds blowing across boundary hedges, and rural economists point out that Britain cannot turn all of its prime, high-yielding farmland into scrub without importing more food from abroad. Even so, Knepp demonstrates that retiring marginal, unprofitable soils from intensive ploughing can restore biodiversity, store floodwater and revitalise rural enterprise all at once.\n<i>(Adapted from Isabella Tree, Wilding: The Return of Nature to a British Farm, and Ecological Solutions and Evidence)</i>"
+        "passage": "<b>REWILDING THE KNEPP ESTATE</b>\nSituated just forty miles south of London in the densely populated county of West Sussex, the 3,500-acre Knepp Castle Estate was farmed intensively for decades. <b>[I]</b> <u><b>Faced with heavy clay soil that made modern arable farming persistently unprofitable, owners Charlie Burrell and Isabella Tree took the radical decision in 2001 to sell their tractors and hand the land back to nature.</b></u> Over the quarter-century since, Knepp has become Britain’s most celebrated lowland rewilding experiment.\nThe economic predicament of Knepp was typical of marginal European farmland. Despite pouring tonnes of chemical fertilisers and winter wheat seed into the sticky Wealden clay, the estate ran at a chronic loss whenever global grain prices dipped. <b>[II]</b> Heavy machinery compacted the wet ground, while routine insecticide spraying rendered the fields biologically <u><b>sterile</b></u>. By 2000, the farm’s overdraft exceeded £1.5 million, and conventional agricultural advisers urged the owners to plough even harder.\nInstead, inspired by the Dutch ecologist Frans Vera, Burrell and Tree adopted ‘process-led’ conservation. <b>[III]</b> Rather than managing the land for a single target species, they removed internal barbed-wire fences, blocked agricultural drainage ditches so winter streams could spill out across the meadows, and allowed thorny scrub—bramble, hawthorn and blackthorn—to colonise the former wheat fields.\nTo replicate the disturbance once caused by prehistoric wild herbivores such as aurochs and tarpan, the estate introduced free-roaming herds of hardy traditional livestock: Old English longhorn cattle, Exmoor ponies, Tamworth pigs and fallow deer. <u><b>They</b></u> browsed saplings, trampled tussocks and rootled in the mud, creating a shifting mosaic of sunny glades, thorny thickets and temporary puddles that no mechanical mower could ever imitate.\n<b>[IV]</b> Within a decade, this messy, thorn-scrub landscape began to <u><b>work wonders</b></u> for Britain’s rarest wildlife. Nightingales, turtle doves and purple emperor butterflies—species plunging toward extinction across the wider English countryside—flocked to Knepp in nationally significant numbers, finding safe nesting cover inside the thorny bramble domes that protected saplings from deer. Soil carbon and earthworm biomass doubled, while ecotourism safaris, glamping and pasture-fed meat turned the formerly loss-making estate into a thriving business.\nRewilding in a crowded island, nonetheless, provokes lively debate. Neighbouring farmers initially complained about creeping thistle seeds blowing across boundary hedges, and rural economists point out that Britain cannot turn all of its prime, high-yielding farmland into scrub without importing more food from abroad. Even so, Knepp demonstrates that retiring marginal, unprofitable soils from intensive ploughing can restore biodiversity, store floodwater and revitalise rural enterprise all at once.\n<i>(Adapted from Isabella Tree, Wilding: The Return of Nature to a British Farm, and Ecological Solutions and Evidence)</i>"
       },
       {
         "origNum": 62,
@@ -1903,7 +1903,7 @@ window.examDatabase['reading'] = {
       {
         "origNum": 63,
         "instruction": "Read the following passage and mark the letter A, B, C, D on your answer sheet to indicate the best answer to each of the following questions from 61 to 70.",
-        "text": "The phrase “<b><u>These hardy grazers</u></b>” in paragraph 4 refers to __________.",
+        "text": "In paragraph 4, what does the pronoun “<b><u>They</u></b>” in “They browsed saplings, trampled tussocks and rootled in the mud” refer to?",
         "options": [
           "Charlie Burrell and Isabella Tree",
           "internal barbed-wire fences",
@@ -1924,12 +1924,12 @@ window.examDatabase['reading'] = {
           "Using Tamworth pigs and longhorn cattle to disturb the soil naturally."
         ],
         "answer": 0,
-        "explanation": "Đoạn 3 & 4 nêu: tháo hàng rào kẽm gai (A), chặn mương thoát nước (B), thả bò sừng dài, ngựa Exmoor, lợn Tamworth, hươu (D); KHÔNG thả thú săn mồi đầu bảng như sói hay linh miêu (C)."
+        "explanation": "Đoạn 3 & 4 nêu: tháo hàng rào kẽm gai (B), chặn mương thoát nước cũ (C), thả lợn Tamworth và bò sừng dài để xới đất tự nhiên (D); KHÔNG thả thú săn mồi đầu bảng như sói hay linh miêu → A."
       },
       {
         "origNum": 65,
         "instruction": "Read the following passage and mark the letter A, B, C, D on your answer sheet to indicate the best answer to each of the following questions from 61 to 70.",
-        "text": "Which of the following best summarises paragraph 5?",
+        "text": "Which of the following best summarises the ecological and financial turnaround of Knepp in paragraph 5?",
         "options": [
           "Ecotourism failed at Knepp because visitors disliked walking through muddy pastures.",
           "Thorny bramble domes prevented nightingales and purple emperor butterflies from breeding on the estate.",
@@ -1942,7 +1942,7 @@ window.examDatabase['reading'] = {
       {
         "origNum": 66,
         "instruction": "Read the following passage and mark the letter A, B, C, D on your answer sheet to indicate the best answer to each of the following questions from 61 to 70.",
-        "text": "According to the passage, which of the following is TRUE?",
+        "text": "According to paragraph 5, how do thorny bramble thickets assist tree regeneration at the Knepp Estate?",
         "options": [
           "Conventional farm advisers in 2000 recommended that Burrell and Tree stop ploughing.",
           "Thorny bramble thickets at Knepp shelter young tree saplings from browsing deer.",
@@ -1981,7 +1981,7 @@ window.examDatabase['reading'] = {
       {
         "origNum": 69,
         "instruction": "Read the following passage and mark the letter A, B, C, D on your answer sheet to indicate the best answer to each of the following questions from 61 to 70.",
-        "text": "Which of the following can be inferred from the passage?",
+        "text": "What can be inferred from the passage about the types of agricultural land best suited to lowland rewilding?",
         "options": [
           "Rewilding requires converting all of Britain’s highest-yielding wheat fields into forest.",
           "Rewilding is particularly well suited to marginal soils where intensive crop farming is economically unviable.",
@@ -1994,7 +1994,7 @@ window.examDatabase['reading'] = {
       {
         "origNum": 70,
         "instruction": "Read the following passage and mark the letter A, B, C, D on your answer sheet to indicate the best answer to each of the following questions from 61 to 70.",
-        "text": "Which of the following best summarises the passage?",
+        "text": "Which of the following best summarises the passage on rewilding the Knepp Estate?",
         "options": [
           "Frans Vera persuaded the British government to ban barbed-wire fences and drainage ditches across West Sussex.",
           "The Knepp Estate went bankrupt in 2001 after replacing modern tractors with Exmoor ponies and Tamworth pigs.",
@@ -2036,7 +2036,7 @@ window.examDatabase['reading'] = {
       {
         "origNum": 63,
         "instruction": "Read the following passage and mark the letter A, B, C, D on your answer sheet to indicate the best answer to each of the following questions from 61 to 70.",
-        "text": "The word “<b><u>It</u></b>” in paragraph 4 refers to __________.",
+        "text": "In paragraph 4, the pronoun “<b><u>It</u></b>” in “It also encouraged major chemical firms” refers to ___________.",
         "options": [
           "the 1987 Montreal Protocol framework",
           "a chlorine atom in the stratosphere",
@@ -2057,12 +2057,12 @@ window.examDatabase['reading'] = {
           "Releasing chlorine atoms when broken apart by stratospheric UV light."
         ],
         "answer": 1,
-        "explanation": "Đoạn 2 nêu: không cháy và không độc ở mặt đất (A), dùng làm chất làm lạnh và chất đẩy bình xịt (B), giải phóng nguyên tử clo khi bị tia UV tầng bình lưu phá vỡ (D); KHÔNG nói CFC tan nhanh trong nước mưa (C - trái lại chúng trôi nguyên vẹn lên tầng bình lưu)."
+        "explanation": "Đoạn 2 nêu: không cháy và không độc ở mặt đất (A), dùng làm chất làm lạnh và chất đẩy bình xịt (C), giải phóng nguyên tử clo khi bị tia UV tầng bình lưu phá vỡ (D); KHÔNG nói CFC tan nhanh trong nước mưa → B."
       },
       {
         "origNum": 65,
         "instruction": "Read the following passage and mark the letter A, B, C, D on your answer sheet to indicate the best answer to each of the following questions from 61 to 70.",
-        "text": "Which of the following best summarises paragraph 5?",
+        "text": "Which of the following best summarises the atmospheric recovery and climate benefits presented in paragraph 5?",
         "options": [
           "Phasing out CFCs has caused global temperatures to rise by an extra one degree Celsius.",
           "Stratospheric chlorine levels have continued to rise since the late 1990s despite the Montreal Protocol.",
@@ -2075,7 +2075,7 @@ window.examDatabase['reading'] = {
       {
         "origNum": 66,
         "instruction": "Read the following passage and mark the letter A, B, C, D on your answer sheet to indicate the best answer to each of the following questions from 61 to 70.",
-        "text": "According to the passage, which of the following is TRUE?",
+        "text": "How did the 1987 Montreal Protocol support developing nations in phasing out ozone-depleting substances?",
         "options": [
           "The Multilateral Fund helped developing countries convert their factories to ozone-safe alternatives.",
           "Mario Molina and F. Sherwood Rowland invented CFCs in the 1920s.",
@@ -2114,7 +2114,7 @@ window.examDatabase['reading'] = {
       {
         "origNum": 69,
         "instruction": "Read the following passage and mark the letter A, B, C, D on your answer sheet to indicate the best answer to each of the following questions from 61 to 70.",
-        "text": "Which of the following can be inferred from the passage?",
+        "text": "What can be inferred from paragraph 6 regarding the long-term management of global environmental treaties?",
         "options": [
           "Continuous atmospheric monitoring and treaty updates are essential because substitute chemicals or illegal production can create new problems.",
           "Global environmental treaties can succeed without financial assistance for developing nations.",
@@ -2127,7 +2127,7 @@ window.examDatabase['reading'] = {
       {
         "origNum": 70,
         "instruction": "Read the following passage and mark the letter A, B, C, D on your answer sheet to indicate the best answer to each of the following questions from 61 to 70.",
-        "text": "Which of the following best summarises the passage?",
+        "text": "Which of the following best summarises the passage on the Montreal Protocol?",
         "options": [
           "The history of CFCs shows that synthetic chemicals are always harmless in the upper atmosphere.",
           "The British Antarctic Survey discovered in 1985 that hydrofluorocarbons had destroyed 99 percent of the world’s oxygen.",
@@ -2151,7 +2151,7 @@ window.examDatabase['reading'] = {
         ],
         "answer": 1,
         "explanation": "Paraphrase chính xác: Bị ép giữa các hãng hàng không giá rẻ bán vé 20 euro và tàu cao tốc ban ngày, các hãng đường sắt quốc gia đã cắt bỏ hàng chục tuyến tàu đêm, đỉnh điểm là việc Deutsche Bahn bán toàn bộ đội toa giường nằm năm 2016.",
-        "passage": "<b>THE REVIVAL OF NIGHT TRAINS IN EUROPE</b>\nBy the mid-2010s, the sleeper train—once the romantic backbone of transcontinental European travel—appeared to be an endangered species. <b>[I]</b> <u><b>Squeezed between budget airlines offering twenty-euro fares and daytime high-speed rail lines, national operators axed dozens of overnight routes, culminating in Deutsche Bahn’s decision to sell off its entire sleeper fleet in 2016.</b></u> Transport commentators confidently wrote obituaries for the couchette carriage.\nThe decline of overnight rail had been decades in the making. While low-cost aviation paid zero tax on kerosene fuel and no value-added tax on international tickets, sleeper trains faced steep track-access charges levied by each national infrastructure manager they crossed. <b>[II]</b> Worse still, night trains have inherently <u><b>onerous</b></u> economics: unlike a daytime high-speed train that can make four lucrative round-trips a day carrying eight hundred seated passengers, a sleeper carriage makes just one journey per night with far fewer berths, and requires attendants to change linen and serve breakfast.\nOne small operator, however, refused to follow the herd. <b>[III]</b> Gambling that travellers still valued waking up in the heart of a foreign city without airport queues, Austria’s state railway, ÖBB, bought Deutsche Bahn’s unwanted carriages at a discount in 2016 and rebranded them under the name ‘Nightjet’.\nThe gamble paid off handsomely. Within two years, rising public concern over aviation carbon emissions—popularised by the Swedish <i>flygskam</i> (‘flight-shaming’) movement—sent Nightjet bookings surging. ÖBB ordered thirty-three brand-new next-generation sleeper trains featuring soundproofed solo ‘mini-cabins’ with wireless charging and private lockers for solo travellers, alongside en-suite family compartments. <u><b>These modernised carriages</b></u> entered service on routes linking Vienna, Munich, Zurich, Rome, Paris and Brussels.\n<b>[IV]</b> This Austrian experiment soon began to <u><b>gather steam</b></u> across the continent. France, Sweden and Italy announced state subsidies to reopen domestic and cross-border overnight lines, while cooperative start-ups such as European Sleeper launched new services connecting Brussels, Amsterdam, Berlin and Prague. Studies show that an electric night train emits roughly a tenth to a twentieth of the greenhouse gases per passenger-kilometre of a short-haul flight along the same corridor.\nScaling up the night-train renaissance, however, faces stubborn structural bottlenecks. Rolling stock remains in critically short supply because few factories build custom sleeper carriages, and overnight maintenance work on railway tracks frequently forces night trains onto slow diversions. Moreover, locomotives crossing four countries still have to navigate a patchwork of national signalling systems and high track tolls. Even so, the return of the Nightjet proves that with modern privacy-focused carriages and supportive policy, travellers will gladly trade the airport departure lounge for a bed on rails.\n<i>(Adapted from European Parliament Transport Committee Report on Night Trains and The Economist)</i>"
+        "passage": "<b>THE REVIVAL OF NIGHT TRAINS IN EUROPE</b>\nBy the mid-2010s, the sleeper train—once the romantic backbone of transcontinental European travel—appeared to be an endangered species. <b>[I]</b> <u><b>Squeezed between budget airlines offering twenty-euro fares and daytime high-speed rail lines, national operators axed dozens of overnight routes, culminating in Deutsche Bahn’s decision to sell off its entire sleeper fleet in 2016.</b></u> Transport commentators confidently wrote obituaries for the couchette carriage.\nThe decline of overnight rail had been decades in the making. While low-cost aviation paid zero tax on kerosene fuel and no value-added tax on international tickets, sleeper trains faced steep track-access charges levied by each national infrastructure manager they crossed. <b>[II]</b> Worse still, night trains have inherently <u><b>onerous</b></u> economics: unlike a daytime high-speed train that can make four lucrative round-trips a day carrying eight hundred seated passengers, a sleeper carriage makes just one journey per night with far fewer berths, and requires attendants to change linen and serve breakfast.\nOne small operator, however, refused to follow the herd. <b>[III]</b> Gambling that travellers still valued waking up in the heart of a foreign city without airport queues, Austria’s state railway, ÖBB, bought Deutsche Bahn’s unwanted carriages at a discount in 2016 and rebranded <u><b>them</b></u> under the name ‘Nightjet’.\nThe gamble paid off handsomely. Within two years, rising public concern over aviation carbon emissions—popularised by the Swedish <i>flygskam</i> (‘flight-shaming’) movement—sent Nightjet bookings surging. ÖBB ordered thirty-three brand-new next-generation sleeper trains featuring soundproofed solo ‘mini-cabins’ with wireless charging and private lockers for solo travellers, alongside en-suite family compartments. They entered service on routes linking Vienna, Munich, Zurich, Rome, Paris and Brussels.\n<b>[IV]</b> This Austrian experiment soon began to <u><b>gather steam</b></u> across the continent. France, Sweden and Italy announced state subsidies to reopen domestic and cross-border overnight lines, while cooperative start-ups such as European Sleeper launched new services connecting Brussels, Amsterdam, Berlin and Prague. Studies show that an electric night train emits roughly a tenth to a twentieth of the greenhouse gases per passenger-kilometre of a short-haul flight along the same corridor.\nScaling up the night-train renaissance, however, faces stubborn structural bottlenecks. Rolling stock remains in critically short supply because few factories build custom sleeper carriages, and overnight maintenance work on railway tracks frequently forces night trains onto slow diversions. Moreover, locomotives crossing four countries still have to navigate a patchwork of national signalling systems and high track tolls. Even so, the return of the Nightjet proves that with modern privacy-focused carriages and supportive policy, travellers will gladly trade the airport departure lounge for a bed on rails.\n<i>(Adapted from European Parliament Transport Committee Report on Night Trains and The Economist)</i>"
       },
       {
         "origNum": 62,
@@ -2169,15 +2169,15 @@ window.examDatabase['reading'] = {
       {
         "origNum": 63,
         "instruction": "Read the following passage and mark the letter A, B, C, D on your answer sheet to indicate the best answer to each of the following questions from 61 to 70.",
-        "text": "The phrase “<b><u>These modernised carriages</u></b>” in paragraph 4 refers to __________.",
+        "text": "In paragraph 3, what does the pronoun “<b><u>them</u></b>” in “rebranded them under the name ‘Nightjet’” refer to?",
         "options": [
-          "airport queues",
+          "airport departure queues",
           "aviation carbon emissions",
-          "thirty-three brand-new next-generation sleeper trains",
-          "budget airlines"
+          "Deutsche Bahn’s unwanted sleeper carriages",
+          "budget airlines offering twenty-euro fares"
         ],
         "answer": 2,
-        "explanation": "“ÖBB ordered thirty-three brand-new next-generation sleeper trains... They entered service on routes linking Vienna...” → They chỉ 33 đoàn tàu giường nằm thế hệ mới."
+        "explanation": "Đoạn 3: “Austria’s state railway, ÖBB, bought Deutsche Bahn’s unwanted carriages at a discount in 2016 and rebranded them under the name ‘Nightjet’.” → “them” chỉ các toa tàu giường nằm mà Deutsche Bahn bán lại → C."
       },
       {
         "origNum": 64,
@@ -2190,12 +2190,12 @@ window.examDatabase['reading'] = {
           "Extra staffing costs for changing bed linen and serving breakfast."
         ],
         "answer": 0,
-        "explanation": "Đoạn 2 nêu: phí sử dụng đường ray cao (A), chỉ chạy 1 chuyến/đêm với ít chỗ hơn tàu ghế ngồi (B), chi phí nhân viên thay ga gối và phục vụ bữa sáng (D); KHÔNG nói thiếu lái tàu làm ca đêm (C)."
+        "explanation": "Đoạn 2 nêu: chỉ chạy 1 chuyến/đêm với ít khách hơn tàu ghế ngồi (B), phí sử dụng đường ray cao qua nhiều quốc gia (C), chi phí nhân viên thay ga gối và phục vụ bữa sáng (D); KHÔNG nói thiếu lái tàu làm việc sau nửa đêm → A."
       },
       {
         "origNum": 65,
         "instruction": "Read the following passage and mark the letter A, B, C, D on your answer sheet to indicate the best answer to each of the following questions from 61 to 70.",
-        "text": "Which of the following best summarises paragraph 5?",
+        "text": "Which of the following best summarises the European night-train expansion described in paragraph 5?",
         "options": [
           "European Sleeper cancelled its Brussels-to-Prague route after France withdrew state subsidies.",
           "Austria’s success inspired governments and new operators across Europe to revive low-carbon overnight rail routes.",
@@ -2208,7 +2208,7 @@ window.examDatabase['reading'] = {
       {
         "origNum": 66,
         "instruction": "Read the following passage and mark the letter A, B, C, D on your answer sheet to indicate the best answer to each of the following questions from 61 to 70.",
-        "text": "According to the passage, which of the following is TRUE?",
+        "text": "What innovation did Austria’s ÖBB introduce on its new Nightjet carriages to attract solo travellers?",
         "options": [
           "International airline tickets in Europe are taxed more heavily than railway track access.",
           "Deutsche Bahn bought Austria’s Nightjet fleet in 2016.",
@@ -2247,7 +2247,7 @@ window.examDatabase['reading'] = {
       {
         "origNum": 69,
         "instruction": "Read the following passage and mark the letter A, B, C, D on your answer sheet to indicate the best answer to each of the following questions from 61 to 70.",
-        "text": "Which of the following can be inferred from the passage?",
+        "text": "What can be inferred from the passage about the policy reforms needed to help European night trains expand further?",
         "options": [
           "Solo travellers prefer sharing six-berth compartments with strangers rather than using mini-cabins.",
           "High-speed daytime trains make fewer trips per day than sleeper carriages.",
@@ -2260,7 +2260,7 @@ window.examDatabase['reading'] = {
       {
         "origNum": 70,
         "instruction": "Read the following passage and mark the letter A, B, C, D on your answer sheet to indicate the best answer to each of the following questions from 61 to 70.",
-        "text": "Which of the following best summarises the passage?",
+        "text": "Which of the following best summarises the passage on the revival of European night trains?",
         "options": [
           "Nearly killed off by cheap flights and high operating costs, European sleeper trains have staged a climate-driven comeback led by Austria’s Nightjet, though rolling-stock shortages and cross-border rail hurdles persist.",
           "Deutsche Bahn’s 2016 sale of its sleeper fleet permanently ended overnight passenger rail travel across Europe.",
@@ -2284,7 +2284,7 @@ window.examDatabase['reading'] = {
         ],
         "answer": 2,
         "explanation": "Paraphrase chính xác: Bị tàn phá qua nhiều thế kỷ bởi khai thác quá mức, nạo vét và xả nước thải thô, các rạn hàu bản địa của cảng gần như biến mất vào giữa thế kỷ 20, kéo theo sự mất mát của hệ thống lọc nước và chắn sóng tự nhiên.",
-        "passage": "<b>OYSTER REEF RESTORATION IN NEW YORK HARBOR</b>\nWhen the English explorer Henry Hudson sailed into New York Harbor in 1609, he navigated through crystal-clear estuaries lined with220,000 acres of living oyster reefs—nearly half of the world’s entire population of eastern oysters (<i>Crassostrea virginica</i>). <b>[I]</b> <u><b>Decimated by centuries of overharvesting, dredging and raw sewage discharges, the harbour’s native oyster reefs had virtually vanished by the mid-twentieth century, taking a vital natural filtration and storm-defence system with them.</b></u> Since 2014, however, the Billion Oyster Project has united students, restaurants and marine scientists to rebuild those underwater reefs.\nIn their pre-industrial heyday, New York’s oysters were ecological titans. A single adult oyster filters up to fifty gallons (190 litres) of water a day through its gills, removing excess nitrogen and microscopic algae that would otherwise trigger oxygen-starved ‘dead zones’. <b>[II]</b> Growing fused together in three-dimensional calcium-carbonate mounds, oyster reefs also acted as submerged breakwaters that absorbed wave energy and prevented shoreline erosion. By the 1900s, <u><b>relentless</b></u> dredging and industrial pollution had rendered the harbour’s remaining beds toxic and devoid of life.\nThe catalyst for restoration was the US Clean Water Act of 1972, which forced the city to build modern wastewater treatment plants and made the harbour clean enough for marine life to survive again. <b>[III]</b> Yet wild oysters could not bounce back on their own, because free-swimming oyster larvae—known as ‘spat’—require hard calcium-rich shells on the seabed to latch onto, and centuries of dredging had left only soft, shifting silt.\nFounded by educators Murray Fisher and Pete Malinowski at the New York Harbor School on Governors Island, the Billion Oyster Project solved the substrate problem by turning city dining tables into a supply chain. Volunteers collect thousands of tonnes of discarded oyster shells each week from over seventy Manhattan seafood restaurants and cure them in the sun for a year. <u><b>They</b></u> are then placed into big hatchery tanks where millions of microscopic oyster larvae cement themselves onto the old shells before being lowered in steel mesh cages onto eighteen restoration sites across the harbour.\n<b>[IV]</b> Over the past decade, this hands-on civic effort has begun to <u><b>make waves</b></u>. More than 120 million new oysters have been planted across seventeen acres of riverbed, and dive surveys confirm that wild oysters are now reproducing naturally on the restored reefs for the first time in generations. Black sea bass, seahorses, blue crabs and juvenile winter flounder crowd into the crevices between the shells, while more than ten thousand New York City public-school students have learned marine biology and water-quality chemistry by monitoring the cages.\nReaching a billion oysters by 2035 still faces hurdles. Combined-sewer overflows during heavy summer downpours still make New York Harbor’s oysters unsafe for human consumption—which ironically protects the young reefs from poachers!—and coastal engineers are now pairing living oyster breakwaters off Staten Island with stone seawalls to buffer future hurricane surges. Above all, the project shows how urban estuaries once written off as industrial sewers can be brought back to life.\n<i>(Adapted from Billion Oyster Project Annual Report and Smithsonian Magazine)</i>"
+        "passage": "<b>OYSTER REEF RESTORATION IN NEW YORK HARBOR</b>\nWhen the English explorer Henry Hudson sailed into New York Harbor in 1609, he navigated through crystal-clear estuaries lined with 220,000 acres of living oyster reefs—nearly half of the world’s entire population of eastern oysters (<i>Crassostrea virginica</i>). <b>[I]</b> <u><b>Decimated by centuries of overharvesting, dredging and raw sewage discharges, the harbour’s native oyster reefs had virtually vanished by the mid-twentieth century, taking a vital natural filtration and storm-defence system with them.</b></u> Since 2014, however, the Billion Oyster Project has united students, restaurants and marine scientists to rebuild those underwater reefs.\nIn their pre-industrial heyday, New York’s oysters were ecological titans. A single adult oyster filters up to fifty gallons (190 litres) of water a day through its gills, removing excess nitrogen and microscopic algae that would otherwise trigger oxygen-starved ‘dead zones’. <b>[II]</b> Growing fused together in three-dimensional calcium-carbonate mounds, oyster reefs also acted as submerged breakwaters that absorbed wave energy and prevented shoreline erosion. By the 1900s, <u><b>relentless</b></u> dredging and industrial pollution had rendered the harbour’s remaining beds toxic and devoid of life.\nThe catalyst for restoration was the US Clean Water Act of 1972, which forced the city to build modern wastewater treatment plants and made the harbour clean enough for marine life to survive again. <b>[III]</b> Yet wild oysters could not bounce back on their own, because free-swimming oyster larvae—known as ‘spat’—require hard calcium-rich shells on the seabed to latch onto, and centuries of dredging had left only soft, shifting silt.\nFounded by educators Murray Fisher and Pete Malinowski at the New York Harbor School on Governors Island, the Billion Oyster Project solved the substrate problem by turning city dining tables into a supply chain. Volunteers collect thousands of tonnes of discarded oyster shells each week from over seventy Manhattan seafood restaurants and cure them in the sun for a year. <u><b>These</b></u> are then placed into big hatchery tanks where millions of microscopic oyster larvae cement themselves onto the old shells before being lowered in steel mesh cages onto eighteen restoration sites across the harbour.\n<b>[IV]</b> Over the past decade, this hands-on civic effort has begun to <u><b>make waves</b></u>. More than 120 million new oysters have been planted across seventeen acres of riverbed, and dive surveys confirm that wild oysters are now reproducing naturally on the restored reefs for the first time in generations. Black sea bass, seahorses, blue crabs and juvenile winter flounder crowd into the crevices between the shells, while more than ten thousand New York City public-school students have learned marine biology and water-quality chemistry by monitoring the cages.\nReaching a billion oysters by 2035 still faces hurdles. Combined-sewer overflows during heavy summer downpours still make New York Harbor’s oysters unsafe for human consumption—which ironically protects the young reefs from poachers!—and coastal engineers are now pairing living oyster breakwaters off Staten Island with stone seawalls to buffer future hurricane surges. Above all, the project shows how urban estuaries once written off as industrial sewers can be brought back to life.\n<i>(Adapted from Billion Oyster Project Annual Report and Smithsonian Magazine)</i>"
       },
       {
         "origNum": 62,
@@ -2302,7 +2302,7 @@ window.examDatabase['reading'] = {
       {
         "origNum": 63,
         "instruction": "Read the following passage and mark the letter A, B, C, D on your answer sheet to indicate the best answer to each of the following questions from 61 to 70.",
-        "text": "The word “<b><u>They</u></b>” in paragraph 4 refers to __________.",
+        "text": "In paragraph 4, the pronoun “<b><u>These</u></b>” in “These are then placed into big hatchery tanks” refers to __________.",
         "options": [
           "seventy Manhattan seafood restaurants",
           "discarded oyster shells collected from restaurants and cured in the sun",
@@ -2310,7 +2310,7 @@ window.examDatabase['reading'] = {
           "eighteen restoration sites across the harbour"
         ],
         "answer": 1,
-        "explanation": "“collect thousands of tonnes of discarded oyster shells... and cure them in the sun for a year. They are then placed into big hatchery tanks where millions of microscopic oyster larvae cement themselves onto the old shells” → They chỉ những vỏ hàu cũ đã phơi khô."
+        "explanation": "Đoạn 4: “Volunteers collect thousands of tonnes of discarded oyster shells... and cure them in the sun for a year. These are then placed into big hatchery tanks...” → “These” chỉ những vỏ hàu cũ thu gom từ nhà hàng và đã phơi khô → B."
       },
       {
         "origNum": 64,
@@ -2323,12 +2323,12 @@ window.examDatabase['reading'] = {
           "Producing freshwater for Manhattan’s municipal drinking-water pipes."
         ],
         "answer": 3,
-        "explanation": "Đoạn 2 nêu: mỗi con lọc tới 50 gallon nước/ngày (A), loại bỏ nitơ dư thừa và tảo hiển vi (B), làm đê chắn sóng ngầm giảm năng lượng sóng (D); KHÔNG nói tạo nước ngọt cho đường ống nước uống của thành phố (C)."
+        "explanation": "Đoạn 2 nêu: lọc tới 50 gallon nước mỗi ngày (A), loại bỏ nitơ dư thừa và tảo hiển vi (B), làm đê chắn sóng ngầm giảm năng lượng sóng (C); KHÔNG nói tạo nước ngọt cho đường ống nước sinh hoạt của Manhattan → D."
       },
       {
         "origNum": 65,
         "instruction": "Read the following passage and mark the letter A, B, C, D on your answer sheet to indicate the best answer to each of the following questions from 61 to 70.",
-        "text": "Which of the following best summarises paragraph 5?",
+        "text": "Which of the following best summarises the ecological and educational achievements reported in paragraph 5?",
         "options": [
           "Planting over 120 million oysters has sparked natural reef reproduction, created habitat for marine species and engaged thousands of local school students.",
           "Manhattan restaurants have harvested 120 million oysters from the restored reefs to serve to diners.",
@@ -2341,7 +2341,7 @@ window.examDatabase['reading'] = {
       {
         "origNum": 66,
         "instruction": "Read the following passage and mark the letter A, B, C, D on your answer sheet to indicate the best answer to each of the following questions from 61 to 70.",
-        "text": "According to the passage, which of the following is TRUE?",
+        "text": "Why were wild oysters unable to recolonise New York Harbor on their own after the Clean Water Act of 1972?",
         "options": [
           "Oysters grown by the Billion Oyster Project are sold to Manhattan seafood restaurants for human consumption.",
           "The Clean Water Act of 1972 immediately restored all 220,000 acres of oyster reefs without human help.",
@@ -2380,7 +2380,7 @@ window.examDatabase['reading'] = {
       {
         "origNum": 69,
         "instruction": "Read the following passage and mark the letter A, B, C, D on your answer sheet to indicate the best answer to each of the following questions from 61 to 70.",
-        "text": "Which of the following can be inferred from the passage?",
+        "text": "What can be inferred from paragraph 4 about collecting discarded oyster shells from Manhattan restaurants?",
         "options": [
           "New York Harbor’s water quality today is worse than it was in the early 1900s.",
           "Oyster reefs increase the risk of dead zones by releasing nitrogen into the water.",
@@ -2393,7 +2393,7 @@ window.examDatabase['reading'] = {
       {
         "origNum": 70,
         "instruction": "Read the following passage and mark the letter A, B, C, D on your answer sheet to indicate the best answer to each of the following questions from 61 to 70.",
-        "text": "Which of the following best summarises the passage?",
+        "text": "Which of the following best summarises the passage on oyster reef restoration in New York Harbor?",
         "options": [
           "Once home to vast oyster reefs that were wiped out by dredging and pollution, New York Harbor is regaining its natural filtration and storm-buffering reefs as students and restaurants recycle shells to seed millions of new oysters.",
           "Henry Hudson’s 1609 expedition introduced invasive eastern oysters that clogged New York Harbor for three centuries.",
@@ -2450,15 +2450,15 @@ window.examDatabase['reading'] = {
       {
         "origNum": 56,
         "instruction": "Read the following passage and mark the letter A, B, C, D on your answer sheet to indicate the best answer to each of the following questions from 53 to 60.",
-        "text": "The pronoun “<b><u>This</u></b>” in the last sentence of paragraph 3 refers to __________.",
+        "text": "What does the pronoun “<b><u>This</u></b>” in the final sentence of paragraph 3 refer to regarding degraded ecosystems?",
         "options": [
-          "the removal of subsidies that damage nature",
-          "the decline of biodiversity at an unprecedented rate",
-          "the difficulty of restoring an ecosystem once it has tipped",
-          "the heavier dependence of low-income countries on nature"
+          "the removal of government subsidies that damage nature",
+          "the unprecedented speed at which global biodiversity is declining",
+          "the high cost and extreme difficulty of restoring an ecosystem once it passes a tipping point",
+          "the heavy reliance of low-income economies on domestic natural resources"
         ],
         "answer": 2,
-        "explanation": "“This” = việc khôi phục hệ sinh thái sau khi vượt ngưỡng là tốn kém, khó khăn (câu trước đó), không phải bản thân việc vượt ngưỡng."
+        "explanation": "“This” quy chiếu cho mệnh đề ngay trước đó: một khi hệ sinh thái đã vượt ngưỡng (tipped), việc phục hồi nó vừa tốn kém vừa vô cùng khó khăn → C."
       },
       {
         "origNum": 57,
@@ -2476,15 +2476,15 @@ window.examDatabase['reading'] = {
       {
         "origNum": 58,
         "instruction": "Read the following passage and mark the letter A, B, C, D on your answer sheet to indicate the best answer to each of the following questions from 53 to 60.",
-        "text": "Which of the following is TRUE according to the passage?",
+        "text": "According to paragraph 1, how did global capital stocks per person change between 1992 and 2014?",
         "options": [
-          "Wealthy countries depend more heavily on domestic natural resources than low-income ones do.",
-          "Gross domestic product already deducts the depreciation of natural assets.",
-          "Protecting an ecosystem in time costs far less than trying to revive it after it has tipped.",
-          "The review treats the Marshall Plan as a ready-made blueprint for conservation funding."
+          "Wealthy nations reduced their produced capital by 13% to conserve domestic forests.",
+          "Gross domestic product fell by 40% after economists deducted natural asset depreciation.",
+          "Natural capital per person dropped by nearly two-fifths even as produced and human capital grew.",
+          "Produced, human and natural capital per person all expanded at a similar rate worldwide."
         ],
         "answer": 2,
-        "explanation": "Đoạn 3: “coaxing it back to health is costly and difficult… early action is far cheaper than delay”."
+        "explanation": "Đoạn 1 nêu rõ: từ 1992 đến 2014, vốn sản xuất bình quân đầu người tăng gấp đôi, vốn con người tăng khoảng 13%, nhưng vốn tự nhiên lại giảm gần 40% (nearly two-fifths) → C."
       },
       {
         "origNum": 59,
@@ -2542,7 +2542,7 @@ window.examDatabase['reading'] = {
       {
         "origNum": 63,
         "instruction": "Read the following passage and mark the letter A, B, C, D on your answer sheet to indicate the best answer to each of the following questions from 61 to 70.",
-        "text": "The word “<b><u>It</u></b>” in paragraph 4 refers to __________.",
+        "text": "In paragraph 4, what does the pronoun “<b><u>It</u></b>” in the sentence “It raised water levels by 11 feet in just seven months” refer to?",
         "options": [
           "the Syr Darya",
           "the Kokaral Dam",
@@ -2568,7 +2568,7 @@ window.examDatabase['reading'] = {
       {
         "origNum": 65,
         "instruction": "Read the following passage and mark the letter A, B, C, D on your answer sheet to indicate the best answer to each of the following questions from 61 to 70.",
-        "text": "Which of the following best summarises paragraph 5?",
+        "text": "Which of the following best summarises the ecological and economic revival described in paragraph 5?",
         "options": [
           "Declining salinity has driven native species out of the North Aral Sea and ruined its fisheries.",
           "Falling salinity has revived fish stocks and, with them, local commerce and settlement.",
@@ -2581,7 +2581,7 @@ window.examDatabase['reading'] = {
       {
         "origNum": 66,
         "instruction": "Read the following passage and mark the letter A, B, C, D on your answer sheet to indicate the best answer to each of the following questions from 61 to 70.",
-        "text": "According to the passage, which of the following is TRUE?",
+        "text": "What does the passage state about commercial fishing in the Aral Sea between 1957 and 1987?",
         "options": [
           "Water has completely disappeared from the South Aral Sea.",
           "Kazakhstan paid for the Kokaral Dam without any outside financing.",
@@ -2620,7 +2620,7 @@ window.examDatabase['reading'] = {
       {
         "origNum": 69,
         "instruction": "Read the following passage and mark the letter A, B, C, D on your answer sheet to indicate the best answer to each of the following questions from 61 to 70.",
-        "text": "Which of the following can be inferred from the passage?",
+        "text": "What can be inferred from paragraph 6 about the long-term sustainability of the North Aral Sea’s fisheries?",
         "options": [
           "Illegal fishing is rare because the authorities control the breeding season effectively.",
           "The recovery of the North Aral Sea proves that the whole lake could be restored to its original size.",
@@ -2633,7 +2633,7 @@ window.examDatabase['reading'] = {
       {
         "origNum": 70,
         "instruction": "Read the following passage and mark the letter A, B, C, D on your answer sheet to indicate the best answer to each of the following questions from 61 to 70.",
-        "text": "Which of the following best summarises the passage?",
+        "text": "Which of the following best summarises the passage on the North Aral Sea?",
         "options": [
           "Human intervention drained most of the Aral Sea, yet a targeted restoration project has revived part of it, although illegal fishing and weak management still threaten that recovery.",
           "The Aral Sea’s decline was caused by natural climate change, but Kazakhstan reversed it by means of a World Bank loan.",
@@ -2657,7 +2657,7 @@ window.examDatabase['reading'] = {
         ],
         "answer": 0,
         "explanation": "eclipsed = outweighed / overshadowed (bị lấn át, vượt xa bởi khoản chi mở rộng đường).",
-        "passage": "<b>THE ARCHITECTURE OF URBAN SILENCE</b>\nIn contemporary urban planning, noise is still widely treated as an unavoidable byproduct of economic vitality rather than a pollutant in its own right. <u><b>Cities have expanded at breakneck speed over the past half-century, yet the acoustic environment in which millions of residents live has deteriorated to a point that alarms public-health researchers.</b></u> According to data compiled by the European Environment Agency, more than 110 million people across Europe are exposed to long-term traffic noise levels above 55 decibels, a threshold linked to sleep disruption, hypertension and measurable declines in children’s reading comprehension.\nThe persistence of urban din stems less from a lack of engineering solutions than from the way municipalities evaluate infrastructure projects. Acoustic impact assessments are routinely conducted at the tail end of planning, when road alignments and building materials have already been locked in. Compounding the problem, sound behaves in notoriously complex ways: it ricochets off glass facades, funnels through narrow street canyons and travels farther on cool nights, making simple decibel caps difficult to enforce. Municipal budgets further skew priorities, as transport departments are rewarded for moving vehicles quickly rather than quietly, while funds earmarked for low-noise porous asphalt or vegetated buffer zones are <u><b>eclipsed</b></u> by spending on road widening.\nThe repercussions reach far beyond human annoyance. Chronic anthropogenic noise scrambles the acoustic signals that urban wildlife rely upon to attract mates, defend territory and detect predators. Songbirds such as great tits have been forced to sing at higher frequencies to be heard above low-frequency traffic rumble, an adaptation that expends extra energy and reduces reproductive success. Once a city’s soundscape crosses a certain saturation point, retrofitting acoustic barriers onto existing ring roads is prohibitively expensive and visually intrusive. <u><b>Such retrofitting</b></u> explains why acoustic ecologists argue that quietness must be designed into neighbourhoods from the outset.\nA genuine shift, urban acousticians contend, requires treating silence as a shared civic amenity rather than a luxury commodity sold only in gated developments. Forward-thinking cities such as Zurich and Oslo have begun pairing congestion pricing with ‘quiet pavement’ mandates and interconnected tranquil courtyards that are <u><b>insulated</b></u> from arterial traffic. Reforming building codes to penalise reverberant glass-and-steel canyons, alongside mapping ‘calm zones’ with the same rigour applied to air-quality monitoring, would allow planners to judge urban growth by how restorative a city sounds, not merely by how fast it moves.\n<i>(Adapted from European Environment Agency, Environmental Noise in Europe, and The Guardian)</i>"
+        "passage": "<b>THE ARCHITECTURE OF URBAN SILENCE</b>\nIn contemporary urban planning, noise is still widely treated as an unavoidable byproduct of economic vitality rather than a pollutant in its own right. <u><b>Cities have expanded at breakneck speed over the past half-century, yet the acoustic environment in which millions of residents live has deteriorated to a point that alarms public-health researchers.</b></u> According to data compiled by the European Environment Agency, more than 110 million people across Europe are exposed to long-term traffic noise levels above 55 decibels, a threshold linked to sleep disruption, hypertension and measurable declines in children’s reading comprehension.\nThe persistence of urban din stems less from a lack of engineering solutions than from the way municipalities evaluate infrastructure projects. Acoustic impact assessments are routinely conducted at the tail end of planning, when road alignments and building materials have already been locked in. Compounding the problem, sound behaves in notoriously complex ways: it ricochets off glass facades, funnels through narrow street canyons and travels farther on cool nights, making simple decibel caps difficult to enforce. Municipal budgets further skew priorities, as transport departments are rewarded for moving vehicles quickly rather than quietly, while funds earmarked for low-noise porous asphalt or vegetated buffer zones are <u><b>eclipsed</b></u> by spending on road widening.\nThe repercussions reach far beyond human annoyance. Chronic anthropogenic noise scrambles the acoustic signals that urban wildlife rely upon to attract mates, defend territory and detect predators. Songbirds such as great tits have been forced to sing at higher frequencies to be heard above low-frequency traffic rumble, <u><b>an adaptation</b></u> that expends extra energy and reduces reproductive success. Once a city’s soundscape crosses a certain saturation point, retrofitting acoustic barriers onto existing ring roads is prohibitively expensive and visually intrusive. This explains why acoustic ecologists argue that quietness must be designed into neighbourhoods from the outset.\nA genuine shift, urban acousticians contend, requires treating silence as a shared civic amenity rather than a luxury commodity sold only in gated developments. Forward-thinking cities such as Zurich and Oslo have begun pairing congestion pricing with ‘quiet pavement’ mandates and interconnected tranquil courtyards that are <u><b>insulated</b></u> from arterial traffic. Reforming building codes to penalise reverberant glass-and-steel canyons, alongside mapping ‘calm zones’ with the same rigour applied to air-quality monitoring, would allow planners to judge urban growth by how restorative a city sounds, not merely by how fast it moves.\n<i>(Adapted from European Environment Agency, Environmental Noise in Europe, and The Guardian)</i>"
       },
       {
         "origNum": 54,
@@ -2688,15 +2688,15 @@ window.examDatabase['reading'] = {
       {
         "origNum": 56,
         "instruction": "Read the following passage and mark the letter A, B, C, D on your answer sheet to indicate the best answer to each of the following questions from 53 to 60.",
-        "text": "The phrase “<b><u>Such retrofitting</u></b>” in the last sentence of paragraph 3 refers to __________.",
+        "text": "The phrase “<b><u>an adaptation</u></b>” in paragraph 3 refers to urban songbirds’ practice of __________.",
         "options": [
-          "the tendency of songbirds to sing at higher frequencies in cities",
-          "the high cost and visual intrusiveness of retrofitting noise barriers later",
-          "the scrambling of acoustic signals among urban predators",
-          "the measurement of reading comprehension declines in children"
+          "migrating away from ring roads during cool nights",
+          "singing at higher pitches to be heard above low-frequency traffic rumble",
+          "nesting inside reverberant glass-and-steel street canyons",
+          "mimicking the acoustic warnings of urban predators"
         ],
         "answer": 1,
-        "explanation": "“This” quy chiếu cho mệnh đề ngay câu trước: việc lắp đặt bổ sung rào chắn âm thanh sau khi đô thị đã quá ồn vừa cực kỳ tốn kém vừa gây chướng mắt."
+        "explanation": "Đoạn 3: “Songbirds such as great tits have been forced to sing at higher frequencies to be heard above low-frequency traffic rumble, an adaptation that expends extra energy...” → chỉ việc chim phải hót ở tần số cao hơn để át tiếng ồn giao thông → B."
       },
       {
         "origNum": 57,
@@ -2714,15 +2714,15 @@ window.examDatabase['reading'] = {
       {
         "origNum": 58,
         "instruction": "Read the following passage and mark the letter A, B, C, D on your answer sheet to indicate the best answer to each of the following questions from 53 to 60.",
-        "text": "Which of the following is TRUE according to the passage?",
+        "text": "What urban-planning measures have Zurich and Oslo implemented to improve their soundscapes?",
         "options": [
-          "Low-frequency traffic rumble helps urban songbirds attract mates more easily.",
-          "Incorporating quiet design early is more economical than adding noise barriers afterwards.",
-          "Acoustic impact assessments are always completed before road alignments are chosen.",
-          "Less than 50 million Europeans are affected by traffic noise above 55 decibels."
+          "They have replaced all glass facades with tall roadside acoustic barriers.",
+          "They have paired congestion charges with low-noise road surfaces and sheltered courtyards.",
+          "They have restricted quiet courtyards exclusively to private gated developments.",
+          "They have abolished air-quality monitoring in order to fund decibel caps."
         ],
         "answer": 1,
-        "explanation": "Đoạn 3 nêu rõ việc cải tạo lắp rào chắn sau khi đã ồn là cực kỳ đắt đỏ, nên cần thiết kế sự yên tĩnh ngay từ đầu."
+        "explanation": "Đoạn 4: “Zurich and Oslo have begun pairing congestion pricing with ‘quiet pavement’ mandates and interconnected tranquil courtyards that are insulated from arterial traffic.” → B."
       },
       {
         "origNum": 59,
@@ -2780,7 +2780,7 @@ window.examDatabase['reading'] = {
       {
         "origNum": 63,
         "instruction": "Read the following passage and mark the letter A, B, C, D on your answer sheet to indicate the best answer to each of the following questions from 61 to 70.",
-        "text": "The word “<b><u>They</u></b>” in paragraph 4 refers to __________.",
+        "text": "In paragraph 4, the pronoun “<b><u>They</u></b>” in “They also acted as natural bio-filters” refers to ___________.",
         "options": [
           "dozens of cottages",
           "the beaver dams and ponds",
@@ -2806,7 +2806,7 @@ window.examDatabase['reading'] = {
       {
         "origNum": 65,
         "instruction": "Read the following passage and mark the letter A, B, C, D on your answer sheet to indicate the best answer to each of the following questions from 61 to 70.",
-        "text": "Which of the following best summarises paragraph 5?",
+        "text": "Which of the following best summarises the biodiversity outcomes reported in paragraph 5?",
         "options": [
           "Beaver dams have caused invasive fish species to displace native brown trout and amphibians.",
           "The wetlands created by beavers have triggered a rapid rebound in local biodiversity and earned legal recognition.",
@@ -2819,7 +2819,7 @@ window.examDatabase['reading'] = {
       {
         "origNum": 66,
         "instruction": "Read the following passage and mark the letter A, B, C, D on your answer sheet to indicate the best answer to each of the following questions from 61 to 70.",
-        "text": "According to the passage, which of the following is TRUE?",
+        "text": "How do conservation officers in Bavaria and Scotland resolve waterlogging conflicts caused by beaver dams?",
         "options": [
           "Straightening rivers in the industrial era helped catchments retain rainwater longer.",
           "Beaver dams completely block all water from flowing downstream during dry periods.",
@@ -2858,7 +2858,7 @@ window.examDatabase['reading'] = {
       {
         "origNum": 69,
         "instruction": "Read the following passage and mark the letter A, B, C, D on your answer sheet to indicate the best answer to each of the following questions from 61 to 70.",
-        "text": "Which of the following can be inferred from the passage?",
+        "text": "What can be inferred from the passage about reintroducing Eurasian beavers into farmed catchments?",
         "options": [
           "Eliminating all bankside willow trees is the most effective way to encourage beaver reintroduction.",
           "Successful beaver reintroduction depends on balancing ecological benefits with practical measures to resolve conflicts with farmers.",
@@ -2871,7 +2871,7 @@ window.examDatabase['reading'] = {
       {
         "origNum": 70,
         "instruction": "Read the following passage and mark the letter A, B, C, D on your answer sheet to indicate the best answer to each of the following questions from 61 to 70.",
-        "text": "Which of the following best summarises the passage?",
+        "text": "Which of the following best summarises the passage on the return of the European beaver?",
         "options": [
           "Industrial river engineering eliminated flooding in Europe, but the accidental release of beavers in Devon has threatened agricultural productivity.",
           "The University of Exeter proved that beaver dams are mainly useful for purifying agricultural nitrates rather than reducing winter flood peaks.",
@@ -2895,7 +2895,7 @@ window.examDatabase['reading'] = {
         ],
         "answer": 2,
         "explanation": "outstripped = exceeded / overshadowed (bị vượt xa, lấn át bởi khoản chi chiếu sáng trang trí).",
-        "passage": "<b>THE ECOLOGY OF DARK SKIES</b>\nFor most of human history, the Milky Way arched clearly across the night sky above every village and town. <u><b>Artificial outdoor lighting has transformed nocturnal commerce and public safety over the past century, yet the resulting skyglow has disrupted biological rhythms across entire ecosystems.</b></u> According to the <i>World Atlas of Artificial Night Sky Brightness</i>, more than 80 percent of the world’s population—and 99 percent of Europeans and North Americans—now live under skies polluted by scattering artificial light.\nThe persistence of light pollution stems less from a need for security than from wasteful luminaire design and the rapid switch to blue-rich white light-emitting diodes (LEDs). Many street and car-park fixtures remain unshielded, casting a large share of their lumens horizontally into bedroom windows or straight upwards into clouds. Compounding the problem, blue-wavelength light scatters far more readily in the atmosphere than warm amber light and suppresses the hormone melatonin in vertebrates at very low intensities. Municipal lighting budgets rarely account for these biological externalities, while modest grants for dark-sky retrofits are <u><b>outstripped</b></u> by spending on decorative floodlighting for commercial landmarks.\nThe ecological consequences cascade through food webs. Nocturnal pollinators such as hawkmoths abandon brightly lit meadows, reducing seed set in night-blooming wildflowers even for daytime bees that visit the same plants. Migratory songbirds, which navigate by stellar cues, are drawn off course by illuminated skyscrapers and suffer millions of fatal window collisions each autumn. Once coastal dunes are bathed in beachfront hotel glare, newly hatched sea turtles become disoriented and crawl inland toward highways rather than toward the moonlit ocean. <u><b>That fatal hazard</b></u> explains why marine biologists argue that shielding coastal lights is just as vital as protecting nesting beaches from poachers.\nUnlike chemical pollutants that linger in soil or rivers for decades, light pollution vanishes the instant a switch is flipped. Dark-sky advocates contend that cities can slash skyglow without compromising pedestrian safety by adopting three simple rules: installing fully shielded downward-facing fixtures, capping colour temperatures below 2,700 Kelvin so fixtures emit warm amber light that is <u><b>benign</b></u> to nocturnal wildlife, and dimming streetlights with motion sensors after midnight. Treating darkness as a natural habitat worth conserving would allow modern cities to remain safe underfoot while restoring the stars overhead.\n<i>(Adapted from Falchi et al., Science Advances, and DarkSky International Reports)</i>"
+        "passage": "<b>THE ECOLOGY OF DARK SKIES</b>\nFor most of human history, the Milky Way arched clearly across the night sky above every village and town. <u><b>Artificial outdoor lighting has transformed nocturnal commerce and public safety over the past century, yet the resulting skyglow has disrupted biological rhythms across entire ecosystems.</b></u> According to the <i>World Atlas of Artificial Night Sky Brightness</i>, more than 80 percent of the world’s population—and 99 percent of Europeans and North Americans—now live under skies polluted by scattering artificial light.\nThe persistence of light pollution stems less from a need for security than from wasteful luminaire design and the rapid switch to blue-rich white light-emitting diodes (LEDs). Many street and car-park fixtures remain unshielded, casting a large share of <u><b>their</b></u> lumens horizontally into bedroom windows or straight upwards into clouds. Compounding the problem, blue-wavelength light scatters far more readily in the atmosphere than warm amber light and suppresses the hormone melatonin in vertebrates at very low intensities. Municipal lighting budgets rarely account for these biological externalities, while modest grants for dark-sky retrofits are <u><b>outstripped</b></u> by spending on decorative floodlighting for commercial landmarks.\nThe ecological consequences cascade through food webs. Nocturnal pollinators such as hawkmoths abandon brightly lit meadows, reducing seed set in night-blooming wildflowers even for daytime bees that visit the same plants. Migratory songbirds, which navigate by stellar cues, are drawn off course by illuminated skyscrapers and suffer millions of fatal window collisions each autumn. Once coastal dunes are bathed in beachfront hotel glare, newly hatched sea turtles become disoriented and crawl inland toward highways rather than toward the moonlit ocean. This explains why marine biologists argue that shielding coastal lights is just as vital as protecting nesting beaches from poachers.\nUnlike chemical pollutants that linger in soil or rivers for decades, light pollution vanishes the instant a switch is flipped. Dark-sky advocates contend that cities can slash skyglow without compromising pedestrian safety by adopting three simple rules: installing fully shielded downward-facing fixtures, capping colour temperatures below 2,700 Kelvin so fixtures emit warm amber light that is <u><b>benign</b></u> to nocturnal wildlife, and dimming streetlights with motion sensors after midnight. Treating darkness as a natural habitat worth conserving would allow modern cities to remain safe underfoot while restoring the stars overhead.\n<i>(Adapted from Falchi et al., Science Advances, and DarkSky International Reports)</i>"
       },
       {
         "origNum": 54,
@@ -2908,7 +2908,7 @@ window.examDatabase['reading'] = {
           "Municipal budgets spend heavily on decorative floodlighting for landmarks."
         ],
         "answer": 0,
-        "explanation": "Đoạn 2 nêu đèn không có chao chắn (A), đèn LED trắng-xanh tán xạ mạnh (B), ngân sách chi nhiều cho chiếu sáng trang trí (D); KHÔNG nói công ty điện lực giảm giá điện ban đêm cho trung tâm thương mại (C)."
+        "explanation": "Đoạn 2 nêu đèn không có chao chắn (B), đèn LED trắng-xanh tán xạ mạnh (C), ngân sách chi nhiều cho chiếu sáng trang trí (D); KHÔNG nói công ty điện lực giảm giá điện ban đêm cho trung tâm thương mại → A."
       },
       {
         "origNum": 55,
@@ -2926,15 +2926,15 @@ window.examDatabase['reading'] = {
       {
         "origNum": 56,
         "instruction": "Read the following passage and mark the letter A, B, C, D on your answer sheet to indicate the best answer to each of the following questions from 53 to 60.",
-        "text": "The phrase “<b><u>That fatal hazard</u></b>” in the last sentence of paragraph 3 refers to __________.",
+        "text": "The word “<b><u>their</u></b>” in paragraph 2 refers to the light output of __________.",
         "options": [
-          "the reduction in daytime bee visits to wildflowers",
-          "the fatal disorientation of sea-turtle hatchlings caused by beachfront glare",
-          "the ability of migratory songbirds to navigate using stellar cues",
-          "the suppression of melatonin in human shift workers"
+          "unshielded street and car-park fixtures",
+          "bedroom windows and clouds",
+          "commercial landmarks",
+          "motion sensors after midnight"
         ],
-        "answer": 1,
-        "explanation": "“This” quy chiếu cho câu ngay trước đó: rùa con mới nở bị ánh đèn khách sạn ven biển làm mất phương hướng và bò vào đường cao tốc thay vì ra biển."
+        "answer": 0,
+        "explanation": "Đoạn 2: “Many street and car-park fixtures remain unshielded, casting a large share of their lumens horizontally...” → “their” quy chiếu cho “unshielded street and car-park fixtures” → A."
       },
       {
         "origNum": 57,
@@ -2952,15 +2952,15 @@ window.examDatabase['reading'] = {
       {
         "origNum": 58,
         "instruction": "Read the following passage and mark the letter A, B, C, D on your answer sheet to indicate the best answer to each of the following questions from 53 to 60.",
-        "text": "Which of the following is TRUE according to the passage?",
+        "text": "How does bright artificial lighting over meadows indirectly harm daytime bees?",
         "options": [
-          "Disrupting nocturnal pollinators can also reduce seed production in wildflowers visited by daytime bees.",
-          "Light pollution remains in the atmosphere for decades after lamps are switched off.",
-          "Less than half of Europeans live under skies affected by artificial light.",
-          "High-intensity blue LEDs help migratory songbirds avoid tall glass buildings."
+          "It drives away nocturnal pollinators, reducing seed production in wildflowers that daytime bees also visit.",
+          "It suppresses melatonin in daytime bees and forces them to forage at midnight.",
+          "It draws daytime bees toward illuminated skyscrapers during autumn migration.",
+          "It raises meadow temperatures above 2,700 Kelvin and evaporates flower nectar."
         ],
         "answer": 0,
-        "explanation": "Đoạn 3 nêu rõ: “Nocturnal pollinators such as hawkmoths abandon brightly lit meadows, reducing seed set in night-blooming wildflowers even for daytime bees that visit the same plants.”"
+        "explanation": "Đoạn 3: “Nocturnal pollinators such as hawkmoths abandon brightly lit meadows, reducing seed set in night-blooming wildflowers even for daytime bees that visit the same plants.” → A."
       },
       {
         "origNum": 59,
@@ -3000,7 +3000,7 @@ window.examDatabase['reading'] = {
         ],
         "answer": 2,
         "explanation": "Paraphrase chính xác: Sau gần 7 thập kỷ vắng bóng ở phía bắc dãy Rockies, sói xám trở lại vào năm 1995 và khởi phát sự chuyển dịch sinh thái được sách giáo khoa gọi là chuỗi thức ăn phân tầng cổ điển.",
-        "passage": "<b>WOLF REINTRODUCTION IN YELLOWSTONE</b>\nWhen the last grey wolf pack in Yellowstone National Park was shot by government hunters in 1926, park managers believed they were protecting prized elk herds for tourists. <b>[I]</b> <u><b>Eliminated from the northern Rockies for nearly seven decades, the grey wolf returned in 1995 and triggered an ecological transformation that textbooks now call a classic trophic cascade.</b></u> Biologists regard the experiment as one of the clearest demonstrations of how apex predators regulate entire landscapes.\nIn the absence of wolves, Yellowstone’s elk population multiplied unchecked. <b>[II]</b> For seventy winters, huge herds lingered along valley bottoms and riverbanks, browsing young willow, cottonwood and aspen shoots down to the ground before they could grow into mature trees. Stripped of root networks, stream banks eroded, channels widened and shallowed, and water temperatures climbed to levels that were <u><b>inhospitable</b></u> to native cutthroat trout. Even culling thousands of elk by rifle in the 1960s failed to change where the surviving animals chose to feed.\nThe turning point arrived in January 1995 and 1996, when the US Fish and Wildlife Service captured forty-one wild wolves in Canada and released them into acclimatisation pens in Yellowstone. <b>[III]</b> Within five years, the translocated packs had established territories across the park’s northern range, and elk numbers began a steady decline toward historical norms.\nJust as important as the smaller herd size was a shift in elk behaviour—what ecologists term the ‘landscape of fear’. Because wolves could ambush prey easily in narrow stream gullies, elk stopped loafing by the riverbanks and kept moving across higher forested slopes. <u><b>They</b></u> consequently had a chance to shoot up past browsing height for the first time since the 1920s, with willow and cottonwood stands along Blacktail Creek quadrupling in stature within a decade.\n<b>[IV]</b> The rebounding riverside woods soon began to <u><b>pay dividends</b></u> across the food web. Songbirds such as warblers and willow flycatchers returned to nest in the dense foliage, while beaver colonies—which had vanished from the northern range—multiplied from a single colony in 1996 to nine by 2009. Beaver dams, in turn, created deep, cool pools for trout and amphibians, while wolf kills provided winter carrion for grizzly bears, bald eagles and ravens.\nThe story is not without scientific nuance and political friction, however. Long-term studies show that in areas where deep stream channels had already dropped the water table, keeping elk away was not enough on its own to revive willows without beaver dams to raise groundwater levels. Outside the park’s boundaries, cattle ranchers remain concerned about livestock predation, prompting conservation trusts to fund range-riders and compensation funds. Even so, Yellowstone’s wolves prove that restoring a missing apex predator can set long-stalled ecological processes back in motion.\n<i>(Adapted from W. J. Ripple & R. L. Beschta, Biological Conservation, and National Geographic)</i>"
+        "passage": "<b>WOLF REINTRODUCTION IN YELLOWSTONE</b>\nWhen the last grey wolf pack in Yellowstone National Park was shot by government hunters in 1926, park managers believed they were protecting prized elk herds for tourists. <b>[I]</b> <u><b>Eliminated from the northern Rockies for nearly seven decades, the grey wolf returned in 1995 and triggered an ecological transformation that textbooks now call a classic trophic cascade.</b></u> Biologists regard the experiment as one of the clearest demonstrations of how apex predators regulate entire landscapes.\nIn the absence of wolves, Yellowstone’s elk population multiplied unchecked. <b>[II]</b> For seventy winters, huge herds lingered along valley bottoms and riverbanks, browsing young willow, cottonwood and aspen shoots down to the ground before <u><b>they</b></u> could grow into mature trees. Stripped of root networks, stream banks eroded, channels widened and shallowed, and water temperatures climbed to levels that were <u><b>inhospitable</b></u> to native cutthroat trout. Even culling thousands of elk by rifle in the 1960s failed to change where the surviving animals chose to feed.\nThe turning point arrived in January 1995 and 1996, when the US Fish and Wildlife Service captured forty-one wild wolves in Canada and released them into acclimatisation pens in Yellowstone. <b>[III]</b> Within five years, the translocated packs had established territories across the park’s northern range, and elk numbers began a steady decline toward historical norms.\nJust as important as the smaller herd size was a shift in elk behaviour—what ecologists term the ‘landscape of fear’. Because wolves could ambush prey easily in narrow stream gullies, elk stopped loafing by the riverbanks and kept moving across higher forested slopes. Young streamside trees consequently had a chance to shoot up past browsing height for the first time since the 1920s, with willow and cottonwood stands along Blacktail Creek quadrupling in stature within a decade.\n<b>[IV]</b> The rebounding riverside woods soon began to <u><b>pay dividends</b></u> across the food web. Songbirds such as warblers and willow flycatchers returned to nest in the dense foliage, while beaver colonies—which had vanished from the northern range—multiplied from a single colony in 1996 to nine by 2009. Beaver dams, in turn, created deep, cool pools for trout and amphibians, while wolf kills provided winter carrion for grizzly bears, bald eagles and ravens.\nThe story is not without scientific nuance and political friction, however. Long-term studies show that in areas where deep stream channels had already dropped the water table, keeping elk away was not enough on its own to revive willows without beaver dams to raise groundwater levels. Outside the park’s boundaries, cattle ranchers remain concerned about livestock predation, prompting conservation trusts to fund range-riders and compensation funds. Even so, Yellowstone’s wolves prove that restoring a missing apex predator can set long-stalled ecological processes back in motion.\n<i>(Adapted from W. J. Ripple & R. L. Beschta, Biological Conservation, and National Geographic)</i>"
       },
       {
         "origNum": 62,
@@ -3018,15 +3018,15 @@ window.examDatabase['reading'] = {
       {
         "origNum": 63,
         "instruction": "Read the following passage and mark the letter A, B, C, D on your answer sheet to indicate the best answer to each of the following questions from 61 to 70.",
-        "text": "The word “<b><u>They</u></b>” in paragraph 4 refers to __________.",
+        "text": "In paragraph 2, what does the pronoun “<b><u>they</u></b>” in “before they could grow into mature trees” refer to?",
         "options": [
-          "young streamside trees such as willow and cottonwood",
+          "young willow, cottonwood and aspen shoots",
           "narrow stream gullies",
           "Canadian wolf packs",
           "government hunters"
         ],
         "answer": 0,
-        "explanation": "“They consequently had a chance to shoot up past browsing height... with willow and cottonwood stands... quadrupling in stature” → They chỉ các cây non ven suối (liễu, dương)."
+        "explanation": "Đoạn 2: “browsing young willow, cottonwood and aspen shoots down to the ground before they could grow into mature trees” → “they” chỉ các chồi cây liễu, bông gòn và dương non → A."
       },
       {
         "origNum": 64,
@@ -3039,12 +3039,12 @@ window.examDatabase['reading'] = {
           "The exact cost of transporting the wolves by aircraft."
         ],
         "answer": 3,
-        "explanation": "Đoạn 3 & 4 nêu: bắt 41 con sói từ Canada (A), nhốt làm quen trong chuồng acclimatisation pens (B), sự thay đổi nơi kiếm ăn của đàn nai (D); KHÔNG nêu chi phí vận chuyển bằng máy bay (C)."
+        "explanation": "Đoạn 3 & 4 nêu: quốc gia nơi bắt 41 con sói là Canada (A), nhốt làm quen trong chuồng acclimatisation pens (B), sự thay đổi nơi kiếm ăn của đàn nai (C); KHÔNG nêu chi phí vận chuyển bằng máy bay → D."
       },
       {
         "origNum": 65,
         "instruction": "Read the following passage and mark the letter A, B, C, D on your answer sheet to indicate the best answer to each of the following questions from 61 to 70.",
-        "text": "Which of the following best summarises paragraph 5?",
+        "text": "Which statement best summarises the cascading food-web benefits described in paragraph 5?",
         "options": [
           "Songbirds and bald eagles struggled to survive after willow trees grew taller along Blacktail Creek.",
           "Regenerating streamside trees triggered a rebound in birds, beavers and scavengers across the ecosystem.",
@@ -3057,7 +3057,7 @@ window.examDatabase['reading'] = {
       {
         "origNum": 66,
         "instruction": "Read the following passage and mark the letter A, B, C, D on your answer sheet to indicate the best answer to each of the following questions from 61 to 70.",
-        "text": "According to the passage, which of the following is TRUE?",
+        "text": "What does paragraph 2 reveal about the 1960s programme of culling Yellowstone’s elk with rifles?",
         "options": [
           "Willow trees recovered equally fast everywhere regardless of groundwater levels.",
           "Grey wolves were never completely eliminated from Yellowstone in the twentieth century.",
@@ -3096,7 +3096,7 @@ window.examDatabase['reading'] = {
       {
         "origNum": 69,
         "instruction": "Read the following passage and mark the letter A, B, C, D on your answer sheet to indicate the best answer to each of the following questions from 61 to 70.",
-        "text": "Which of the following can be inferred from the passage?",
+        "text": "What can be inferred from the passage about how apex predators restore degraded landscapes?",
         "options": [
           "Apex predators can immediately reverse all hydrological damage even without beavers.",
           "Removing beavers is the fastest way to cool down shallow mountain streams.",
@@ -3109,7 +3109,7 @@ window.examDatabase['reading'] = {
       {
         "origNum": 70,
         "instruction": "Read the following passage and mark the letter A, B, C, D on your answer sheet to indicate the best answer to each of the following questions from 61 to 70.",
-        "text": "Which of the following best summarises the passage?",
+        "text": "Which of the following best summarises the passage on wolf reintroduction in Yellowstone?",
         "options": [
           "Beavers rather than wolves were solely responsible for the decline of Yellowstone’s elk herds after 1995.",
           "Eliminating wolves in 1926 led to severe overgrazing in Yellowstone, whereas their 1995 reintroduction altered elk behaviour and revived streamside habitats, though hydrological limits and ranching conflicts remain.",
@@ -3133,7 +3133,7 @@ window.examDatabase['reading'] = {
         ],
         "answer": 1,
         "explanation": "marginalised = sidelined (bị gạt ra bên lề, bị coi nhẹ so với các khoản trợ cấp phân bón hóa học).",
-        "passage": "<b>THE HIDDEN LIFE OF SOIL MICROBIOMES</b>\nBeneath every healthy pasture and forest floor lies an intricate subterranean metropolis. <u><b>Modern agronomy has multiplied grain harvests over the past seventy years, yet intensive tillage and synthetic fertilisers have quietly degraded the underground fungal networks that sustain soil fertility.</b></u> A single teaspoon of undisturbed grassland soil contains billions of bacteria and metres of microscopic mycorrhizal fungal threads that trade minerals for plant sugars.\nThe neglect of soil biology stems less from agricultural malice than from mid-twentieth-century models that treated earth as an inert physical sponge for holding chemical inputs. Deep mechanical ploughing slices through fungal hyphae, exposes stored organic carbon to oxygen, and accelerates erosion during heavy downpours. Compounding the difficulty, high doses of soluble nitrogen and phosphorus prompt crops to curtail <u><b>their</b></u> sugar payments to symbiotic fungi, starving the underground network. National farm subsidies reinforce this short-termism: public grants for regenerative cover-cropping remain modest and are <u><b>marginalised</b></u> by support linked to synthetic input volumes.\nThe consequences extend far beyond the farm gate. Stripped of the sticky glomalin proteins secreted by mycorrhizal fungi, ploughed soils lose their crumbly structure and compact into hardpans that shed rainwater rather than absorbing it, worsening downstream flash floods. Crops deprived of microbial partners also take up fewer trace micronutrients such as zinc and iron. Once a topsoil’s biological community has collapsed and its organic matter has oxidised into the air, rebuilding that living sponge takes decades of careful organic additions. This is why soil scientists warn that preventing microbial degradation is infinitely easier than reversing it.\nRestoring underground ecosystems, agro-ecologists argue, requires viewing soil as a living partnership rather than an lifeless substrate. Farmers adopting ‘no-till’ drilling, diverse winter cover crops and rotational grazing have shown that intact fungal networks can remain <u><b>robust</b></u> even during summer droughts, ferrying moisture from micropores that plant roots cannot reach alone. Rewarding land managers for measurable gains in soil organic carbon—alongside training agronomists in rhizosphere ecology—would align harvest security with planetary health.\n<i>(Adapted from FAO, State of Knowledge of Soil Biodiversity, and Nature Reviews)</i>"
+        "passage": "<b>THE HIDDEN LIFE OF SOIL MICROBIOMES</b>\nBeneath every healthy pasture and forest floor lies an intricate subterranean metropolis. <u><b>Modern agronomy has multiplied grain harvests over the past seventy years, yet intensive tillage and synthetic fertilisers have quietly degraded the underground fungal networks that sustain soil fertility.</b></u> A single teaspoon of undisturbed grassland soil contains billions of bacteria and metres of microscopic mycorrhizal fungal threads that trade minerals for plant sugars.\nThe neglect of soil biology stems less from agricultural malice than from mid-twentieth-century models that treated earth as an inert physical sponge for holding chemical inputs. Deep mechanical ploughing slices through fungal hyphae, exposes stored organic carbon to oxygen, and accelerates erosion during heavy downpours. Compounding the difficulty, high doses of soluble nitrogen and phosphorus prompt crops to curtail <u><b>their</b></u> sugar payments to symbiotic fungi, starving the underground network. National farm subsidies reinforce this short-termism: public grants for regenerative cover-cropping remain modest and are <u><b>marginalised</b></u> by support linked to synthetic input volumes.\nThe consequences extend far beyond the farm gate. Stripped of the sticky glomalin proteins secreted by mycorrhizal fungi, ploughed soils lose their crumbly structure and compact into hardpans that shed rainwater rather than absorbing it, worsening downstream flash floods. Crops deprived of microbial partners also take up fewer trace micronutrients such as zinc and iron. Once a topsoil’s biological community has collapsed and its organic matter has oxidised into the air, rebuilding that living sponge takes decades of careful organic additions. This is why soil scientists warn that preventing microbial degradation is infinitely easier than reversing it.\nRestoring underground ecosystems, agro-ecologists argue, requires viewing soil as a living partnership rather than a lifeless substrate. Farmers adopting ‘no-till’ drilling, diverse winter cover crops and rotational grazing have shown that intact fungal networks can remain <u><b>robust</b></u> even during summer droughts, ferrying moisture from micropores that plant roots cannot reach alone. Rewarding land managers for measurable gains in soil organic carbon—alongside training agronomists in rhizosphere ecology—would align harvest security with planetary health.\n<i>(Adapted from FAO, State of Knowledge of Soil Biodiversity, and Nature Reviews)</i>"
       },
       {
         "origNum": 54,
@@ -3146,7 +3146,7 @@ window.examDatabase['reading'] = {
           "Heavy tractors compact subsoil layers three metres underground."
         ],
         "answer": 3,
-        "explanation": "Đoạn 2 nêu: cày sâu cắt đứt sợi nấm (A), làm lộ carbon hữu cơ ra oxy (B), phân hóa học liều cao khiến cây giảm tiết đường cho nấm cộng sinh (D); KHÔNG nói máy kéo nặng nén chặt tầng đất sâu 3 mét (C)."
+        "explanation": "Đoạn 2 nêu: cày sâu cắt đứt sợi nấm (A), làm lộ carbon hữu cơ ra oxy (B), phân hóa học liều cao khiến cây giảm tiết đường cho nấm cộng sinh (C); KHÔNG nói máy kéo nặng nén chặt tầng đất sâu 3 mét → D."
       },
       {
         "origNum": 55,
@@ -3164,7 +3164,7 @@ window.examDatabase['reading'] = {
       {
         "origNum": 56,
         "instruction": "Read the following passage and mark the letter A, B, C, D on your answer sheet to indicate the best answer to each of the following questions from 53 to 60.",
-        "text": "The word “<b><u>their</u></b>” in paragraph 2 refers to __________.",
+        "text": "In paragraph 2, the possessive adjective “<b><u>their</u></b>” in the phrase “curtail their sugar payments” refers to __________.",
         "options": [
           "chemical inputs",
           "symbiotic fungi",
@@ -3172,7 +3172,7 @@ window.examDatabase['reading'] = {
           "heavy downpours"
         ],
         "answer": 2,
-        "explanation": "“prompt crops to curtail their sugar payments to symbiotic fungi” → their quy chiếu cho 'crops' (cây trồng)."
+        "explanation": "Đoạn 2: “high doses of soluble nitrogen and phosphorus prompt crops to curtail their sugar payments to symbiotic fungi” → “their” quy chiếu cho “crops” (cây trồng) → C."
       },
       {
         "origNum": 57,
@@ -3190,15 +3190,15 @@ window.examDatabase['reading'] = {
       {
         "origNum": 58,
         "instruction": "Read the following passage and mark the letter A, B, C, D on your answer sheet to indicate the best answer to each of the following questions from 53 to 60.",
-        "text": "Which of the following is TRUE according to the passage?",
+        "text": "Why does heavily ploughed soil lacking mycorrhizal fungi worsen downstream flash floods?",
         "options": [
-          "High doses of synthetic nitrogen encourage crops to feed more sugar to soil fungi.",
-          "Mycorrhizal fungi help soil retain a crumbly structure that absorbs rainwater.",
-          "Plants supply minerals to mycorrhizal fungi in exchange for atmospheric carbon.",
-          "Soils without fungal networks absorb floodwater faster than undisturbed pastures."
+          "Fungal hyphae pump underground water to the surface during heavy downpours.",
+          "Without sticky glomalin proteins from fungi, the soil compacts into hardpans that shed rainwater instead of absorbing it.",
+          "Plants exchange atmospheric carbon for rainwater stored inside fungal threads.",
+          "Synthetic nitrogen fertilisers dissolve clay particles and block river channels."
         ],
         "answer": 1,
-        "explanation": "Đoạn 3 nêu rõ protein glomalin do nấm mycorrhizal tiết ra giúp đất giữ cấu trúc tơi xốp thấm nước mưa, ngăn lũ quét."
+        "explanation": "Đoạn 3: Khi mất protein glomalin kết dính do nấm tiết ra, đất cày xới mất cấu trúc tơi xốp và nén chặt thành tầng cứng (hardpans) làm nước mưa chảy tràn thay vì thấm xuống đất → B."
       },
       {
         "origNum": 59,
@@ -3238,7 +3238,7 @@ window.examDatabase['reading'] = {
         ],
         "answer": 3,
         "explanation": "Paraphrase chính xác: Mở cửa năm 2008 như một kho dự phòng an toàn tuyệt đối cho đa dạng nông nghiệp nhân loại, Hầm hạt giống toàn cầu Svalbard hiện bảo vệ hơn 1,2 triệu mẫu hạt giống từ hầu khắp các quốc gia.",
-        "passage": "<b>THE SVALBARD GLOBAL SEED VAULT</b>\nCarved deep into a sandstone mountain on the Norwegian island of Spitsbergen, roughly a thousand kilometres from the North Pole, stands a concrete portal gleaming against the Arctic snow. <b>[I]</b> <u><b>Opened in 2008 as a fail-safe backup for humanity’s agricultural diversity, the Svalbard Global Seed Vault now safeguards over 1.2 million seed samples from nearly every country on Earth.</b></u> Agronomists often dub the facility the ‘Doomsday Vault’, though its everyday mission is far more practical: insuring national gene banks against war, equipment failure and natural disasters.\nThe need for a global backup became painfully clear in the late twentieth century. Around the world, some 1,700 national and regional gene banks hold collections of local crop varieties—the genetic raw material breeders need to develop pest-resistant wheat, drought-tolerant rice and heat-hardy beans. <b>[II]</b> Yet many of these facilities sit in politically <u><b>volatile</b></u> regions or rely on ageing freezers vulnerable to power cuts. In the 1990s and 2000s, civil wars destroyed irreplaceable seed collections in Somalia, Rwanda and Iraq, while a typhoon flooded a major national seed bank in the Philippines.\nSvalbard was chosen for its unique combination of geology and geopolitics. <b>[III]</b> Situated 130 metres above current sea level, the vault’s three underground chambers will remain dry even if the polar ice caps melt completely. Because the surrounding rock is permanently frozen permafrost, the seeds would stay below freezing for months even if the electric cooling units—which chill the rooms to minus eighteen degrees Celsius—were to fail.\nOwnership of the seeds is structured like a bank safe-deposit box. The Norwegian government funded the $9 million construction cost, while the Crop Trust and the Nordic Genetic Resource Center cover ongoing operations. Each depositing institution retains sole legal control over the sealed foil packets it places inside the mountain. <u><b>That depositor</b></u> is the only party permitted to request their return should its own home collection be lost.\n<b>[IV]</b> That insurance policy was <u><b>put to the test</b></u> sooner than anyone had anticipated. When civil war engulfed Aleppo in Syria, researchers at the International Center for Agricultural Research in the Dry Areas (ICARDA) were forced to abandon their headquarters, which held 140,000 prized samples of ancient Middle Eastern wheat, barley and lentils adapted to extreme heat. Fortunately, ICARDA had shipped duplicate boxes to Svalbard before the fighting escalated. In 2015 and 2017, the vault made its first-ever withdrawals, sending tens of thousands of seeds to new nurseries in Morocco and Lebanon, where scientists multiplied the crops and returned fresh replacement seeds to the Arctic.\nEven an Arctic fortress, however, cannot ignore a warming planet. In October 2016, unseasonably heavy autumn rain and thawing surface permafrost caused meltwater to seep into the vault’s outer access tunnel and freeze into a sheet of ice—though the seed chambers themselves were never breached. Norway responded by investing over $20 million to waterproof the tunnel, remove heat-generating transformers and install cooling pipes in the soil overhead. As climate extremes intensify, Svalbard’s frozen library stands as both a monument to international cooperation and a reminder that no refuge is entirely immune to global warming.\n<i>(Adapted from Crop Trust, Svalbard Global Seed Vault Annual Review, and Science)</i>"
+        "passage": "<b>THE SVALBARD GLOBAL SEED VAULT</b>\nCarved deep into a sandstone mountain on the Norwegian island of Spitsbergen, roughly a thousand kilometres from the North Pole, stands a concrete portal gleaming against the Arctic snow. <b>[I]</b> <u><b>Opened in 2008 as a fail-safe backup for humanity’s agricultural diversity, the Svalbard Global Seed Vault now safeguards over 1.2 million seed samples from nearly every country on Earth.</b></u> Agronomists often dub the facility the ‘Doomsday Vault’, though its everyday mission is far more practical: insuring national gene banks against war, equipment failure and natural disasters.\nThe need for a global backup became painfully clear in the late twentieth century. Around the world, some 1,700 national and regional gene banks hold collections of local crop varieties—the genetic raw material breeders need to develop pest-resistant wheat, drought-tolerant rice and heat-hardy beans. <b>[II]</b> Yet many of these facilities sit in politically <u><b>volatile</b></u> regions or rely on ageing freezers vulnerable to power cuts. In the 1990s and 2000s, civil wars destroyed irreplaceable seed collections in Somalia, Rwanda and Iraq, while a typhoon flooded a major national seed bank in the Philippines.\nSvalbard was chosen for its unique combination of geology and geopolitics. <b>[III]</b> Situated 130 metres above current sea level, the vault’s three underground chambers will remain dry even if the polar ice caps melt completely. Because the surrounding rock is permanently frozen permafrost, the seeds would stay below freezing for months even if the electric cooling units—which chill the rooms to minus eighteen degrees Celsius—were to fail.\nOwnership of the seeds is structured like a bank safe-deposit box. The Norwegian government funded the $9 million construction cost, while the Crop Trust and the Nordic Genetic Resource Center cover ongoing operations. Each depositing institution retains sole legal control over the sealed foil packets it places inside the mountain. It is the only party permitted to request <u><b>their</b></u> return should its own home collection be lost.\n<b>[IV]</b> That insurance policy was <u><b>put to the test</b></u> sooner than anyone had anticipated. When civil war engulfed Aleppo in Syria, researchers at the International Center for Agricultural Research in the Dry Areas (ICARDA) were forced to abandon their headquarters, which held 140,000 prized samples of ancient Middle Eastern wheat, barley and lentils adapted to extreme heat. Fortunately, ICARDA had shipped duplicate boxes to Svalbard before the fighting escalated. In 2015 and 2017, the vault made its first-ever withdrawals, sending tens of thousands of seeds to new nurseries in Morocco and Lebanon, where scientists multiplied the crops and returned fresh replacement seeds to the Arctic.\nEven an Arctic fortress, however, cannot ignore a warming planet. In October 2016, unseasonably heavy autumn rain and thawing surface permafrost caused meltwater to seep into the vault’s outer access tunnel and freeze into a sheet of ice—though the seed chambers themselves were never breached. Norway responded by investing over $20 million to waterproof the tunnel, remove heat-generating transformers and install cooling pipes in the soil overhead. As climate extremes intensify, Svalbard’s frozen library stands as both a monument to international cooperation and a reminder that no refuge is entirely immune to global warming.\n<i>(Adapted from Crop Trust, Svalbard Global Seed Vault Annual Review, and Science)</i>"
       },
       {
         "origNum": 62,
@@ -3256,15 +3256,15 @@ window.examDatabase['reading'] = {
       {
         "origNum": 63,
         "instruction": "Read the following passage and mark the letter A, B, C, D on your answer sheet to indicate the best answer to each of the following questions from 61 to 70.",
-        "text": "The phrase “<b><u>That depositor</u></b>” in paragraph 4 refers to __________.",
+        "text": "The word “<b><u>their</u></b>” in the last sentence of paragraph 4 refers to __________.",
         "options": [
-          "the Nordic Genetic Resource Center",
-          "each depositing institution",
-          "the Norwegian government",
-          "the mountain on Spitsbergen"
+          "sealed foil packets of seeds",
+          "electric cooling units",
+          "three underground chambers",
+          "depositing institutions"
         ],
-        "answer": 1,
-        "explanation": "“Each depositing institution retains sole legal control... It is the only party permitted to request their return” → It chỉ tổ chức gửi hạt giống (each depositing institution)."
+        "answer": 0,
+        "explanation": "Đoạn 4: “Each depositing institution retains sole legal control over the sealed foil packets it places inside the mountain. It is the only party permitted to request their return...” → “their” quy chiếu cho “sealed foil packets” → A."
       },
       {
         "origNum": 64,
@@ -3277,12 +3277,12 @@ window.examDatabase['reading'] = {
           "Electric cooling systems that keep chambers at minus 18 degrees Celsius."
         ],
         "answer": 0,
-        "explanation": "Đoạn 3 nêu: độ cao 130m trên mực nước biển (A), lớp đất đóng băng vĩnh cửu xung quanh (B), hệ thống làm lạnh điện giữ ở -18°C (D); KHÔNG nói có hơi nước địa nhiệt giá rẻ (C)."
+        "explanation": "Đoạn 3 nêu: độ cao 130m trên mực nước biển (B), lớp đất đóng băng vĩnh cửu xung quanh (C), hệ thống làm lạnh điện giữ ở -18°C (D); KHÔNG nói có hơi nước địa nhiệt giá rẻ → A."
       },
       {
         "origNum": 65,
         "instruction": "Read the following passage and mark the letter A, B, C, D on your answer sheet to indicate the best answer to each of the following questions from 61 to 70.",
-        "text": "Which of the following best summarises paragraph 5?",
+        "text": "Which of the following best summarises paragraph 5 regarding ICARDA’s seed withdrawals?",
         "options": [
           "The Svalbard Vault permanently closed its doors in 2017 after running out of Middle Eastern lentil seeds.",
           "The civil war in Syria prevented ICARDA from ever recovering the 140,000 seed samples it had sent to Norway.",
@@ -3295,7 +3295,7 @@ window.examDatabase['reading'] = {
       {
         "origNum": 66,
         "instruction": "Read the following passage and mark the letter A, B, C, D on your answer sheet to indicate the best answer to each of the following questions from 61 to 70.",
-        "text": "According to the passage, which of the following is TRUE?",
+        "text": "What happened at the Svalbard Global Seed Vault during the unseasonably warm autumn of October 2016?",
         "options": [
           "A typhoon destroyed the Svalbard Vault’s main freezer room in the 2000s.",
           "Norway charges poor countries a high annual rent for every box of seeds stored in the vault.",
@@ -3334,7 +3334,7 @@ window.examDatabase['reading'] = {
       {
         "origNum": 69,
         "instruction": "Read the following passage and mark the letter A, B, C, D on your answer sheet to indicate the best answer to each of the following questions from 61 to 70.",
-        "text": "Which of the following can be inferred from the passage?",
+        "text": "What can be inferred from the 2016 meltwater incident described in paragraph 6?",
         "options": [
           "Seeds stored at minus eighteen degrees Celsius lose their ability to germinate within two years.",
           "Permafrost around Svalbard is growing thicker each autumn due to heavier snowfall.",
@@ -3347,7 +3347,7 @@ window.examDatabase['reading'] = {
       {
         "origNum": 70,
         "instruction": "Read the following passage and mark the letter A, B, C, D on your answer sheet to indicate the best answer to each of the following questions from 61 to 70.",
-        "text": "Which of the following best summarises the passage?",
+        "text": "Which of the following best summarises the passage on the Svalbard Global Seed Vault?",
         "options": [
           "Because Spitsbergen is warming rapidly, the Norwegian government has decided to relocate the Doomsday Vault to Morocco.",
           "The Svalbard Global Seed Vault was constructed in 2016 to replace all 1,700 national seed banks around the world.",
@@ -3384,7 +3384,7 @@ window.examDatabase['reading'] = {
           "Job markets that reward fluency in national or global languages."
         ],
         "answer": 2,
-        "explanation": "Đoạn 2 nêu chính sách trường nội trú trước đây (A), nền tảng trực tuyến & giao diện điện thoại (B), thị trường việc làm (D); KHÔNG nói khác biệt di truyền làm trẻ khó học song ngữ (C)."
+        "explanation": "Đoạn 2 nêu: sự thống trị của các ngôn ngữ lớn trên điện thoại/trực tuyến (A), chính sách trường học trước đây phạt trẻ nói tiếng mẹ đẻ (B), thị trường việc làm (D); KHÔNG nói khác biệt di truyền làm trẻ khó học song ngữ → C."
       },
       {
         "origNum": 55,
@@ -3402,15 +3402,15 @@ window.examDatabase['reading'] = {
       {
         "origNum": 56,
         "instruction": "Read the following passage and mark the letter A, B, C, D on your answer sheet to indicate the best answer to each of the following questions from 53 to 60.",
-        "text": "The pronoun “<b><u>it</u></b>” in paragraph 4 refers to __________.",
+        "text": "What does the pronoun “<b><u>it</u></b>” in the first sentence of paragraph 4 refer to?",
         "options": [
           "dictionary archiving",
-          "a podcast network",
+          "an indigenous podcast network",
           "social stigma",
           "a language"
         ],
         "answer": 3,
-        "explanation": "“a language survives only when it is transmitted naturally between generations” → it quy chiếu cho 'a language'."
+        "explanation": "Đoạn 4: “a language survives only when it is transmitted naturally between generations at home” → “it” quy chiếu cho “a language” → D."
       },
       {
         "origNum": 57,
@@ -3428,15 +3428,15 @@ window.examDatabase['reading'] = {
       {
         "origNum": 58,
         "instruction": "Read the following passage and mark the letter A, B, C, D on your answer sheet to indicate the best answer to each of the following questions from 53 to 60.",
-        "text": "Which of the following is TRUE according to the passage?",
+        "text": "Why do field linguists race to make audio-visual recordings while fluent elders are still active?",
         "options": [
-          "All indigenous ecological terms have exact one-word equivalents in European languages.",
-          "Fewer than ten percent of the world’s spoken languages are currently at risk.",
-          "Children in Welsh-medium and Māori immersion programmes are forbidden to use technology.",
-          "Saving a language requires intergenerational use rather than just compiling dictionaries."
+          "Elderly speakers are prohibited from teaching their mother tongue inside immersion nurseries.",
+          "Voice-recognition software cannot process languages that have written dictionaries.",
+          "Living prosody and natural idioms cannot be reconstructed solely from fragmentary word-lists once speakers pass away.",
+          "European languages lack any grammatical structures for expressing time and space."
         ],
-        "answer": 3,
-        "explanation": "Đoạn 4 nêu rõ: “cannot succeed through dictionary archiving alone; a language survives only when it is transmitted naturally between generations at home.”"
+        "answer": 2,
+        "explanation": "Đoạn 3: “Once the last fluent elders pass away without audio-visual documentation or child speakers, reconstructing a living prosody and idiom from fragmentary word-lists is virtually impossible.” → C."
       },
       {
         "origNum": 59,
@@ -3476,7 +3476,7 @@ window.examDatabase['reading'] = {
         ],
         "answer": 1,
         "explanation": "Paraphrase chính xác: Dù được thiết kế cho đô thị 4 triệu dân, hệ thống cống chung của Bazalgette đã quá tải trước một siêu đô thị thế kỷ 21 với 9 triệu dân và bề mặt bê tông không thấm nước rộng lớn.",
-        "passage": "<b>LONDON’S SUPER SEWER: THE THAMES TIDEWAY TUNNEL</b>\nWhen the civil engineer Sir Joseph Bazalgette completed London’s brick-arched sewer network in the 1860s after the ‘Great Stink’, his design was hailed as a triumph of Victorian public health. <b>[I]</b> <u><b>Designed for a city of four million people, however, Bazalgette’s combined sewers have struggled to cope with a twenty-first-century metropolis of nine million residents and vast expanses of impermeable paving.</b></u> Every year, tens of millions of tonnes of untreated storm sewage have spilled into the tidal River Thames.\nThe flaw lies in how ‘combined’ nineteenth-century sewers operate. A single network of underground pipes carries both household wastewater from kitchens and bathrooms and rainwater draining off roofs and streets. <b>[II]</b> To prevent sewage from backing up into people’s basements during heavy storms, Bazalgette built fifty-seven overflow outlets along the riverbanks. In the 1860s, those safety valves discharged only once or twice a year; by the 2010s, just two millimetres of rain was enough to trigger overflows almost every week, depleting dissolved oxygen in the river and proving <u><b>lethal</b></u> to fish.\nAfter years of legal pressure and environmental campaigning, work began in 2016 on the Thames Tideway Tunnel—dubbed London’s ‘Super Sewer’. <b>[III]</b> Stretching twenty-five kilometres from Acton in west London to Abbey Mills in the east, the concrete-lined tunnel has an internal diameter of 7.2 metres—wide enough to fit three double-decker London buses side by side—and slopes gently downward from thirty metres to sixty-six metres beneath the riverbed.\nRather than replacing Bazalgette’s Victorian brick sewers, the new tunnel works alongside them. Vertical shafts positioned at the most polluting overflow points intercept storm discharges before they can enter the open river and drop the water into the deep tunnel below. <u><b>It</b></u> then stores up to 1.6 million cubic metres of combined runoff until the storm passes and pumps the water onward to Beckton Sewage Treatment Works for full purification.\n<b>[IV]</b> As the final concrete segments were bolted into place and testing began in 2024, the £4.5 billion project started to <u><b>turn the tide</b></u> for the river’s ecology. Engineers calculate that the tunnel will capture 95 percent of the sewage volume that previously entered the tidal Thames, cutting overflow events from roughly sixty a year to no more than four. Marine biologists from the Zoological Society of London, who have documented seahorses, eels and over a hundred fish species returning to the estuary since the 1960s, expect dissolved-oxygen crashes during summer thunderstorms to become a thing of the past.\nEven a giant tunnel, nevertheless, is only half the answer. Climate projections indicate that London’s winter downpours will grow more intense over the coming decades. Urban hydrologists therefore stress that hard underground engineering must be paired with ‘sponge-city’ surface measures—such as rain gardens, permeable car parks and disconnected downpipes—that soak up rainwater before it ever enters a sewer grate. Together, Victorian brickwork, twenty-first-century tunnelling and green streets show how historic cities can adapt their hidden lifelines for a changing climate.\n<i>(Adapted from Institution of Civil Engineers and Zoological Society of London Thames Report)</i>"
+        "passage": "<b>LONDON’S SUPER SEWER: THE THAMES TIDEWAY TUNNEL</b>\nWhen the civil engineer Sir Joseph Bazalgette completed London’s brick-arched sewer network in the 1860s after the ‘Great Stink’, his design was hailed as a triumph of Victorian public health. <b>[I]</b> <u><b>Designed for a city of four million people, however, Bazalgette’s combined sewers have struggled to cope with a twenty-first-century metropolis of nine million residents and vast expanses of impermeable paving.</b></u> Every year, tens of millions of tonnes of untreated storm sewage have spilled into the tidal River Thames.\nThe flaw lies in how ‘combined’ nineteenth-century sewers operate. A single network of underground pipes carries both household wastewater from kitchens and bathrooms and rainwater draining off roofs and streets. <b>[II]</b> To prevent sewage from backing up into people’s basements during heavy storms, Bazalgette built fifty-seven overflow outlets along the riverbanks. In the 1860s, those safety valves discharged only once or twice a year; by the 2010s, just two millimetres of rain was enough to trigger overflows almost every week, depleting dissolved oxygen in the river and proving <u><b>lethal</b></u> to fish.\nAfter years of legal pressure and environmental campaigning, work began in 2016 on the Thames Tideway Tunnel—dubbed London’s ‘Super Sewer’. <b>[III]</b> Stretching twenty-five kilometres from Acton in west London to Abbey Mills in the east, the concrete-lined tunnel has an internal diameter of 7.2 metres—wide enough to fit three double-decker London buses side by side—and slopes gently downward from thirty metres to sixty-six metres beneath the riverbed.\nRather than replacing Bazalgette’s Victorian brick sewers, the new tunnel works alongside <u><b>them</b></u>. Vertical shafts positioned at the most polluting overflow points intercept storm discharges before they can enter the open river and drop the water into the deep tunnel below. It then stores up to 1.6 million cubic metres of combined runoff until the storm passes and pumps the water onward to Beckton Sewage Treatment Works for full purification.\n<b>[IV]</b> As the final concrete segments were bolted into place and testing began in 2024, the £4.5 billion project started to <u><b>turn the tide</b></u> for the river’s ecology. Engineers calculate that the tunnel will capture 95 percent of the sewage volume that previously entered the tidal Thames, cutting overflow events from roughly sixty a year to no more than four. Marine biologists from the Zoological Society of London, who have documented seahorses, eels and over a hundred fish species returning to the estuary since the 1960s, expect dissolved-oxygen crashes during summer thunderstorms to become a thing of the past.\nEven a giant tunnel, nevertheless, is only half the answer. Climate projections indicate that London’s winter downpours will grow more intense over the coming decades. Urban hydrologists therefore stress that hard underground engineering must be paired with ‘sponge-city’ surface measures—such as rain gardens, permeable car parks and disconnected downpipes—that soak up rainwater before it ever enters a sewer grate. Together, Victorian brickwork, twenty-first-century tunnelling and green streets show how historic cities can adapt their hidden lifelines for a changing climate.\n<i>(Adapted from Institution of Civil Engineers and Zoological Society of London Thames Report)</i>"
       },
       {
         "origNum": 62,
@@ -3494,15 +3494,15 @@ window.examDatabase['reading'] = {
       {
         "origNum": 63,
         "instruction": "Read the following passage and mark the letter A, B, C, D on your answer sheet to indicate the best answer to each of the following questions from 61 to 70.",
-        "text": "The word “<b><u>It</u></b>” in paragraph 4 refers to __________.",
+        "text": "The pronoun “<b><u>them</u></b>” in the first sentence of paragraph 4 refers to __________.",
         "options": [
           "Beckton Sewage Treatment Works",
-          "the open River Thames",
-          "Victorian brickwork",
-          "the new Thames Tideway Tunnel"
+          "three double-decker London buses",
+          "fifty-seven overflow outlets",
+          "Bazalgette’s Victorian brick sewers"
         ],
         "answer": 3,
-        "explanation": "“drop the water into the deep tunnel below. It then stores up to 1.6 million cubic metres...” → It chỉ đường hầm mới Thames Tideway Tunnel."
+        "explanation": "Đoạn 4: “Rather than replacing Bazalgette’s Victorian brick sewers, the new tunnel works alongside them.” → “them” quy chiếu cho hệ thống cống gạch thời Victoria của Bazalgette → D."
       },
       {
         "origNum": 64,
@@ -3515,12 +3515,12 @@ window.examDatabase['reading'] = {
           "Its depth of thirty to sixty-six metres beneath the river."
         ],
         "answer": 0,
-        "explanation": "Đoạn 3 nêu: dài 25 km (A), đường kính trong 7,2 m (B), độ sâu 30–66 m dưới lòng sông (D); KHÔNG nêu số lượng máy đào hầm TBM (C)."
+        "explanation": "Đoạn 3 nêu: đường kính trong 7,2 m (B), chiều dài 25 km (C), độ sâu 30–66 m dưới lòng sông (D); KHÔNG nêu số lượng máy đào hầm TBM → A."
       },
       {
         "origNum": 65,
         "instruction": "Read the following passage and mark the letter A, B, C, D on your answer sheet to indicate the best answer to each of the following questions from 61 to 70.",
-        "text": "Which of the following best summarises paragraph 5?",
+        "text": "Which of the following best summarises the ecological projections for the River Thames in paragraph 5?",
         "options": [
           "The £4.5 billion tunnel has failed to reduce the number of sewage spills into the tidal Thames.",
           "Seahorses and eels have disappeared from the Thames estuary since testing began in 2024.",
@@ -3533,7 +3533,7 @@ window.examDatabase['reading'] = {
       {
         "origNum": 66,
         "instruction": "Read the following passage and mark the letter A, B, C, D on your answer sheet to indicate the best answer to each of the following questions from 61 to 70.",
-        "text": "According to the passage, which of the following is TRUE?",
+        "text": "How does the new Thames Tideway Tunnel interact with Sir Joseph Bazalgette’s nineteenth-century sewer system?",
         "options": [
           "The Thames Tideway Tunnel works alongside Bazalgette’s Victorian sewers rather than demolishing them.",
           "Bazalgette’s fifty-seven overflow outlets were built in 2016.",
@@ -3572,7 +3572,7 @@ window.examDatabase['reading'] = {
       {
         "origNum": 69,
         "instruction": "Read the following passage and mark the letter A, B, C, D on your answer sheet to indicate the best answer to each of the following questions from 61 to 70.",
-        "text": "Which of the following can be inferred from the passage?",
+        "text": "What can be inferred from the passage about impermeable urban paving and storm-sewer overflows?",
         "options": [
           "Victorian engineers intentionally designed London’s sewers to pollute the River Thames every week.",
           "Expanding paved surfaces in growing cities increases the volume of rainwater rushing into sewers during storms.",
@@ -3585,7 +3585,7 @@ window.examDatabase['reading'] = {
       {
         "origNum": 70,
         "instruction": "Read the following passage and mark the letter A, B, C, D on your answer sheet to indicate the best answer to each of the following questions from 61 to 70.",
-        "text": "Which of the following best summarises the passage?",
+        "text": "Which of the following best summarises the passage on London’s Thames Tideway Tunnel?",
         "options": [
           "To stop frequent storm-sewage spills from London’s overloaded Victorian sewers, engineers built the deep Thames Tideway Tunnel, which—alongside green surface drainage—will safeguard the river’s health.",
           "Sir Joseph Bazalgette’s 1860s sewer system collapsed in 2016 and had to be completely dug up and replaced.",
@@ -3622,7 +3622,7 @@ window.examDatabase['reading'] = {
           "Software locks that reject replacement parts not verified by factory servers."
         ],
         "answer": 1,
-        "explanation": "Đoạn 2 nêu: giấu sơ đồ mạch điện (A), định giá linh kiện đắt gần bằng máy mới (B), phần mềm parts-pairing khóa linh kiện thay thế (D); KHÔNG nói thiếu trường dạy nghề hàn mạch (C)."
+        "explanation": "Đoạn 2 nêu: giấu sơ đồ mạch điện (A), định giá linh kiện đắt gần bằng máy mới (C), phần mềm khóa linh kiện thay thế (D); KHÔNG nói thiếu trường dạy nghề hàn mạch → B."
       },
       {
         "origNum": 55,
@@ -3640,15 +3640,15 @@ window.examDatabase['reading'] = {
       {
         "origNum": 56,
         "instruction": "Read the following passage and mark the letter A, B, C, D on your answer sheet to indicate the best answer to each of the following questions from 53 to 60.",
-        "text": "The pronoun “<b><u>it</u></b>” in paragraph 2 refers to __________.",
+        "text": "In paragraph 2, what does the pronoun “<b><u>it</u></b>” in the clause “unless it is authorised by the factory’s server” refer to?",
         "options": [
           "a replacement screen",
           "an independent workshop",
-          "the factory’s server",
+          "a municipal repair voucher",
           "a circuit diagram"
         ],
         "answer": 0,
-        "explanation": "“disables a replacement screen unless it is authorised by the factory’s server” → it quy chiếu cho 'a replacement screen'."
+        "explanation": "Đoạn 2: “‘parts-pairing’ software that disables a replacement screen unless it is authorised by the factory’s server” → “it” quy chiếu cho “a replacement screen” → A."
       },
       {
         "origNum": 57,
@@ -3666,15 +3666,15 @@ window.examDatabase['reading'] = {
       {
         "origNum": 58,
         "instruction": "Read the following passage and mark the letter A, B, C, D on your answer sheet to indicate the best answer to each of the following questions from 53 to 60.",
-        "text": "Which of the following is TRUE according to the passage?",
+        "text": "Why do circular-economy researchers consider extending product lifespans far greener than mechanical recycling?",
         "options": [
-          "Shredding glued tablets allows recyclers to recover all rare-earth metals effortlessly.",
-          "The average lifespan of European washing machines has increased by three years since 2005.",
-          "Most of a smartphone’s lifetime carbon footprint is generated during manufacturing before first use.",
-          "Parts-pairing software helps independent repair shops install cheaper third-party screens."
+          "Mechanical shredders generate 80 percent of a laptop’s lifetime carbon emissions.",
+          "European Union directives have prohibited the recovery of cobalt and neodymium from tablets.",
+          "Up to 80 percent of a device’s carbon emissions occur before first use, and extracting pure trace metals from shredded devices is energy-intensive.",
+          "Independent repair workshops use zero electricity when replacing capacitors and batteries."
         ],
         "answer": 2,
-        "explanation": "Đoạn 3 nêu rõ: “mining and smelting the metals for a new smartphone or laptop generates up to 80 percent of the device’s lifetime carbon emissions before it is even switched on.”"
+        "explanation": "Đoạn 3: Khai mỏ và luyện kim để sản xuất thiết bị mới đã tạo ra tới 80% lượng khí thải carbon cả vòng đời, đồng thời việc thu hồi kim loại hiếm tinh khiết từ thiết bị nghiền nát rất phức tạp và tốn năng lượng → C."
       },
       {
         "origNum": 59,
@@ -3714,7 +3714,7 @@ window.examDatabase['reading'] = {
         ],
         "answer": 0,
         "explanation": "Paraphrase chính xác: Khởi đầu năm 2007 với ý tưởng một dải cây liền mạch rộng 15 km ngăn sa mạc tiến lấn, Vạn Lý Trường Thành Xanh đã phát triển thành một mạng lưới thực tế gồm các mô hình phục hồi đất do nông dân quản lý.",
-        "passage": "<b>THE GREAT GREEN WALL OF THE SAHEL</b>\nAlong the southern edge of the Sahara Desert, a semi-arid belt known as the Sahel stretches eight thousand kilometres from Senegal on the Atlantic coast to Djibouti on the Red Sea. <b>[I]</b> <u><b>Conceived by African leaders in 2007 as a monolithic fifteen-kilometre-wide strip of trees to hold back the advancing desert, the Great Green Wall has evolved into a pragmatic mosaic of farmer-managed land restoration.</b></u> Today the initiative represents one of the most ambitious ecological and livelihood projects of the twenty-first century.\nThe region’s crisis was triggered by severe droughts in the 1970s and 1980s, compounded by rapid population growth, overgrazing and the felling of trees for firewood. <b>[II]</b> Stripped of vegetation, sun-baked clay soils formed an impermeable crust; when the brief summer rains arrived, water sheeted off the surface instead of soaking in, leaving crops withered weeks later. Millions of smallholder families faced chronic food insecurity and pressure to migrate.\nEarly attempts to plant continuous plantations of nursery-grown eucalyptus and acacia saplings across uninhabited dunes met with <u><b>sobering</b></u> setbacks. <b>[III]</b> In remote districts without fences or village caretakers, up to 80 percent of the planted seedlings died from drought or were eaten by wandering goats within their first dry season. Ecologists quickly realised that ‘planting trees’ in isolation could not stop desertification, which is driven by land degradation inside farming villages rather than a literal wall of moving sand.\nThe breakthrough came from reviving indigenous water-harvesting and agroforestry techniques across Burkina Faso, Niger and Senegal. Using traditional half-moon earth pits known as <i>zaï</i> filled with compost, farmers trapped rainwater runoff so it percolated deep into the crusted soil. <u><b>They</b></u> also practised ‘farmer-managed natural regeneration’ (FMNR)—identifying living tree roots dormant beneath ploughed fields and pruning the toughest shoots so native nitrogen-fixing trees such as <i>Faidherbia albida</i> could grow right among millet and sorghum crops.\n<b>[IV]</b> This shift from top-down forestry to community stewardship soon began to <u><b>turn a corner</b></u>. In Niger alone, farmers have regenerated more than 200 million trees across five million hectares of farmland, boosting grain yields by half a million tonnes a year because <i>Faidherbia</i> trees conveniently shed their nitrogen-rich leaves at the start of the rainy season rather than shading crops. In Senegal, women’s cooperatives managing multi-purpose village gardens within the Green Wall corridor have diversified incomes by harvesting gum arabic, baobab fruit and fodder.\nFormidable obstacles still stand in the way of the project’s 2030 target of restoring 100 million hectares. Armed insecurity across parts of the central Sahel has disrupted fieldwork, and international development pledges have sometimes been slow to reach local village councils. Nevertheless, the evolution of the Great Green Wall demonstrates that dryland restoration succeeds when local farmers have legal ownership of the trees on their land and an immediate economic stake in keeping them alive.\n<i>(Adapted from UN Convention to Combat Desertification, The Great Green Wall Implementation Status Report, and Nature)</i>"
+        "passage": "<b>THE GREAT GREEN WALL OF THE SAHEL</b>\nAlong the southern edge of the Sahara Desert, a semi-arid belt known as the Sahel stretches eight thousand kilometres from Senegal on the Atlantic coast to Djibouti on the Red Sea. <b>[I]</b> <u><b>Conceived by African leaders in 2007 as a monolithic fifteen-kilometre-wide strip of trees to hold back the advancing desert, the Great Green Wall has evolved into a pragmatic mosaic of farmer-managed land restoration.</b></u> Today the initiative represents one of the most ambitious ecological and livelihood projects of the twenty-first century.\nThe region’s crisis was triggered by severe droughts in the 1970s and 1980s, compounded by rapid population growth, overgrazing and the felling of trees for firewood. <b>[II]</b> Stripped of vegetation, sun-baked clay soils formed an impermeable crust; when the brief summer rains arrived, water sheeted off the surface instead of soaking in, leaving crops withered weeks later. Millions of smallholder families faced chronic food insecurity and pressure to migrate.\nEarly attempts to plant continuous plantations of nursery-grown eucalyptus and acacia saplings across uninhabited dunes met with <u><b>sobering</b></u> setbacks. <b>[III]</b> In remote districts without fences or village caretakers, up to 80 percent of the planted seedlings died from drought or were eaten by wandering goats within their first dry season. Ecologists quickly realised that ‘planting trees’ in isolation could not stop desertification, which is driven by land degradation inside farming villages rather than a literal wall of moving sand.\nThe breakthrough came from reviving indigenous water-harvesting and agroforestry techniques across Burkina Faso, Niger and Senegal. Using traditional half-moon earth pits known as <i>zaï</i> filled with compost, farmers trapped rainwater runoff so it percolated deep into the crusted soil. They also practised ‘farmer-managed natural regeneration’ (FMNR)—identifying living tree roots dormant beneath ploughed fields and pruning the toughest shoots so native nitrogen-fixing trees such as <i>Faidherbia albida</i> could grow right among millet and sorghum crops.\n<b>[IV]</b> This shift from top-down forestry to community stewardship soon began to <u><b>turn a corner</b></u>. In Niger alone, farmers have regenerated more than 200 million trees across five million hectares of farmland, boosting grain yields by half a million tonnes a year because <i>Faidherbia</i> trees conveniently shed their nitrogen-rich leaves at the start of the rainy season rather than shading crops. In Senegal, women’s cooperatives managing multi-purpose village gardens within the Green Wall corridor have diversified incomes by harvesting gum arabic, baobab fruit and fodder.\nFormidable obstacles still stand in the way of the project’s 2030 target of restoring 100 million hectares. Armed insecurity across parts of the central Sahel has disrupted fieldwork, and international development pledges have sometimes been slow to reach local village councils. Nevertheless, the evolution of the Great Green Wall demonstrates that dryland restoration succeeds when local farmers have legal ownership of the trees on their land and an immediate economic stake in keeping <u><b>them</b></u> alive.\n<i>(Adapted from UN Convention to Combat Desertification, The Great Green Wall Implementation Status Report, and Nature)</i>"
       },
       {
         "origNum": 62,
@@ -3732,15 +3732,15 @@ window.examDatabase['reading'] = {
       {
         "origNum": 63,
         "instruction": "Read the following passage and mark the letter A, B, C, D on your answer sheet to indicate the best answer to each of the following questions from 61 to 70.",
-        "text": "The word “<b><u>They</u></b>” in paragraph 4 refers to __________.",
+        "text": "The pronoun “<b><u>them</u></b>” in the final sentence of paragraph 6 refers to __________.",
         "options": [
-          "traditional half-moon earth pits",
-          "wandering goats",
-          "farmers in Burkina Faso, Niger and Senegal",
-          "nursery-grown eucalyptus saplings"
+          "international development pledges",
+          "local village councils",
+          "the trees on local farmers’ land",
+          "traditional half-moon earth pits"
         ],
         "answer": 2,
-        "explanation": "“farmers trapped rainwater runoff... They also practised ‘farmer-managed natural regeneration’” → They chỉ những người nông dân (farmers)."
+        "explanation": "Đoạn 6: “when local farmers have legal ownership of the trees on their land and an immediate economic stake in keeping them alive.” → “them” quy chiếu cho “the trees on their land” → C."
       },
       {
         "origNum": 64,
@@ -3753,12 +3753,12 @@ window.examDatabase['reading'] = {
           "Goats browsing on the newly planted seedlings."
         ],
         "answer": 1,
-        "explanation": "Đoạn 3 nêu: không có hàng rào (A), thiếu người dân địa phương chăm sóc (B), dê ăn cây non (D); KHÔNG nói bệnh nấm từ đất bầu ngoại nhập (C)."
+        "explanation": "Đoạn 3 nêu: thiếu hàng rào bảo vệ (A), thiếu người dân địa phương chăm sóc (C), dê ăn cây non (D); KHÔNG nói bệnh nấm từ đất bầu ngoại nhập → B."
       },
       {
         "origNum": 65,
         "instruction": "Read the following passage and mark the letter A, B, C, D on your answer sheet to indicate the best answer to each of the following questions from 61 to 70.",
-        "text": "Which of the following best summarises paragraph 5?",
+        "text": "Which of the following best summarises the agricultural and livelihood gains described in paragraph 5?",
         "options": [
           "Community-led tree regeneration and village gardens have simultaneously increased crop harvests, soil fertility and rural incomes.",
           "Planting Faidherbia trees has reduced millet harvests in Niger by shading the crops during the rainy season.",
@@ -3771,7 +3771,7 @@ window.examDatabase['reading'] = {
       {
         "origNum": 66,
         "instruction": "Read the following passage and mark the letter A, B, C, D on your answer sheet to indicate the best answer to each of the following questions from 61 to 70.",
-        "text": "According to the passage, which of the following is TRUE?",
+        "text": "Why is the native tree species Faidherbia albida particularly beneficial when grown inside millet and sorghum fields?",
         "options": [
           "Desertification in the Sahel is caused solely by a wall of sand blowing out of the Sahara.",
           "More than 90 percent of the seedlings planted in early remote plantations survived.",
@@ -3810,7 +3810,7 @@ window.examDatabase['reading'] = {
       {
         "origNum": 69,
         "instruction": "Read the following passage and mark the letter A, B, C, D on your answer sheet to indicate the best answer to each of the following questions from 61 to 70.",
-        "text": "Which of the following can be inferred from the passage?",
+        "text": "What lesson can be inferred from comparing early dune plantations with farmer-managed natural regeneration?",
         "options": [
           "Digging half-moon earth pits prevents rainwater from soaking into clay soil.",
           "Eucalyptus plantations in uninhabited dunes are more effective than farmer-managed regeneration.",
@@ -3823,7 +3823,7 @@ window.examDatabase['reading'] = {
       {
         "origNum": 70,
         "instruction": "Read the following passage and mark the letter A, B, C, D on your answer sheet to indicate the best answer to each of the following questions from 61 to 70.",
-        "text": "Which of the following best summarises the passage?",
+        "text": "Which of the following best summarises the passage on the Great Green Wall of the Sahel?",
         "options": [
           "The African Union abandoned the Great Green Wall in 2007 after discovering that trees cannot grow in Niger and Senegal.",
           "After early tree-planting belts suffered high mortality, the Great Green Wall shifted toward indigenous water-harvesting and farmer-managed tree regeneration, reviving millions of hectares despite ongoing security and funding hurdles.",
@@ -3847,7 +3847,7 @@ window.examDatabase['reading'] = {
         ],
         "answer": 3,
         "explanation": "paltry = meagre / negligible (ít ỏi, nhỏ bé không đáng kể so với trợ cấp mở rộng cảng).",
-        "passage": "<b>THE ECOLOGICAL TOLL OF OCEAN NOISE</b>\nFor millions of years, the underwater world was governed by acoustic cues. Light penetrates barely two hundred metres beneath the waves, whereas sound travels four times faster in water than in air and crosses entire ocean basins. <u><b>Global maritime trade and offshore energy exploration have connected continents at remarkably low cost, yet they have filled the seas with a relentless low-frequency din that blinds marine life acoustically.</b></u> Hydrophone arrays indicate that ambient noise in busy shipping lanes has doubled every decade since the 1950s.\nThe ubiquity of underwater noise stems less from deliberate harm than from the physics of propeller cavitation and seismic surveying. As conventional ship propellers spin rapidly, they create millones of tiny low-pressure vapour bubbles that collapse with a continuous roar in the exact frequency band—10 to 300 hertz—used by baleen whales to communicate. Compounding the disturbance, seismic airgun arrays towed behind oil-and-gas survey vessels fire intense pulses of compressed air every ten seconds for weeks on end. International maritime treaties strictly regulate oil spills and ballast water, yet acoustic emissions remain largely unpriced, and research grants for quiet-propeller retrofits remain <u><b>paltry</b></u> compared with subsidies for port expansion.\nThe biological consequences reach from giant cetaceans to microscopic larvae. Right whales and humpbacks suffer a ninety-percent shrinkage in their ‘communication space’, struggling to locate mates or warn calves of approaching hulls. Deep-diving beaked whales exposed to mid-frequency sonar or airguns can panic and surface too rapidly, suffering decompression sickness and mass strandings. Even free-swimming coral and reef-fish larvae rely on the crackling sound of snapping shrimp to locate healthy reefs on which to settle; when shipping noise masks <u><b>that natural beacon</b></u>, damaged reefs fail to recruit new life. This explains why marine acousticians view noise abatement as a prerequisite for coral-reef recovery.\nEncouragingly, ocean noise is a pollutant with an immediate off-switch. Reducing a cargo vessel’s speed by just ten percent cuts its acoustic output by nearly half while burning less fuel, and new skewed propeller blades suppress cavitation bubbles before they form. Port authorities in Vancouver have already introduced discounted harbour dues for ships certified as acoustically <u><b>unobtrusive</b></u>, while offshore wind developers are surrounding pile-driving rigs with ‘bubble curtains’ that absorb ninety percent of impact sound. Quieting the world’s fleets would allow marine ecosystems to hear themselves think once again.\n<i>(Adapted from Duarte et al., Science (2021), and International Maritime Organization Briefings)</i>"
+        "passage": "<b>THE ECOLOGICAL TOLL OF OCEAN NOISE</b>\nFor millions of years, the underwater world was governed by acoustic cues. Light penetrates barely two hundred metres beneath the waves, whereas sound travels four times faster in water than in air and crosses entire ocean basins. <u><b>Global maritime trade and offshore energy exploration have connected continents at remarkably low cost, yet they have filled the seas with a relentless low-frequency din that blinds marine life acoustically.</b></u> Hydrophone arrays indicate that ambient noise in busy shipping lanes has doubled every decade since the 1950s.\nThe ubiquity of underwater noise stems less from deliberate harm than from the physics of propeller cavitation and seismic surveying. As conventional ship propellers spin rapidly, they create millions of tiny low-pressure vapour bubbles that collapse with a continuous roar in the exact frequency band—10 to 300 hertz—used by baleen whales to communicate. Compounding the disturbance, seismic airgun arrays towed behind oil-and-gas survey vessels fire intense pulses of compressed air every ten seconds for weeks on end. International maritime treaties strictly regulate oil spills and ballast water, yet acoustic emissions remain largely unpriced, and research grants for quiet-propeller retrofits remain <u><b>paltry</b></u> compared with subsidies for port expansion.\nThe biological consequences reach from giant cetaceans to microscopic larvae. Right whales and humpbacks suffer a ninety-percent shrinkage in their ‘communication space’, struggling to locate mates or warn calves of approaching hulls. Deep-diving beaked whales exposed to mid-frequency sonar or airguns can panic and surface too rapidly, suffering decompression sickness and mass strandings. Even free-swimming coral and reef-fish larvae rely on the crackling sound of snapping shrimp to locate healthy reefs on which to settle; when shipping noise masks <u><b>that natural beacon</b></u>, damaged reefs fail to recruit new life. This explains why marine acousticians view noise abatement as a prerequisite for coral-reef recovery.\nEncouragingly, ocean noise is a pollutant with an immediate off-switch. Reducing a cargo vessel’s speed by just ten percent cuts its acoustic output by nearly half while burning less fuel, and new skewed propeller blades suppress cavitation bubbles before they form. Port authorities in Vancouver have already introduced discounted harbour dues for ships certified as acoustically <u><b>unobtrusive</b></u>, while offshore wind developers are surrounding pile-driving rigs with ‘bubble curtains’ that absorb ninety percent of impact sound. Quieting the world’s fleets would allow marine ecosystems to hear themselves think once again.\n<i>(Adapted from Duarte et al., Science (2021), and International Maritime Organization Briefings)</i>"
       },
       {
         "origNum": 54,
@@ -3860,7 +3860,7 @@ window.examDatabase['reading'] = {
           "Ship noise overlapping with the 10–300 hertz frequency band of baleen whales."
         ],
         "answer": 0,
-        "explanation": "Đoạn 2 nêu: bong bóng xâm thực trên chân vịt tàu (A), súng hơi địa chấn khảo sát dầu khí (B), dải tần 10–300 Hz trùng với cá voi tấm sừng (D); KHÔNG đề cập máy ủi khai khoáng đáy biển (C)."
+        "explanation": "Đoạn 2 nêu: bong bóng xâm thực trên chân vịt tàu (B), súng hơi địa chấn khảo sát năng lượng (C), tiếng ồn tàu trùng dải tần 10–300 Hz của cá voi tấm sừng (D); KHÔNG đề cập máy ủi khai khoáng đáy biển → A."
       },
       {
         "origNum": 55,
@@ -3904,15 +3904,15 @@ window.examDatabase['reading'] = {
       {
         "origNum": 58,
         "instruction": "Read the following passage and mark the letter A, B, C, D on your answer sheet to indicate the best answer to each of the following questions from 53 to 60.",
-        "text": "Which of the following is TRUE according to the passage?",
+        "text": "According to paragraph 4, what happens when a cargo vessel reduces its speed by ten percent?",
         "options": [
-          "Slowing cargo ships slightly reduces both underwater noise and fuel consumption.",
-          "Bubble curtains are used to help baleen whales swim faster in shipping lanes.",
-          "Light travels four times farther than soundwaves in deep ocean water.",
-          "International maritime treaties already tax ships heavily for every decibel of noise."
+          "Its underwater acoustic output drops by nearly half while its fuel consumption also decreases.",
+          "Its propeller blades generate twice as many low-pressure cavitation bubbles.",
+          "It masks the crackling sound of snapping shrimp across coral reefs.",
+          "It becomes subject to higher harbour dues at the Port of Vancouver."
         ],
         "answer": 0,
-        "explanation": "Đoạn 4 nêu rõ: “Reducing a cargo vessel’s speed by just ten percent cuts its acoustic output by nearly half while burning less fuel”."
+        "explanation": "Đoạn 4: “Reducing a cargo vessel’s speed by just ten percent cuts its acoustic output by nearly half while burning less fuel” → A."
       },
       {
         "origNum": 59,
@@ -3952,7 +3952,7 @@ window.examDatabase['reading'] = {
         ],
         "answer": 2,
         "explanation": "Paraphrase chính xác: Đối mặt với nền đất sét nặng khiến canh tác hiện đại liên tục thua lỗ, năm 2001 hai chủ trang trại đã đưa ra quyết định táo bạo là bán máy kéo và trả lại đất cho tự nhiên.",
-        "passage": "<b>REWILDING THE KNEPPA ESTATE</b>\nSituated just forty miles south of London in the densely populated county of West Sussex, the 3,500-acre Knepp Castle Estate was farmed intensively for decades. <b>[I]</b> <u><b>Faced with heavy clay soil that made modern arable farming persistently unprofitable, owners Charlie Burrell and Isabella Tree took the radical decision in 2001 to sell their tractors and hand the land back to nature.</b></u> Over the quarter-century since, Knepp has become Britain’s most celebrated lowland rewilding experiment.\nThe economic predicament of Knepp was typical of marginal European farmland. Despite pouring tonnes of chemical fertilisers and winter wheat seed into the sticky Wealden clay, the estate ran at a chronic loss whenever global grain prices dipped. <b>[II]</b> Heavy machinery compacted the wet ground, while routine insecticide spraying rendered the fields biologically <u><b>sterile</b></u>. By 2000, the farm’s overdraft exceeded £1.5 million, and conventional agricultural advisers urged the owners to plough even harder.\nInstead, inspired by the Dutch ecologist Frans Vera, Burrell and Tree adopted ‘process-led’ conservation. <b>[III]</b> Rather than managing the land for a single target species, they removed internal barbed-wire fences, blocked agricultural drainage ditches so winter streams could spill out across the meadows, and allowed thorny scrub—bramble, hawthorn and blackthorn—to colonise the former wheat fields.\nTo replicate the disturbance once caused by prehistoric wild herbivores such as aurochs and tarpan, the estate introduced free-roaming herds of hardy traditional livestock: Old English longhorn cattle, Exmoor ponies, Tamworth pigs and fallow deer. <u><b>These hardy grazers</b></u> browsed saplings, trampled tussocks and rootled in the mud, creating a shifting mosaic of sunny glades, thorny thickets and temporary puddles that no mechanical mower could ever imitate.\n<b>[IV]</b> Within a decade, this messy, thorn-scrub landscape began to <u><b>work wonders</b></u> for Britain’s rarest wildlife. Nightingales, turtle doves and purple emperor butterflies—species plunging toward extinction across the wider English countryside—flocked to Knepp in nationally significant numbers, finding safe nesting cover inside the thorny bramble domes that protected saplings from deer. Soil carbon and earthworm biomass doubled, while ecotourism safaris, glamping and pasture-fed meat turned the formerly loss-making estate into a thriving business.\nRewilding in a crowded island, nonetheless, provokes lively debate. Neighbouring farmers initially complained about creeping thistle seeds blowing across boundary hedges, and rural economists point out that Britain cannot turn all of its prime, high-yielding farmland into scrub without importing more food from abroad. Even so, Knepp demonstrates that retiring marginal, unprofitable soils from intensive ploughing can restore biodiversity, store floodwater and revitalise rural enterprise all at once.\n<i>(Adapted from Isabella Tree, Wilding: The Return of Nature to a British Farm, and Ecological Solutions and Evidence)</i>"
+        "passage": "<b>REWILDING THE KNEPP ESTATE</b>\nSituated just forty miles south of London in the densely populated county of West Sussex, the 3,500-acre Knepp Castle Estate was farmed intensively for decades. <b>[I]</b> <u><b>Faced with heavy clay soil that made modern arable farming persistently unprofitable, owners Charlie Burrell and Isabella Tree took the radical decision in 2001 to sell their tractors and hand the land back to nature.</b></u> Over the quarter-century since, Knepp has become Britain’s most celebrated lowland rewilding experiment.\nThe economic predicament of Knepp was typical of marginal European farmland. Despite pouring tonnes of chemical fertilisers and winter wheat seed into the sticky Wealden clay, the estate ran at a chronic loss whenever global grain prices dipped. <b>[II]</b> Heavy machinery compacted the wet ground, while routine insecticide spraying rendered the fields biologically <u><b>sterile</b></u>. By 2000, the farm’s overdraft exceeded £1.5 million, and conventional agricultural advisers urged the owners to plough even harder.\nInstead, inspired by the Dutch ecologist Frans Vera, Burrell and Tree adopted ‘process-led’ conservation. <b>[III]</b> Rather than managing the land for a single target species, they removed internal barbed-wire fences, blocked agricultural drainage ditches so winter streams could spill out across the meadows, and allowed thorny scrub—bramble, hawthorn and blackthorn—to colonise the former wheat fields.\nTo replicate the disturbance once caused by prehistoric wild herbivores such as aurochs and tarpan, the estate introduced free-roaming herds of hardy traditional livestock: Old English longhorn cattle, Exmoor ponies, Tamworth pigs and fallow deer. <u><b>They</b></u> browsed saplings, trampled tussocks and rootled in the mud, creating a shifting mosaic of sunny glades, thorny thickets and temporary puddles that no mechanical mower could ever imitate.\n<b>[IV]</b> Within a decade, this messy, thorn-scrub landscape began to <u><b>work wonders</b></u> for Britain’s rarest wildlife. Nightingales, turtle doves and purple emperor butterflies—species plunging toward extinction across the wider English countryside—flocked to Knepp in nationally significant numbers, finding safe nesting cover inside the thorny bramble domes that protected saplings from deer. Soil carbon and earthworm biomass doubled, while ecotourism safaris, glamping and pasture-fed meat turned the formerly loss-making estate into a thriving business.\nRewilding in a crowded island, nonetheless, provokes lively debate. Neighbouring farmers initially complained about creeping thistle seeds blowing across boundary hedges, and rural economists point out that Britain cannot turn all of its prime, high-yielding farmland into scrub without importing more food from abroad. Even so, Knepp demonstrates that retiring marginal, unprofitable soils from intensive ploughing can restore biodiversity, store floodwater and revitalise rural enterprise all at once.\n<i>(Adapted from Isabella Tree, Wilding: The Return of Nature to a British Farm, and Ecological Solutions and Evidence)</i>"
       },
       {
         "origNum": 62,
@@ -3970,7 +3970,7 @@ window.examDatabase['reading'] = {
       {
         "origNum": 63,
         "instruction": "Read the following passage and mark the letter A, B, C, D on your answer sheet to indicate the best answer to each of the following questions from 61 to 70.",
-        "text": "The phrase “<b><u>These hardy grazers</u></b>” in paragraph 4 refers to __________.",
+        "text": "In paragraph 4, what does the pronoun “<b><u>They</u></b>” in “They browsed saplings, trampled tussocks and rootled in the mud” refer to?",
         "options": [
           "Charlie Burrell and Isabella Tree",
           "internal barbed-wire fences",
@@ -3991,12 +3991,12 @@ window.examDatabase['reading'] = {
           "Using Tamworth pigs and longhorn cattle to disturb the soil naturally."
         ],
         "answer": 0,
-        "explanation": "Đoạn 3 & 4 nêu: tháo hàng rào kẽm gai (A), chặn mương thoát nước (B), thả bò sừng dài, ngựa Exmoor, lợn Tamworth, hươu (D); KHÔNG thả thú săn mồi đầu bảng như sói hay linh miêu (C)."
+        "explanation": "Đoạn 3 & 4 nêu: tháo hàng rào kẽm gai (B), chặn mương thoát nước cũ (C), thả lợn Tamworth và bò sừng dài để xới đất tự nhiên (D); KHÔNG thả thú săn mồi đầu bảng như sói hay linh miêu → A."
       },
       {
         "origNum": 65,
         "instruction": "Read the following passage and mark the letter A, B, C, D on your answer sheet to indicate the best answer to each of the following questions from 61 to 70.",
-        "text": "Which of the following best summarises paragraph 5?",
+        "text": "Which of the following best summarises the ecological and financial turnaround of Knepp in paragraph 5?",
         "options": [
           "Ecotourism failed at Knepp because visitors disliked walking through muddy pastures.",
           "Thorny bramble domes prevented nightingales and purple emperor butterflies from breeding on the estate.",
@@ -4009,7 +4009,7 @@ window.examDatabase['reading'] = {
       {
         "origNum": 66,
         "instruction": "Read the following passage and mark the letter A, B, C, D on your answer sheet to indicate the best answer to each of the following questions from 61 to 70.",
-        "text": "According to the passage, which of the following is TRUE?",
+        "text": "According to paragraph 5, how do thorny bramble thickets assist tree regeneration at the Knepp Estate?",
         "options": [
           "Conventional farm advisers in 2000 recommended that Burrell and Tree stop ploughing.",
           "Thorny bramble thickets at Knepp shelter young tree saplings from browsing deer.",
@@ -4048,7 +4048,7 @@ window.examDatabase['reading'] = {
       {
         "origNum": 69,
         "instruction": "Read the following passage and mark the letter A, B, C, D on your answer sheet to indicate the best answer to each of the following questions from 61 to 70.",
-        "text": "Which of the following can be inferred from the passage?",
+        "text": "What can be inferred from the passage about the types of agricultural land best suited to lowland rewilding?",
         "options": [
           "Rewilding requires converting all of Britain’s highest-yielding wheat fields into forest.",
           "Rewilding is particularly well suited to marginal soils where intensive crop farming is economically unviable.",
@@ -4061,7 +4061,7 @@ window.examDatabase['reading'] = {
       {
         "origNum": 70,
         "instruction": "Read the following passage and mark the letter A, B, C, D on your answer sheet to indicate the best answer to each of the following questions from 61 to 70.",
-        "text": "Which of the following best summarises the passage?",
+        "text": "Which of the following best summarises the passage on rewilding the Knepp Estate?",
         "options": [
           "Frans Vera persuaded the British government to ban barbed-wire fences and drainage ditches across West Sussex.",
           "The Knepp Estate went bankrupt in 2001 after replacing modern tractors with Exmoor ponies and Tamworth pigs.",
@@ -4142,15 +4142,15 @@ window.examDatabase['reading'] = {
       {
         "origNum": 58,
         "instruction": "Read the following passage and mark the letter A, B, C, D on your answer sheet to indicate the best answer to each of the following questions from 53 to 60.",
-        "text": "Which of the following is TRUE according to the passage?",
+        "text": "According to neuroscientist Maryanne Wolf, what cognitive processes are activated by slow, immersive deep reading?",
         "options": [
-          "The brain’s orienting reflex evolved specifically to read printed books.",
-          "Deep reading activates neural pathways linked to empathy and critical thinking.",
-          "Cognitive psychologists recommend banning all computers from universities.",
-          "Habitual skimming improves students’ ability to spot subtle irony and logical fallacies."
+          "The evolutionary orienting reflex that scans the horizon for sudden threats.",
+          "Brain regions linked to perspective-taking, critical analysis and empathy.",
+          "F-pattern visual scanning designed to extract rapid bullet-point facts.",
+          "Continuous partial attention triggered by variable digital rewards."
         ],
         "answer": 1,
-        "explanation": "Đoạn 3 nêu rõ: “‘deep reading’... activates brain regions responsible for perspective-taking, critical analysis and empathy.”"
+        "explanation": "Đoạn 3: “‘deep reading’—the slow, immersive processing of rich syntax and metaphor—activates brain regions responsible for perspective-taking, critical analysis and empathy.” → B."
       },
       {
         "origNum": 59,
@@ -4208,7 +4208,7 @@ window.examDatabase['reading'] = {
       {
         "origNum": 63,
         "instruction": "Read the following passage and mark the letter A, B, C, D on your answer sheet to indicate the best answer to each of the following questions from 61 to 70.",
-        "text": "The word “<b><u>It</u></b>” in paragraph 4 refers to __________.",
+        "text": "In paragraph 4, the pronoun “<b><u>It</u></b>” in “It also encouraged major chemical firms” refers to ___________.",
         "options": [
           "the 1987 Montreal Protocol framework",
           "a chlorine atom in the stratosphere",
@@ -4229,12 +4229,12 @@ window.examDatabase['reading'] = {
           "Releasing chlorine atoms when broken apart by stratospheric UV light."
         ],
         "answer": 1,
-        "explanation": "Đoạn 2 nêu: không cháy và không độc ở mặt đất (A), dùng làm chất làm lạnh và chất đẩy bình xịt (B), giải phóng nguyên tử clo khi bị tia UV tầng bình lưu phá vỡ (D); KHÔNG nói CFC tan nhanh trong nước mưa (C - trái lại chúng trôi nguyên vẹn lên tầng bình lưu)."
+        "explanation": "Đoạn 2 nêu: không cháy và không độc ở mặt đất (A), dùng làm chất làm lạnh và chất đẩy bình xịt (C), giải phóng nguyên tử clo khi bị tia UV tầng bình lưu phá vỡ (D); KHÔNG nói CFC tan nhanh trong nước mưa → B."
       },
       {
         "origNum": 65,
         "instruction": "Read the following passage and mark the letter A, B, C, D on your answer sheet to indicate the best answer to each of the following questions from 61 to 70.",
-        "text": "Which of the following best summarises paragraph 5?",
+        "text": "Which of the following best summarises the atmospheric recovery and climate benefits presented in paragraph 5?",
         "options": [
           "Phasing out CFCs has caused global temperatures to rise by an extra one degree Celsius.",
           "Stratospheric chlorine levels have continued to rise since the late 1990s despite the Montreal Protocol.",
@@ -4247,7 +4247,7 @@ window.examDatabase['reading'] = {
       {
         "origNum": 66,
         "instruction": "Read the following passage and mark the letter A, B, C, D on your answer sheet to indicate the best answer to each of the following questions from 61 to 70.",
-        "text": "According to the passage, which of the following is TRUE?",
+        "text": "How did the 1987 Montreal Protocol support developing nations in phasing out ozone-depleting substances?",
         "options": [
           "The Multilateral Fund helped developing countries convert their factories to ozone-safe alternatives.",
           "Mario Molina and F. Sherwood Rowland invented CFCs in the 1920s.",
@@ -4286,7 +4286,7 @@ window.examDatabase['reading'] = {
       {
         "origNum": 69,
         "instruction": "Read the following passage and mark the letter A, B, C, D on your answer sheet to indicate the best answer to each of the following questions from 61 to 70.",
-        "text": "Which of the following can be inferred from the passage?",
+        "text": "What can be inferred from paragraph 6 regarding the long-term management of global environmental treaties?",
         "options": [
           "Continuous atmospheric monitoring and treaty updates are essential because substitute chemicals or illegal production can create new problems.",
           "Global environmental treaties can succeed without financial assistance for developing nations.",
@@ -4299,7 +4299,7 @@ window.examDatabase['reading'] = {
       {
         "origNum": 70,
         "instruction": "Read the following passage and mark the letter A, B, C, D on your answer sheet to indicate the best answer to each of the following questions from 61 to 70.",
-        "text": "Which of the following best summarises the passage?",
+        "text": "Which of the following best summarises the passage on the Montreal Protocol?",
         "options": [
           "The history of CFCs shows that synthetic chemicals are always harmless in the upper atmosphere.",
           "The British Antarctic Survey discovered in 1985 that hydrofluorocarbons had destroyed 99 percent of the world’s oxygen.",
@@ -4336,7 +4336,7 @@ window.examDatabase['reading'] = {
           "A global ban on using diamond-tipped drill bits outside the petroleum industry."
         ],
         "answer": 3,
-        "explanation": "Đoạn 2 nêu: phải khoan sâu 3–6 km qua đá granit cứng (A), rủi ro mất hàng chục triệu USD nếu giếng thăm dò không gặp khe nứt thấm (B), đấu thầu năng lượng sạch không bảo hiểm rủi ro địa chất (D); KHÔNG nói có lệnh cấm dùng mũi khoan kim cương (C)."
+        "explanation": "Đoạn 2 nêu: rủi ro mất hàng chục triệu USD nếu giếng khoan gặp đá không thấm (A), phải khoan sâu nhiều km qua đá granit cứng (B), đấu thầu năng lượng sạch không bảo hiểm rủi ro địa chất (C); KHÔNG nói có lệnh cấm mũi khoan kim cương → D."
       },
       {
         "origNum": 55,
@@ -4380,15 +4380,15 @@ window.examDatabase['reading'] = {
       {
         "origNum": 58,
         "instruction": "Read the following passage and mark the letter A, B, C, D on your answer sheet to indicate the best answer to each of the following questions from 53 to 60.",
-        "text": "Which of the following is TRUE according to the passage?",
+        "text": "How do closed-loop geothermal systems eliminate the seismic risks seen in Enhanced Geothermal Systems (EGS)?",
         "options": [
-          "Geothermal plants currently generate more than twenty percent of global electricity.",
-          "Enhanced Geothermal Systems can only operate inside active volcanic craters.",
-          "Closed-loop geothermal systems circulate fluid inside sealed pipes without fracturing rock.",
-          "Retiring coal power stations cannot reuse their existing grid transformers for geothermal power."
+          "They operate exclusively inside shallow volcanic craters in Iceland and Kenya.",
+          "They inject high-pressure steam directly into dormant fault lines.",
+          "They circulate fluid inside sealed underground U-tubes without fracturing the surrounding rock.",
+          "They burn coal alongside geothermal steam to stabilise underground pressure."
         ],
         "answer": 2,
-        "explanation": "Đoạn 4 nêu rõ: “Closed-loop systems—which circulate fluid inside sealed underground U-tubes... without fracturing the surrounding rock”."
+        "explanation": "Đoạn 4: “Closed-loop systems—which circulate fluid inside sealed underground U-tubes like a giant radiator without fracturing the surrounding rock—promise to make geothermal power geological-risk-free” → C."
       },
       {
         "origNum": 59,
@@ -4428,7 +4428,7 @@ window.examDatabase['reading'] = {
         ],
         "answer": 1,
         "explanation": "Paraphrase chính xác: Bị ép giữa các hãng hàng không giá rẻ bán vé 20 euro và tàu cao tốc ban ngày, các hãng đường sắt quốc gia đã cắt bỏ hàng chục tuyến tàu đêm, đỉnh điểm là việc Deutsche Bahn bán toàn bộ đội toa giường nằm năm 2016.",
-        "passage": "<b>THE REVIVAL OF NIGHT TRAINS IN EUROPE</b>\nBy the mid-2010s, the sleeper train—once the romantic backbone of transcontinental European travel—appeared to be an endangered species. <b>[I]</b> <u><b>Squeezed between budget airlines offering twenty-euro fares and daytime high-speed rail lines, national operators axed dozens of overnight routes, culminating in Deutsche Bahn’s decision to sell off its entire sleeper fleet in 2016.</b></u> Transport commentators confidently wrote obituaries for the couchette carriage.\nThe decline of overnight rail had been decades in the making. While low-cost aviation paid zero tax on kerosene fuel and no value-added tax on international tickets, sleeper trains faced steep track-access charges levied by each national infrastructure manager they crossed. <b>[II]</b> Worse still, night trains have inherently <u><b>onerous</b></u> economics: unlike a daytime high-speed train that can make four lucrative round-trips a day carrying eight hundred seated passengers, a sleeper carriage makes just one journey per night with far fewer berths, and requires attendants to change linen and serve breakfast.\nOne small operator, however, refused to follow the herd. <b>[III]</b> Gambling that travellers still valued waking up in the heart of a foreign city without airport queues, Austria’s state railway, ÖBB, bought Deutsche Bahn’s unwanted carriages at a discount in 2016 and rebranded them under the name ‘Nightjet’.\nThe gamble paid off handsomely. Within two years, rising public concern over aviation carbon emissions—popularised by the Swedish <i>flygskam</i> (‘flight-shaming’) movement—sent Nightjet bookings surging. ÖBB ordered thirty-three brand-new next-generation sleeper trains featuring soundproofed solo ‘mini-cabins’ with wireless charging and private lockers for solo travellers, alongside en-suite family compartments. <u><b>These modernised carriages</b></u> entered service on routes linking Vienna, Munich, Zurich, Rome, Paris and Brussels.\n<b>[IV]</b> This Austrian experiment soon began to <u><b>gather steam</b></u> across the continent. France, Sweden and Italy announced state subsidies to reopen domestic and cross-border overnight lines, while cooperative start-ups such as European Sleeper launched new services connecting Brussels, Amsterdam, Berlin and Prague. Studies show that an electric night train emits roughly a tenth to a twentieth of the greenhouse gases per passenger-kilometre of a short-haul flight along the same corridor.\nScaling up the night-train renaissance, however, faces stubborn structural bottlenecks. Rolling stock remains in critically short supply because few factories build custom sleeper carriages, and overnight maintenance work on railway tracks frequently forces night trains onto slow diversions. Moreover, locomotives crossing four countries still have to navigate a patchwork of national signalling systems and high track tolls. Even so, the return of the Nightjet proves that with modern privacy-focused carriages and supportive policy, travellers will gladly trade the airport departure lounge for a bed on rails.\n<i>(Adapted from European Parliament Transport Committee Report on Night Trains and The Economist)</i>"
+        "passage": "<b>THE REVIVAL OF NIGHT TRAINS IN EUROPE</b>\nBy the mid-2010s, the sleeper train—once the romantic backbone of transcontinental European travel—appeared to be an endangered species. <b>[I]</b> <u><b>Squeezed between budget airlines offering twenty-euro fares and daytime high-speed rail lines, national operators axed dozens of overnight routes, culminating in Deutsche Bahn’s decision to sell off its entire sleeper fleet in 2016.</b></u> Transport commentators confidently wrote obituaries for the couchette carriage.\nThe decline of overnight rail had been decades in the making. While low-cost aviation paid zero tax on kerosene fuel and no value-added tax on international tickets, sleeper trains faced steep track-access charges levied by each national infrastructure manager they crossed. <b>[II]</b> Worse still, night trains have inherently <u><b>onerous</b></u> economics: unlike a daytime high-speed train that can make four lucrative round-trips a day carrying eight hundred seated passengers, a sleeper carriage makes just one journey per night with far fewer berths, and requires attendants to change linen and serve breakfast.\nOne small operator, however, refused to follow the herd. <b>[III]</b> Gambling that travellers still valued waking up in the heart of a foreign city without airport queues, Austria’s state railway, ÖBB, bought Deutsche Bahn’s unwanted carriages at a discount in 2016 and rebranded <u><b>them</b></u> under the name ‘Nightjet’.\nThe gamble paid off handsomely. Within two years, rising public concern over aviation carbon emissions—popularised by the Swedish <i>flygskam</i> (‘flight-shaming’) movement—sent Nightjet bookings surging. ÖBB ordered thirty-three brand-new next-generation sleeper trains featuring soundproofed solo ‘mini-cabins’ with wireless charging and private lockers for solo travellers, alongside en-suite family compartments. They entered service on routes linking Vienna, Munich, Zurich, Rome, Paris and Brussels.\n<b>[IV]</b> This Austrian experiment soon began to <u><b>gather steam</b></u> across the continent. France, Sweden and Italy announced state subsidies to reopen domestic and cross-border overnight lines, while cooperative start-ups such as European Sleeper launched new services connecting Brussels, Amsterdam, Berlin and Prague. Studies show that an electric night train emits roughly a tenth to a twentieth of the greenhouse gases per passenger-kilometre of a short-haul flight along the same corridor.\nScaling up the night-train renaissance, however, faces stubborn structural bottlenecks. Rolling stock remains in critically short supply because few factories build custom sleeper carriages, and overnight maintenance work on railway tracks frequently forces night trains onto slow diversions. Moreover, locomotives crossing four countries still have to navigate a patchwork of national signalling systems and high track tolls. Even so, the return of the Nightjet proves that with modern privacy-focused carriages and supportive policy, travellers will gladly trade the airport departure lounge for a bed on rails.\n<i>(Adapted from European Parliament Transport Committee Report on Night Trains and The Economist)</i>"
       },
       {
         "origNum": 62,
@@ -4446,15 +4446,15 @@ window.examDatabase['reading'] = {
       {
         "origNum": 63,
         "instruction": "Read the following passage and mark the letter A, B, C, D on your answer sheet to indicate the best answer to each of the following questions from 61 to 70.",
-        "text": "The phrase “<b><u>These modernised carriages</u></b>” in paragraph 4 refers to __________.",
+        "text": "In paragraph 3, what does the pronoun “<b><u>them</u></b>” in “rebranded them under the name ‘Nightjet’” refer to?",
         "options": [
-          "airport queues",
+          "airport departure queues",
           "aviation carbon emissions",
-          "thirty-three brand-new next-generation sleeper trains",
-          "budget airlines"
+          "Deutsche Bahn’s unwanted sleeper carriages",
+          "budget airlines offering twenty-euro fares"
         ],
         "answer": 2,
-        "explanation": "“ÖBB ordered thirty-three brand-new next-generation sleeper trains... They entered service on routes linking Vienna...” → They chỉ 33 đoàn tàu giường nằm thế hệ mới."
+        "explanation": "Đoạn 3: “Austria’s state railway, ÖBB, bought Deutsche Bahn’s unwanted carriages at a discount in 2016 and rebranded them under the name ‘Nightjet’.” → “them” chỉ các toa tàu giường nằm mà Deutsche Bahn bán lại → C."
       },
       {
         "origNum": 64,
@@ -4467,12 +4467,12 @@ window.examDatabase['reading'] = {
           "Extra staffing costs for changing bed linen and serving breakfast."
         ],
         "answer": 0,
-        "explanation": "Đoạn 2 nêu: phí sử dụng đường ray cao (A), chỉ chạy 1 chuyến/đêm với ít chỗ hơn tàu ghế ngồi (B), chi phí nhân viên thay ga gối và phục vụ bữa sáng (D); KHÔNG nói thiếu lái tàu làm ca đêm (C)."
+        "explanation": "Đoạn 2 nêu: chỉ chạy 1 chuyến/đêm với ít khách hơn tàu ghế ngồi (B), phí sử dụng đường ray cao qua nhiều quốc gia (C), chi phí nhân viên thay ga gối và phục vụ bữa sáng (D); KHÔNG nói thiếu lái tàu làm việc sau nửa đêm → A."
       },
       {
         "origNum": 65,
         "instruction": "Read the following passage and mark the letter A, B, C, D on your answer sheet to indicate the best answer to each of the following questions from 61 to 70.",
-        "text": "Which of the following best summarises paragraph 5?",
+        "text": "Which of the following best summarises the European night-train expansion described in paragraph 5?",
         "options": [
           "European Sleeper cancelled its Brussels-to-Prague route after France withdrew state subsidies.",
           "Austria’s success inspired governments and new operators across Europe to revive low-carbon overnight rail routes.",
@@ -4485,7 +4485,7 @@ window.examDatabase['reading'] = {
       {
         "origNum": 66,
         "instruction": "Read the following passage and mark the letter A, B, C, D on your answer sheet to indicate the best answer to each of the following questions from 61 to 70.",
-        "text": "According to the passage, which of the following is TRUE?",
+        "text": "What innovation did Austria’s ÖBB introduce on its new Nightjet carriages to attract solo travellers?",
         "options": [
           "International airline tickets in Europe are taxed more heavily than railway track access.",
           "Deutsche Bahn bought Austria’s Nightjet fleet in 2016.",
@@ -4524,7 +4524,7 @@ window.examDatabase['reading'] = {
       {
         "origNum": 69,
         "instruction": "Read the following passage and mark the letter A, B, C, D on your answer sheet to indicate the best answer to each of the following questions from 61 to 70.",
-        "text": "Which of the following can be inferred from the passage?",
+        "text": "What can be inferred from the passage about the policy reforms needed to help European night trains expand further?",
         "options": [
           "Solo travellers prefer sharing six-berth compartments with strangers rather than using mini-cabins.",
           "High-speed daytime trains make fewer trips per day than sleeper carriages.",
@@ -4537,7 +4537,7 @@ window.examDatabase['reading'] = {
       {
         "origNum": 70,
         "instruction": "Read the following passage and mark the letter A, B, C, D on your answer sheet to indicate the best answer to each of the following questions from 61 to 70.",
-        "text": "Which of the following best summarises the passage?",
+        "text": "Which of the following best summarises the passage on the revival of European night trains?",
         "options": [
           "Nearly killed off by cheap flights and high operating costs, European sleeper trains have staged a climate-driven comeback led by Austria’s Nightjet, though rolling-stock shortages and cross-border rail hurdles persist.",
           "Deutsche Bahn’s 2016 sale of its sleeper fleet permanently ended overnight passenger rail travel across Europe.",
@@ -4561,7 +4561,7 @@ window.examDatabase['reading'] = {
         ],
         "answer": 2,
         "explanation": "inertia = inaction / resistance to change (sự trì trệ, sức ỳ của bộ máy thể chế).",
-        "passage": "<b>THE ECOLOGY OF DAM REMOVAL</b>\nThroughout the twentieth century, concrete dams were celebrated as monuments to industrial progress, taming wild rivers for hydropower, irrigation and flood storage. <u><b>Tens of thousands of barriers now fragment the world’s river basins, yet a growing wave of dam removals in Europe and North America is proving that rivers can heal with astonishing speed once set free.</b></u> According to Dam Removal Europe, a record 487 obsolete river barriers—from crumbling nineteenth-century mill weirs to tall concrete dams—were dismantled across fifteen European countries in 2023 alone.\nThe case for keeping every ageing barrier intact stems less from current economic utility than from institutional <u><b>inertia</b></u>. Across Europe and the United States, thousands of small weirs and dams built over a century ago no longer generate electricity or store irrigation water, yet <u><b>their</b></u> reservoirs have silted up with mud and their cracked spillways pose a growing flood hazard during extreme storms. Compounding the problem, repairing a century-old dam to modern safety standards often costs three times more than dismantling it. Even so, national river-restoration budgets remain modest and lag behind subsidies for new concrete river-channel engineering.\nThe ecological price of river fragmentation has been severe. Dams block migratory fish—such as Atlantic salmon, European eels and sturgeon—from reaching their gravelly upstream spawning beds, driving migratory freshwater fish populations down by more than 80 percent globally since 1970. Stagnant reservoirs also warm up in summer, breed toxic cyanobacteria and trap the natural flow of sand and pebbles needed to replenish coastal beaches and deltas. Once a river’s sediment supply is cut off for decades, downstream estuaries erode and riverbed habitats turn into lifeless bedrock. This is why fluvial geomorphologists argue that restoring free-flowing connectivity is the single most effective measure for freshwater recovery.\nWhen barriers come down, the rebound is dramatic. Following the removal of two high dams on Washington State’s Elwha River in 2014 and four dams on the Klamath River in 2024, Chinook salmon swam past the former dam sites within days to spawn in headwaters they had not reached for a century. Far from being <u><b>futile</b></u>, selective dam removal—targeting obsolete, low-output structures while upgrading turbines on strategic high-capacity hydropower dams—shows that nations can balance renewable electricity with living, connected rivers.\n<i>(Adapted from Dam Removal Europe Annual Report and Science)</i>"
+        "passage": "<b>THE ECOLOGY OF DAM REMOVAL</b>\nThroughout the twentieth century, concrete dams were celebrated as monuments to industrial progress, taming wild rivers for hydropower, irrigation and flood storage. <u><b>Tens of thousands of barriers now fragment the world’s river basins, yet a growing wave of dam removals in Europe and North America is proving that rivers can heal with astonishing speed once set free.</b></u> According to Dam Removal Europe, a record 487 obsolete river barriers—from crumbling nineteenth-century mill weirs to tall concrete dams—were dismantled across fifteen European countries in 2023 alone.\nThe case for keeping every ageing barrier intact stems less from current economic utility than from institutional <u><b>inertia</b></u>. Across Europe and the United States, thousands of small weirs and dams built over a century ago no longer generate electricity or store irrigation water, yet their reservoirs have silted up with mud and their cracked spillways pose a growing flood hazard during extreme storms. Compounding the problem, repairing a century-old dam to modern safety standards often costs three times more than dismantling it. Even so, national river-restoration budgets remain modest and lag behind subsidies for new concrete river-channel engineering.\nThe ecological price of river fragmentation has been severe. Dams block migratory fish—such as Atlantic salmon, European eels and sturgeon—from reaching their gravelly upstream spawning beds, driving migratory freshwater fish populations down by more than 80 percent globally since 1970. Stagnant reservoirs also warm up in summer, breed toxic cyanobacteria and trap the natural flow of sand and pebbles needed to replenish coastal beaches and deltas. Once a river’s sediment supply is cut off for decades, downstream estuaries erode and riverbed habitats turn into lifeless bedrock. This is why fluvial geomorphologists argue that restoring free-flowing connectivity is the single most effective measure for freshwater recovery.\nWhen barriers come down, the rebound is dramatic. Following the removal of two high dams on Washington State’s Elwha River in 2014 and four dams on the Klamath River in 2024, Chinook salmon swam past the former dam sites within days to spawn in headwaters <u><b>they</b></u> had not reached for a century. Far from being <u><b>futile</b></u>, selective dam removal—targeting obsolete, low-output structures while upgrading turbines on strategic high-capacity hydropower dams—shows that nations can balance renewable electricity with living, connected rivers.\n<i>(Adapted from Dam Removal Europe Annual Report and Science)</i>"
       },
       {
         "origNum": 54,
@@ -4574,7 +4574,7 @@ window.examDatabase['reading'] = {
           "Reservoirs behind old dams have filled up with accumulated silt."
         ],
         "answer": 1,
-        "explanation": "Đoạn 2 nêu: nhiều đập cũ không còn phát điện/tưới tiêu (A), lòng hồ bồi lắng bùn (B), tràn xả lũ nứt gây nguy cơ lũ (C); KHÔNG nói đập bê tông cũ rò rỉ khoáng chất phóng xạ (D)."
+        "explanation": "Đoạn 2 nêu: nhiều đập cũ không còn phát điện/tưới tiêu (A), tràn xả lũ nứt gây nguy cơ mất an toàn khi bão lớn (C), lòng hồ bồi lắng bùn (D); KHÔNG nói đập bê tông cũ rò rỉ khoáng chất phóng xạ → B."
       },
       {
         "origNum": 55,
@@ -4592,15 +4592,15 @@ window.examDatabase['reading'] = {
       {
         "origNum": 56,
         "instruction": "Read the following passage and mark the letter A, B, C, D on your answer sheet to indicate the best answer to each of the following questions from 53 to 60.",
-        "text": "The word “<b><u>their</u></b>” in paragraph 2 refers to __________.",
+        "text": "The pronoun “<b><u>they</u></b>” in paragraph 4 refers to __________.",
         "options": [
-          "modern safety standards",
-          "extreme storms",
-          "European countries",
-          "thousands of small weirs and dams"
+          "Chinook salmon",
+          "obsolete mill weirs",
+          "fluvial geomorphologists",
+          "strategic hydropower turbines"
         ],
-        "answer": 3,
-        "explanation": "“thousands of small weirs and dams built over a century ago... yet their reservoirs have silted up” → their quy chiếu cho 'thousands of small weirs and dams'."
+        "answer": 0,
+        "explanation": "Đoạn 4: “Chinook salmon swam past the former dam sites within days to spawn in headwaters they had not reached for a century.” → “they” quy chiếu cho “Chinook salmon” → A."
       },
       {
         "origNum": 57,
@@ -4618,15 +4618,15 @@ window.examDatabase['reading'] = {
       {
         "origNum": 58,
         "instruction": "Read the following passage and mark the letter A, B, C, D on your answer sheet to indicate the best answer to each of the following questions from 53 to 60.",
-        "text": "Which of the following is TRUE according to the passage?",
+        "text": "According to paragraph 2, why is keeping an obsolete century-old dam often economically irrational?",
         "options": [
-          "Every dam removed in Europe in 2023 was an active mega-hydropower plant.",
-          "Chinook salmon took more than twenty years to pass the former Elwha River dam sites.",
-          "Dams increase the amount of natural sand and pebbles reaching coastal beaches.",
-          "Repairing an obsolete century-old dam often costs more than removing it."
+          "Dismantling an old weir costs three times more than building a new nuclear plant.",
+          "Upgrading a century-old dam to modern safety standards frequently costs three times as much as removing it.",
+          "Silted reservoirs generate too much electricity for local power grids to absorb.",
+          "European governments fine municipalities that remove nineteenth-century mill weirs."
         ],
-        "answer": 3,
-        "explanation": "Đoạn 2 nêu rõ: “repairing a century-old dam to modern safety standards often costs three times more than dismantling it.”"
+        "answer": 1,
+        "explanation": "Đoạn 2: “repairing a century-old dam to modern safety standards often costs three times more than dismantling it.” → B."
       },
       {
         "origNum": 59,
@@ -4666,7 +4666,7 @@ window.examDatabase['reading'] = {
         ],
         "answer": 2,
         "explanation": "Paraphrase chính xác: Bị tàn phá qua nhiều thế kỷ bởi khai thác quá mức, nạo vét và xả nước thải thô, các rạn hàu bản địa của cảng gần như biến mất vào giữa thế kỷ 20, kéo theo sự mất mát của hệ thống lọc nước và chắn sóng tự nhiên.",
-        "passage": "<b>OYSTER REEF RESTORATION IN NEW YORK HARBOR</b>\nWhen the English explorer Henry Hudson sailed into New York Harbor in 1609, he navigated through crystal-clear estuaries lined with220,000 acres of living oyster reefs—nearly half of the world’s entire population of eastern oysters (<i>Crassostrea virginica</i>). <b>[I]</b> <u><b>Decimated by centuries of overharvesting, dredging and raw sewage discharges, the harbour’s native oyster reefs had virtually vanished by the mid-twentieth century, taking a vital natural filtration and storm-defence system with them.</b></u> Since 2014, however, the Billion Oyster Project has united students, restaurants and marine scientists to rebuild those underwater reefs.\nIn their pre-industrial heyday, New York’s oysters were ecological titans. A single adult oyster filters up to fifty gallons (190 litres) of water a day through its gills, removing excess nitrogen and microscopic algae that would otherwise trigger oxygen-starved ‘dead zones’. <b>[II]</b> Growing fused together in three-dimensional calcium-carbonate mounds, oyster reefs also acted as submerged breakwaters that absorbed wave energy and prevented shoreline erosion. By the 1900s, <u><b>relentless</b></u> dredging and industrial pollution had rendered the harbour’s remaining beds toxic and devoid of life.\nThe catalyst for restoration was the US Clean Water Act of 1972, which forced the city to build modern wastewater treatment plants and made the harbour clean enough for marine life to survive again. <b>[III]</b> Yet wild oysters could not bounce back on their own, because free-swimming oyster larvae—known as ‘spat’—require hard calcium-rich shells on the seabed to latch onto, and centuries of dredging had left only soft, shifting silt.\nFounded by educators Murray Fisher and Pete Malinowski at the New York Harbor School on Governors Island, the Billion Oyster Project solved the substrate problem by turning city dining tables into a supply chain. Volunteers collect thousands of tonnes of discarded oyster shells each week from over seventy Manhattan seafood restaurants and cure them in the sun for a year. <u><b>They</b></u> are then placed into big hatchery tanks where millions of microscopic oyster larvae cement themselves onto the old shells before being lowered in steel mesh cages onto eighteen restoration sites across the harbour.\n<b>[IV]</b> Over the past decade, this hands-on civic effort has begun to <u><b>make waves</b></u>. More than 120 million new oysters have been planted across seventeen acres of riverbed, and dive surveys confirm that wild oysters are now reproducing naturally on the restored reefs for the first time in generations. Black sea bass, seahorses, blue crabs and juvenile winter flounder crowd into the crevices between the shells, while more than ten thousand New York City public-school students have learned marine biology and water-quality chemistry by monitoring the cages.\nReaching a billion oysters by 2035 still faces hurdles. Combined-sewer overflows during heavy summer downpours still make New York Harbor’s oysters unsafe for human consumption—which ironically protects the young reefs from poachers!—and coastal engineers are now pairing living oyster breakwaters off Staten Island with stone seawalls to buffer future hurricane surges. Above all, the project shows how urban estuaries once written off as industrial sewers can be brought back to life.\n<i>(Adapted from Billion Oyster Project Annual Report and Smithsonian Magazine)</i>"
+        "passage": "<b>OYSTER REEF RESTORATION IN NEW YORK HARBOR</b>\nWhen the English explorer Henry Hudson sailed into New York Harbor in 1609, he navigated through crystal-clear estuaries lined with 220,000 acres of living oyster reefs—nearly half of the world’s entire population of eastern oysters (<i>Crassostrea virginica</i>). <b>[I]</b> <u><b>Decimated by centuries of overharvesting, dredging and raw sewage discharges, the harbour’s native oyster reefs had virtually vanished by the mid-twentieth century, taking a vital natural filtration and storm-defence system with them.</b></u> Since 2014, however, the Billion Oyster Project has united students, restaurants and marine scientists to rebuild those underwater reefs.\nIn their pre-industrial heyday, New York’s oysters were ecological titans. A single adult oyster filters up to fifty gallons (190 litres) of water a day through its gills, removing excess nitrogen and microscopic algae that would otherwise trigger oxygen-starved ‘dead zones’. <b>[II]</b> Growing fused together in three-dimensional calcium-carbonate mounds, oyster reefs also acted as submerged breakwaters that absorbed wave energy and prevented shoreline erosion. By the 1900s, <u><b>relentless</b></u> dredging and industrial pollution had rendered the harbour’s remaining beds toxic and devoid of life.\nThe catalyst for restoration was the US Clean Water Act of 1972, which forced the city to build modern wastewater treatment plants and made the harbour clean enough for marine life to survive again. <b>[III]</b> Yet wild oysters could not bounce back on their own, because free-swimming oyster larvae—known as ‘spat’—require hard calcium-rich shells on the seabed to latch onto, and centuries of dredging had left only soft, shifting silt.\nFounded by educators Murray Fisher and Pete Malinowski at the New York Harbor School on Governors Island, the Billion Oyster Project solved the substrate problem by turning city dining tables into a supply chain. Volunteers collect thousands of tonnes of discarded oyster shells each week from over seventy Manhattan seafood restaurants and cure them in the sun for a year. <u><b>These</b></u> are then placed into big hatchery tanks where millions of microscopic oyster larvae cement themselves onto the old shells before being lowered in steel mesh cages onto eighteen restoration sites across the harbour.\n<b>[IV]</b> Over the past decade, this hands-on civic effort has begun to <u><b>make waves</b></u>. More than 120 million new oysters have been planted across seventeen acres of riverbed, and dive surveys confirm that wild oysters are now reproducing naturally on the restored reefs for the first time in generations. Black sea bass, seahorses, blue crabs and juvenile winter flounder crowd into the crevices between the shells, while more than ten thousand New York City public-school students have learned marine biology and water-quality chemistry by monitoring the cages.\nReaching a billion oysters by 2035 still faces hurdles. Combined-sewer overflows during heavy summer downpours still make New York Harbor’s oysters unsafe for human consumption—which ironically protects the young reefs from poachers!—and coastal engineers are now pairing living oyster breakwaters off Staten Island with stone seawalls to buffer future hurricane surges. Above all, the project shows how urban estuaries once written off as industrial sewers can be brought back to life.\n<i>(Adapted from Billion Oyster Project Annual Report and Smithsonian Magazine)</i>"
       },
       {
         "origNum": 62,
@@ -4684,7 +4684,7 @@ window.examDatabase['reading'] = {
       {
         "origNum": 63,
         "instruction": "Read the following passage and mark the letter A, B, C, D on your answer sheet to indicate the best answer to each of the following questions from 61 to 70.",
-        "text": "The word “<b><u>They</u></b>” in paragraph 4 refers to __________.",
+        "text": "In paragraph 4, the pronoun “<b><u>These</u></b>” in “These are then placed into big hatchery tanks” refers to __________.",
         "options": [
           "seventy Manhattan seafood restaurants",
           "discarded oyster shells collected from restaurants and cured in the sun",
@@ -4692,7 +4692,7 @@ window.examDatabase['reading'] = {
           "eighteen restoration sites across the harbour"
         ],
         "answer": 1,
-        "explanation": "“collect thousands of tonnes of discarded oyster shells... and cure them in the sun for a year. They are then placed into big hatchery tanks where millions of microscopic oyster larvae cement themselves onto the old shells” → They chỉ những vỏ hàu cũ đã phơi khô."
+        "explanation": "Đoạn 4: “Volunteers collect thousands of tonnes of discarded oyster shells... and cure them in the sun for a year. These are then placed into big hatchery tanks...” → “These” chỉ những vỏ hàu cũ thu gom từ nhà hàng và đã phơi khô → B."
       },
       {
         "origNum": 64,
@@ -4705,12 +4705,12 @@ window.examDatabase['reading'] = {
           "Producing freshwater for Manhattan’s municipal drinking-water pipes."
         ],
         "answer": 3,
-        "explanation": "Đoạn 2 nêu: mỗi con lọc tới 50 gallon nước/ngày (A), loại bỏ nitơ dư thừa và tảo hiển vi (B), làm đê chắn sóng ngầm giảm năng lượng sóng (D); KHÔNG nói tạo nước ngọt cho đường ống nước uống của thành phố (C)."
+        "explanation": "Đoạn 2 nêu: lọc tới 50 gallon nước mỗi ngày (A), loại bỏ nitơ dư thừa và tảo hiển vi (B), làm đê chắn sóng ngầm giảm năng lượng sóng (C); KHÔNG nói tạo nước ngọt cho đường ống nước sinh hoạt của Manhattan → D."
       },
       {
         "origNum": 65,
         "instruction": "Read the following passage and mark the letter A, B, C, D on your answer sheet to indicate the best answer to each of the following questions from 61 to 70.",
-        "text": "Which of the following best summarises paragraph 5?",
+        "text": "Which of the following best summarises the ecological and educational achievements reported in paragraph 5?",
         "options": [
           "Planting over 120 million oysters has sparked natural reef reproduction, created habitat for marine species and engaged thousands of local school students.",
           "Manhattan restaurants have harvested 120 million oysters from the restored reefs to serve to diners.",
@@ -4723,7 +4723,7 @@ window.examDatabase['reading'] = {
       {
         "origNum": 66,
         "instruction": "Read the following passage and mark the letter A, B, C, D on your answer sheet to indicate the best answer to each of the following questions from 61 to 70.",
-        "text": "According to the passage, which of the following is TRUE?",
+        "text": "Why were wild oysters unable to recolonise New York Harbor on their own after the Clean Water Act of 1972?",
         "options": [
           "Oysters grown by the Billion Oyster Project are sold to Manhattan seafood restaurants for human consumption.",
           "The Clean Water Act of 1972 immediately restored all 220,000 acres of oyster reefs without human help.",
@@ -4762,7 +4762,7 @@ window.examDatabase['reading'] = {
       {
         "origNum": 69,
         "instruction": "Read the following passage and mark the letter A, B, C, D on your answer sheet to indicate the best answer to each of the following questions from 61 to 70.",
-        "text": "Which of the following can be inferred from the passage?",
+        "text": "What can be inferred from paragraph 4 about collecting discarded oyster shells from Manhattan restaurants?",
         "options": [
           "New York Harbor’s water quality today is worse than it was in the early 1900s.",
           "Oyster reefs increase the risk of dead zones by releasing nitrogen into the water.",
@@ -4775,7 +4775,7 @@ window.examDatabase['reading'] = {
       {
         "origNum": 70,
         "instruction": "Read the following passage and mark the letter A, B, C, D on your answer sheet to indicate the best answer to each of the following questions from 61 to 70.",
-        "text": "Which of the following best summarises the passage?",
+        "text": "Which of the following best summarises the passage on oyster reef restoration in New York Harbor?",
         "options": [
           "Once home to vast oyster reefs that were wiped out by dredging and pollution, New York Harbor is regaining its natural filtration and storm-buffering reefs as students and restaurants recycle shells to seed millions of new oysters.",
           "Henry Hudson’s 1609 expedition introduced invasive eastern oysters that clogged New York Harbor for three centuries.",
