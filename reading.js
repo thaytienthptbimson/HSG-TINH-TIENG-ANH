@@ -6,1049 +6,955 @@ window.examDatabase['reading'] = {
       {
         "origNum": 53,
         "instruction": "Read the following passage and mark the letter A, B, C, D on your answer sheet to indicate the best answer to each of the following questions from 53 to 60.",
-        "text": "The word <b><u>dwarfed</u></b> in paragraph 2 is CLOSEST in meaning to:",
+        "text": "The word <b><u>stifled</u></b> in paragraph 2 is CLOSEST in meaning to:",
         "options": [
-          "matched",
-          "supported",
-          "complemented",
-          "overshadowed"
+          "celebrated",
+          "suppressed",
+          "amplified",
+          "publicised"
         ],
-        "answer": 3,
-        "explanation": "dwarfed = overshadowed (bị lấn át, lu mờ bởi).",
-        "passage": "<b>THE ECONOMICS OF BIODIVERSITY</b>\nFew ideas in modern economics have proved as unsettling as the claim that nature is an asset. In 2021, an independent review commissioned by the UK Treasury and led by the Cambridge economist Sir Partha Dasgupta argued that the natural world should be counted as capital in the same way as the roads, factories and skills that economists have long recognised. <u><b>Humanity has prospered immensely in recent decades, but the way in which that prosperity was achieved has exacted a devastating toll on nature.</b></u> The figures are stark: between 1992 and 2014, the review estimates, produced capital per person doubled and human capital per person rose by about 13% worldwide, whereas the stock of natural capital per person fell by nearly 40%.\nThe roots of this imbalance lie less in individual greed than in the way economies price, or fail to price, nature. Much of what nature supplies can be used without paying for it, so its true worth is not reflected in market prices and investment flows towards other assets. Compounding the difficulty, many natural processes are mobile, hidden in the soil or simply silent, which makes the effects of our actions on others, including our descendants, hard to trace. Governments aggravate the problem: almost everywhere they pay people more to exploit nature than to protect it, and a conservative estimate puts the worldwide cost of subsidies that damage nature at four to six trillion US dollars a year. Spending devoted to enhancing natural assets is small and is <u><b>dwarfed</b></u> by these harmful flows.\nThe consequences extend well beyond ecology. Biodiversity is declining faster than at any time in human history, which erodes nature’s productivity and resilience and exposes economies to greater uncertainty. Low-income countries, whose economies rely more heavily on nature within their own borders, stand to lose the most. Many ecosystems, from tropical forests to coral reefs, have already been degraded beyond repair or stand on the brink of ‘tipping points’. Once an ecosystem has tipped into a new state, coaxing it back to health is costly and difficult, if not impossible. <u><b>This</b></u> is why the review insists that early action is far cheaper than delay.\nThe remedy, the review argues, begins with accepting that our economies are <u><b>embedded</b></u> within nature, not external to it. It calls for transformative change on a scale comparable with the Marshall Plan, built on three transitions: keeping our demands on nature within its capacity to supply; changing how we measure success, since gross domestic product ignores the depreciation of natural assets and therefore rewards unsustainable growth; and reforming the institutions, above all the financial and education systems, through which we deal with nature. Measuring ‘inclusive wealth’ alongside GDP, the review suggests, would show governments what their policies truly cost.\n<i>(Adapted from The Economics of Biodiversity: The Dasgupta Review – Headline Messages, HM Treasury)</i>"
+        "answer": 1,
+        "explanation": "stifled = suppressed (bị kìm hãm, bóp nghẹt bởi quy định sở hữu trí tuệ).",
+        "passage": "<b>THE RISE OF CITIZEN SCIENCE</b>\nFor most of the twentieth century, scientific discovery was regarded as the exclusive preserve of university laboratories and government research institutes. <u><b>Digital platforms and low-cost sensors have opened the gates of empirical inquiry to millions of amateur volunteers, yet academic institutions still struggle to integrate public contributions into formal policymaking.</b></u> From classifying distant galaxies on smartphone apps to monitoring river phosphate levels with paper test strips, citizen scientists now generate datasets on a geographic scale that no single research grant could ever fund.\nThe hesitation among traditional researchers stems less from elitism than from concerns over data reliability and sampling bias. Volunteers naturally prefer surveying scenic nature reserves on sunny weekends rather than muddy industrial ditches in midwinter, which can skew ecological models if left uncorrected. Compounding the difficulty, raw observations uploaded by novices require painstaking statistical filtering to remove misidentified species or faulty instrument readings. Public funding for community-led monitoring remains modest, and open-data initiatives are frequently <u><b>stifled</b></u> by proprietary software licences and rigid journal paywalls.\nEven so, the scientific payoffs of public participation are proving transformative. Ornithologists rely on tens of millions of checklists submitted to the eBird platform to track continental shifts in bird migration weeks before official surveys are published. In public health, neighbourhood air-quality networks in industrial towns have pinpointed localised soot plumes that sparse municipal monitors missed entirely. Once residents collect <u><b>their own empirical measurements</b></u>, dismissing community health complaints as mere anecdote becomes politically untenable. This is why environmental sociologists argue that participatory science redistributes epistemic authority as much as it expands data volume.\nBuilding a mature partnership between credentialed specialists and the public, science policy experts contend, requires more than treating volunteers as unpaid data-entry clerks. Universities in the Netherlands and Denmark have pioneered ‘science shops’ where neighbourhood associations co-design research questions with faculty statisticians, while automated artificial-intelligence filters now cross-check amateur photos against verified museum specimens in real time. Making validation protocols <u><b>transparent</b></u> and crediting citizen contributors as co-authors would ensure that public curiosity strengthens both rigorous science and democratic accountability.\n<i>(Adapted from Nature, Citizen Science in the Digital Age, and European Citizen Science Association Briefings)</i>"
       },
       {
         "origNum": 54,
         "instruction": "Read the following passage and mark the letter A, B, C, D on your answer sheet to indicate the best answer to each of the following questions from 53 to 60.",
-        "text": "Which of the following reasons why markets fail to price nature properly is NOT explicitly mentioned in the passage?",
+        "text": "Which of the following challenges associated with citizen science is NOT explicitly mentioned in paragraph 2?",
         "options": [
-          "Much of what nature provides can be used without paying for it.",
-          "Consumers are generally unwilling to pay more for products that protect the environment.",
-          "The consequences of our actions for later generations are difficult to trace.",
-          "Some natural processes are hidden from view in the soil."
+          "Volunteers tending to survey pleasant locations at convenient times rather than unappealing sites.",
+          "The need for statistical filtering to correct misidentifications made by beginners.",
+          "Amateur volunteers demanding high hourly wages from university research budgets.",
+          "Proprietary software and journal paywalls restricting open-data sharing."
         ],
-        "answer": 1,
-        "explanation": "Đoạn 2 nêu: nature miễn phí (A), khó theo dõi tác động lên hậu thế (C), nằm trong đất (D); KHÔNG nói người tiêu dùng không muốn trả thêm tiền → B."
+        "answer": 2,
+        "explanation": "Đoạn 2 nêu: tình nguyện viên thích khảo sát nơi đẹp vào cuối tuần (A), dữ liệu thô cần lọc thống kê (B), phần mềm độc quyền và tường phí tạp chí cản trở (D); KHÔNG nói tình nguyện viên đòi lương theo giờ cao → C."
       },
       {
         "origNum": 55,
         "instruction": "Read the following passage and mark the letter A, B, C, D on your answer sheet to indicate the best answer to each of the following questions from 53 to 60.",
-        "text": "The word <b><u>embedded</u></b> in paragraph 4 is OPPOSITE in meaning to __________.",
+        "text": "The word <b><u>transparent</u></b> in paragraph 4 is OPPOSITE in meaning to __________.",
         "options": [
-          "integrated",
-          "detached",
-          "enclosed",
-          "anchored"
+          "opaque",
+          "explicit",
+          "accessible",
+          "verifiable"
         ],
-        "answer": 1,
-        "explanation": "embedded (gắn liền bên trong) >< detached (tách rời); đoạn 4: “embedded within nature, not external to it”."
+        "answer": 0,
+        "explanation": "transparent (minh bạch, rõ ràng) >< opaque (mập mờ, khó hiểu, thiếu minh bạch)."
       },
       {
         "origNum": 56,
         "instruction": "Read the following passage and mark the letter A, B, C, D on your answer sheet to indicate the best answer to each of the following questions from 53 to 60.",
-        "text": "What does the pronoun “<b><u>This</u></b>” in the final sentence of paragraph 3 refer to regarding degraded ecosystems?",
+        "text": "The phrase “<b><u>their own empirical measurements</u></b>” in paragraph 3 refers to data gathered by __________.",
         "options": [
-          "the removal of government subsidies that damage nature",
-          "the unprecedented speed at which global biodiversity is declining",
-          "the high cost and extreme difficulty of restoring an ecosystem once it passes a tipping point",
-          "the heavy reliance of low-income economies on domestic natural resources"
+          "sparse municipal air monitors",
+          "commercial software companies",
+          "residents in industrial towns",
+          "editorial boards of academic journals"
         ],
         "answer": 2,
-        "explanation": "“This” quy chiếu cho mệnh đề ngay trước đó: một khi hệ sinh thái đã vượt ngưỡng (tipped), việc phục hồi nó vừa tốn kém vừa vô cùng khó khăn → C."
+        "explanation": "Đoạn 3: “neighbourhood air-quality networks in industrial towns... Once residents collect their own empirical measurements...” → chỉ các số liệu thực nghiệm do chính cư dân địa phương thu thập → C."
       },
       {
         "origNum": 57,
         "instruction": "Read the following passage and mark the letter A, B, C, D on your answer sheet to indicate the best answer to each of the following questions from 53 to 60.",
-        "text": "Which of the following best paraphrases the underlined sentence in paragraph 1?\n<i>“Humanity has prospered immensely in recent decades, but the way in which that prosperity was achieved has exacted a devastating toll on nature.”</i>",
+        "text": "Which of the following best paraphrases the underlined sentence in paragraph 1?\n<i>“Digital platforms and low-cost sensors have opened the gates of empirical inquiry to millions of amateur volunteers, yet academic institutions still struggle to integrate public contributions into formal policymaking.”</i>",
         "options": [
-          "People have grown wealthy in recent times, which has enabled them to repair most of the harm done to nature.",
-          "Recent decades of prosperity have proved so harmful that humanity can no longer sustain its enormous wealth.",
-          "Nature has suffered devastating losses because humanity has been far less prosperous than expected.",
-          "Although people have become far richer lately, the methods that produced this wealth have seriously damaged the natural world."
+          "Because academic institutions have banned low-cost sensors, millions of amateur volunteers can no longer participate in scientific research.",
+          "While online tools and affordable instruments allow millions of non-specialists to take part in scientific research, universities and policymakers still find it difficult to incorporate citizen data into official decisions.",
+          "Digital platforms have completely replaced university laboratories as the primary source of formal government policy.",
+          "Millions of professional scientists have left academic institutions in order to build low-cost sensors for amateur volunteers."
         ],
-        "answer": 3,
-        "explanation": "Paraphrase đúng: dù con người giàu lên nhiều, cách tạo ra sự giàu có đã gây hại nghiêm trọng cho thiên nhiên."
+        "answer": 1,
+        "explanation": "Paraphrase chính xác: Dù nền tảng số và cảm biến giá rẻ đã mở cánh cửa nghiên cứu thực nghiệm cho hàng triệu tình nguyện viên nghiệp dư, các cơ sở học thuật vẫn lúng túng trong việc tích hợp đóng góp của công chúng vào hoạch định chính sách chính thức."
       },
       {
         "origNum": 58,
         "instruction": "Read the following passage and mark the letter A, B, C, D on your answer sheet to indicate the best answer to each of the following questions from 53 to 60.",
-        "text": "According to paragraph 1, how did global capital stocks per person change between 1992 and 2014?",
+        "text": "According to paragraph 3, how have neighbourhood air-quality networks contributed to public health?",
         "options": [
-          "Wealthy nations reduced their produced capital by 13% to conserve domestic forests.",
-          "Gross domestic product fell by 40% after economists deducted natural asset depreciation.",
-          "Natural capital per person dropped by nearly two-fifths even as produced and human capital grew.",
-          "Produced, human and natural capital per person all expanded at a similar rate worldwide."
+          "They have detected localised soot pollution that official city monitors failed to capture.",
+          "They have persuaded ornithologists to stop using the eBird checklist platform.",
+          "They have replaced all faculty statisticians at Dutch and Danish universities.",
+          "They have proved that industrial towns suffer zero air pollution during winter."
         ],
-        "answer": 2,
-        "explanation": "Đoạn 1 nêu rõ: từ 1992 đến 2014, vốn sản xuất bình quân đầu người tăng gấp đôi, vốn con người tăng khoảng 13%, nhưng vốn tự nhiên lại giảm gần 40% (nearly two-fifths) → C."
+        "answer": 0,
+        "explanation": "Đoạn 3: “neighbourhood air-quality networks in industrial towns have pinpointed localised soot plumes that sparse municipal monitors missed entirely.” → A."
       },
       {
         "origNum": 59,
         "instruction": "Read the following passage and mark the letter A, B, C, D on your answer sheet to indicate the best answer to each of the following questions from 53 to 60.",
-        "text": "In which paragraph does the writer quantify the yearly cost of government support that harms nature?",
+        "text": "In which paragraph does the writer explain why volunteer wildlife surveys may suffer from geographic and seasonal bias?",
         "options": [
-          "Paragraph 2",
-          "Paragraph 4",
           "Paragraph 1",
-          "Paragraph 3"
+          "Paragraph 3",
+          "Paragraph 2",
+          "Paragraph 4"
         ],
-        "answer": 0,
-        "explanation": "Đoạn 2: “four to six trillion US dollars a year” cho trợ cấp gây hại thiên nhiên."
+        "answer": 2,
+        "explanation": "Đoạn 2: “Volunteers naturally prefer surveying scenic nature reserves on sunny weekends rather than muddy industrial ditches in midwinter...”."
       },
       {
         "origNum": 60,
         "instruction": "Read the following passage and mark the letter A, B, C, D on your answer sheet to indicate the best answer to each of the following questions from 53 to 60.",
-        "text": "In which paragraph does the writer refer to the part that financial and education systems must play in reform?",
+        "text": "In which paragraph does the writer mention European university programmes where citizens help formulate research questions?",
         "options": [
           "Paragraph 4",
+          "Paragraph 2",
           "Paragraph 1",
-          "Paragraph 3",
-          "Paragraph 2"
+          "Paragraph 3"
         ],
         "answer": 0,
-        "explanation": "Đoạn 4: “above all the financial and education systems”."
+        "explanation": "Đoạn 4 đề cập các trường đại học ở Hà Lan và Đan Mạch tiên phong mô hình ‘science shops’ nơi cư dân cùng thiết kế câu hỏi nghiên cứu."
       }
     ],
     "2": [
       {
         "origNum": 53,
         "instruction": "Read the following passage and mark the letter A, B, C, D on your answer sheet to indicate the best answer to each of the following questions from 53 to 60.",
-        "text": "The word <b><u>eclipsed</u></b> in paragraph 2 is CLOSEST in meaning to:",
+        "text": "The word <b><u>jeopardised</u></b> in paragraph 2 is CLOSEST in meaning to:",
         "options": [
-          "outweighed",
-          "endorsed",
-          "accelerated",
-          "stabilised"
+          "guaranteed",
+          "endangered",
+          "validated",
+          "insulated"
         ],
-        "answer": 0,
-        "explanation": "eclipsed = outweighed / overshadowed (bị lấn át, vượt xa bởi khoản chi mở rộng đường).",
-        "passage": "<b>THE ARCHITECTURE OF URBAN SILENCE</b>\nIn contemporary urban planning, noise is still widely treated as an unavoidable byproduct of economic vitality rather than a pollutant in its own right. <u><b>Cities have expanded at breakneck speed over the past half-century, yet the acoustic environment in which millions of residents live has deteriorated to a point that alarms public-health researchers.</b></u> According to data compiled by the European Environment Agency, more than 110 million people across Europe are exposed to long-term traffic noise levels above 55 decibels, a threshold linked to sleep disruption, hypertension and measurable declines in children’s reading comprehension.\nThe persistence of urban din stems less from a lack of engineering solutions than from the way municipalities evaluate infrastructure projects. Acoustic impact assessments are routinely conducted at the tail end of planning, when road alignments and building materials have already been locked in. Compounding the problem, sound behaves in notoriously complex ways: it ricochets off glass facades, funnels through narrow street canyons and travels farther on cool nights, making simple decibel caps difficult to enforce. Municipal budgets further skew priorities, as transport departments are rewarded for moving vehicles quickly rather than quietly, while funds earmarked for low-noise porous asphalt or vegetated buffer zones are <u><b>eclipsed</b></u> by spending on road widening.\nThe repercussions reach far beyond human annoyance. Chronic anthropogenic noise scrambles the acoustic signals that urban wildlife rely upon to attract mates, defend territory and detect predators. Songbirds such as great tits have been forced to sing at higher frequencies to be heard above low-frequency traffic rumble, <u><b>an adaptation</b></u> that expends extra energy and reduces reproductive success. Once a city’s soundscape crosses a certain saturation point, retrofitting acoustic barriers onto existing ring roads is prohibitively expensive and visually intrusive. This explains why acoustic ecologists argue that quietness must be designed into neighbourhoods from the outset.\nA genuine shift, urban acousticians contend, requires treating silence as a shared civic amenity rather than a luxury commodity sold only in gated developments. Forward-thinking cities such as Zurich and Oslo have begun pairing congestion pricing with ‘quiet pavement’ mandates and interconnected tranquil courtyards that are <u><b>insulated</b></u> from arterial traffic. Reforming building codes to penalise reverberant glass-and-steel canyons, alongside mapping ‘calm zones’ with the same rigour applied to air-quality monitoring, would allow planners to judge urban growth by how restorative a city sounds, not merely by how fast it moves.\n<i>(Adapted from European Environment Agency, Environmental Noise in Europe, and The Guardian)</i>"
+        "answer": 1,
+        "explanation": "jeopardised = endangered / imperilled (bị đe dọa, lâm nguy).",
+        "passage": "<b>ALGORITHMIC MANAGEMENT AND THE GIG ECONOMY</b>\nAcross modern cities, millions of couriers, ride-hail drivers and warehouse pickers report to a boss that has no human face. <u><b>Smartphone platforms have created flexible earning opportunities for workers with low barriers to entry, yet algorithmic management has subjected gig labourers to a degree of real-time surveillance that Taylorist factory owners could only dream of.</b></u> Every braking manoeuvre, five-second pause between parcels and customer star rating is logged, scored and fed into automated dispatch software.\nThe opacity of algorithmic control stems from the way platform companies design their software to optimise speed while avoiding the legal obligations of traditional employers. Because workers are classified as independent contractors rather than staff, platforms rarely disclose the mathematical weights that determine who receives lucrative peak-hour orders. Compounding the pressure, dynamic piece-rate pay fluctuates unpredictably from hour to hour, forcing couriers to work longer shifts just to meet fixed rent and fuel bills. Occupational safety is routinely <u><b>jeopardised</b></u> by countdown timers that penalise late deliveries regardless of torrential rain or gridlocked traffic.\nThe human toll extends beyond physical exhaustion. Sociologists studying ride-hail and delivery workers describe ‘algorithmic anxiety’—the chronic stress of knowing that a sudden drop in one’s rating below an arbitrary threshold, such as 4.6 stars, can trigger instant, automated account deactivation without a human hearing. When a biased customer complaint or a GPS glitch wipes out a driver’s livelihood overnight, appealing against <u><b>the verdict</b></u> through a chatbot interface is notoriously frustrating. This explains why labour economists warn that unchecked digital Taylorism erodes workplace dignity and shifts all commercial risk onto the lowest-paid individuals.\nRebalancing the platform economy, legal scholars argue, does not require outlawing dispatch apps. In 2024, the European Union adopted the Platform Work Directive, which introduces a legal presumption of employment and grants workers the right to human review of any automated dismissal or disciplinary penalty. Requiring platforms to make their scoring formulas <u><b>auditable</b></u> by trade unions and labour inspectors—while factoring realistic weather and traffic margins into delivery timers—would allow cities to enjoy convenient logistics without sacrificing fair labour standards.\n<i>(Adapted from International Labour Organization, World Employment and Social Outlook, and Oxford Internet Institute Reports)</i>"
       },
       {
         "origNum": 54,
         "instruction": "Read the following passage and mark the letter A, B, C, D on your answer sheet to indicate the best answer to each of the following questions from 53 to 60.",
-        "text": "Which of the following reasons why urban noise is hard to control is NOT explicitly mentioned in the passage?",
+        "text": "Which of the following features of algorithmic platform work is NOT explicitly mentioned in paragraph 2?",
         "options": [
-          "Acoustic assessments are often carried out too late in the planning process.",
-          "Glass buildings reflect sound waves and amplify noise in narrow streets.",
-          "Automobile manufacturers lobby against stricter engine-noise regulations.",
-          "Transport authorities prioritise traffic speed over acoustic quality."
+          "Classifying platform workers as independent contractors rather than employees.",
+          "Keeping the mathematical formulas that allocate lucrative orders secret.",
+          "Requiring couriers to purchase company shares before joining the app.",
+          "Using countdown timers that pressure workers even during bad weather."
         ],
         "answer": 2,
-        "explanation": "Đoạn 2 nêu: đánh giá tiếng ồn làm quá muộn (A), âm thanh dội qua mặt kính/hẻm phố (B), ưu tiên tốc độ giao thông hơn sự yên tĩnh (D); KHÔNG đề cập việc các hãng xe vận động hành lang (C)."
+        "explanation": "Đoạn 2 nêu: phân loại người lao động là nhà thầu độc lập (A), giấu công thức phân bổ đơn hàng (B), bộ đếm ngược gây áp lực bất chấp mưa lớn/tắc đường (D); KHÔNG nói bắt tài xế mua cổ phần công ty → C."
       },
       {
         "origNum": 55,
         "instruction": "Read the following passage and mark the letter A, B, C, D on your answer sheet to indicate the best answer to each of the following questions from 53 to 60.",
-        "text": "The word <b><u>insulated</u></b> in paragraph 4 is OPPOSITE in meaning to __________.",
+        "text": "The word <b><u>auditable</u></b> in paragraph 4 is OPPOSITE in meaning to __________.",
         "options": [
-          "shielded",
-          "exposed",
-          "detached",
-          "cushioned"
+          "inspectable",
+          "accountable",
+          "verifiable",
+          "unexamined"
         ],
-        "answer": 1,
-        "explanation": "insulated (được cách ly, che chắn khỏi ồn) >< exposed (bị phơi bày, tiếp xúc trực tiếp)."
+        "answer": 3,
+        "explanation": "auditable (có thể kiểm toán, kiểm tra độc lập) >< unexamined / unverifiable (không thể kiểm tra/rà soát)."
       },
       {
         "origNum": 56,
         "instruction": "Read the following passage and mark the letter A, B, C, D on your answer sheet to indicate the best answer to each of the following questions from 53 to 60.",
-        "text": "The phrase “<b><u>an adaptation</u></b>” in paragraph 3 refers to urban songbirds’ practice of __________.",
+        "text": "The phrase “<b><u>the verdict</u></b>” in paragraph 3 refers to __________.",
         "options": [
-          "migrating away from ring roads during cool nights",
-          "singing at higher pitches to be heard above low-frequency traffic rumble",
-          "nesting inside reverberant glass-and-steel street canyons",
-          "mimicking the acoustic warnings of urban predators"
+          "an automated account deactivation triggered by a rating drop or glitch",
+          "the European Union’s 2024 Platform Work Directive",
+          "a trade union inspection of warehouse safety",
+          "a five-second pause between parcel deliveries"
         ],
-        "answer": 1,
-        "explanation": "Đoạn 3: “Songbirds such as great tits have been forced to sing at higher frequencies to be heard above low-frequency traffic rumble, an adaptation that expends extra energy...” → chỉ việc chim phải hót ở tần số cao hơn để át tiếng ồn giao thông → B."
+        "answer": 0,
+        "explanation": "Đoạn 3: “instant, automated account deactivation without a human hearing. When a biased customer complaint or a GPS glitch wipes out a driver’s livelihood overnight, appealing against the verdict through a chatbot interface...” → chỉ phán quyết khóa tài khoản tự động → A."
       },
       {
         "origNum": 57,
         "instruction": "Read the following passage and mark the letter A, B, C, D on your answer sheet to indicate the best answer to each of the following questions from 53 to 60.",
-        "text": "Which of the following best paraphrases the underlined sentence in paragraph 1?\n<i>“Cities have expanded at breakneck speed over the past half-century, yet the acoustic environment in which millions of residents live has deteriorated to a point that alarms public-health researchers.”</i>",
+        "text": "Which of the following best paraphrases the underlined sentence in paragraph 1?\n<i>“Smartphone platforms have created flexible earning opportunities for workers with low barriers to entry, yet algorithmic management has subjected gig labourers to a degree of real-time surveillance that Taylorist factory owners could only dream of.”</i>",
         "options": [
-          "Rapid urban growth over the last fifty years has been accompanied by a severe decline in soundscape quality that worries health experts.",
-          "Public-health researchers have slowed down urban expansion over the past fifty years in order to protect residents from rising noise.",
-          "Because cities have grown so rapidly in recent decades, millions of residents have become accustomed to living in noisy environments.",
-          "The acoustic environment of modern cities has improved considerably despite fifty years of rapid population growth."
+          "Taylorist factory owners invented smartphone platforms in order to give gig labourers flexible working hours.",
+          "Because gig workers enjoy flexible schedules, smartphone platforms no longer monitor their delivery speeds or customer ratings.",
+          "Although app-based platforms make it easy for people to find flexible work, their automated management systems monitor workers more intensely in real time than traditional factories ever could.",
+          "Smartphone platforms have raised barriers to entry so high that only former factory managers can find gig work."
         ],
-        "answer": 0,
-        "explanation": "Paraphrase chính xác: sự mở rộng đô thị chóng mặt trong nửa thế kỷ qua đi kèm với sự xuống cấp nghiêm trọng của môi trường âm thanh khiến các nhà nghiên cứu y tế công cộng lo ngại."
+        "answer": 2,
+        "explanation": "Paraphrase chính xác: Dù các nền tảng điện thoại thông minh tạo cơ hội thu nhập linh hoạt và dễ tiếp cận, quản lý bằng thuật toán lại đặt người lao động tự do dưới sự giám sát thời gian thực gắt gao hơn bất kỳ nhà máy kiểu Taylor nào trước đây."
       },
       {
         "origNum": 58,
         "instruction": "Read the following passage and mark the letter A, B, C, D on your answer sheet to indicate the best answer to each of the following questions from 53 to 60.",
-        "text": "What urban-planning measures have Zurich and Oslo implemented to improve their soundscapes?",
+        "text": "What right does the European Union’s 2024 Platform Work Directive guarantee to gig workers?",
         "options": [
-          "They have replaced all glass facades with tall roadside acoustic barriers.",
-          "They have paired congestion charges with low-noise road surfaces and sheltered courtyards.",
-          "They have restricted quiet courtyards exclusively to private gated developments.",
-          "They have abolished air-quality monitoring in order to fund decibel caps."
+          "The right to demand human review of automated dismissals or disciplinary penalties.",
+          "Complete exemption from traffic laws during peak delivery hours.",
+          "Guaranteed ownership of the software code used by ride-hail apps.",
+          "A ban on customers leaving star ratings after a ride or delivery."
         ],
-        "answer": 1,
-        "explanation": "Đoạn 4: “Zurich and Oslo have begun pairing congestion pricing with ‘quiet pavement’ mandates and interconnected tranquil courtyards that are insulated from arterial traffic.” → B."
+        "answer": 0,
+        "explanation": "Đoạn 4: “grants workers the right to human review of any automated dismissal or disciplinary penalty.” → A."
       },
       {
         "origNum": 59,
         "instruction": "Read the following passage and mark the letter A, B, C, D on your answer sheet to indicate the best answer to each of the following questions from 53 to 60.",
-        "text": "In which paragraph does the writer mention the biological impact of noise on animal communication?",
+        "text": "In which paragraph does the writer describe the psychological stress caused by fear of sudden account deactivation?",
         "options": [
-          "Paragraph 3",
           "Paragraph 1",
           "Paragraph 2",
-          "Paragraph 4"
+          "Paragraph 4",
+          "Paragraph 3"
         ],
-        "answer": 0,
-        "explanation": "Đoạn 3 đề cập tác động của tiếng ồn nhân sinh lên tín hiệu âm thanh của động vật hoang dã và chim sẻ ngô (great tits)."
+        "answer": 3,
+        "explanation": "Đoạn 3 đề cập khái niệm ‘algorithmic anxiety’ (lo âu thuật toán) trước nguy cơ bị khóa tài khoản tự động khi điểm đánh giá tụt dưới ngưỡng."
       },
       {
         "origNum": 60,
         "instruction": "Read the following passage and mark the letter A, B, C, D on your answer sheet to indicate the best answer to each of the following questions from 53 to 60.",
-        "text": "In which paragraph does the writer propose reforming building regulations to curb sound reflection?",
+        "text": "In which paragraph does the writer explain how unpredictable piece-rate pay affects working hours?",
         "options": [
           "Paragraph 2",
           "Paragraph 1",
           "Paragraph 3",
           "Paragraph 4"
         ],
-        "answer": 3,
-        "explanation": "Đoạn 4 đề cập: “Reforming building codes to penalise reverberant glass-and-steel canyons”."
+        "answer": 0,
+        "explanation": "Đoạn 2: “dynamic piece-rate pay fluctuates unpredictably from hour to hour, forcing couriers to work longer shifts just to meet fixed rent and fuel bills.”"
       }
     ],
     "3": [
       {
         "origNum": 53,
         "instruction": "Read the following passage and mark the letter A, B, C, D on your answer sheet to indicate the best answer to each of the following questions from 53 to 60.",
-        "text": "The word <b><u>outstripped</u></b> in paragraph 2 is CLOSEST in meaning to:",
+        "text": "The word <b><u>proliferated</u></b> in paragraph 2 is CLOSEST in meaning to:",
         "options": [
-          "curtailed",
-          "endorsed",
-          "exceeded",
-          "stabilised"
+          "shrunk",
+          "multiplied",
+          "stagnated",
+          "vanished"
         ],
-        "answer": 2,
-        "explanation": "outstripped = exceeded / overshadowed (bị vượt xa, lấn át bởi khoản chi chiếu sáng trang trí).",
-        "passage": "<b>THE ECOLOGY OF DARK SKIES</b>\nFor most of human history, the Milky Way arched clearly across the night sky above every village and town. <u><b>Artificial outdoor lighting has transformed nocturnal commerce and public safety over the past century, yet the resulting skyglow has disrupted biological rhythms across entire ecosystems.</b></u> According to the <i>World Atlas of Artificial Night Sky Brightness</i>, more than 80 percent of the world’s population—and 99 percent of Europeans and North Americans—now live under skies polluted by scattering artificial light.\nThe persistence of light pollution stems less from a need for security than from wasteful luminaire design and the rapid switch to blue-rich white light-emitting diodes (LEDs). Many street and car-park fixtures remain unshielded, casting a large share of <u><b>their</b></u> lumens horizontally into bedroom windows or straight upwards into clouds. Compounding the problem, blue-wavelength light scatters far more readily in the atmosphere than warm amber light and suppresses the hormone melatonin in vertebrates at very low intensities. Municipal lighting budgets rarely account for these biological externalities, while modest grants for dark-sky retrofits are <u><b>outstripped</b></u> by spending on decorative floodlighting for commercial landmarks.\nThe ecological consequences cascade through food webs. Nocturnal pollinators such as hawkmoths abandon brightly lit meadows, reducing seed set in night-blooming wildflowers even for daytime bees that visit the same plants. Migratory songbirds, which navigate by stellar cues, are drawn off course by illuminated skyscrapers and suffer millions of fatal window collisions each autumn. Once coastal dunes are bathed in beachfront hotel glare, newly hatched sea turtles become disoriented and crawl inland toward highways rather than toward the moonlit ocean. This explains why marine biologists argue that shielding coastal lights is just as vital as protecting nesting beaches from poachers.\nUnlike chemical pollutants that linger in soil or rivers for decades, light pollution vanishes the instant a switch is flipped. Dark-sky advocates contend that cities can slash skyglow without compromising pedestrian safety by adopting three simple rules: installing fully shielded downward-facing fixtures, capping colour temperatures below 2,700 Kelvin so fixtures emit warm amber light that is <u><b>benign</b></u> to nocturnal wildlife, and dimming streetlights with motion sensors after midnight. Treating darkness as a natural habitat worth conserving would allow modern cities to remain safe underfoot while restoring the stars overhead.\n<i>(Adapted from Falchi et al., Science Advances, and DarkSky International Reports)</i>"
+        "answer": 1,
+        "explanation": "proliferated = multiplied / expanded rapidly (sinh sôi, tăng vọt về số lượng).",
+        "passage": "<b>THE ORBITAL DEBRIS CRISIS</b>\nSixty-five years after Sputnik 1 beeped its way around the Earth, near-Earth space has evolved from a superpower frontier into critical everyday infrastructure. <u><b>Satellite constellations now underpin global aviation, precision agriculture and disaster forecasting, yet the uncoordinated rush to populate low-Earth orbit has turned our planetary neighbourhood into a high-velocity junkyard.</b></u> Space agencies currently track more than 35,000 defunct rocket stages, dead satellites and shrapnel fragments larger than a softball, alongside an estimated one hundred million paint flecks and metal bolts too small to radar-lock.\nThe accumulation of space junk stems from the physics of orbital velocity and the absence of binding international traffic rules. At altitudes between 400 and 1,200 kilometres, objects circle the Earth at roughly 28,000 kilometres per hour—ten times faster than a rifle bullet. At that speed, a collision with a five-millimetre aluminium nut packs the kinetic punch of a bowling ball hitting at motorway speed. Commercial mega-constellations have <u><b>proliferated</b></u> in recent years, launching thousands of communications satellites with minimal global coordination, while funding for active debris-removal technology lags far behind launch subsidies.\nThe nightmare scenario for astrophysicists is the ‘Kessler Syndrome’, a self-sustaining chain reaction first modelled by NASA scientist Donald Kessler in 1978. When two large satellites collide—as occurred in 2009 when an inactive Russian cosmos satellite struck an operational commercial Iridium craft—the impact shatters both vehicles into thousands of high-speed fragments. Each new fragment increases the probability of further collisions, potentially creating an impenetrable shrapnel shell that could render specific orbital altitudes unusable for generations. <u><b>Such a cascade</b></u> would blind weather-monitoring satellites and sever space-based telecommunications.\nPreventing an orbital tragedy of the commons, aerospace engineers argue, requires treating low-Earth orbit as a finite environmental resource. The European Space Agency and the Federal Communications Commission have recently shortened the ‘de-orbit’ rule from twenty-five years to five, compelling operators to reserve enough onboard fuel to steer retiring satellites down into the upper atmosphere to burn up harmlessly. Pairing strict ‘design-for-demise’ materials with robotic servicing tugs that grapple and de-orbit derelict rocket bodies—rather than leaving them <u><b>derelict</b></u> in crowded lanes—would keep the highway to space open for future generations.\n<i>(Adapted from European Space Agency Space Environment Report and Scientific American)</i>"
       },
       {
         "origNum": 54,
         "instruction": "Read the following passage and mark the letter A, B, C, D on your answer sheet to indicate the best answer to each of the following questions from 53 to 60.",
-        "text": "Which of the following reasons for worsening light pollution is NOT explicitly mentioned in the passage?",
+        "text": "Which of the following facts about orbital debris is NOT explicitly mentioned in paragraph 2?",
         "options": [
-          "Electricity companies offer discounted night-time tariffs to shopping centres.",
-          "Many outdoor lamps lack shields and project light upwards into the sky.",
-          "Blue-rich white LEDs scatter more easily in the atmosphere than amber lamps.",
-          "Municipal budgets spend heavily on decorative floodlighting for landmarks."
+          "Objects in low-Earth orbit travel at roughly 28,000 kilometres per hour.",
+          "A tiny five-millimetre metal nut can strike with the force of a fast-moving bowling ball.",
+          "Solar flares automatically vaporise all aluminium debris every eleven years.",
+          "Commercial mega-constellations have launched thousands of satellites with limited coordination."
         ],
-        "answer": 0,
-        "explanation": "Đoạn 2 nêu đèn không có chao chắn (B), đèn LED trắng-xanh tán xạ mạnh (C), ngân sách chi nhiều cho chiếu sáng trang trí (D); KHÔNG nói công ty điện lực giảm giá điện ban đêm cho trung tâm thương mại → A."
+        "answer": 2,
+        "explanation": "Đoạn 2 nêu: vận tốc quỹ đạo ~28.000 km/h (A), mảnh ốc nhôm 5mm va chạm mạnh như bóng bowling (B), các chòm vệ tinh thương mại phóng hàng ngàn vệ tinh thiếu phối hợp (D); KHÔNG nói bão mặt trời tự làm bốc hơi rác nhôm mỗi 11 năm → C."
       },
       {
         "origNum": 55,
         "instruction": "Read the following passage and mark the letter A, B, C, D on your answer sheet to indicate the best answer to each of the following questions from 53 to 60.",
-        "text": "The word <b><u>benign</u></b> in paragraph 4 is OPPOSITE in meaning to __________.",
+        "text": "The word <b><u>derelict</u></b> in paragraph 4 is OPPOSITE in meaning to __________.",
         "options": [
-          "harmless",
-          "gentle",
-          "compatible",
-          "detrimental"
+          "abandoned",
+          "maintained",
+          "forsaken",
+          "neglected"
         ],
-        "answer": 3,
-        "explanation": "benign (lành tính, vô hại đối với động vật ăn đêm) >< detrimental (có hại)."
+        "answer": 1,
+        "explanation": "derelict (bị bỏ hoang, vô chủ trôi nổi) >< maintained / operational (được duy trì, quản lý và vận hành)."
       },
       {
         "origNum": 56,
         "instruction": "Read the following passage and mark the letter A, B, C, D on your answer sheet to indicate the best answer to each of the following questions from 53 to 60.",
-        "text": "The word “<b><u>their</u></b>” in paragraph 2 refers to the light output of __________.",
+        "text": "The phrase “<b><u>Such a cascade</u></b>” in paragraph 3 refers to __________.",
         "options": [
-          "unshielded street and car-park fixtures",
-          "bedroom windows and clouds",
-          "commercial landmarks",
-          "motion sensors after midnight"
+          "a self-sustaining chain reaction of satellite collisions known as the Kessler Syndrome",
+          "the launch of Sputnik 1 sixty-five years ago",
+          "the burning up of retiring satellites in the upper atmosphere",
+          "precision agriculture and disaster forecasting on Earth"
         ],
         "answer": 0,
-        "explanation": "Đoạn 2: “Many street and car-park fixtures remain unshielded, casting a large share of their lumens horizontally...” → “their” quy chiếu cho “unshielded street and car-park fixtures” → A."
+        "explanation": "Đoạn 3 mô tả hội chứng Kessler (phản ứng dây chuyền khi các mảnh vỡ va chạm liên tiếp tạo lớp vỏ mảnh đạn không thể xuyên qua) → “Such a cascade” quy chiếu cho chuỗi va chạm dây chuyền đó → A."
       },
       {
         "origNum": 57,
         "instruction": "Read the following passage and mark the letter A, B, C, D on your answer sheet to indicate the best answer to each of the following questions from 53 to 60.",
-        "text": "Which of the following best paraphrases the underlined sentence in paragraph 1?\n<i>“Artificial outdoor lighting has transformed nocturnal commerce and public safety over the past century, yet the resulting skyglow has disrupted biological rhythms across entire ecosystems.”</i>",
+        "text": "Which of the following best paraphrases the underlined sentence in paragraph 1?\n<i>“Satellite constellations now underpin global aviation, precision agriculture and disaster forecasting, yet the uncoordinated rush to populate low-Earth orbit has turned our planetary neighbourhood into a high-velocity junkyard.”</i>",
         "options": [
-          "Over the past century, biological rhythms across ecosystems have adapted smoothly to the expansion of outdoor commercial lighting.",
-          "Because artificial lighting has disrupted ecosystems over the past century, cities have been forced to abandon night-time commerce and safety lighting.",
-          "While outdoor lighting over the last hundred years has benefited night-time business and safety, the glow it creates has thrown natural biological cycles out of balance.",
-          "Public safety and night-time commerce have declined in recent decades due to the spread of artificial skyglow."
+          "Because low-Earth orbit has become a high-velocity junkyard, satellites can no longer assist aviation or weather forecasting.",
+          "Global aviation and precision agriculture have deliberately filled low-Earth orbit with millions of paint flecks and metal bolts.",
+          "While modern society depends heavily on satellites for flight navigation, farming and weather warnings, the chaotic surge in satellite launches has cluttered near-Earth space with fast-moving debris.",
+          "Space agencies have halted all satellite launches for aviation and agriculture in order to clean up low-Earth orbit."
         ],
         "answer": 2,
-        "explanation": "Paraphrase chính xác: Dù chiếu sáng ngoài trời thế kỷ qua mang lại lợi ích cho thương mại ban đêm và an toàn công cộng, quầng sáng nhân tạo lại làm rối loạn nhịp sinh học tự nhiên."
+        "explanation": "Paraphrase chính xác: Dù các chòm vệ tinh hiện là nền tảng cho hàng không toàn cầu, nông nghiệp chính xác và dự báo thiên tai, cuộc chạy đua thiếu phối hợp lên quỹ đạo tầm thấp đã biến không gian quanh Trái Đất thành bãi rác tốc độ cao."
       },
       {
         "origNum": 58,
         "instruction": "Read the following passage and mark the letter A, B, C, D on your answer sheet to indicate the best answer to each of the following questions from 53 to 60.",
-        "text": "How does bright artificial lighting over meadows indirectly harm daytime bees?",
+        "text": "What does the new five-year ‘de-orbit’ rule require satellite operators to do?",
         "options": [
-          "It drives away nocturnal pollinators, reducing seed production in wildflowers that daytime bees also visit.",
-          "It suppresses melatonin in daytime bees and forces them to forage at midnight.",
-          "It draws daytime bees toward illuminated skyscrapers during autumn migration.",
-          "It raises meadow temperatures above 2,700 Kelvin and evaporates flower nectar."
+          "Keep enough fuel onboard to guide retiring satellites into the atmosphere to burn up within five years.",
+          "Replace all communications satellites with high-altitude weather balloons by 2030.",
+          "Leave dead satellites in orbit for at least twenty-five years before tracking them.",
+          "Pay a fine to Donald Kessler whenever a paint fleck strikes a solar panel."
         ],
         "answer": 0,
-        "explanation": "Đoạn 3: “Nocturnal pollinators such as hawkmoths abandon brightly lit meadows, reducing seed set in night-blooming wildflowers even for daytime bees that visit the same plants.” → A."
+        "explanation": "Đoạn 4: “shortened the ‘de-orbit’ rule from twenty-five years to five, compelling operators to reserve enough onboard fuel to steer retiring satellites down into the upper atmosphere to burn up harmlessly.” → A."
       },
       {
         "origNum": 59,
         "instruction": "Read the following passage and mark the letter A, B, C, D on your answer sheet to indicate the best answer to each of the following questions from 53 to 60.",
-        "text": "In which paragraph does the writer contrast the persistence of light pollution with that of chemical contamination?",
+        "text": "In which paragraph does the writer cite a real-world collision between two spacecraft?",
         "options": [
-          "Paragraph 2",
-          "Paragraph 4",
           "Paragraph 1",
-          "Paragraph 3"
+          "Paragraph 3",
+          "Paragraph 2",
+          "Paragraph 4"
         ],
         "answer": 1,
-        "explanation": "Đoạn 4 mở đầu: “Unlike chemical pollutants that linger in soil or rivers for decades, light pollution vanishes the instant a switch is flipped.”"
+        "explanation": "Đoạn 3 nêu vụ va chạm năm 2009 giữa vệ tinh Nga ngưng hoạt động và vệ tinh thương mại Iridium."
       },
       {
         "origNum": 60,
         "instruction": "Read the following passage and mark the letter A, B, C, D on your answer sheet to indicate the best answer to each of the following questions from 53 to 60.",
-        "text": "In which paragraph does the writer explain how wavelength affects hormone production in vertebrates?",
+        "text": "In which paragraph does the writer quantify the number of tracked debris objects larger than a softball?",
         "options": [
-          "Paragraph 3",
-          "Paragraph 1",
           "Paragraph 4",
-          "Paragraph 2"
+          "Paragraph 2",
+          "Paragraph 3",
+          "Paragraph 1"
         ],
         "answer": 3,
-        "explanation": "Đoạn 2: “blue-wavelength light scatters far more readily... and suppresses the hormone melatonin in vertebrates”."
+        "explanation": "Đoạn 1: “Space agencies currently track more than 35,000 defunct rocket stages, dead satellites and shrapnel fragments larger than a softball”."
       }
     ],
     "4": [
       {
         "origNum": 53,
         "instruction": "Read the following passage and mark the letter A, B, C, D on your answer sheet to indicate the best answer to each of the following questions from 53 to 60.",
-        "text": "The word <b><u>marginalised</u></b> in paragraph 2 is CLOSEST in meaning to:",
+        "text": "The word <b><u>dwindled</u></b> in paragraph 2 is CLOSEST in meaning to:",
         "options": [
-          "initiated",
-          "sidelined",
-          "bolstered",
-          "reconciled"
+          "shrunk",
+          "surged",
+          "stabilised",
+          "multiplied"
         ],
-        "answer": 1,
-        "explanation": "marginalised = sidelined (bị gạt ra bên lề, bị coi nhẹ so với các khoản trợ cấp phân bón hóa học).",
-        "passage": "<b>THE HIDDEN LIFE OF SOIL MICROBIOMES</b>\nBeneath every healthy pasture and forest floor lies an intricate subterranean metropolis. <u><b>Modern agronomy has multiplied grain harvests over the past seventy years, yet intensive tillage and synthetic fertilisers have quietly degraded the underground fungal networks that sustain soil fertility.</b></u> A single teaspoon of undisturbed grassland soil contains billions of bacteria and metres of microscopic mycorrhizal fungal threads that trade minerals for plant sugars.\nThe neglect of soil biology stems less from agricultural malice than from mid-twentieth-century models that treated earth as an inert physical sponge for holding chemical inputs. Deep mechanical ploughing slices through fungal hyphae, exposes stored organic carbon to oxygen, and accelerates erosion during heavy downpours. Compounding the difficulty, high doses of soluble nitrogen and phosphorus prompt crops to curtail <u><b>their</b></u> sugar payments to symbiotic fungi, starving the underground network. National farm subsidies reinforce this short-termism: public grants for regenerative cover-cropping remain modest and are <u><b>marginalised</b></u> by support linked to synthetic input volumes.\nThe consequences extend far beyond the farm gate. Stripped of the sticky glomalin proteins secreted by mycorrhizal fungi, ploughed soils lose their crumbly structure and compact into hardpans that shed rainwater rather than absorbing it, worsening downstream flash floods. Crops deprived of microbial partners also take up fewer trace micronutrients such as zinc and iron. Once a topsoil’s biological community has collapsed and its organic matter has oxidised into the air, rebuilding that living sponge takes decades of careful organic additions. This is why soil scientists warn that preventing microbial degradation is infinitely easier than reversing it.\nRestoring underground ecosystems, agro-ecologists argue, requires viewing soil as a living partnership rather than a lifeless substrate. Farmers adopting ‘no-till’ drilling, diverse winter cover crops and rotational grazing have shown that intact fungal networks can remain <u><b>robust</b></u> even during summer droughts, ferrying moisture from micropores that plant roots cannot reach alone. Rewarding land managers for measurable gains in soil organic carbon—alongside training agronomists in rhizosphere ecology—would align harvest security with planetary health.\n<i>(Adapted from FAO, State of Knowledge of Soil Biodiversity, and Nature Reviews)</i>"
+        "answer": 0,
+        "explanation": "dwindled = shrunk / diminished (sụt giảm, cạn dần).",
+        "passage": "<b>PHAGE THERAPY AND POST-ANTIBIOTIC MEDICINE</b>\nSince Alexander Fleming’s discovery of penicillin in 1928, chemical antibiotics have turned once-fatal bacterial infections into routine outpatient ailments. <u><b>Miracle drugs have added decades to human life expectancy, yet the overuse of broad-spectrum antibiotics in clinics and livestock feedlots has accelerated the evolution of multidrug-resistant ‘superbugs’.</b></u> The World Health Organization warns that antimicrobial resistance already claims over a million lives annually, prompting microbiologists to revisit a forgotten century-old weapon: bacteriophages.\nBacteriophages—or ‘phages’ for short—are naturally occurring viruses that infect and destroy specific bacteria without harming human cells. Discovered in 1917 by Félix d’Hérelle, phages were widely used in the 1920s and 1930s before cheap, shelf-stable penicillin eclipsed them in Western medicine. Meanwhile, pharmaceutical investment in new chemical antibiotics has <u><b>dwindled</b></u> because a novel antibiotic is held in reserve as a last resort and taken for only a week, offering poor commercial returns compared with lifelong cholesterol or blood-pressure pills.\nUnlike chemical antibiotics, which act like a carpet bomb that wipes out beneficial gut flora alongside pathogens, a phage functions like a guided missile. Each phage strain attaches only to a specific surface receptor on its target bacterium, injects its genetic material, and forces the host cell to manufacture dozens of new phages until the bacterium bursts open. Crucially, when bacteria mutate to shed that surface receptor in order to evade the phage, <u><b>they</b></u> often lose the very efflux pumps or capsule shields that made them resistant to conventional antibiotics in the first place. This evolutionary trade-off explains why combining phages with standard antibiotics can resensitise previously untreatable infections.\nTranslating compassionate-use triumphs into routine hospital care, clinical researchers note, requires overcoming regulatory hurdles built for static chemical molecules. Because phages are self-replicating biological entities that must be matched to a patient’s exact bacterial strain, fixed-dose drug approval rules proved <u><b>cumbersome</b></u>. Belgium has pioneered a pragmatic ‘magistral preparation’ framework that allows hospital pharmacists to formulate custom phage cocktails from pre-approved libraries within forty-eight hours, offering a blueprint for personalised infectious-disease medicine.\n<i>(Adapted from Nature Microbiology, The Phage Therapy Renaissance, and World Health Organization Reports)</i>"
       },
       {
         "origNum": 54,
         "instruction": "Read the following passage and mark the letter A, B, C, D on your answer sheet to indicate the best answer to each of the following questions from 53 to 60.",
-        "text": "Which of the following effects of intensive farming practices is NOT explicitly mentioned in paragraph 2?",
+        "text": "Which of the following reasons for the decline of phage use or antibiotic investment is NOT explicitly mentioned in paragraph 2?",
         "options": [
-          "Deep ploughing cuts through microscopic fungal threads.",
-          "Tillage exposes underground organic carbon to oxygen.",
-          "Excess chemical fertiliser causes plants to reduce sugar flow to fungi.",
-          "Heavy tractors compact subsoil layers three metres underground."
+          "The arrival of cheap, easy-to-store penicillin in Western medicine.",
+          "New antibiotics being kept in reserve and used for short courses, limiting drug-company profits.",
+          "Lifelong medications for chronic conditions being more lucrative for pharmaceutical firms.",
+          "A 1950 United Nations treaty banning the transport of live bacteriophages across borders."
         ],
         "answer": 3,
-        "explanation": "Đoạn 2 nêu: cày sâu cắt đứt sợi nấm (A), làm lộ carbon hữu cơ ra oxy (B), phân hóa học liều cao khiến cây giảm tiết đường cho nấm cộng sinh (C); KHÔNG nói máy kéo nặng nén chặt tầng đất sâu 3 mét → D."
+        "explanation": "Đoạn 2 nêu: penicillin rẻ và dễ bảo quản làm lu mờ phage ở phương Tây (A), kháng sinh mới bị giữ làm phương án cuối và chỉ uống ngắn ngày nên ít lợi nhuận (B), thuốc bệnh mãn tính dùng trọn đời sinh lời cao hơn (C); KHÔNG nói có hiệp ước LHQ năm 1950 cấm vận chuyển phage → D."
       },
       {
         "origNum": 55,
         "instruction": "Read the following passage and mark the letter A, B, C, D on your answer sheet to indicate the best answer to each of the following questions from 53 to 60.",
-        "text": "The word <b><u>robust</u></b> in paragraph 4 is OPPOSITE in meaning to __________.",
+        "text": "The word <b><u>cumbersome</u></b> in paragraph 4 is OPPOSITE in meaning to __________.",
         "options": [
-          "fragile",
-          "resilient",
-          "vigorous",
-          "intact"
+          "streamlined",
+          "unwieldy",
+          "awkward",
+          "burdensome"
         ],
         "answer": 0,
-        "explanation": "robust (khỏe mạnh, vững vàng) >< fragile (mong manh, yếu ớt)."
+        "explanation": "cumbersome (cồng kềnh, rườm rà khó áp dụng) >< streamlined (tinh gọn, linh hoạt)."
       },
       {
         "origNum": 56,
         "instruction": "Read the following passage and mark the letter A, B, C, D on your answer sheet to indicate the best answer to each of the following questions from 53 to 60.",
-        "text": "In paragraph 2, the possessive adjective “<b><u>their</u></b>” in the phrase “curtail their sugar payments” refers to __________.",
+        "text": "In paragraph 3, the pronoun “<b><u>they</u></b>” in “they often lose the very efflux pumps” refers to __________.",
         "options": [
-          "chemical inputs",
-          "symbiotic fungi",
-          "crops",
-          "heavy downpours"
+          "beneficial gut flora",
+          "chemical antibiotics",
+          "mutating bacteria",
+          "hospital pharmacists"
         ],
         "answer": 2,
-        "explanation": "Đoạn 2: “high doses of soluble nitrogen and phosphorus prompt crops to curtail their sugar payments to symbiotic fungi” → “their” quy chiếu cho “crops” (cây trồng) → C."
+        "explanation": "Đoạn 3: “when bacteria mutate to shed that surface receptor in order to evade the phage, they often lose the very efflux pumps...” → “they” quy chiếu cho “bacteria” (vi khuẩn đột biến) → C."
       },
       {
         "origNum": 57,
         "instruction": "Read the following passage and mark the letter A, B, C, D on your answer sheet to indicate the best answer to each of the following questions from 53 to 60.",
-        "text": "Which of the following best paraphrases the underlined sentence in paragraph 1?\n<i>“Modern agronomy has multiplied grain harvests over the past seventy years, yet intensive tillage and synthetic fertilisers have quietly degraded the underground fungal networks that sustain soil fertility.”</i>",
+        "text": "Which of the following best paraphrases the underlined sentence in paragraph 1?\n<i>“Miracle drugs have added decades to human life expectancy, yet the overuse of broad-spectrum antibiotics in clinics and livestock feedlots has accelerated the evolution of multidrug-resistant ‘superbugs’.”</i>",
         "options": [
-          "Intensive tillage and synthetic fertilisers have strengthened underground fungal networks while doubling grain harvests.",
-          "Underground fungal networks have multiplied grain harvests over the past seventy years by replacing mechanical tillage and synthetic fertilisers.",
-          "Because soil fertility has collapsed over the past seventy years, modern agronomy has been unable to increase global grain harvests.",
-          "Although modern farming methods have greatly increased crop yields since the mid-twentieth century, heavy ploughing and chemical inputs have harmed the subterranean fungi that keep soil fertile."
+          "Broad-spectrum antibiotics have eliminated superbugs in livestock feedlots and added decades to human life expectancy.",
+          "While antibiotics have dramatically lengthened human lifespans, their excessive use in human medicine and animal farming has sped up the emergence of drug-resistant bacteria.",
+          "Because multidrug-resistant superbugs evolved in 1928, miracle drugs have failed to increase human life expectancy.",
+          "Clinics and livestock feedlots have stopped using broad-spectrum antibiotics in order to shorten human life expectancy."
         ],
-        "answer": 3,
-        "explanation": "Paraphrase chuẩn xác: Dù nông học hiện đại giúp tăng mạnh sản lượng ngũ cốc trong 70 năm qua, việc cày xới mạnh và phân bón tổng hợp đã âm thầm làm suy thoái mạng lưới nấm ngầm duy trì độ phì nhiêu."
+        "answer": 1,
+        "explanation": "Paraphrase chính xác: Dù các loại thuốc kỳ diệu đã kéo dài tuổi thọ con người thêm hàng thập kỷ, việc lạm dụng kháng sinh phổ rộng tại phòng khám và trại chăn nuôi đã đẩy nhanh sự tiến hóa của ‘siêu vi khuẩn’ đa kháng thuốc."
       },
       {
         "origNum": 58,
         "instruction": "Read the following passage and mark the letter A, B, C, D on your answer sheet to indicate the best answer to each of the following questions from 53 to 60.",
-        "text": "Why does heavily ploughed soil lacking mycorrhizal fungi worsen downstream flash floods?",
+        "text": "How does a bacteriophage’s mode of action differ from that of a broad-spectrum chemical antibiotic?",
         "options": [
-          "Fungal hyphae pump underground water to the surface during heavy downpours.",
-          "Without sticky glomalin proteins from fungi, the soil compacts into hardpans that shed rainwater instead of absorbing it.",
-          "Plants exchange atmospheric carbon for rainwater stored inside fungal threads.",
-          "Synthetic nitrogen fertilisers dissolve clay particles and block river channels."
+          "It targets only bacteria with a specific surface receptor, sparing beneficial gut microbes.",
+          "It wipes out all bacteria in the digestive tract indiscriminately.",
+          "It mutates human cells so that bacteria cannot enter the bloodstream.",
+          "It must be taken daily for decades like cholesterol medication."
         ],
-        "answer": 1,
-        "explanation": "Đoạn 3: Khi mất protein glomalin kết dính do nấm tiết ra, đất cày xới mất cấu trúc tơi xốp và nén chặt thành tầng cứng (hardpans) làm nước mưa chảy tràn thay vì thấm xuống đất → B."
+        "answer": 0,
+        "explanation": "Đoạn 3: Khác với kháng sinh hóa học diệt cả lợi khuẩn đường ruột, mỗi chủng phage chỉ bám vào một thụ thể bề mặt đặc hiệu trên vi khuẩn mục tiêu → A."
       },
       {
         "origNum": 59,
         "instruction": "Read the following passage and mark the letter A, B, C, D on your answer sheet to indicate the best answer to each of the following questions from 53 to 60.",
-        "text": "In which paragraph does the writer explain how soil fungi help crops survive dry weather?",
+        "text": "In which paragraph does the writer explain how bacterial resistance to phages can restore sensitivity to conventional antibiotics?",
         "options": [
-          "Paragraph 3",
           "Paragraph 1",
-          "Paragraph 4",
-          "Paragraph 2"
+          "Paragraph 2",
+          "Paragraph 3",
+          "Paragraph 4"
         ],
         "answer": 2,
-        "explanation": "Đoạn 4: “ferrying moisture from micropores that plant roots cannot reach alone” trong đợt hạn mùa hè."
+        "explanation": "Đoạn 3 giải thích sự đánh đổi tiến hóa (evolutionary trade-off): khi vi khuẩn đột biến bỏ thụ thể để trốn phage, chúng mất luôn bơm đẩy thuốc/lớp vỏ kháng kháng sinh."
       },
       {
         "origNum": 60,
         "instruction": "Read the following passage and mark the letter A, B, C, D on your answer sheet to indicate the best answer to each of the following questions from 53 to 60.",
-        "text": "In which paragraph does the writer mention the nutritional link between soil microbes and trace minerals in food?",
+        "text": "In which paragraph does the writer mention a national regulatory model that lets pharmacists prepare tailored phage treatments?",
         "options": [
-          "Paragraph 3",
+          "Paragraph 2",
           "Paragraph 4",
           "Paragraph 1",
-          "Paragraph 2"
+          "Paragraph 3"
         ],
-        "answer": 0,
-        "explanation": "Đoạn 3: “Crops deprived of microbial partners also take up fewer trace micronutrients such as zinc and iron.”"
+        "answer": 1,
+        "explanation": "Đoạn 4 đề cập khung pháp lý ‘magistral preparation’ của Bỉ cho phép dược sĩ bệnh viện pha chế cocktail phage cá nhân hóa trong 48 giờ."
       }
     ],
     "5": [
       {
         "origNum": 53,
         "instruction": "Read the following passage and mark the letter A, B, C, D on your answer sheet to indicate the best answer to each of the following questions from 53 to 60.",
-        "text": "The word <b><u>swamped</u></b> in paragraph 2 is CLOSEST in meaning to:",
+        "text": "The word <b><u>skewed</u></b> in paragraph 2 is CLOSEST in meaning to:",
         "options": [
-          "overwhelmed",
-          "endorsed",
-          "replenished",
-          "triggered"
+          "balanced",
+          "distorted",
+          "validated",
+          "fortified"
         ],
-        "answer": 0,
-        "explanation": "swamped = overwhelmed / dwarfed (bị lấn át, áp đảo bởi khoản đầu tư cho chương trình tiếng Anh/ngôn ngữ đa số).",
-        "passage": "<b>THE CRISIS OF ENDANGERED LANGUAGES</b>\nHumanity’s intellectual heritage is encoded not only in monuments and manuscripts, but in the grammar and vocabulary of some 7,000 spoken and signed languages. <u><b>Globalisation and digital connectivity have made cross-border communication effortless in recent decades, yet they have simultaneously accelerated the extinction of minority tongues at an unprecedented pace.</b></u> Linguists estimate that roughly 40 percent of the world’s languages are now endangered, with one falling silent on average every fortnight.\nThe erosion of linguistic diversity rarely results from speakers freely choosing to forget their heritage. Historically, boarding-school policies and administrative rules penalised minority children for speaking their mother tongue in class, associating ancestral speech with social stigma. Compounding the pressure, global streaming platforms, employment markets and smartphone interfaces overwhelmingly favour a handful of dominant national and international languages. Public funding for documenting oral traditions and training bilingual teachers remains paltry and is <u><b>swamped</b></u> by investment in English-medium and majority-language curricula.\nWhen an unwritten language dies, far more than a list of words is lost. Indigenous languages often contain centuries of fine-grained ecological knowledge—such as the medicinal properties of desert succulents, the spawning calendars of reef fish, or subtle distinctions between twenty types of sea ice—that have no exact equivalents in European tongues. Unique grammatical structures also reveal the full range of how the human brain can organise time, space and causality. Once the last fluent elders pass away without audio-visual documentation or child speakers, reconstructing a living prosody and idiom from fragmentary word-lists is virtually impossible. This explains why field linguists race to record conversational speech while native speakers are still active.\nRevitalisation, sociolinguists emphasise, cannot succeed through dictionary archiving alone; a language survives only when <u><b>it</b></u> is transmitted naturally between generations at home. From Māori ‘language-nest’ preschools in New Zealand to Welsh-medium immersion schools and indigenous-language podcast networks, communities are proving that decline is not <u><b>inevitable</b></u>. Pairing community-led immersion nurseries with voice-recognition tools trained on minority speech would ensure that the digital century amplifies human diversity rather than flattening it.\n<i>(Adapted from UNESCO Atlas of the World’s Languages in Danger and National Geographic)</i>"
+        "answer": 1,
+        "explanation": "skewed = distorted / biased (bị làm lệch lạc, méo mó về ưu tiên đầu tư).",
+        "passage": "<b>PASSIVE COOLING AND VERNACULAR ARCHITECTURE</b>\nFrom Phoenix to New Delhi, extreme summer heatwaves are turning glass-and-concrete apartment blocks into thermal ovens. <u><b>Mechanical air conditioning has made scorching climates habitable for hundreds of millions of urbanites, yet its voracious electricity demand and waste heat are locked in a self-reinforcing loop with urban warming.</b></u> The International Energy Agency projects that the global stock of room air conditioners will triple by 2050, requiring new power-generation capacity equivalent to the combined electrical grids of the United States, the European Union and Japan.\nThe addiction to mechanical cooling stems less from meteorological necessity than from twentieth-century architectural standardisation. Identical curtain-wall office towers clad in floor-to-ceiling glass are erected from Stockholm to Singapore, trapping solar radiation like greenhouses while sealing windows shut. Compounding the problem, air-conditioning units pump indoor heat directly into narrow streets, raising night-time ambient temperatures in dense districts by up to two degrees Celsius. Municipal building codes have long been <u><b>skewed</b></u> toward short-term construction speed, overlooking centuries of climate-adapted vernacular design.\nLong before electric compressors existed, desert and tropical civilisations engineered sophisticated passive cooling using only geometry, thermal mass and airflow. In central Iran, traditional <i>badgir</i> windcatchers—tall masonry towers topped with directional vents—scoop cool breezes high above street dust and channel them over underground water canals to chill indoor courtyards by ten degrees. Across North Africa and Andalusia, thick lime-washed adobe walls absorb daytime heat slowly and radiate <u><b>it</b></u> back to the night sky, while carved wooden <i>mashrabiya</i> lattice screens filter harsh sunlight without blocking cross-ventilation. This explains why bioclimatic architects view historic medinas as living laboratories of zero-carbon thermal comfort.\nReviving passive cooling in twenty-first-century megacities does not mean abandoning modern engineering. Contemporary projects in Masdar City, Singapore and Seville are combining windcatcher physics and deep shading overhangs with ultra-white ‘radiative-cooling’ roof coatings that reflect 98 percent of sunlight and emit infrared heat directly through the atmosphere into outer space. Making passive solar orientation and external shading <u><b>mandatory</b></u> in urban zoning laws would slash peak electricity loads by half before a single air conditioner is switched on.\n<i>(Adapted from International Energy Agency, The Future of Cooling, and Architectural Review)</i>"
       },
       {
         "origNum": 54,
         "instruction": "Read the following passage and mark the letter A, B, C, D on your answer sheet to indicate the best answer to each of the following questions from 53 to 60.",
-        "text": "Which of the following factors contributing to language loss is NOT explicitly mentioned in paragraph 2?",
+        "text": "Which of the following drawbacks of modern glass towers and air conditioning is NOT explicitly mentioned in paragraph 2?",
         "options": [
-          "The dominance of major languages on smartphone interfaces and streaming media.",
-          "Past school policies that punished children for speaking minority languages.",
-          "Genetic differences that make bilingualism difficult for young children.",
-          "Job markets that reward fluency in national or global languages."
+          "Floor-to-ceiling glass facades trapping solar heat like a greenhouse.",
+          "Sealed windows preventing natural cross-ventilation.",
+          "Air conditioners exhausting waste heat into streets and raising night-time temperatures.",
+          "Copper refrigerant pipes corroding underground water mains."
         ],
-        "answer": 2,
-        "explanation": "Đoạn 2 nêu: sự thống trị của các ngôn ngữ lớn trên điện thoại/trực tuyến (A), chính sách trường học trước đây phạt trẻ nói tiếng mẹ đẻ (B), thị trường việc làm (D); KHÔNG nói khác biệt di truyền làm trẻ khó học song ngữ → C."
+        "answer": 3,
+        "explanation": "Đoạn 2 nêu: mặt dựng kính giữ nhiệt như nhà kính (A), cửa sổ đóng kín (B), cục nóng điều hòa phả nhiệt ra đường làm tăng nhiệt độ ban đêm tới 2°C (C); KHÔNG nói ống đồng làm ăn mòn đường ống nước ngầm → D."
       },
       {
         "origNum": 55,
         "instruction": "Read the following passage and mark the letter A, B, C, D on your answer sheet to indicate the best answer to each of the following questions from 53 to 60.",
-        "text": "The word <b><u>inevitable</u></b> in paragraph 4 is OPPOSITE in meaning to __________.",
+        "text": "The word <b><u>mandatory</u></b> in paragraph 4 is OPPOSITE in meaning to __________.",
         "options": [
-          "certain",
-          "avoidable",
-          "imminent",
-          "inexorable"
+          "compulsory",
+          "optional",
+          "binding",
+          "obligatory"
         ],
         "answer": 1,
-        "explanation": "inevitable (không thể tránh khỏi, tất yếu) >< avoidable (có thể tránh/đảo ngược được)."
+        "explanation": "mandatory (bắt buộc) >< optional (tùy chọn, không bắt buộc)."
       },
       {
         "origNum": 56,
         "instruction": "Read the following passage and mark the letter A, B, C, D on your answer sheet to indicate the best answer to each of the following questions from 53 to 60.",
-        "text": "What does the pronoun “<b><u>it</u></b>” in the first sentence of paragraph 4 refer to?",
+        "text": "In paragraph 3, what does the pronoun “<b><u>it</u></b>” in “radiate it back to the night sky” refer to?",
         "options": [
-          "dictionary archiving",
-          "an indigenous podcast network",
-          "social stigma",
-          "a language"
+          "daytime heat absorbed by thick adobe walls",
+          "an underground water canal in Iran",
+          "street dust in historic medinas",
+          "a carved wooden lattice screen"
         ],
-        "answer": 3,
-        "explanation": "Đoạn 4: “a language survives only when it is transmitted naturally between generations at home” → “it” quy chiếu cho “a language” → D."
+        "answer": 0,
+        "explanation": "Đoạn 3: “thick lime-washed adobe walls absorb daytime heat slowly and radiate it back to the night sky” → “it” quy chiếu cho “daytime heat” (nhiệt lượng ban ngày được tường hấp thụ) → A."
       },
       {
         "origNum": 57,
         "instruction": "Read the following passage and mark the letter A, B, C, D on your answer sheet to indicate the best answer to each of the following questions from 53 to 60.",
-        "text": "Which of the following best paraphrases the underlined sentence in paragraph 1?\n<i>“Globalisation and digital connectivity have made cross-border communication effortless in recent decades, yet they have simultaneously accelerated the extinction of minority tongues at an unprecedented pace.”</i>",
+        "text": "Which of the following best paraphrases the underlined sentence in paragraph 1?\n<i>“Mechanical air conditioning has made scorching climates habitable for hundreds of millions of urbanites, yet its voracious electricity demand and waste heat are locked in a self-reinforcing loop with urban warming.”</i>",
         "options": [
-          "Although global integration and digital networks have simplified international communication lately, they have also hastened the disappearance of smaller languages faster than ever before.",
-          "Digital connectivity has slowed down the extinction of minority languages by making cross-border communication effortless.",
-          "Because minority languages are disappearing so rapidly, globalisation and digital communication have become much harder in recent decades.",
-          "Over the past few decades, international communication has relied entirely on endangered minority languages."
+          "Because mechanical air conditioning consumes very little electricity, it has cooled down urban streets across Phoenix and New Delhi.",
+          "Although air conditioners allow hundreds of millions of city dwellers to live comfortably in hot regions, their huge power consumption and heat exhaust actually worsen city heat in a vicious cycle.",
+          "Hundreds of millions of urban residents have abandoned air conditioning because it fails to cool glass-and-concrete apartment blocks.",
+          "The International Energy Agency has banned mechanical air conditioning in hot climates by 2050."
         ],
-        "answer": 0,
-        "explanation": "Paraphrase chuẩn xác: Dù toàn cầu hóa và kết nối số giúp giao tiếp xuyên biên giới dễ dàng hơn, chúng đồng thời đẩy nhanh sự tuyệt chủng của các ngôn ngữ thiểu số với tốc độ chưa từng có."
+        "answer": 1,
+        "explanation": "Paraphrase chính xác: Dù điều hòa cơ học giúp hàng trăm triệu cư dân đô thị sống được ở vùng khí hậu nắng nóng, nhu cầu điện khổng lồ và nhiệt thải của nó lại tạo thành vòng xoáy tự củng cố làm đô thị càng nóng thêm."
       },
       {
         "origNum": 58,
         "instruction": "Read the following passage and mark the letter A, B, C, D on your answer sheet to indicate the best answer to each of the following questions from 53 to 60.",
-        "text": "Why do field linguists race to make audio-visual recordings while fluent elders are still active?",
+        "text": "How do traditional Iranian badgir windcatchers cool indoor spaces without electricity?",
         "options": [
-          "Elderly speakers are prohibited from teaching their mother tongue inside immersion nurseries.",
-          "Voice-recognition software cannot process languages that have written dictionaries.",
-          "Living prosody and natural idioms cannot be reconstructed solely from fragmentary word-lists once speakers pass away.",
-          "European languages lack any grammatical structures for expressing time and space."
+          "They burn desert shrubs to power mechanical ceiling fans.",
+          "They coat glass windows with liquid nitrogen during heatwaves.",
+          "They capture breezes above street level and direct them over underground water channels into courtyards.",
+          "They seal all building openings so no outdoor air can enter."
         ],
         "answer": 2,
-        "explanation": "Đoạn 3: “Once the last fluent elders pass away without audio-visual documentation or child speakers, reconstructing a living prosody and idiom from fragmentary word-lists is virtually impossible.” → C."
+        "explanation": "Đoạn 3: “scoop cool breezes high above street dust and channel them over underground water canals to chill indoor courtyards by ten degrees.” → C."
       },
       {
         "origNum": 59,
         "instruction": "Read the following passage and mark the letter A, B, C, D on your answer sheet to indicate the best answer to each of the following questions from 53 to 60.",
-        "text": "In which paragraph does the writer illustrate how unwritten languages preserve scientific knowledge about the natural world?",
+        "text": "In which paragraph does the writer quantify the projected global growth of air-conditioning units by mid-century?",
         "options": [
           "Paragraph 1",
-          "Paragraph 3",
           "Paragraph 2",
+          "Paragraph 3",
           "Paragraph 4"
         ],
-        "answer": 1,
-        "explanation": "Đoạn 3 nêu ví dụ về dược tính cây mọng nước sa mạc, lịch sinh sản cá rạn san hô và 20 loại băng biển."
+        "answer": 0,
+        "explanation": "Đoạn 1: “projects that the global stock of room air conditioners will triple by 2050”."
       },
       {
         "origNum": 60,
         "instruction": "Read the following passage and mark the letter A, B, C, D on your answer sheet to indicate the best answer to each of the following questions from 53 to 60.",
-        "text": "In which paragraph does the writer mention early-childhood immersion programmes that have helped revive threatened tongues?",
+        "text": "In which paragraph does the writer describe modern roof materials that send heat directly into space?",
         "options": [
-          "Paragraph 1",
           "Paragraph 2",
+          "Paragraph 3",
           "Paragraph 4",
-          "Paragraph 3"
+          "Paragraph 1"
         ],
         "answer": 2,
-        "explanation": "Đoạn 4 đề cập trường mầm non ‘language-nest’ của người Māori ở New Zealand và trường hòa nhập tiếng Wales."
+        "explanation": "Đoạn 4: “ultra-white ‘radiative-cooling’ roof coatings that reflect 98 percent of sunlight and emit infrared heat directly through the atmosphere into outer space.”"
       }
     ],
     "6": [
       {
         "origNum": 53,
         "instruction": "Read the following passage and mark the letter A, B, C, D on your answer sheet to indicate the best answer to each of the following questions from 53 to 60.",
-        "text": "The word <b><u>undermined</u></b> in paragraph 2 is CLOSEST in meaning to:",
+        "text": "The word <b><u>compounded</u></b> in paragraph 2 is CLOSEST in meaning to:",
         "options": [
-          "accelerated",
-          "endorsed",
-          "weakened",
-          "simplified"
+          "alleviated",
+          "resolved",
+          "intensified",
+          "offset"
         ],
         "answer": 2,
-        "explanation": "undermined = weakened / subverted (bị làm suy yếu, vô hiệu hóa bởi các chương trình tín dụng bán lẻ khuyến khích mua máy mới).",
-        "passage": "<b>THE ECONOMICS OF RIGHT TO REPAIR</b>\nWalk into any municipal recycling depot and you will find skips piled high with washing machines, laptops and cordless vacuums that failed because of a single fifty-pence capacitor or a worn-out battery. <u><b>Modern manufacturing has delivered sleeker and more powerful household appliances than ever before, yet proprietary screws, glued enclosures and software locks have made independent repair almost impossible.</b></u> Consumer groups estimate that the average lifespan of a European washing machine has fallen by nearly three years over the past two decades.\nThe decline of repairability stems less from physics than from business models that profit from rapid replacement. Manufacturers routinely withhold circuit diagrams from independent workshops, price official spare parts at levels approaching the cost of a brand-new unit, or use ‘parts-pairing’ software that disables a replacement screen unless <u><b>it</b></u> is authorised by the factory’s server. Compounding the problem, labour taxes on repair technicians remain high, while modest municipal vouchers for appliance repair are <u><b>undermined</b></u> by aggressive retail credit schemes that encourage shoppers to buy new models on monthly instalments.\nThe fallout is both financial and environmental. Households spend hundreds of pounds extra each year replacing premature failures, while mining and smelting the metals for a new smartphone or laptop generates up to 80 percent of the device’s lifetime carbon emissions before it is even switched on. Once a glued-together tablet is crushed in a mechanical shredder, recovering its trace cobalt, indium and neodymium in pure form is metallurgically complex and energy-intensive. This is why circular-economy researchers insist that extending product lifespans is far greener than relying on end-of-pipe recycling.\nReversing the throwaway tide, policy analysts argue, requires rewriting product-design rules from the factory floor upwards. France has pioneered a mandatory ‘repairability index’ displayed on price tags from one to ten, while recent European Union directives compel makers of appliances and smartphones to supply spare parts for up to ten years and abandon <u><b>obstructive</b></u> software locks. Combining transparent durability scores with tax breaks for neighbourhood repair workshops would turn longevity into a competitive selling point once again.\n<i>(Adapted from European Environment Bureau and Ellen MacArthur Foundation Reports)</i>"
+        "explanation": "compounded = intensified / worsened (làm trầm trọng thêm).",
+        "passage": "<b>THE GLOBAL SAND CRISIS</b>\nAfter fresh water, sand and gravel are the most extracted natural resources on Earth by volume, amounting to some fifty billion tonnes a year. <u><b>Concrete skylines, asphalt highways and reclaimed islands have powered rapid urbanisation across Asia and Africa, yet the unregulated extraction of river and coastal sand is triggering an overlooked ecological crisis.</b></u> A 2022 United Nations Environment Programme report warns that humanity is dredging aggregate far faster than geological weathering can replenish it.\nThe roots of the sand shortage lie in a widely misunderstood physical fact: desert sand is useless for construction. Wind-blown Sahara or Arabian sand grains are polished round and smooth by constant friction, so they slip past one another and cannot bind into load-bearing structural concrete. Builders instead require angular, rough-edged quartz grains forged by moving water in riverbeds, floodplains and coastal beaches. The pressure on freshwater waterways is <u><b>compounded</b></u> by weak governance: in many rapidly growing deltas, unlicensed suction barges operate after dark, while sand-mining royalties remain negligible.\nThe environmental and human consequences along major rivers such as the Mekong, the Yangtze and the Ganges are severe. Relentless riverbed dredging lowers the channel floor by several metres, causing riverbanks to cave in and swallow riverside villages and orchards. As the riverbed drops, the surrounding water table sinks with it, leaving shallow village wells dry during the dry season and allowing salty ocean water to push dozens of kilometres farther inland across fertile rice deltas. Once a delta’s natural sediment budget is starved by upstream dams and downstream sand mining, <u><b>its</b></u> protective mangrove coastline erodes rapidly into the sea.\nAverting a global aggregate crunch, materials scientists argue, requires rethinking both how we build and what we crush. Engineers in Europe and Japan are increasingly substituting recycled demolition concrete, quarry dust and industrial steel slag for virgin river sand, while timber-frame ‘mass timber’ buildings reduce concrete demand by up to 60 percent. Establishing international satellite monitoring of river dredging and treating sand as a strategic mineral rather than an <u><b>inexhaustible</b></u> free commodity would protect the world’s river deltas before their foundations are washed away.\n<i>(Adapted from UNEP, Sand and Sustainability: 10 Strategic Recommendations, and Nature Sustainability)</i>"
       },
       {
         "origNum": 54,
         "instruction": "Read the following passage and mark the letter A, B, C, D on your answer sheet to indicate the best answer to each of the following questions from 53 to 60.",
-        "text": "Which of the following obstacles to independent repair is NOT explicitly mentioned in paragraph 2?",
+        "text": "Which of the following statements about construction sand is NOT explicitly mentioned in paragraph 2?",
         "options": [
-          "Manufacturers refusing to share circuit diagrams with independent technicians.",
-          "A shortage of vocational colleges teaching basic soldering skills.",
-          "Spare parts being priced almost as high as a complete new appliance.",
-          "Software locks that reject replacement parts not verified by factory servers."
+          "Desert sand grains are too rounded and smooth to bind properly in structural concrete.",
+          "Builders need angular quartz sand shaped by water in rivers and beaches.",
+          "Unlicensed dredging barges frequently extract river sand at night.",
+          "Desert sand contains high levels of volcanic sulphur that dissolves steel beams."
         ],
-        "answer": 1,
-        "explanation": "Đoạn 2 nêu: giấu sơ đồ mạch điện (A), định giá linh kiện đắt gần bằng máy mới (C), phần mềm khóa linh kiện thay thế (D); KHÔNG nói thiếu trường dạy nghề hàn mạch → B."
+        "answer": 3,
+        "explanation": "Đoạn 2 nêu: hạt cát sa mạc tròn nhẵn không kết dính bê tông chịu lực được (A), xây dựng cần cát góc cạnh từ sông/bờ biển (B), xà lan hút cát lậu hoạt động ban đêm (C); KHÔNG nói cát sa mạc chứa lưu huỳnh núi lửa làm tan dầm thép → D."
       },
       {
         "origNum": 55,
         "instruction": "Read the following passage and mark the letter A, B, C, D on your answer sheet to indicate the best answer to each of the following questions from 53 to 60.",
-        "text": "The word <b><u>obstructive</u></b> in paragraph 4 is OPPOSITE in meaning to __________.",
+        "text": "The word <b><u>inexhaustible</u></b> in paragraph 4 is OPPOSITE in meaning to __________.",
         "options": [
-          "restrictive",
-          "hindering",
-          "proprietary",
-          "facilitative"
+          "finite",
+          "boundless",
+          "limitless",
+          "unending"
         ],
-        "answer": 3,
-        "explanation": "obstructive (gây cản trở) >< facilitative (tạo điều kiện thuận lợi, hỗ trợ)."
+        "answer": 0,
+        "explanation": "inexhaustible (vô tận, không bao giờ cạn) >< finite (hữu hạn, có giới hạn)."
       },
       {
         "origNum": 56,
         "instruction": "Read the following passage and mark the letter A, B, C, D on your answer sheet to indicate the best answer to each of the following questions from 53 to 60.",
-        "text": "In paragraph 2, what does the pronoun “<b><u>it</u></b>” in the clause “unless it is authorised by the factory’s server” refer to?",
+        "text": "In paragraph 3, the possessive adjective “<b><u>its</u></b>” in “its protective mangrove coastline” refers to __________.",
         "options": [
-          "a replacement screen",
-          "an independent workshop",
-          "a municipal repair voucher",
-          "a circuit diagram"
+          "an unlicensed suction barge",
+          "a delta’s",
+          "a shallow village well",
+          "an upstream dam"
         ],
-        "answer": 0,
-        "explanation": "Đoạn 2: “‘parts-pairing’ software that disables a replacement screen unless it is authorised by the factory’s server” → “it” quy chiếu cho “a replacement screen” → A."
+        "answer": 1,
+        "explanation": "Đoạn 3: “Once a delta’s natural sediment budget is starved by upstream dams and downstream sand mining, its protective mangrove coastline erodes rapidly into the sea.” → “its” quy chiếu cho “a delta’s” (của vùng châu thổ) → B."
       },
       {
         "origNum": 57,
         "instruction": "Read the following passage and mark the letter A, B, C, D on your answer sheet to indicate the best answer to each of the following questions from 53 to 60.",
-        "text": "Which of the following best paraphrases the underlined sentence in paragraph 1?\n<i>“Modern manufacturing has delivered sleeker and more powerful household appliances than ever before, yet proprietary screws, glued enclosures and software locks have made independent repair almost impossible.”</i>",
+        "text": "Which of the following best paraphrases the underlined sentence in paragraph 1?\n<i>“Concrete skylines, asphalt highways and reclaimed islands have powered rapid urbanisation across Asia and Africa, yet the unregulated extraction of river and coastal sand is triggering an overlooked ecological crisis.”</i>",
         "options": [
-          "Because modern appliances use glued enclosures and software locks, they are much less powerful than machines built twenty years ago.",
-          "While today’s home appliances are more streamlined and capable than past models, design barriers such as special screws, glue and software restrictions prevent independent fixes.",
-          "Independent repair shops have invented proprietary screws and software locks to make household appliances sleeker and more powerful.",
-          "Homeowners prefer glued enclosures and software locks because they extend the lifespan of washing machines by three years."
+          "Because Asia and Africa have banned river sand mining, urbanisation and highway construction have come to a halt.",
+          "While massive construction of buildings, roads and artificial land has driven urban growth in Asia and Africa, uncontrolled sand mining from rivers and coasts is causing severe environmental damage that receives too little attention.",
+          "Reclaimed islands and asphalt highways in Asia and Africa are built entirely from wind-blown Sahara desert sand.",
+          "The United Nations Environment Programme has encouraged unregulated river dredging to speed up urbanisation."
         ],
         "answer": 1,
-        "explanation": "Paraphrase chính xác: Dù thiết bị gia dụng hiện đại gọn đẹp và mạnh mẽ hơn bao giờ hết, ốc vít độc quyền, vỏ dán keo và khóa phần mềm đã khiến việc sửa chữa độc lập gần như bất khả thi."
+        "explanation": "Paraphrase chính xác: Dù các tòa nhà bê tông, đường cao tốc và đảo nhân tạo đã thúc đẩy đô thị hóa nhanh ở Á – Phi, việc khai thác cát sông và ven biển thiếu kiểm soát đang gây ra khủng hoảng sinh thái ít được chú ý."
       },
       {
         "origNum": 58,
         "instruction": "Read the following passage and mark the letter A, B, C, D on your answer sheet to indicate the best answer to each of the following questions from 53 to 60.",
-        "text": "Why do circular-economy researchers consider extending product lifespans far greener than mechanical recycling?",
+        "text": "How does deep riverbed sand dredging affect agriculture in coastal rice deltas?",
         "options": [
-          "Mechanical shredders generate 80 percent of a laptop’s lifetime carbon emissions.",
-          "European Union directives have prohibited the recovery of cobalt and neodymium from tablets.",
-          "Up to 80 percent of a device’s carbon emissions occur before first use, and extracting pure trace metals from shredded devices is energy-intensive.",
-          "Independent repair workshops use zero electricity when replacing capacitors and batteries."
+          "It lowers the riverbed and water table, allowing salty seawater to intrude farther inland.",
+          "It deposits excessive nutrient-rich silt onto riverside orchards every winter.",
+          "It turns angular river quartz into round desert sand within a few months.",
+          "It increases freshwater pressure in shallow village wells during the dry season."
         ],
-        "answer": 2,
-        "explanation": "Đoạn 3: Khai mỏ và luyện kim để sản xuất thiết bị mới đã tạo ra tới 80% lượng khí thải carbon cả vòng đời, đồng thời việc thu hồi kim loại hiếm tinh khiết từ thiết bị nghiền nát rất phức tạp và tốn năng lượng → C."
+        "answer": 0,
+        "explanation": "Đoạn 3: “As the riverbed drops, the surrounding water table sinks with it, leaving shallow village wells dry during the dry season and allowing salty ocean water to push kilometres farther inland across fertile rice deltas.” → A."
       },
       {
         "origNum": 59,
         "instruction": "Read the following passage and mark the letter A, B, C, D on your answer sheet to indicate the best answer to each of the following questions from 53 to 60.",
-        "text": "In which paragraph does the writer mention a national labelling scheme that informs shoppers how easy a product is to fix?",
+        "text": "In which paragraph does the writer explain why Sahara sand cannot be used for load-bearing buildings?",
         "options": [
           "Paragraph 1",
-          "Paragraph 2",
           "Paragraph 3",
+          "Paragraph 2",
           "Paragraph 4"
         ],
-        "answer": 3,
-        "explanation": "Đoạn 4 đề cập chỉ số khả năng sửa chữa bắt buộc từ 1 đến 10 trên nhãn giá của Pháp (“France has pioneered a mandatory ‘repairability index’”)."
+        "answer": 2,
+        "explanation": "Đoạn 2 giải thích hạt cát sa mạc bị gió mài tròn và nhẵn nên trượt lên nhau, không kết dính thành bê tông chịu lực được."
       },
       {
         "origNum": 60,
         "instruction": "Read the following passage and mark the letter A, B, C, D on your answer sheet to indicate the best answer to each of the following questions from 53 to 60.",
-        "text": "In which paragraph does the writer explain how manufacturers use digital verification to block third-party spare parts?",
+        "text": "In which paragraph does the writer mention industrial and recycled substitutes for natural river aggregate?",
         "options": [
-          "Paragraph 2",
+          "Paragraph 4",
           "Paragraph 1",
-          "Paragraph 3",
-          "Paragraph 4"
+          "Paragraph 2",
+          "Paragraph 3"
         ],
         "answer": 0,
-        "explanation": "Đoạn 2: “‘parts-pairing’ software that disables a replacement screen unless it is authorised by the factory’s server”."
+        "explanation": "Đoạn 4 nêu việc thay thế cát sông tự nhiên bằng bê tông phá dỡ tái chế, bụi đá mỏ và xỉ thép công nghiệp."
       }
     ],
     "7": [
       {
         "origNum": 53,
         "instruction": "Read the following passage and mark the letter A, B, C, D on your answer sheet to indicate the best answer to each of the following questions from 53 to 60.",
-        "text": "The word <b><u>paltry</u></b> in paragraph 2 is CLOSEST in meaning to:",
+        "text": "The word <b><u>curtailed</u></b> in paragraph 2 is CLOSEST in meaning to:",
         "options": [
-          "substantial",
-          "generous",
-          "mandatory",
-          "meagre"
+          "prolonged",
+          "reduced",
+          "celebrated",
+          "mandated"
         ],
-        "answer": 3,
-        "explanation": "paltry = meagre / negligible (ít ỏi, nhỏ bé không đáng kể so với trợ cấp mở rộng cảng).",
-        "passage": "<b>THE ECOLOGICAL TOLL OF OCEAN NOISE</b>\nFor millions of years, the underwater world was governed by acoustic cues. Light penetrates barely two hundred metres beneath the waves, whereas sound travels four times faster in water than in air and crosses entire ocean basins. <u><b>Global maritime trade and offshore energy exploration have connected continents at remarkably low cost, yet they have filled the seas with a relentless low-frequency din that blinds marine life acoustically.</b></u> Hydrophone arrays indicate that ambient noise in busy shipping lanes has doubled every decade since the 1950s.\nThe ubiquity of underwater noise stems less from deliberate harm than from the physics of propeller cavitation and seismic surveying. As conventional ship propellers spin rapidly, they create millions of tiny low-pressure vapour bubbles that collapse with a continuous roar in the exact frequency band—10 to 300 hertz—used by baleen whales to communicate. Compounding the disturbance, seismic airgun arrays towed behind oil-and-gas survey vessels fire intense pulses of compressed air every ten seconds for weeks on end. International maritime treaties strictly regulate oil spills and ballast water, yet acoustic emissions remain largely unpriced, and research grants for quiet-propeller retrofits remain <u><b>paltry</b></u> compared with subsidies for port expansion.\nThe biological consequences reach from giant cetaceans to microscopic larvae. Right whales and humpbacks suffer a ninety-percent shrinkage in their ‘communication space’, struggling to locate mates or warn calves of approaching hulls. Deep-diving beaked whales exposed to mid-frequency sonar or airguns can panic and surface too rapidly, suffering decompression sickness and mass strandings. Even free-swimming coral and reef-fish larvae rely on the crackling sound of snapping shrimp to locate healthy reefs on which to settle; when shipping noise masks <u><b>that natural beacon</b></u>, damaged reefs fail to recruit new life. This explains why marine acousticians view noise abatement as a prerequisite for coral-reef recovery.\nEncouragingly, ocean noise is a pollutant with an immediate off-switch. Reducing a cargo vessel’s speed by just ten percent cuts its acoustic output by nearly half while burning less fuel, and new skewed propeller blades suppress cavitation bubbles before they form. Port authorities in Vancouver have already introduced discounted harbour dues for ships certified as acoustically <u><b>unobtrusive</b></u>, while offshore wind developers are surrounding pile-driving rigs with ‘bubble curtains’ that absorb ninety percent of impact sound. Quieting the world’s fleets would allow marine ecosystems to hear themselves think once again.\n<i>(Adapted from Duarte et al., Science (2021), and International Maritime Organization Briefings)</i>"
+        "answer": 1,
+        "explanation": "curtailed = reduced / cut back (bị cắt giảm, thu hẹp).",
+        "passage": "<b>CHRONOBIOLOGY AND ADOLESCENT SLEEP</b>\nEvery weekday morning at six o’clock, millions of teenagers across the industrialised world are jolted awake by alarm clocks while their brains are still biologically steeped in night. <u><b>Public education systems often treat early-morning school bells as a character-building lesson in punctuality, yet chronobiologists have demonstrated that early start times force adolescents to learn in a state of chronic circadian jetlag.</b></u> Surveys by the American Academy of Pediatrics indicate that more than 70 percent of high-school students obtain fewer than the recommended eight to ten hours of sleep on school nights.\nThe root of the mismatch lies not in teenage laziness or smartphone distraction alone, but in a universal biological shift during puberty known as ‘sleep-phase delay’. Around age twelve, the brain’s master circadian pacemaker—the suprachiasmatic nucleus—delays the evening release of the sleep-promoting hormone melatonin by roughly two hours compared with childhood and adulthood. Even when smartphones are confiscated, a typical sixteen-year-old is biologically primed to fall asleep around eleven at night and wake around eight in the morning. When school buses arrive at seven, total sleep is <u><b>curtailed</b></u>, stripping teenagers of the late-morning rapid-eye-movement (REM) sleep cycles that consolidate memory and regulate emotion.\nThe consequences reverberate across classrooms, roads and clinics. Sleep-deprived adolescents exhibit impaired glucose metabolism, heightened amygdala reactivity and significantly higher rates of depressive symptoms and sports injuries. Because microsleeps behind the wheel are common at dawn, counties with 7:20 a.m. high-school bells record markedly higher teenage car-crash rates than neighbouring districts that start an hour later. Once a teenager accumulates a ten-hour weekly sleep debt, weekend ‘catch-up’ lie-ins cannot fully restore hippocampal learning capacity on Monday morning. <u><b>This</b></u> explains why medical associations classify early school bells as a modifiable public-health hazard.\nShifting the school day, education researchers acknowledge, requires untangling logistical knots around bus-fleet scheduling, after-school athletics and parents’ commuting hours. Yet natural experiments in Seattle, Minnesota and California—which became the first US state to mandate high-school start times no earlier than 8:30 a.m. in 2022—show that the transition is far from <u><b>unworkable</b></u>. By flipping elementary and high-school bus tiers so naturally early-rising younger children ride first, districts have boosted teenage attendance, graduation rates and median nightly sleep by thirty-four minutes without lengthening the school day.\n<i>(Adapted from American Academy of Pediatrics Policy Statement and Science Advances)</i>"
       },
       {
         "origNum": 54,
         "instruction": "Read the following passage and mark the letter A, B, C, D on your answer sheet to indicate the best answer to each of the following questions from 53 to 60.",
-        "text": "Which of the following sources or features of ocean noise is NOT explicitly mentioned in paragraph 2?",
+        "text": "Which of the following statements about adolescent sleep biology is NOT explicitly mentioned in paragraph 2?",
         "options": [
-          "Subsea mining bulldozers crushing rock on mid-ocean ridges.",
-          "Vapour bubbles collapsing on spinning ship propellers.",
-          "Seismic airguns firing compressed-air pulses during energy surveys.",
-          "Ship noise overlapping with the 10–300 hertz frequency band of baleen whales."
+          "Puberty triggers a biological ‘sleep-phase delay’ of roughly two hours.",
+          "The suprachiasmatic nucleus controls the evening release of melatonin.",
+          "Late-morning REM sleep cycles help consolidate memory and regulate emotion.",
+          "Teenagers require less total sleep than forty-year-old adults."
         ],
-        "answer": 0,
-        "explanation": "Đoạn 2 nêu: bong bóng xâm thực trên chân vịt tàu (B), súng hơi địa chấn khảo sát năng lượng (C), tiếng ồn tàu trùng dải tần 10–300 Hz của cá voi tấm sừng (D); KHÔNG đề cập máy ủi khai khoáng đáy biển → A."
+        "answer": 3,
+        "explanation": "Đoạn 2 nêu: tuổi dậy thì làm trễ pha ngủ khoảng 2 giờ (A), nhân trên giao thoa kiểm soát tiết melatonin buổi tối (B), giấc ngủ REM cuối buổi sáng giúp củng cố trí nhớ và điều hòa cảm xúc (C); KHÔNG nói thanh thiếu niên cần ngủ ít hơn người 40 tuổi → D."
       },
       {
         "origNum": 55,
         "instruction": "Read the following passage and mark the letter A, B, C, D on your answer sheet to indicate the best answer to each of the following questions from 53 to 60.",
-        "text": "The word <b><u>unobtrusive</u></b> in paragraph 4 is OPPOSITE in meaning to __________.",
+        "text": "The word <b><u>unworkable</u></b> in paragraph 4 is OPPOSITE in meaning to __________.",
         "options": [
-          "muted",
-          "restrained",
-          "disruptive",
-          "subtle"
+          "impractical",
+          "feasible",
+          "futile",
+          "impossible"
         ],
-        "answer": 2,
-        "explanation": "unobtrusive (êm ái, không gây phiền nhiễu) >< disruptive (gây rối loạn, ồn ào phá vỡ môi trường)."
+        "answer": 1,
+        "explanation": "unworkable (bất khả thi, không thực hiện được) >< feasible (khả thi, thực hiện được)."
       },
       {
         "origNum": 56,
         "instruction": "Read the following passage and mark the letter A, B, C, D on your answer sheet to indicate the best answer to each of the following questions from 53 to 60.",
-        "text": "The phrase “<b><u>that natural beacon</u></b>” in paragraph 3 refers to __________.",
+        "text": "The pronoun “<b><u>This</u></b>” in the final sentence of paragraph 3 refers to __________.",
         "options": [
-          "mid-frequency naval sonar",
-          "the crackling sound of snapping shrimp on healthy reefs",
-          "the low-frequency roar of ship propellers",
-          "an offshore wind pile-driving rig"
+          "the wide range of health, safety and cognitive harms caused by chronic teenage sleep loss",
+          "the confiscation of smartphones before bedtime",
+          "the scheduling of elementary-school buses in Seattle",
+          "the discovery of the suprachiasmatic nucleus"
         ],
-        "answer": 1,
-        "explanation": "“rely on the crackling sound of snapping shrimp to locate healthy reefs... when shipping noise masks that natural beacon” → chỉ âm thanh lách tách của tôm búng càng trên rạn san hô khỏe mạnh."
+        "answer": 0,
+        "explanation": "Đoạn 3 liệt kê hàng loạt hệ lụy về chuyển hóa, tâm lý, chấn thương, tai nạn giao thông và suy giảm khả năng học tập không thể bù đắp vào cuối tuần → “This” quy chiếu cho toàn bộ những tác hại nghiêm trọng đó → A."
       },
       {
         "origNum": 57,
         "instruction": "Read the following passage and mark the letter A, B, C, D on your answer sheet to indicate the best answer to each of the following questions from 53 to 60.",
-        "text": "Which of the following best paraphrases the underlined sentence in paragraph 1?\n<i>“Global maritime trade and offshore energy exploration have connected continents at remarkably low cost, yet they have filled the seas with a relentless low-frequency din that blinds marine life acoustically.”</i>",
+        "text": "Which of the following best paraphrases the underlined sentence in paragraph 1?\n<i>“Public education systems often treat early-morning school bells as a character-building lesson in punctuality, yet chronobiologists have demonstrated that early start times force adolescents to learn in a state of chronic circadian jetlag.”</i>",
         "options": [
-          "Low-frequency ocean noise has helped global shipping lines navigate between continents without using sonar.",
-          "Because marine animals are acoustically blind, global maritime trade and offshore energy exploration have become much cheaper.",
-          "Offshore energy exploration has eliminated the low-frequency noise created by commercial cargo ships.",
-          "Although shipping and offshore energy surveys have made global trade cheap, their constant low-frequency noise deprives sea creatures of the acoustic signals they depend on."
+          "Chronobiologists agree with school boards that waking up at six o’clock builds strong character and prevents circadian jetlag.",
+          "While schools frequently view early start times as good discipline for teaching punctuality, biological-clock research shows that early schedules leave teenagers chronically out of sync with their internal rhythms.",
+          "Because adolescents suffer from circadian jetlag, public schools have abolished punctuality rules and homework.",
+          "Early-morning school bells help more than 70 percent of high-school students sleep ten hours every night."
         ],
-        "answer": 3,
-        "explanation": "Paraphrase chính xác: Dù thương mại hàng hải và thăm dò năng lượng ngoài khơi kết nối các lục địa với chi phí thấp, chúng đã lấp đầy đại dương bằng tiếng ồn tần số thấp liên tục làm sinh vật biển ‘mù âm thanh’."
+        "answer": 1,
+        "explanation": "Paraphrase chính xác: Dù hệ thống giáo dục thường coi giờ vào học sáng sớm là bài học rèn tính đúng giờ, các nhà sinh học thời gian đã chứng minh giờ học sớm buộc thanh thiếu niên phải học tập trong trạng thái lệch nhịp sinh học mãn tính."
       },
       {
         "origNum": 58,
         "instruction": "Read the following passage and mark the letter A, B, C, D on your answer sheet to indicate the best answer to each of the following questions from 53 to 60.",
-        "text": "According to paragraph 4, what happens when a cargo vessel reduces its speed by ten percent?",
+        "text": "How have school districts resolved bus-scheduling conflicts when delaying high-school start times?",
         "options": [
-          "Its underwater acoustic output drops by nearly half while its fuel consumption also decreases.",
-          "Its propeller blades generate twice as many low-pressure cavitation bubbles.",
-          "It masks the crackling sound of snapping shrimp across coral reefs.",
-          "It becomes subject to higher harbour dues at the Port of Vancouver."
+          "They have swapped bus tiers so naturally early-waking elementary pupils ride the first bus run.",
+          "They have required all high-school students to drive their own cars at 7:20 a.m.",
+          "They have cancelled all after-school sports and shortened the academic year.",
+          "They have administered synthetic melatonin on morning school buses."
         ],
         "answer": 0,
-        "explanation": "Đoạn 4: “Reducing a cargo vessel’s speed by just ten percent cuts its acoustic output by nearly half while burning less fuel” → A."
+        "explanation": "Đoạn 4: “By flipping elementary and high-school bus tiers so naturally early-rising younger children ride first...” → A."
       },
       {
         "origNum": 59,
         "instruction": "Read the following passage and mark the letter A, B, C, D on your answer sheet to indicate the best answer to each of the following questions from 53 to 60.",
-        "text": "In which paragraph does the writer describe how intense sonar or airguns can cause whales to strand?",
+        "text": "In which paragraph does the writer link early school start times to teenage road-traffic accidents?",
         "options": [
-          "Paragraph 2",
           "Paragraph 1",
+          "Paragraph 2",
           "Paragraph 3",
           "Paragraph 4"
         ],
         "answer": 2,
-        "explanation": "Đoạn 3: “Deep-diving beaked whales exposed to mid-frequency sonar or airguns can panic and surface too rapidly, suffering decompression sickness and mass strandings.”"
+        "explanation": "Đoạn 3: “counties with 7:20 a.m. high-school bells record markedly higher teenage car-crash rates than neighbouring districts that start an hour later.”"
       },
       {
         "origNum": 60,
         "instruction": "Read the following passage and mark the letter A, B, C, D on your answer sheet to indicate the best answer to each of the following questions from 53 to 60.",
-        "text": "In which paragraph does the writer mention financial incentives offered by a port to quieter ships?",
+        "text": "In which paragraph does the writer mention the first US state to pass a law setting a minimum start time for high schools?",
         "options": [
-          "Paragraph 2",
           "Paragraph 4",
           "Paragraph 1",
+          "Paragraph 2",
           "Paragraph 3"
         ],
-        "answer": 1,
-        "explanation": "Đoạn 4 đề cập cảng Vancouver giảm phí cảng cho các tàu đạt chứng nhận êm ái về âm thanh."
+        "answer": 0,
+        "explanation": "Đoạn 4 đề cập California là bang đầu tiên của Mỹ luật hóa giờ vào học trung học không sớm hơn 8:30 sáng năm 2022."
       }
     ],
     "8": [
       {
         "origNum": 53,
         "instruction": "Read the following passage and mark the letter A, B, C, D on your answer sheet to indicate the best answer to each of the following questions from 53 to 60.",
-        "text": "The word <b><u>exacerbate</u></b> in paragraph 2 is CLOSEST in meaning to:",
+        "text": "The word <b><u>precarious</u></b> in paragraph 2 is CLOSEST in meaning to:",
         "options": [
-          "alleviate",
-          "aggravate",
-          "rectify",
-          "stabilise"
+          "guaranteed",
+          "insecure",
+          "abundant",
+          "effortless"
         ],
         "answer": 1,
-        "explanation": "exacerbate = aggravate / worsen (làm trầm trọng thêm xu hướng đọc lướt trên màn hình).",
-        "passage": "<b>THE ATTENTION ECONOMY AND DEEP READING</b>\nFor five centuries after Gutenberg’s printing press, linear literacy shaped habits of concentration. Readers followed complex arguments across dozens of pages without hyperlinks, pop-up notifications or algorithmic feeds competing for their gaze. <u><b>Smartphones and instant search engines have democratised access to human knowledge, yet the business model of the ‘attention economy’ has fragmented the sustained focus required for deep reading.</b></u> Cognitive scientists warn that habitual skimming and multitasking on screens are rewiring the neural circuitry we bring to printed books as well.\nThe erosion of deep reading stems less from screen glass itself than from software engineered to maximise ‘engagement’ through variable rewards. Infinite-scroll feeds, red notification badges and autoplay previews exploit the brain’s evolutionary orienting reflex, which evolved to scan the horizon for sudden movement. Compounding the distraction, digital texts encourage ‘F-pattern’ scanning—darting across headlines and bullet points to extract quick facts rather than following deductive chains of reasoning. Educational technology budgets frequently <u><b>exacerbate</b></u> the trend, as school grants for quiet library book collections lose out to spending on gamified tablet software.\nThe cognitive repercussions go well beyond slower study habits. Neuroscientist Maryanne Wolf has shown that ‘deep reading’—the slow, immersive processing of rich syntax and metaphor—activates brain regions responsible for perspective-taking, critical analysis and empathy. When readers habitually skim, they struggle to detect subtle irony, evaluate logical fallacies or sustain sympathy for unfamiliar characters. Once adolescents become conditioned to constant digital novelty, sitting with a dense forty-page essay triggers cognitive restlessness that researchers call ‘continuous partial attention’. This is why university lecturers across both humanities and sciences report that students find long-form monographs increasingly daunting.\nCultivating a ‘bi-literate’ brain, cognitive psychologists argue, does not mean banishing digital tools, <u><b>which</b></u> remain unmatched for rapid cross-referencing. Instead, it requires carving out sanctuaries of uninterrupted linear reading where notifications are silenced and comprehension can become <u><b>immersive</b></u> once more. Schools in Sweden and Norway have recently shifted early-grade literacy back to physical books while reserving screens for targeted research in upper years, proving that societies can harness digital speed without surrendering contemplative thought.\n<i>(Adapted from Maryanne Wolf, Reader, Come Home, and The Stavanger Declaration on the Future of Reading)</i>"
+        "explanation": "precarious = insecure / uncertain (bấp bênh, dễ đứt gãy).",
+        "passage": "<b>URBAN MINING AND CRITICAL MINERALS</b>\nTucked inside the desk drawers of European and North American homes sit an estimated 700 million hibernating mobile phones, tangled chargers and obsolete laptops. <u><b>The global transition to electric vehicles, wind turbines and grid batteries demands unprecedented quantities of lithium, cobalt, rare-earth magnets and copper, yet the richest and highest-grade ore body on the planet is currently sitting in our electronic-waste stream.</b></u> According to the United Nations Global E-waste Monitor, the world generated a record 62 million tonnes of discarded electronics in 2022, less than a quarter of which was formally collected and recycled.\nThe paradox of electronic waste is that a tonne of discarded smartphone circuit boards contains up to a hundred times more gold—and far higher concentrations of palladium, copper and neodymium—than a tonne of virgin rock blasted from an open-pit mine. Yet recovering these ‘urban minerals’ remains <u><b>precarious</b></u>. Modern gadgets pack sixty different elements from the periodic table into microscopic layers bonded with epoxy resins, flame retardants and lithium-ion cells that catch fire if punctured in conventional crushers. Compounding the market failure, virgin mining companies enjoy generous tax write-offs and rarely pay for tailings-dam pollution, making freshly dug metals artificially cheaper than secondary smelted ones.\nThe geopolitical and environmental stakes could hardly be higher. Opening a new terrestrial copper or rare-earth mine takes an average of sixteen years from discovery to first production, consumes vast volumes of fresh water in arid regions, and leaves behind millions of tonnes of acidic rock waste. Meanwhile, illegal e-waste shipments to informal scrapyards in West Africa and South Asia expose workers to toxic lead and dioxin fumes as cables are burned over open fires to recover copper wire. Once strategic rare earths such as dysprosium are lost in municipal landfill slag, <u><b>their</b></u> atomic dispersion makes future recovery impossible.\nTurning e-waste from a toxic liability into a domestic mineral reserve, industrial ecologists argue, requires redesigning both electronics and smelting chemistry. Hydrometallurgical plants in Belgium, Sweden and Japan now use benign organic acids and bio-leaching bacteria—rather than cyanide or open furnaces—to dissolve and separate pure gold, cobalt and rare earths from shredded circuit boards with 95 percent efficiency. Enforcing ‘extended producer responsibility’ deposit schemes and modular battery designs that are <u><b>amenable</b></u> to robotic disassembly would allow clean-energy economies to mine their own cities rather than scarring new landscapes.\n<i>(Adapted from UNITAR Global E-waste Monitor 2024 and Nature Reviews Materials)</i>"
       },
       {
         "origNum": 54,
         "instruction": "Read the following passage and mark the letter A, B, C, D on your answer sheet to indicate the best answer to each of the following questions from 53 to 60.",
-        "text": "Which of the following features of digital reading and software is NOT explicitly mentioned in paragraph 2?",
+        "text": "Which of the following obstacles to recycling electronics is NOT explicitly mentioned in paragraph 2?",
         "options": [
-          "Infinite-scroll feeds and autoplay previews that trigger the brain’s orienting reflex.",
-          "‘F-pattern’ scanning across headlines to grab quick facts.",
-          "Blue-light emissions from screens causing permanent retinal damage.",
-          "Gamified tablet apps receiving more school funding than quiet library book collections."
+          "Sixty different chemical elements being tightly bonded together in tiny layers.",
+          "Lithium-ion batteries catching fire when punctured in standard crushing machines.",
+          "A global shortage of gold and copper inside smartphone circuit boards.",
+          "Tax advantages and unpriced pollution making virgin mined metals artificially cheap."
         ],
         "answer": 2,
-        "explanation": "Đoạn 2 nêu: cuộn vô tận & tự động phát kích hoạt phản xạ định hướng (A), đọc lướt kiểu chữ F (B), ngân sách ưu tiên phần mềm máy tính bảng hơn sách thư viện (D); KHÔNG nói ánh sáng xanh gây tổn thương võng mạc vĩnh viễn (C)."
+        "explanation": "Đoạn 2 nêu: 60 nguyên tố gắn chặt bằng nhựa epoxy (A), pin lithium-ion dễ cháy khi bị đâm thủng (B), ưu đãi thuế cho khai mỏ truyền thống làm kim loại nguyên sinh rẻ giả tạo (D); đoạn 2 khẳng định bo mạch chứa hàm lượng vàng/đồng cao gấp hàng trăm lần quặng mỏ nên C hoàn toàn sai/không được nêu → C."
       },
       {
         "origNum": 55,
         "instruction": "Read the following passage and mark the letter A, B, C, D on your answer sheet to indicate the best answer to each of the following questions from 53 to 60.",
-        "text": "The word <b><u>immersive</u></b> in paragraph 4 is OPPOSITE in meaning to __________.",
+        "text": "The word <b><u>amenable</u></b> in paragraph 4 is OPPOSITE in meaning to __________.",
         "options": [
-          "superficial",
-          "thorough",
-          "absorbed",
-          "engaged"
+          "resistant",
+          "suited",
+          "adaptable",
+          "receptive"
         ],
         "answer": 0,
-        "explanation": "immersive (chìm đắm, sâu sắc) >< superficial (hời hợt, bề nổi)."
+        "explanation": "amenable (to something: dễ dàng đáp ứng, thuận lợi cho việc tháo rời bằng robot) >< resistant (chống lại, gây cản trở)."
       },
       {
         "origNum": 56,
         "instruction": "Read the following passage and mark the letter A, B, C, D on your answer sheet to indicate the best answer to each of the following questions from 53 to 60.",
-        "text": "The relative pronoun “<b><u>which</u></b>” in paragraph 4 refers to __________.",
+        "text": "In paragraph 3, the possessive adjective “<b><u>their</u></b>” in “their atomic dispersion” refers to __________.",
         "options": [
-          "physical books",
-          "sanctuaries of linear reading",
-          "cognitive psychologists",
-          "digital tools"
+          "informal scrapyards in West Africa",
+          "strategic rare earths such as dysprosium",
+          "terrestrial copper mines",
+          "acidic rock waste piles"
         ],
-        "answer": 3,
-        "explanation": "“banishing digital tools, which remain unmatched for rapid cross-referencing” → which quy chiếu cho 'digital tools'."
+        "answer": 1,
+        "explanation": "Đoạn 3: “Once strategic rare earths such as dysprosium are lost in municipal landfill slag, their atomic dispersion makes future recovery impossible.” → “their” quy chiếu cho “strategic rare earths such as dysprosium” → B."
       },
       {
         "origNum": 57,
         "instruction": "Read the following passage and mark the letter A, B, C, D on your answer sheet to indicate the best answer to each of the following questions from 53 to 60.",
-        "text": "Which of the following best paraphrases the underlined sentence in paragraph 1?\n<i>“Smartphones and instant search engines have democratised access to human knowledge, yet the business model of the ‘attention economy’ has fragmented the sustained focus required for deep reading.”</i>",
+        "text": "Which of the following best paraphrases the underlined sentence in paragraph 1?\n<i>“The global transition to electric vehicles, wind turbines and grid batteries demands unprecedented quantities of lithium, cobalt, rare-earth magnets and copper, yet the richest and highest-grade ore body on the planet is currently sitting in our electronic-waste stream.”</i>",
         "options": [
-          "Smartphones have eliminated the need for deep reading because search engines can summarise every printed book.",
-          "Because deep reading requires sustained focus, smartphones and search engines have restricted public access to human knowledge.",
-          "While mobile devices and search tools have made information widely accessible, attention-driven digital platforms have broken up the prolonged concentration needed to read deeply.",
-          "The attention economy has strengthened linear concentration by giving every smartphone user access to instant search engines."
+          "Electric vehicles and wind turbines cannot use recycled copper or cobalt from discarded electronics.",
+          "While shifting to clean energy requires vast amounts of critical metals, our discarded electronics actually contain the most concentrated supply of those minerals on Earth.",
+          "Because the world ran out of lithium and rare-earth magnets in 2022, clean-energy transitions have stopped.",
+          "Open-pit mines contain a hundred times more gold and cobalt per tonne than discarded mobile phones."
         ],
-        "answer": 2,
-        "explanation": "Paraphrase chính xác: Dù điện thoại thông minh và công cụ tìm kiếm giúp phổ cập tri thức nhân loại, mô hình kinh doanh ‘kinh tế chú ý’ đã làm phân mảnh sự tập trung bền bỉ cần cho việc đọc sâu."
+        "answer": 1,
+        "explanation": "Paraphrase chính xác: Dù quá trình chuyển dịch sang xe điện, điện gió và pin lưới điện đòi hỏi lượng kim loại критически lớn chưa từng có, nguồn quặng giàu và hàm lượng cao nhất hành tinh hiện lại nằm ngay trong dòng rác thải điện tử."
       },
       {
         "origNum": 58,
         "instruction": "Read the following passage and mark the letter A, B, C, D on your answer sheet to indicate the best answer to each of the following questions from 53 to 60.",
-        "text": "According to neuroscientist Maryanne Wolf, what cognitive processes are activated by slow, immersive deep reading?",
+        "text": "How do modern hydrometallurgical plants in Belgium, Sweden and Japan extract pure metals from shredded circuit boards?",
         "options": [
-          "The evolutionary orienting reflex that scans the horizon for sudden threats.",
-          "Brain regions linked to perspective-taking, critical analysis and empathy.",
-          "F-pattern visual scanning designed to extract rapid bullet-point facts.",
-          "Continuous partial attention triggered by variable digital rewards."
+          "They burn cables over open fires to melt away plastic insulation.",
+          "They use mild organic acids and bio-leaching bacteria to dissolve and separate metals with 95 percent efficiency.",
+          "They dump shredded circuit boards into terrestrial copper mines for sixteen years.",
+          "They use high-explosive crushers to puncture lithium-ion battery cells."
         ],
         "answer": 1,
-        "explanation": "Đoạn 3: “‘deep reading’—the slow, immersive processing of rich syntax and metaphor—activates brain regions responsible for perspective-taking, critical analysis and empathy.” → B."
+        "explanation": "Đoạn 4: “use benign organic acids and bio-leaching bacteria—rather than cyanide or open furnaces—to dissolve and separate pure gold, cobalt and rare earths from shredded circuit boards with 95 percent efficiency.” → B."
       },
       {
         "origNum": 59,
         "instruction": "Read the following passage and mark the letter A, B, C, D on your answer sheet to indicate the best answer to each of the following questions from 53 to 60.",
-        "text": "In which paragraph does the writer mention Nordic education reforms that re-emphasise printed books for young pupils?",
+        "text": "In which paragraph does the writer compare the concentration of precious metals in circuit boards with that of mined rock?",
         "options": [
-          "Paragraph 4",
-          "Paragraph 3",
+          "Paragraph 2",
           "Paragraph 1",
-          "Paragraph 2"
+          "Paragraph 3",
+          "Paragraph 4"
         ],
         "answer": 0,
-        "explanation": "Đoạn 4 đề cập các trường học ở Thụy Điển và Na Uy đưa sách giấy trở lại các lớp đầu cấp."
+        "explanation": "Đoạn 2: “a tonne of discarded smartphone circuit boards contains up to a hundred times more gold... than a tonne of virgin rock”."
       },
       {
         "origNum": 60,
         "instruction": "Read the following passage and mark the letter A, B, C, D on your answer sheet to indicate the best answer to each of the following questions from 53 to 60.",
-        "text": "In which paragraph does the writer explain how evolutionary survival instincts are exploited by app designers?",
+        "text": "In which paragraph does the writer mention the average lead time required to open a new conventional mine?",
         "options": [
-          "Paragraph 4",
           "Paragraph 1",
+          "Paragraph 2",
           "Paragraph 3",
-          "Paragraph 2"
+          "Paragraph 4"
         ],
-        "answer": 3,
-        "explanation": "Đoạn 2: “exploit the brain’s evolutionary orienting reflex, which evolved to scan the horizon for sudden movement”."
+        "answer": 2,
+        "explanation": "Đoạn 3: “Opening a new terrestrial copper or rare-earth mine takes an average of sixteen years from discovery to first production”."
       }
     ],
     "9": [
       {
         "origNum": 53,
         "instruction": "Read the following passage and mark the letter A, B, C, D on your answer sheet to indicate the best answer to each of the following questions from 53 to 60.",
-        "text": "The word <b><u>hampered</u></b> in paragraph 2 is CLOSEST in meaning to:",
+        "text": "The word <b><u>obliterated</u></b> in paragraph 2 is CLOSEST in meaning to:",
         "options": [
-          "impeded",
-          "facilitated",
-          "guaranteed",
-          "accelerated"
+          "preserved",
+          "destroyed",
+          "expanded",
+          "cultivated"
         ],
-        "answer": 0,
-        "explanation": "hampered = impeded / hindered (bị cản trở, kìm hãm).",
-        "passage": "<b>THE PROMISE AND PERIL OF GEOTHERMAL ENERGY</b>\nWhile wind and solar power fluctuate with passing clouds and calm nights, an immense thermal battery radiates steadily beneath our feet. <u><b>Decarbonising electrical grids requires reliable zero-carbon baseload power, yet the vast heat reservoir of the Earth’s crust remains the most underutilised renewable resource on the planet.</b></u> Today, geothermal plants supply less than one percent of global electricity, confined mostly to volcanic regions such as Iceland, Kenya and New Zealand where steam rises naturally near the surface.\nThe slow rollout of geothermal power stems less from a shortage of underground heat than from the high upfront risk of deep exploratory drilling. Outside volcanic fault lines, reaching rock hot enough to boil water—around 200 degrees Celsius—requires drilling three to six kilometres through abrasive crystalline granite. Compounding the financial hurdle, if an early exploratory well fails to intersect permeable fractures, tens of millions of dollars are sunk before a single kilowatt is generated. Government clean-energy auctions rarely insure against this geological risk, and the commercial rollout of deep geothermal has been <u><b>hampered</b></u> by lopsided subsidies that favour wind, solar and battery assembly.\nEngineering breakthroughs, however, are beginning to unlock non-volcanic basins—alongside new operational challenges. Borrowing directional-drilling and polycrystalline-diamond bits from the oil-and-gas sector, ‘Enhanced Geothermal Systems’ (EGS) pump cold water down one deep well, force it through hot rock fractures, and bring superheated steam up a second well. Yet injecting high-pressure fluid near dormant faults can trigger perceptible micro-earthquakes: in 2006 and 2017, geothermal projects in Basel, Switzerland, and Pohang, South Korea, had to be halted after induced tremors damaged local buildings. <u><b>Those seismic incidents</b></u> explain why seismologists insist on real-time ‘traffic-light’ pressure monitoring and closed-loop pipe designs.\nClosed-loop systems—which circulate fluid inside sealed underground U-tubes like a giant radiator without fracturing the surrounding rock—promise to make geothermal power geological-risk-free and <u><b>ubiquitous</b></u>. Converting retiring coal-fired power stations by hooking their existing steam turbines and grid transformers up to deep geothermal wells could preserve skilled utility jobs while supplying 24/7 clean heat and power for centuries.\n<i>(Adapted from International Energy Agency, The Future of Geothermal Energy, and Nature Energy)</i>"
+        "answer": 1,
+        "explanation": "obliterated = destroyed / wiped out (bị xóa sổ, tàn phá hoàn toàn).",
+        "passage": "<b>BLUE CARBON AND MANGROVE FORESTS</b>\nAlong tropical and subtropical coastlines from Indonesia to Brazil, tangled thickets of salt-tolerant trees straddle the boundary between land and sea. <u><b>Mangrove forests, tidal salt marshes and seagrass meadows occupy less than two percent of the world’s ocean surface, yet these ‘blue carbon’ ecosystems bury carbon up to ten times faster per hectare than terrestrial tropical rainforests.</b></u> For decades, however, coastal planners dismissed intertidal mudflats as mosquito-infested wastelands ripe for bulldozing.\nBetween 1980 and 2005, roughly a third of the world’s mangrove forests were <u><b>obliterated</b></u> to make way for export shrimp ponds, palm-oil plantations, tourist marinas and coastal highways. The climate cost of draining a mangrove swamp is doubly severe. Unlike inland forest soils, where fallen leaves decompose rapidly in oxygen-rich air and release their carbon back into the atmosphere, waterlogged mangrove mud is virtually devoid of oxygen. This anoxic environment slows microbial decay to a crawl, locking dead roots and organic peat underground for millennia. When excavators dredge a mangrove lagoon to build a shrimp farm, centuries of buried carbon oxidise and billow into the sky.\nThe loss of coastal forests also strips shorelines of a self-repairing storm shield. During cyclones and tsunami surges, the dense aerial prop roots of <i>Rhizophora</i> mangroves create hydrodynamic drag that can reduce incoming wave height by up to 66 percent across a five-hundred-metre belt. In the Philippines and Vietnam, economists have calculated that intact mangrove belts save hundreds of millions of dollars annually in avoided flood damage to coastal dykes and rice paddies. Equally vital, <u><b>those submerged root labyrinths</b></u> serve as predator-safe nurseries for juvenile groupers, snappers and prawns that sustain offshore artisanal fisheries.\nEarly attempts to replant mangroves after the 2004 Indian Ocean tsunami often failed because well-meaning agencies planted single-species rows of saplings on low-lying mudflats where inundation lasted too long for seedlings to breathe. Restoration ecologists now champion ‘ecological mangrove restoration’ (EMR), which focuses on breaching abandoned shrimp-pond dykes to restore natural tidal hydrology first. Once daily tidal flushing stays within a tolerable window, floating native propagules colonise the mud spontaneously, establishing biodiverse coastal forests that are far more <u><b>resilient</b></u> than monoculture plantations.\n<i>(Adapted from IUCN Blue Carbon Manual and Nature Geoscience)</i>"
       },
       {
         "origNum": 54,
         "instruction": "Read the following passage and mark the letter A, B, C, D on your answer sheet to indicate the best answer to each of the following questions from 53 to 60.",
-        "text": "Which of the following barriers to expanding geothermal energy is NOT explicitly mentioned in paragraph 2?",
+        "text": "Which of the following causes of mangrove destruction between 1980 and 2005 is NOT explicitly mentioned in paragraph 2?",
         "options": [
-          "The risk of losing tens of millions of dollars if an exploratory well hits dry, impermeable rock.",
-          "The need to drill several kilometres through hard granite outside volcanic zones.",
-          "Clean-energy auctions failing to insure developers against underground geological risk.",
-          "A global ban on using diamond-tipped drill bits outside the petroleum industry."
+          "Conversion into commercial shrimp aquaculture ponds.",
+          "Clearing land for palm-oil plantations.",
+          "Building tourist marinas and coastal roads.",
+          "Volcanic lava flows burying tropical estuaries."
         ],
         "answer": 3,
-        "explanation": "Đoạn 2 nêu: rủi ro mất hàng chục triệu USD nếu giếng khoan gặp đá không thấm (A), phải khoan sâu nhiều km qua đá granit cứng (B), đấu thầu năng lượng sạch không bảo hiểm rủi ro địa chất (C); KHÔNG nói có lệnh cấm mũi khoan kim cương → D."
+        "explanation": "Đoạn 2 nêu: đầm nuôi tôm xuất khẩu (A), đồn điền cọ dầu (B), bến du thuyền và đường cao tốc ven biển (C); KHÔNG nói dung nham núi lửa chôn vùi cửa sông → D."
       },
       {
         "origNum": 55,
         "instruction": "Read the following passage and mark the letter A, B, C, D on your answer sheet to indicate the best answer to each of the following questions from 53 to 60.",
-        "text": "The word <b><u>ubiquitous</u></b> in paragraph 4 is OPPOSITE in meaning to __________.",
+        "text": "The word <b><u>resilient</u></b> in paragraph 4 is OPPOSITE in meaning to __________.",
         "options": [
-          "widespread",
-          "pervasive",
-          "scarce",
-          "universal"
+          "vulnerable",
+          "hardy",
+          "durable",
+          "adaptable"
         ],
-        "answer": 2,
-        "explanation": "ubiquitous (phổ biến khắp mọi nơi) >< scarce (khan hiếm, hiếm hoi)."
+        "answer": 0,
+        "explanation": "resilient (kiên cường, có sức chống chịu cao) >< vulnerable (dễ tổn thương, yếu ớt)."
       },
       {
         "origNum": 56,
         "instruction": "Read the following passage and mark the letter A, B, C, D on your answer sheet to indicate the best answer to each of the following questions from 53 to 60.",
-        "text": "The phrase “<b><u>Those seismic incidents</u></b>” in the last sentence of paragraph 3 refers to __________.",
+        "text": "The phrase “<b><u>those submerged root labyrinths</u></b>” in paragraph 3 refers to __________.",
         "options": [
-          "the natural rise of volcanic steam near the surface in Iceland and Kenya",
-          "the halting of projects in Basel and Pohang after fluid injection triggered damaging tremors",
-          "the fluctuation of wind and solar power during calm, cloudy weather",
-          "the reuse of steam turbines at retiring coal-fired power stations"
+          "abandoned shrimp-pond dykes",
+          "offshore artisanal fishing boats",
+          "the dense underwater prop roots of mangrove trees",
+          "concrete coastal highways and marinas"
         ],
-        "answer": 1,
-        "explanation": "“Those seismic incidents” quy chiếu cho câu ngay trước: việc bơm chất lỏng áp suất cao gây rung chấn làm hư hại công trình ở Basel và Pohang khiến dự án phải dừng lại."
+        "answer": 2,
+        "explanation": "Đoạn 3: “the dense aerial prop roots of Rhizophora mangroves... Equally vital, those submerged root labyrinths serve as predator-safe nurseries...” → chỉ mê cung rễ chống ngập dưới nước của cây rừng ngập mặn → C."
       },
       {
         "origNum": 57,
         "instruction": "Read the following passage and mark the letter A, B, C, D on your answer sheet to indicate the best answer to each of the following questions from 53 to 60.",
-        "text": "Which of the following best paraphrases the underlined sentence in paragraph 1?\n<i>“Decarbonising electrical grids requires reliable zero-carbon baseload power, yet the vast heat reservoir of the Earth’s crust remains the most underutilised renewable resource on the planet.”</i>",
+        "text": "Which of the following best paraphrases the underlined sentence in paragraph 1?\n<i>“Mangrove forests, tidal salt marshes and seagrass meadows occupy less than two percent of the world’s ocean surface, yet these ‘blue carbon’ ecosystems bury carbon up to ten times faster per hectare than terrestrial tropical rainforests.”</i>",
         "options": [
-          "Although shifting to clean electricity demands steady, round-the-clock power, the enormous thermal energy stored beneath the Earth’s surface is still barely tapped.",
-          "Because the Earth’s crust contains very little heat outside volcanoes, geothermal energy cannot provide baseload power for decarbonised grids.",
-          "Geothermal energy has already become the world’s largest source of zero-carbon baseload electricity.",
-          "Wind and solar power have replaced the heat reservoir of the Earth’s crust as the most reliable source of underground energy."
+          "Although coastal vegetated habitats cover a tiny fraction of the ocean’s area, they sequester carbon per hectare up to ten times more rapidly than tropical rainforests on land.",
+          "Terrestrial tropical rainforests cover less than two percent of the Earth’s surface and store ten times more carbon than mangroves.",
+          "Because blue carbon ecosystems cover 98 percent of the ocean, they absorb less carbon per hectare than inland forests.",
+          "Seagrass meadows and salt marshes release ten times more carbon dioxide than tropical rainforests."
         ],
         "answer": 0,
-        "explanation": "Paraphrase chính xác: Dù việc khử carbon lưới điện đòi hỏi nguồn điện nền không phát thải ổn định, kho nhiệt khổng lồ trong lớp vỏ Trái Đất vẫn là nguồn năng lượng tái tạo ít được khai thác nhất."
+        "explanation": "Paraphrase chính xác: Dù rừng ngập mặn, đầm lầy muối và thảm cỏ biển chiếm chưa đầy 2% diện tích mặt biển thế giới, các hệ sinh thái ‘carbon xanh’ này chôn giữ carbon trên mỗi héc-ta nhanh gấp 10 lần rừng mưa nhiệt đới trên cạn."
       },
       {
         "origNum": 58,
         "instruction": "Read the following passage and mark the letter A, B, C, D on your answer sheet to indicate the best answer to each of the following questions from 53 to 60.",
-        "text": "How do closed-loop geothermal systems eliminate the seismic risks seen in Enhanced Geothermal Systems (EGS)?",
+        "text": "Why do waterlogged mangrove soils store organic carbon for thousands of years?",
         "options": [
-          "They operate exclusively inside shallow volcanic craters in Iceland and Kenya.",
-          "They inject high-pressure steam directly into dormant fault lines.",
-          "They circulate fluid inside sealed underground U-tubes without fracturing the surrounding rock.",
-          "They burn coal alongside geothermal steam to stabilise underground pressure."
+          "Shrimp farmers add synthetic preservatives to the mud every summer.",
+          "The lack of oxygen in waterlogged mud drastically slows down microbial decomposition of dead roots and peat.",
+          "Mangrove leaves are made of pure calcium carbonate that bacteria cannot digest.",
+          "High tsunami waves wash all fallen leaves out into the deep ocean trench."
         ],
-        "answer": 2,
-        "explanation": "Đoạn 4: “Closed-loop systems—which circulate fluid inside sealed underground U-tubes like a giant radiator without fracturing the surrounding rock—promise to make geothermal power geological-risk-free” → C."
+        "answer": 1,
+        "explanation": "Đoạn 2: “waterlogged mangrove mud is virtually devoid of oxygen. This anoxic environment slows microbial decay to a crawl, locking dead roots and organic peat underground for millennia.” → B."
       },
       {
         "origNum": 59,
         "instruction": "Read the following passage and mark the letter A, B, C, D on your answer sheet to indicate the best answer to each of the following questions from 53 to 60.",
-        "text": "In which paragraph does the writer explain how drilling technology from the oil sector has been adapted for clean energy?",
+        "text": "In which paragraph does the writer explain why many post-2004 mangrove tree-planting projects failed?",
         "options": [
           "Paragraph 1",
           "Paragraph 2",
           "Paragraph 4",
           "Paragraph 3"
         ],
-        "answer": 3,
-        "explanation": "Đoạn 3: “Borrowing directional-drilling and polycrystalline-diamond bits from the oil-and-gas sector...”."
+        "answer": 2,
+        "explanation": "Đoạn 4 giải thích các dự án trồng lại sau sóng thần 2004 thất bại vì trồng độc canh trên bãi bùn thấp bị ngập quá lâu khiến cây non không thở được."
       },
       {
         "origNum": 60,
         "instruction": "Read the following passage and mark the letter A, B, C, D on your answer sheet to indicate the best answer to each of the following questions from 53 to 60.",
-        "text": "In which paragraph does the writer suggest repurposing fossil-fuel power plant infrastructure for geothermal electricity?",
-        "options": [
-          "Paragraph 1",
-          "Paragraph 4",
-          "Paragraph 2",
-          "Paragraph 3"
-        ],
-        "answer": 1,
-        "explanation": "Đoạn 4: “Converting retiring coal-fired power stations by hooking their existing steam turbines and grid transformers up to deep geothermal wells...”."
-      }
-    ],
-    "10": [
-      {
-        "origNum": 53,
-        "instruction": "Read the following passage and mark the letter A, B, C, D on your answer sheet to indicate the best answer to each of the following questions from 53 to 60.",
-        "text": "The word <b><u>inertia</u></b> in paragraph 2 is CLOSEST in meaning to:",
-        "options": [
-          "efficiency",
-          "innovation",
-          "inaction",
-          "foresight"
-        ],
-        "answer": 2,
-        "explanation": "inertia = inaction / resistance to change (sự trì trệ, sức ỳ của bộ máy thể chế).",
-        "passage": "<b>THE ECOLOGY OF DAM REMOVAL</b>\nThroughout the twentieth century, concrete dams were celebrated as monuments to industrial progress, taming wild rivers for hydropower, irrigation and flood storage. <u><b>Tens of thousands of barriers now fragment the world’s river basins, yet a growing wave of dam removals in Europe and North America is proving that rivers can heal with astonishing speed once set free.</b></u> According to Dam Removal Europe, a record 487 obsolete river barriers—from crumbling nineteenth-century mill weirs to tall concrete dams—were dismantled across fifteen European countries in 2023 alone.\nThe case for keeping every ageing barrier intact stems less from current economic utility than from institutional <u><b>inertia</b></u>. Across Europe and the United States, thousands of small weirs and dams built over a century ago no longer generate electricity or store irrigation water, yet their reservoirs have silted up with mud and their cracked spillways pose a growing flood hazard during extreme storms. Compounding the problem, repairing a century-old dam to modern safety standards often costs three times more than dismantling it. Even so, national river-restoration budgets remain modest and lag behind subsidies for new concrete river-channel engineering.\nThe ecological price of river fragmentation has been severe. Dams block migratory fish—such as Atlantic salmon, European eels and sturgeon—from reaching their gravelly upstream spawning beds, driving migratory freshwater fish populations down by more than 80 percent globally since 1970. Stagnant reservoirs also warm up in summer, breed toxic cyanobacteria and trap the natural flow of sand and pebbles needed to replenish coastal beaches and deltas. Once a river’s sediment supply is cut off for decades, downstream estuaries erode and riverbed habitats turn into lifeless bedrock. This is why fluvial geomorphologists argue that restoring free-flowing connectivity is the single most effective measure for freshwater recovery.\nWhen barriers come down, the rebound is dramatic. Following the removal of two high dams on Washington State’s Elwha River in 2014 and four dams on the Klamath River in 2024, Chinook salmon swam past the former dam sites within days to spawn in headwaters <u><b>they</b></u> had not reached for a century. Far from being <u><b>futile</b></u>, selective dam removal—targeting obsolete, low-output structures while upgrading turbines on strategic high-capacity hydropower dams—shows that nations can balance renewable electricity with living, connected rivers.\n<i>(Adapted from Dam Removal Europe Annual Report and Science)</i>"
-      },
-      {
-        "origNum": 54,
-        "instruction": "Read the following passage and mark the letter A, B, C, D on your answer sheet to indicate the best answer to each of the following questions from 53 to 60.",
-        "text": "Which of the following problems with ageing dams is NOT explicitly mentioned in paragraph 2?",
-        "options": [
-          "Many old barriers no longer produce hydropower or supply irrigation.",
-          "Old concrete dams release radioactive minerals into drinking water.",
-          "Cracked spillways create safety hazards during severe storms.",
-          "Reservoirs behind old dams have filled up with accumulated silt."
-        ],
-        "answer": 1,
-        "explanation": "Đoạn 2 nêu: nhiều đập cũ không còn phát điện/tưới tiêu (A), tràn xả lũ nứt gây nguy cơ mất an toàn khi bão lớn (C), lòng hồ bồi lắng bùn (D); KHÔNG nói đập bê tông cũ rò rỉ khoáng chất phóng xạ → B."
-      },
-      {
-        "origNum": 55,
-        "instruction": "Read the following passage and mark the letter A, B, C, D on your answer sheet to indicate the best answer to each of the following questions from 53 to 60.",
-        "text": "The word <b><u>futile</u></b> in paragraph 4 is OPPOSITE in meaning to __________.",
-        "options": [
-          "effective",
-          "pointless",
-          "fruitless",
-          "vain"
-        ],
-        "answer": 0,
-        "explanation": "futile (vô ích) >< effective (hiệu quả)."
-      },
-      {
-        "origNum": 56,
-        "instruction": "Read the following passage and mark the letter A, B, C, D on your answer sheet to indicate the best answer to each of the following questions from 53 to 60.",
-        "text": "The pronoun “<b><u>they</u></b>” in paragraph 4 refers to __________.",
-        "options": [
-          "Chinook salmon",
-          "obsolete mill weirs",
-          "fluvial geomorphologists",
-          "strategic hydropower turbines"
-        ],
-        "answer": 0,
-        "explanation": "Đoạn 4: “Chinook salmon swam past the former dam sites within days to spawn in headwaters they had not reached for a century.” → “they” quy chiếu cho “Chinook salmon” → A."
-      },
-      {
-        "origNum": 57,
-        "instruction": "Read the following passage and mark the letter A, B, C, D on your answer sheet to indicate the best answer to each of the following questions from 53 to 60.",
-        "text": "Which of the following best paraphrases the underlined sentence in paragraph 1?\n<i>“Tens of thousands of barriers now fragment the world’s river basins, yet a growing wave of dam removals in Europe and North America is proving that rivers can heal with astonishing speed once set free.”</i>",
-        "options": [
-          "Because tens of thousands of new dams are being built in Europe and North America, river basins can no longer recover their natural flow.",
-          "Although global river networks are heavily divided by dams, increasing efforts to dismantle barriers in Europe and North America show that freed rivers recover remarkably quickly.",
-          "Dismantling dams in Europe and North America has fragmented river basins and slowed down ecological healing.",
-          "Rivers in Europe and North America require centuries to show any sign of recovery after obsolete dams are removed."
-        ],
-        "answer": 1,
-        "explanation": "Paraphrase chính xác: Dù hàng chục ngàn đập cản đang chia cắt các lưu vực sông, làn sóng tháo dỡ đập ngày càng tăng ở châu Âu và Bắc Mỹ chứng minh các dòng sông có thể tự phục hồi nhanh đáng kinh ngạc khi được giải phóng."
-      },
-      {
-        "origNum": 58,
-        "instruction": "Read the following passage and mark the letter A, B, C, D on your answer sheet to indicate the best answer to each of the following questions from 53 to 60.",
-        "text": "According to paragraph 2, why is keeping an obsolete century-old dam often economically irrational?",
-        "options": [
-          "Dismantling an old weir costs three times more than building a new nuclear plant.",
-          "Upgrading a century-old dam to modern safety standards frequently costs three times as much as removing it.",
-          "Silted reservoirs generate too much electricity for local power grids to absorb.",
-          "European governments fine municipalities that remove nineteenth-century mill weirs."
-        ],
-        "answer": 1,
-        "explanation": "Đoạn 2: “repairing a century-old dam to modern safety standards often costs three times more than dismantling it.” → B."
-      },
-      {
-        "origNum": 59,
-        "instruction": "Read the following passage and mark the letter A, B, C, D on your answer sheet to indicate the best answer to each of the following questions from 53 to 60.",
-        "text": "In which paragraph does the writer quantify the global decline in migratory freshwater fish since 1970?",
+        "text": "In which paragraph does the writer quantify the wave-height reduction provided by a 500-metre belt of mangroves?",
         "options": [
           "Paragraph 3",
           "Paragraph 1",
@@ -1056,20 +962,114 @@ window.examDatabase['reading'] = {
           "Paragraph 4"
         ],
         "answer": 0,
-        "explanation": "Đoạn 3: “driving migratory freshwater fish populations down by more than 80 percent globally since 1970”."
+        "explanation": "Đoạn 3: “reduce incoming wave height by up to 66 percent across a five-hundred-metre belt.”"
+      }
+    ],
+    "10": [
+      {
+        "origNum": 53,
+        "instruction": "Read the following passage and mark the letter A, B, C, D on your answer sheet to indicate the best answer to each of the following questions from 53 to 60.",
+        "text": "The word <b><u>uniformity</u></b> in paragraph 2 is CLOSEST in meaning to:",
+        "options": [
+          "diversity",
+          "sameness",
+          "resilience",
+          "scarcity"
+        ],
+        "answer": 1,
+        "explanation": "uniformity = sameness / homogeneity (sự đồng nhất, giống hệt nhau về mặt di truyền).",
+        "passage": "<b>MONOCULTURE AND THE PERIL OF CROP UNIFORMITY</b>\nWalk down the produce aisle of any modern supermarket and the illusion of abundance is dazzling. <u><b>Global supply chains fill grocery shelves with blemish-free bananas, potatoes and wheat loaves twelve months a year, yet the industrial food system relies on a dangerously narrow genetic base.</b></u> Out of some 30,000 edible plant species known to science, just three crops—rice, maize and wheat—now supply more than half of all plant-derived calories consumed by humanity, and each crop is dominated by a handful of high-yielding commercial varieties.\nThe drive toward genetic <u><b>uniformity</b></u> stems from the demands of mechanised harvesting and long-distance logistics. Supermarkets and food processors prize crops that ripen on the exact same day, grow to an identical height for combine-harvester blades, and withstand weeks inside refrigerated shipping containers without bruising. In the global banana trade, nearly every export fruit belongs to a single sterile clone: the Cavendish. Because Cavendish plants reproduce asexually from suckers rather than seeds, every tree on a plantation is genetically identical to its neighbour, while research into hundreds of flavourful heirloom banana cultivars has been neglected.\nHistory offers stark warnings about what happens when a pathogen encounters a genetically identical banquet. In the 1840s, the water mould <i>Phytophthora infestans</i> swept through Ireland’s cloned ‘Lumper’ potato fields, triggering famine. In the 1950s, a soil-borne fungus known as Panama disease (Tropical Race 1) wiped out the ‘Gros Michel’ banana, forcing exporters to switch to the resistant Cavendish. Today, a virulent new strain—Tropical Race 4 (TR4)—has jumped from Southeast Asia to the Middle East, Africa and Latin America, able to linger in soil for thirty years and defy chemical fungicides. Once <u><b>the pathogen</b></u> enters a monoculture plantation’s irrigation water, entire estates can wilt within months.\nInsulating global harvests against biological shocks, crop geneticists argue, requires reintroducing evolutionary diversity into working farms. In China’s Yunnan province, researchers demonstrated that planting glutinous heirloom rice rows alongside modern hybrids in the same paddy cut fungal blast disease by 94 percent without fungicides, because the taller traditional stalks blocked wind-borne spores. Combining intercropping and wild-relative cross-breeding with seed laws that allow farmers to trade heterogeneous landraces—rather than keeping heirloom varieties <u><b>proscribed</b></u>—would make our food system as resilient as it is productive.\n<i>(Adapted from FAO, The State of the World’s Biodiversity for Food and Agriculture, and Nature Plants)</i>"
+      },
+      {
+        "origNum": 54,
+        "instruction": "Read the following passage and mark the letter A, B, C, D on your answer sheet to indicate the best answer to each of the following questions from 53 to 60.",
+        "text": "Which of the following commercial reasons for crop uniformity is NOT explicitly mentioned in paragraph 2?",
+        "options": [
+          "Crops ripening simultaneously for efficient harvesting.",
+          "Plants growing to the same height to suit mechanical combine blades.",
+          "Fruit surviving weeks in refrigerated transport without bruising.",
+          "Cloned crops requiring zero irrigation water in desert climates."
+        ],
+        "answer": 3,
+        "explanation": "Đoạn 2 nêu: chín cùng ngày (A), cao bằng nhau để máy gặt đập liên hợp cắt (B), chịu được nhiều tuần trong container lạnh không bị dập (C); KHÔNG nói cây vô tính không cần nước tưới ở sa mạc → D."
+      },
+      {
+        "origNum": 55,
+        "instruction": "Read the following passage and mark the letter A, B, C, D on your answer sheet to indicate the best answer to each of the following questions from 53 to 60.",
+        "text": "The word <b><u>proscribed</u></b> in paragraph 4 is OPPOSITE in meaning to __________.",
+        "options": [
+          "forbidden",
+          "permitted",
+          "outlawed",
+          "restricted"
+        ],
+        "answer": 1,
+        "explanation": "proscribed (bị cấm lưu hành/trao đổi) >< permitted / authorised (được cho phép)."
+      },
+      {
+        "origNum": 56,
+        "instruction": "Read the following passage and mark the letter A, B, C, D on your answer sheet to indicate the best answer to each of the following questions from 53 to 60.",
+        "text": "The phrase “<b><u>the pathogen</u></b>” in paragraph 3 refers to __________.",
+        "options": [
+          "the fungal strain Tropical Race 4 (TR4) of Panama disease",
+          "the Cavendish banana clone",
+          "a refrigerated shipping container",
+          "glutinous heirloom rice in Yunnan"
+        ],
+        "answer": 0,
+        "explanation": "Đoạn 3: “Today, a virulent new strain—Tropical Race 4 (TR4)—has jumped from Southeast Asia... Once the pathogen enters a monoculture plantation’s irrigation water...” → chỉ chủng nấm gây bệnh Panama TR4 → A."
+      },
+      {
+        "origNum": 57,
+        "instruction": "Read the following passage and mark the letter A, B, C, D on your answer sheet to indicate the best answer to each of the following questions from 53 to 60.",
+        "text": "Which of the following best paraphrases the underlined sentence in paragraph 1?\n<i>“Global supply chains fill grocery shelves with blemish-free bananas, potatoes and wheat loaves twelve months a year, yet the industrial food system relies on a dangerously narrow genetic base.”</i>",
+        "options": [
+          "Because supermarkets sell blemish-free produce all year round, the industrial food system now grows all 30,000 edible plant species.",
+          "While international trade provides supermarkets with uniform produce year-round, modern agriculture depends on a perilously small number of crop varieties.",
+          "Global supply chains have collapsed because bananas, potatoes and wheat can only be harvested once every twelve years.",
+          "The narrow genetic base of modern crops has prevented supermarkets from stocking bananas and potatoes in winter."
+        ],
+        "answer": 1,
+        "explanation": "Paraphrase chính xác: Dù chuỗi cung ứng toàn cầu lấp đầy kệ siêu thị bằng chuối, khoai tây và bánh mì đẹp mắt suốt 12 tháng trong năm, hệ thống thực phẩm công nghiệp lại đang phụ thuộc vào một nền tảng di truyền hẹp đầy rủi ro."
+      },
+      {
+        "origNum": 58,
+        "instruction": "Read the following passage and mark the letter A, B, C, D on your answer sheet to indicate the best answer to each of the following questions from 53 to 60.",
+        "text": "In the Yunnan province experiment described in paragraph 4, how did planting heirloom rice alongside modern hybrids reduce fungal blast disease by 94 percent?",
+        "options": [
+          "Farmers sprayed the fields with thirty-year-old chemical fungicides.",
+          "The taller heirloom stalks acted as a physical barrier that blocked wind-borne fungal spores.",
+          "Heirloom rice roots released chlorine into the paddy water.",
+          "Combine harvesters removed all modern hybrid rice before the rainy season."
+        ],
+        "answer": 1,
+        "explanation": "Đoạn 4: “cut fungal blast disease by 94 percent without fungicides, because the taller traditional stalks blocked wind-borne spores.” → B."
+      },
+      {
+        "origNum": 59,
+        "instruction": "Read the following passage and mark the letter A, B, C, D on your answer sheet to indicate the best answer to each of the following questions from 53 to 60.",
+        "text": "In which paragraph does the writer cite nineteenth- and twentieth-century agricultural disasters caused by genetic uniformity?",
+        "options": [
+          "Paragraph 1",
+          "Paragraph 2",
+          "Paragraph 3",
+          "Paragraph 4"
+        ],
+        "answer": 2,
+        "explanation": "Đoạn 3 dẫn chứng nạn đói khoai tây Lumper ở Ireland thập niên 1840 và sự sụp đổ của giống chuối Gros Michel thập niên 1950."
       },
       {
         "origNum": 60,
         "instruction": "Read the following passage and mark the letter A, B, C, D on your answer sheet to indicate the best answer to each of the following questions from 53 to 60.",
-        "text": "In which paragraph does the writer advocate a balanced approach that keeps strategic hydropower dams while removing obsolete ones?",
+        "text": "In which paragraph does the writer compare the total number of known edible plants with the three staple crops that feed most of humanity?",
         "options": [
           "Paragraph 1",
+          "Paragraph 3",
           "Paragraph 2",
-          "Paragraph 4",
-          "Paragraph 3"
+          "Paragraph 4"
         ],
-        "answer": 2,
-        "explanation": "Đoạn 4: “selective dam removal—targeting obsolete, low-output structures while upgrading turbines on strategic high-capacity hydropower dams”."
+        "answer": 0,
+        "explanation": "Đoạn 1: “Out of some 30,000 edible plant species known to science, just three crops—rice, maize and wheat—now supply more than half of all plant-derived calories...”."
       }
     ]
   },
@@ -2410,107 +2410,107 @@ window.examDatabase['reading'] = {
       {
         "origNum": 53,
         "instruction": "Read the following passage and mark the letter A, B, C, D on your answer sheet to indicate the best answer to each of the following questions from 53 to 60.",
-        "text": "The word <b><u>dwarfed</u></b> in paragraph 2 is CLOSEST in meaning to:",
+        "text": "The word <b><u>stifled</u></b> in paragraph 2 is CLOSEST in meaning to:",
         "options": [
-          "matched",
-          "supported",
-          "complemented",
-          "overshadowed"
+          "celebrated",
+          "suppressed",
+          "amplified",
+          "publicised"
         ],
-        "answer": 3,
-        "explanation": "dwarfed = overshadowed (bị lấn át, lu mờ bởi).",
-        "passage": "<b>THE ECONOMICS OF BIODIVERSITY</b>\nFew ideas in modern economics have proved as unsettling as the claim that nature is an asset. In 2021, an independent review commissioned by the UK Treasury and led by the Cambridge economist Sir Partha Dasgupta argued that the natural world should be counted as capital in the same way as the roads, factories and skills that economists have long recognised. <u><b>Humanity has prospered immensely in recent decades, but the way in which that prosperity was achieved has exacted a devastating toll on nature.</b></u> The figures are stark: between 1992 and 2014, the review estimates, produced capital per person doubled and human capital per person rose by about 13% worldwide, whereas the stock of natural capital per person fell by nearly 40%.\nThe roots of this imbalance lie less in individual greed than in the way economies price, or fail to price, nature. Much of what nature supplies can be used without paying for it, so its true worth is not reflected in market prices and investment flows towards other assets. Compounding the difficulty, many natural processes are mobile, hidden in the soil or simply silent, which makes the effects of our actions on others, including our descendants, hard to trace. Governments aggravate the problem: almost everywhere they pay people more to exploit nature than to protect it, and a conservative estimate puts the worldwide cost of subsidies that damage nature at four to six trillion US dollars a year. Spending devoted to enhancing natural assets is small and is <u><b>dwarfed</b></u> by these harmful flows.\nThe consequences extend well beyond ecology. Biodiversity is declining faster than at any time in human history, which erodes nature’s productivity and resilience and exposes economies to greater uncertainty. Low-income countries, whose economies rely more heavily on nature within their own borders, stand to lose the most. Many ecosystems, from tropical forests to coral reefs, have already been degraded beyond repair or stand on the brink of ‘tipping points’. Once an ecosystem has tipped into a new state, coaxing it back to health is costly and difficult, if not impossible. <u><b>This</b></u> is why the review insists that early action is far cheaper than delay.\nThe remedy, the review argues, begins with accepting that our economies are <u><b>embedded</b></u> within nature, not external to it. It calls for transformative change on a scale comparable with the Marshall Plan, built on three transitions: keeping our demands on nature within its capacity to supply; changing how we measure success, since gross domestic product ignores the depreciation of natural assets and therefore rewards unsustainable growth; and reforming the institutions, above all the financial and education systems, through which we deal with nature. Measuring ‘inclusive wealth’ alongside GDP, the review suggests, would show governments what their policies truly cost.\n<i>(Adapted from The Economics of Biodiversity: The Dasgupta Review – Headline Messages, HM Treasury)</i>"
+        "answer": 1,
+        "explanation": "stifled = suppressed (bị kìm hãm, bóp nghẹt bởi quy định sở hữu trí tuệ).",
+        "passage": "<b>THE RISE OF CITIZEN SCIENCE</b>\nFor most of the twentieth century, scientific discovery was regarded as the exclusive preserve of university laboratories and government research institutes. <u><b>Digital platforms and low-cost sensors have opened the gates of empirical inquiry to millions of amateur volunteers, yet academic institutions still struggle to integrate public contributions into formal policymaking.</b></u> From classifying distant galaxies on smartphone apps to monitoring river phosphate levels with paper test strips, citizen scientists now generate datasets on a geographic scale that no single research grant could ever fund.\nThe hesitation among traditional researchers stems less from elitism than from concerns over data reliability and sampling bias. Volunteers naturally prefer surveying scenic nature reserves on sunny weekends rather than muddy industrial ditches in midwinter, which can skew ecological models if left uncorrected. Compounding the difficulty, raw observations uploaded by novices require painstaking statistical filtering to remove misidentified species or faulty instrument readings. Public funding for community-led monitoring remains modest, and open-data initiatives are frequently <u><b>stifled</b></u> by proprietary software licences and rigid journal paywalls.\nEven so, the scientific payoffs of public participation are proving transformative. Ornithologists rely on tens of millions of checklists submitted to the eBird platform to track continental shifts in bird migration weeks before official surveys are published. In public health, neighbourhood air-quality networks in industrial towns have pinpointed localised soot plumes that sparse municipal monitors missed entirely. Once residents collect <u><b>their own empirical measurements</b></u>, dismissing community health complaints as mere anecdote becomes politically untenable. This is why environmental sociologists argue that participatory science redistributes epistemic authority as much as it expands data volume.\nBuilding a mature partnership between credentialed specialists and the public, science policy experts contend, requires more than treating volunteers as unpaid data-entry clerks. Universities in the Netherlands and Denmark have pioneered ‘science shops’ where neighbourhood associations co-design research questions with faculty statisticians, while automated artificial-intelligence filters now cross-check amateur photos against verified museum specimens in real time. Making validation protocols <u><b>transparent</b></u> and crediting citizen contributors as co-authors would ensure that public curiosity strengthens both rigorous science and democratic accountability.\n<i>(Adapted from Nature, Citizen Science in the Digital Age, and European Citizen Science Association Briefings)</i>"
       },
       {
         "origNum": 54,
         "instruction": "Read the following passage and mark the letter A, B, C, D on your answer sheet to indicate the best answer to each of the following questions from 53 to 60.",
-        "text": "Which of the following reasons why markets fail to price nature properly is NOT explicitly mentioned in the passage?",
+        "text": "Which of the following challenges associated with citizen science is NOT explicitly mentioned in paragraph 2?",
         "options": [
-          "Much of what nature provides can be used without paying for it.",
-          "Consumers are generally unwilling to pay more for products that protect the environment.",
-          "The consequences of our actions for later generations are difficult to trace.",
-          "Some natural processes are hidden from view in the soil."
+          "Volunteers tending to survey pleasant locations at convenient times rather than unappealing sites.",
+          "The need for statistical filtering to correct misidentifications made by beginners.",
+          "Amateur volunteers demanding high hourly wages from university research budgets.",
+          "Proprietary software and journal paywalls restricting open-data sharing."
         ],
-        "answer": 1,
-        "explanation": "Đoạn 2 nêu: nature miễn phí (A), khó theo dõi tác động lên hậu thế (C), nằm trong đất (D); KHÔNG nói người tiêu dùng không muốn trả thêm tiền → B."
+        "answer": 2,
+        "explanation": "Đoạn 2 nêu: tình nguyện viên thích khảo sát nơi đẹp vào cuối tuần (A), dữ liệu thô cần lọc thống kê (B), phần mềm độc quyền và tường phí tạp chí cản trở (D); KHÔNG nói tình nguyện viên đòi lương theo giờ cao → C."
       },
       {
         "origNum": 55,
         "instruction": "Read the following passage and mark the letter A, B, C, D on your answer sheet to indicate the best answer to each of the following questions from 53 to 60.",
-        "text": "The word <b><u>embedded</u></b> in paragraph 4 is OPPOSITE in meaning to __________.",
+        "text": "The word <b><u>transparent</u></b> in paragraph 4 is OPPOSITE in meaning to __________.",
         "options": [
-          "integrated",
-          "detached",
-          "enclosed",
-          "anchored"
+          "opaque",
+          "explicit",
+          "accessible",
+          "verifiable"
         ],
-        "answer": 1,
-        "explanation": "embedded (gắn liền bên trong) >< detached (tách rời); đoạn 4: “embedded within nature, not external to it”."
+        "answer": 0,
+        "explanation": "transparent (minh bạch, rõ ràng) >< opaque (mập mờ, khó hiểu, thiếu minh bạch)."
       },
       {
         "origNum": 56,
         "instruction": "Read the following passage and mark the letter A, B, C, D on your answer sheet to indicate the best answer to each of the following questions from 53 to 60.",
-        "text": "What does the pronoun “<b><u>This</u></b>” in the final sentence of paragraph 3 refer to regarding degraded ecosystems?",
+        "text": "The phrase “<b><u>their own empirical measurements</u></b>” in paragraph 3 refers to data gathered by __________.",
         "options": [
-          "the removal of government subsidies that damage nature",
-          "the unprecedented speed at which global biodiversity is declining",
-          "the high cost and extreme difficulty of restoring an ecosystem once it passes a tipping point",
-          "the heavy reliance of low-income economies on domestic natural resources"
+          "sparse municipal air monitors",
+          "commercial software companies",
+          "residents in industrial towns",
+          "editorial boards of academic journals"
         ],
         "answer": 2,
-        "explanation": "“This” quy chiếu cho mệnh đề ngay trước đó: một khi hệ sinh thái đã vượt ngưỡng (tipped), việc phục hồi nó vừa tốn kém vừa vô cùng khó khăn → C."
+        "explanation": "Đoạn 3: “neighbourhood air-quality networks in industrial towns... Once residents collect their own empirical measurements...” → chỉ các số liệu thực nghiệm do chính cư dân địa phương thu thập → C."
       },
       {
         "origNum": 57,
         "instruction": "Read the following passage and mark the letter A, B, C, D on your answer sheet to indicate the best answer to each of the following questions from 53 to 60.",
-        "text": "Which of the following best paraphrases the underlined sentence in paragraph 1?\n<i>“Humanity has prospered immensely in recent decades, but the way in which that prosperity was achieved has exacted a devastating toll on nature.”</i>",
+        "text": "Which of the following best paraphrases the underlined sentence in paragraph 1?\n<i>“Digital platforms and low-cost sensors have opened the gates of empirical inquiry to millions of amateur volunteers, yet academic institutions still struggle to integrate public contributions into formal policymaking.”</i>",
         "options": [
-          "People have grown wealthy in recent times, which has enabled them to repair most of the harm done to nature.",
-          "Recent decades of prosperity have proved so harmful that humanity can no longer sustain its enormous wealth.",
-          "Nature has suffered devastating losses because humanity has been far less prosperous than expected.",
-          "Although people have become far richer lately, the methods that produced this wealth have seriously damaged the natural world."
+          "Because academic institutions have banned low-cost sensors, millions of amateur volunteers can no longer participate in scientific research.",
+          "While online tools and affordable instruments allow millions of non-specialists to take part in scientific research, universities and policymakers still find it difficult to incorporate citizen data into official decisions.",
+          "Digital platforms have completely replaced university laboratories as the primary source of formal government policy.",
+          "Millions of professional scientists have left academic institutions in order to build low-cost sensors for amateur volunteers."
         ],
-        "answer": 3,
-        "explanation": "Paraphrase đúng: dù con người giàu lên nhiều, cách tạo ra sự giàu có đã gây hại nghiêm trọng cho thiên nhiên."
+        "answer": 1,
+        "explanation": "Paraphrase chính xác: Dù nền tảng số và cảm biến giá rẻ đã mở cánh cửa nghiên cứu thực nghiệm cho hàng triệu tình nguyện viên nghiệp dư, các cơ sở học thuật vẫn lúng túng trong việc tích hợp đóng góp của công chúng vào hoạch định chính sách chính thức."
       },
       {
         "origNum": 58,
         "instruction": "Read the following passage and mark the letter A, B, C, D on your answer sheet to indicate the best answer to each of the following questions from 53 to 60.",
-        "text": "According to paragraph 1, how did global capital stocks per person change between 1992 and 2014?",
+        "text": "According to paragraph 3, how have neighbourhood air-quality networks contributed to public health?",
         "options": [
-          "Wealthy nations reduced their produced capital by 13% to conserve domestic forests.",
-          "Gross domestic product fell by 40% after economists deducted natural asset depreciation.",
-          "Natural capital per person dropped by nearly two-fifths even as produced and human capital grew.",
-          "Produced, human and natural capital per person all expanded at a similar rate worldwide."
+          "They have detected localised soot pollution that official city monitors failed to capture.",
+          "They have persuaded ornithologists to stop using the eBird checklist platform.",
+          "They have replaced all faculty statisticians at Dutch and Danish universities.",
+          "They have proved that industrial towns suffer zero air pollution during winter."
         ],
-        "answer": 2,
-        "explanation": "Đoạn 1 nêu rõ: từ 1992 đến 2014, vốn sản xuất bình quân đầu người tăng gấp đôi, vốn con người tăng khoảng 13%, nhưng vốn tự nhiên lại giảm gần 40% (nearly two-fifths) → C."
+        "answer": 0,
+        "explanation": "Đoạn 3: “neighbourhood air-quality networks in industrial towns have pinpointed localised soot plumes that sparse municipal monitors missed entirely.” → A."
       },
       {
         "origNum": 59,
         "instruction": "Read the following passage and mark the letter A, B, C, D on your answer sheet to indicate the best answer to each of the following questions from 53 to 60.",
-        "text": "In which paragraph does the writer quantify the yearly cost of government support that harms nature?",
+        "text": "In which paragraph does the writer explain why volunteer wildlife surveys may suffer from geographic and seasonal bias?",
         "options": [
-          "Paragraph 2",
-          "Paragraph 4",
           "Paragraph 1",
-          "Paragraph 3"
+          "Paragraph 3",
+          "Paragraph 2",
+          "Paragraph 4"
         ],
-        "answer": 0,
-        "explanation": "Đoạn 2: “four to six trillion US dollars a year” cho trợ cấp gây hại thiên nhiên."
+        "answer": 2,
+        "explanation": "Đoạn 2: “Volunteers naturally prefer surveying scenic nature reserves on sunny weekends rather than muddy industrial ditches in midwinter...”."
       },
       {
         "origNum": 60,
         "instruction": "Read the following passage and mark the letter A, B, C, D on your answer sheet to indicate the best answer to each of the following questions from 53 to 60.",
-        "text": "In which paragraph does the writer refer to the part that financial and education systems must play in reform?",
+        "text": "In which paragraph does the writer mention European university programmes where citizens help formulate research questions?",
         "options": [
           "Paragraph 4",
+          "Paragraph 2",
           "Paragraph 1",
-          "Paragraph 3",
-          "Paragraph 2"
+          "Paragraph 3"
         ],
         "answer": 0,
-        "explanation": "Đoạn 4: “above all the financial and education systems”."
+        "explanation": "Đoạn 4 đề cập các trường đại học ở Hà Lan và Đan Mạch tiên phong mô hình ‘science shops’ nơi cư dân cùng thiết kế câu hỏi nghiên cứu."
       },
       {
         "origNum": 61,
@@ -2648,107 +2648,107 @@ window.examDatabase['reading'] = {
       {
         "origNum": 53,
         "instruction": "Read the following passage and mark the letter A, B, C, D on your answer sheet to indicate the best answer to each of the following questions from 53 to 60.",
-        "text": "The word <b><u>eclipsed</u></b> in paragraph 2 is CLOSEST in meaning to:",
+        "text": "The word <b><u>jeopardised</u></b> in paragraph 2 is CLOSEST in meaning to:",
         "options": [
-          "outweighed",
-          "endorsed",
-          "accelerated",
-          "stabilised"
+          "guaranteed",
+          "endangered",
+          "validated",
+          "insulated"
         ],
-        "answer": 0,
-        "explanation": "eclipsed = outweighed / overshadowed (bị lấn át, vượt xa bởi khoản chi mở rộng đường).",
-        "passage": "<b>THE ARCHITECTURE OF URBAN SILENCE</b>\nIn contemporary urban planning, noise is still widely treated as an unavoidable byproduct of economic vitality rather than a pollutant in its own right. <u><b>Cities have expanded at breakneck speed over the past half-century, yet the acoustic environment in which millions of residents live has deteriorated to a point that alarms public-health researchers.</b></u> According to data compiled by the European Environment Agency, more than 110 million people across Europe are exposed to long-term traffic noise levels above 55 decibels, a threshold linked to sleep disruption, hypertension and measurable declines in children’s reading comprehension.\nThe persistence of urban din stems less from a lack of engineering solutions than from the way municipalities evaluate infrastructure projects. Acoustic impact assessments are routinely conducted at the tail end of planning, when road alignments and building materials have already been locked in. Compounding the problem, sound behaves in notoriously complex ways: it ricochets off glass facades, funnels through narrow street canyons and travels farther on cool nights, making simple decibel caps difficult to enforce. Municipal budgets further skew priorities, as transport departments are rewarded for moving vehicles quickly rather than quietly, while funds earmarked for low-noise porous asphalt or vegetated buffer zones are <u><b>eclipsed</b></u> by spending on road widening.\nThe repercussions reach far beyond human annoyance. Chronic anthropogenic noise scrambles the acoustic signals that urban wildlife rely upon to attract mates, defend territory and detect predators. Songbirds such as great tits have been forced to sing at higher frequencies to be heard above low-frequency traffic rumble, <u><b>an adaptation</b></u> that expends extra energy and reduces reproductive success. Once a city’s soundscape crosses a certain saturation point, retrofitting acoustic barriers onto existing ring roads is prohibitively expensive and visually intrusive. This explains why acoustic ecologists argue that quietness must be designed into neighbourhoods from the outset.\nA genuine shift, urban acousticians contend, requires treating silence as a shared civic amenity rather than a luxury commodity sold only in gated developments. Forward-thinking cities such as Zurich and Oslo have begun pairing congestion pricing with ‘quiet pavement’ mandates and interconnected tranquil courtyards that are <u><b>insulated</b></u> from arterial traffic. Reforming building codes to penalise reverberant glass-and-steel canyons, alongside mapping ‘calm zones’ with the same rigour applied to air-quality monitoring, would allow planners to judge urban growth by how restorative a city sounds, not merely by how fast it moves.\n<i>(Adapted from European Environment Agency, Environmental Noise in Europe, and The Guardian)</i>"
+        "answer": 1,
+        "explanation": "jeopardised = endangered / imperilled (bị đe dọa, lâm nguy).",
+        "passage": "<b>ALGORITHMIC MANAGEMENT AND THE GIG ECONOMY</b>\nAcross modern cities, millions of couriers, ride-hail drivers and warehouse pickers report to a boss that has no human face. <u><b>Smartphone platforms have created flexible earning opportunities for workers with low barriers to entry, yet algorithmic management has subjected gig labourers to a degree of real-time surveillance that Taylorist factory owners could only dream of.</b></u> Every braking manoeuvre, five-second pause between parcels and customer star rating is logged, scored and fed into automated dispatch software.\nThe opacity of algorithmic control stems from the way platform companies design their software to optimise speed while avoiding the legal obligations of traditional employers. Because workers are classified as independent contractors rather than staff, platforms rarely disclose the mathematical weights that determine who receives lucrative peak-hour orders. Compounding the pressure, dynamic piece-rate pay fluctuates unpredictably from hour to hour, forcing couriers to work longer shifts just to meet fixed rent and fuel bills. Occupational safety is routinely <u><b>jeopardised</b></u> by countdown timers that penalise late deliveries regardless of torrential rain or gridlocked traffic.\nThe human toll extends beyond physical exhaustion. Sociologists studying ride-hail and delivery workers describe ‘algorithmic anxiety’—the chronic stress of knowing that a sudden drop in one’s rating below an arbitrary threshold, such as 4.6 stars, can trigger instant, automated account deactivation without a human hearing. When a biased customer complaint or a GPS glitch wipes out a driver’s livelihood overnight, appealing against <u><b>the verdict</b></u> through a chatbot interface is notoriously frustrating. This explains why labour economists warn that unchecked digital Taylorism erodes workplace dignity and shifts all commercial risk onto the lowest-paid individuals.\nRebalancing the platform economy, legal scholars argue, does not require outlawing dispatch apps. In 2024, the European Union adopted the Platform Work Directive, which introduces a legal presumption of employment and grants workers the right to human review of any automated dismissal or disciplinary penalty. Requiring platforms to make their scoring formulas <u><b>auditable</b></u> by trade unions and labour inspectors—while factoring realistic weather and traffic margins into delivery timers—would allow cities to enjoy convenient logistics without sacrificing fair labour standards.\n<i>(Adapted from International Labour Organization, World Employment and Social Outlook, and Oxford Internet Institute Reports)</i>"
       },
       {
         "origNum": 54,
         "instruction": "Read the following passage and mark the letter A, B, C, D on your answer sheet to indicate the best answer to each of the following questions from 53 to 60.",
-        "text": "Which of the following reasons why urban noise is hard to control is NOT explicitly mentioned in the passage?",
+        "text": "Which of the following features of algorithmic platform work is NOT explicitly mentioned in paragraph 2?",
         "options": [
-          "Acoustic assessments are often carried out too late in the planning process.",
-          "Glass buildings reflect sound waves and amplify noise in narrow streets.",
-          "Automobile manufacturers lobby against stricter engine-noise regulations.",
-          "Transport authorities prioritise traffic speed over acoustic quality."
+          "Classifying platform workers as independent contractors rather than employees.",
+          "Keeping the mathematical formulas that allocate lucrative orders secret.",
+          "Requiring couriers to purchase company shares before joining the app.",
+          "Using countdown timers that pressure workers even during bad weather."
         ],
         "answer": 2,
-        "explanation": "Đoạn 2 nêu: đánh giá tiếng ồn làm quá muộn (A), âm thanh dội qua mặt kính/hẻm phố (B), ưu tiên tốc độ giao thông hơn sự yên tĩnh (D); KHÔNG đề cập việc các hãng xe vận động hành lang (C)."
+        "explanation": "Đoạn 2 nêu: phân loại người lao động là nhà thầu độc lập (A), giấu công thức phân bổ đơn hàng (B), bộ đếm ngược gây áp lực bất chấp mưa lớn/tắc đường (D); KHÔNG nói bắt tài xế mua cổ phần công ty → C."
       },
       {
         "origNum": 55,
         "instruction": "Read the following passage and mark the letter A, B, C, D on your answer sheet to indicate the best answer to each of the following questions from 53 to 60.",
-        "text": "The word <b><u>insulated</u></b> in paragraph 4 is OPPOSITE in meaning to __________.",
+        "text": "The word <b><u>auditable</u></b> in paragraph 4 is OPPOSITE in meaning to __________.",
         "options": [
-          "shielded",
-          "exposed",
-          "detached",
-          "cushioned"
+          "inspectable",
+          "accountable",
+          "verifiable",
+          "unexamined"
         ],
-        "answer": 1,
-        "explanation": "insulated (được cách ly, che chắn khỏi ồn) >< exposed (bị phơi bày, tiếp xúc trực tiếp)."
+        "answer": 3,
+        "explanation": "auditable (có thể kiểm toán, kiểm tra độc lập) >< unexamined / unverifiable (không thể kiểm tra/rà soát)."
       },
       {
         "origNum": 56,
         "instruction": "Read the following passage and mark the letter A, B, C, D on your answer sheet to indicate the best answer to each of the following questions from 53 to 60.",
-        "text": "The phrase “<b><u>an adaptation</u></b>” in paragraph 3 refers to urban songbirds’ practice of __________.",
+        "text": "The phrase “<b><u>the verdict</u></b>” in paragraph 3 refers to __________.",
         "options": [
-          "migrating away from ring roads during cool nights",
-          "singing at higher pitches to be heard above low-frequency traffic rumble",
-          "nesting inside reverberant glass-and-steel street canyons",
-          "mimicking the acoustic warnings of urban predators"
+          "an automated account deactivation triggered by a rating drop or glitch",
+          "the European Union’s 2024 Platform Work Directive",
+          "a trade union inspection of warehouse safety",
+          "a five-second pause between parcel deliveries"
         ],
-        "answer": 1,
-        "explanation": "Đoạn 3: “Songbirds such as great tits have been forced to sing at higher frequencies to be heard above low-frequency traffic rumble, an adaptation that expends extra energy...” → chỉ việc chim phải hót ở tần số cao hơn để át tiếng ồn giao thông → B."
+        "answer": 0,
+        "explanation": "Đoạn 3: “instant, automated account deactivation without a human hearing. When a biased customer complaint or a GPS glitch wipes out a driver’s livelihood overnight, appealing against the verdict through a chatbot interface...” → chỉ phán quyết khóa tài khoản tự động → A."
       },
       {
         "origNum": 57,
         "instruction": "Read the following passage and mark the letter A, B, C, D on your answer sheet to indicate the best answer to each of the following questions from 53 to 60.",
-        "text": "Which of the following best paraphrases the underlined sentence in paragraph 1?\n<i>“Cities have expanded at breakneck speed over the past half-century, yet the acoustic environment in which millions of residents live has deteriorated to a point that alarms public-health researchers.”</i>",
+        "text": "Which of the following best paraphrases the underlined sentence in paragraph 1?\n<i>“Smartphone platforms have created flexible earning opportunities for workers with low barriers to entry, yet algorithmic management has subjected gig labourers to a degree of real-time surveillance that Taylorist factory owners could only dream of.”</i>",
         "options": [
-          "Rapid urban growth over the last fifty years has been accompanied by a severe decline in soundscape quality that worries health experts.",
-          "Public-health researchers have slowed down urban expansion over the past fifty years in order to protect residents from rising noise.",
-          "Because cities have grown so rapidly in recent decades, millions of residents have become accustomed to living in noisy environments.",
-          "The acoustic environment of modern cities has improved considerably despite fifty years of rapid population growth."
+          "Taylorist factory owners invented smartphone platforms in order to give gig labourers flexible working hours.",
+          "Because gig workers enjoy flexible schedules, smartphone platforms no longer monitor their delivery speeds or customer ratings.",
+          "Although app-based platforms make it easy for people to find flexible work, their automated management systems monitor workers more intensely in real time than traditional factories ever could.",
+          "Smartphone platforms have raised barriers to entry so high that only former factory managers can find gig work."
         ],
-        "answer": 0,
-        "explanation": "Paraphrase chính xác: sự mở rộng đô thị chóng mặt trong nửa thế kỷ qua đi kèm với sự xuống cấp nghiêm trọng của môi trường âm thanh khiến các nhà nghiên cứu y tế công cộng lo ngại."
+        "answer": 2,
+        "explanation": "Paraphrase chính xác: Dù các nền tảng điện thoại thông minh tạo cơ hội thu nhập linh hoạt và dễ tiếp cận, quản lý bằng thuật toán lại đặt người lao động tự do dưới sự giám sát thời gian thực gắt gao hơn bất kỳ nhà máy kiểu Taylor nào trước đây."
       },
       {
         "origNum": 58,
         "instruction": "Read the following passage and mark the letter A, B, C, D on your answer sheet to indicate the best answer to each of the following questions from 53 to 60.",
-        "text": "What urban-planning measures have Zurich and Oslo implemented to improve their soundscapes?",
+        "text": "What right does the European Union’s 2024 Platform Work Directive guarantee to gig workers?",
         "options": [
-          "They have replaced all glass facades with tall roadside acoustic barriers.",
-          "They have paired congestion charges with low-noise road surfaces and sheltered courtyards.",
-          "They have restricted quiet courtyards exclusively to private gated developments.",
-          "They have abolished air-quality monitoring in order to fund decibel caps."
+          "The right to demand human review of automated dismissals or disciplinary penalties.",
+          "Complete exemption from traffic laws during peak delivery hours.",
+          "Guaranteed ownership of the software code used by ride-hail apps.",
+          "A ban on customers leaving star ratings after a ride or delivery."
         ],
-        "answer": 1,
-        "explanation": "Đoạn 4: “Zurich and Oslo have begun pairing congestion pricing with ‘quiet pavement’ mandates and interconnected tranquil courtyards that are insulated from arterial traffic.” → B."
+        "answer": 0,
+        "explanation": "Đoạn 4: “grants workers the right to human review of any automated dismissal or disciplinary penalty.” → A."
       },
       {
         "origNum": 59,
         "instruction": "Read the following passage and mark the letter A, B, C, D on your answer sheet to indicate the best answer to each of the following questions from 53 to 60.",
-        "text": "In which paragraph does the writer mention the biological impact of noise on animal communication?",
+        "text": "In which paragraph does the writer describe the psychological stress caused by fear of sudden account deactivation?",
         "options": [
-          "Paragraph 3",
           "Paragraph 1",
           "Paragraph 2",
-          "Paragraph 4"
+          "Paragraph 4",
+          "Paragraph 3"
         ],
-        "answer": 0,
-        "explanation": "Đoạn 3 đề cập tác động của tiếng ồn nhân sinh lên tín hiệu âm thanh của động vật hoang dã và chim sẻ ngô (great tits)."
+        "answer": 3,
+        "explanation": "Đoạn 3 đề cập khái niệm ‘algorithmic anxiety’ (lo âu thuật toán) trước nguy cơ bị khóa tài khoản tự động khi điểm đánh giá tụt dưới ngưỡng."
       },
       {
         "origNum": 60,
         "instruction": "Read the following passage and mark the letter A, B, C, D on your answer sheet to indicate the best answer to each of the following questions from 53 to 60.",
-        "text": "In which paragraph does the writer propose reforming building regulations to curb sound reflection?",
+        "text": "In which paragraph does the writer explain how unpredictable piece-rate pay affects working hours?",
         "options": [
           "Paragraph 2",
           "Paragraph 1",
           "Paragraph 3",
           "Paragraph 4"
         ],
-        "answer": 3,
-        "explanation": "Đoạn 4 đề cập: “Reforming building codes to penalise reverberant glass-and-steel canyons”."
+        "answer": 0,
+        "explanation": "Đoạn 2: “dynamic piece-rate pay fluctuates unpredictably from hour to hour, forcing couriers to work longer shifts just to meet fixed rent and fuel bills.”"
       },
       {
         "origNum": 61,
@@ -2886,107 +2886,107 @@ window.examDatabase['reading'] = {
       {
         "origNum": 53,
         "instruction": "Read the following passage and mark the letter A, B, C, D on your answer sheet to indicate the best answer to each of the following questions from 53 to 60.",
-        "text": "The word <b><u>outstripped</u></b> in paragraph 2 is CLOSEST in meaning to:",
+        "text": "The word <b><u>proliferated</u></b> in paragraph 2 is CLOSEST in meaning to:",
         "options": [
-          "curtailed",
-          "endorsed",
-          "exceeded",
-          "stabilised"
+          "shrunk",
+          "multiplied",
+          "stagnated",
+          "vanished"
         ],
-        "answer": 2,
-        "explanation": "outstripped = exceeded / overshadowed (bị vượt xa, lấn át bởi khoản chi chiếu sáng trang trí).",
-        "passage": "<b>THE ECOLOGY OF DARK SKIES</b>\nFor most of human history, the Milky Way arched clearly across the night sky above every village and town. <u><b>Artificial outdoor lighting has transformed nocturnal commerce and public safety over the past century, yet the resulting skyglow has disrupted biological rhythms across entire ecosystems.</b></u> According to the <i>World Atlas of Artificial Night Sky Brightness</i>, more than 80 percent of the world’s population—and 99 percent of Europeans and North Americans—now live under skies polluted by scattering artificial light.\nThe persistence of light pollution stems less from a need for security than from wasteful luminaire design and the rapid switch to blue-rich white light-emitting diodes (LEDs). Many street and car-park fixtures remain unshielded, casting a large share of <u><b>their</b></u> lumens horizontally into bedroom windows or straight upwards into clouds. Compounding the problem, blue-wavelength light scatters far more readily in the atmosphere than warm amber light and suppresses the hormone melatonin in vertebrates at very low intensities. Municipal lighting budgets rarely account for these biological externalities, while modest grants for dark-sky retrofits are <u><b>outstripped</b></u> by spending on decorative floodlighting for commercial landmarks.\nThe ecological consequences cascade through food webs. Nocturnal pollinators such as hawkmoths abandon brightly lit meadows, reducing seed set in night-blooming wildflowers even for daytime bees that visit the same plants. Migratory songbirds, which navigate by stellar cues, are drawn off course by illuminated skyscrapers and suffer millions of fatal window collisions each autumn. Once coastal dunes are bathed in beachfront hotel glare, newly hatched sea turtles become disoriented and crawl inland toward highways rather than toward the moonlit ocean. This explains why marine biologists argue that shielding coastal lights is just as vital as protecting nesting beaches from poachers.\nUnlike chemical pollutants that linger in soil or rivers for decades, light pollution vanishes the instant a switch is flipped. Dark-sky advocates contend that cities can slash skyglow without compromising pedestrian safety by adopting three simple rules: installing fully shielded downward-facing fixtures, capping colour temperatures below 2,700 Kelvin so fixtures emit warm amber light that is <u><b>benign</b></u> to nocturnal wildlife, and dimming streetlights with motion sensors after midnight. Treating darkness as a natural habitat worth conserving would allow modern cities to remain safe underfoot while restoring the stars overhead.\n<i>(Adapted from Falchi et al., Science Advances, and DarkSky International Reports)</i>"
+        "answer": 1,
+        "explanation": "proliferated = multiplied / expanded rapidly (sinh sôi, tăng vọt về số lượng).",
+        "passage": "<b>THE ORBITAL DEBRIS CRISIS</b>\nSixty-five years after Sputnik 1 beeped its way around the Earth, near-Earth space has evolved from a superpower frontier into critical everyday infrastructure. <u><b>Satellite constellations now underpin global aviation, precision agriculture and disaster forecasting, yet the uncoordinated rush to populate low-Earth orbit has turned our planetary neighbourhood into a high-velocity junkyard.</b></u> Space agencies currently track more than 35,000 defunct rocket stages, dead satellites and shrapnel fragments larger than a softball, alongside an estimated one hundred million paint flecks and metal bolts too small to radar-lock.\nThe accumulation of space junk stems from the physics of orbital velocity and the absence of binding international traffic rules. At altitudes between 400 and 1,200 kilometres, objects circle the Earth at roughly 28,000 kilometres per hour—ten times faster than a rifle bullet. At that speed, a collision with a five-millimetre aluminium nut packs the kinetic punch of a bowling ball hitting at motorway speed. Commercial mega-constellations have <u><b>proliferated</b></u> in recent years, launching thousands of communications satellites with minimal global coordination, while funding for active debris-removal technology lags far behind launch subsidies.\nThe nightmare scenario for astrophysicists is the ‘Kessler Syndrome’, a self-sustaining chain reaction first modelled by NASA scientist Donald Kessler in 1978. When two large satellites collide—as occurred in 2009 when an inactive Russian cosmos satellite struck an operational commercial Iridium craft—the impact shatters both vehicles into thousands of high-speed fragments. Each new fragment increases the probability of further collisions, potentially creating an impenetrable shrapnel shell that could render specific orbital altitudes unusable for generations. <u><b>Such a cascade</b></u> would blind weather-monitoring satellites and sever space-based telecommunications.\nPreventing an orbital tragedy of the commons, aerospace engineers argue, requires treating low-Earth orbit as a finite environmental resource. The European Space Agency and the Federal Communications Commission have recently shortened the ‘de-orbit’ rule from twenty-five years to five, compelling operators to reserve enough onboard fuel to steer retiring satellites down into the upper atmosphere to burn up harmlessly. Pairing strict ‘design-for-demise’ materials with robotic servicing tugs that grapple and de-orbit derelict rocket bodies—rather than leaving them <u><b>derelict</b></u> in crowded lanes—would keep the highway to space open for future generations.\n<i>(Adapted from European Space Agency Space Environment Report and Scientific American)</i>"
       },
       {
         "origNum": 54,
         "instruction": "Read the following passage and mark the letter A, B, C, D on your answer sheet to indicate the best answer to each of the following questions from 53 to 60.",
-        "text": "Which of the following reasons for worsening light pollution is NOT explicitly mentioned in the passage?",
+        "text": "Which of the following facts about orbital debris is NOT explicitly mentioned in paragraph 2?",
         "options": [
-          "Electricity companies offer discounted night-time tariffs to shopping centres.",
-          "Many outdoor lamps lack shields and project light upwards into the sky.",
-          "Blue-rich white LEDs scatter more easily in the atmosphere than amber lamps.",
-          "Municipal budgets spend heavily on decorative floodlighting for landmarks."
+          "Objects in low-Earth orbit travel at roughly 28,000 kilometres per hour.",
+          "A tiny five-millimetre metal nut can strike with the force of a fast-moving bowling ball.",
+          "Solar flares automatically vaporise all aluminium debris every eleven years.",
+          "Commercial mega-constellations have launched thousands of satellites with limited coordination."
         ],
-        "answer": 0,
-        "explanation": "Đoạn 2 nêu đèn không có chao chắn (B), đèn LED trắng-xanh tán xạ mạnh (C), ngân sách chi nhiều cho chiếu sáng trang trí (D); KHÔNG nói công ty điện lực giảm giá điện ban đêm cho trung tâm thương mại → A."
+        "answer": 2,
+        "explanation": "Đoạn 2 nêu: vận tốc quỹ đạo ~28.000 km/h (A), mảnh ốc nhôm 5mm va chạm mạnh như bóng bowling (B), các chòm vệ tinh thương mại phóng hàng ngàn vệ tinh thiếu phối hợp (D); KHÔNG nói bão mặt trời tự làm bốc hơi rác nhôm mỗi 11 năm → C."
       },
       {
         "origNum": 55,
         "instruction": "Read the following passage and mark the letter A, B, C, D on your answer sheet to indicate the best answer to each of the following questions from 53 to 60.",
-        "text": "The word <b><u>benign</u></b> in paragraph 4 is OPPOSITE in meaning to __________.",
+        "text": "The word <b><u>derelict</u></b> in paragraph 4 is OPPOSITE in meaning to __________.",
         "options": [
-          "harmless",
-          "gentle",
-          "compatible",
-          "detrimental"
+          "abandoned",
+          "maintained",
+          "forsaken",
+          "neglected"
         ],
-        "answer": 3,
-        "explanation": "benign (lành tính, vô hại đối với động vật ăn đêm) >< detrimental (có hại)."
+        "answer": 1,
+        "explanation": "derelict (bị bỏ hoang, vô chủ trôi nổi) >< maintained / operational (được duy trì, quản lý và vận hành)."
       },
       {
         "origNum": 56,
         "instruction": "Read the following passage and mark the letter A, B, C, D on your answer sheet to indicate the best answer to each of the following questions from 53 to 60.",
-        "text": "The word “<b><u>their</u></b>” in paragraph 2 refers to the light output of __________.",
+        "text": "The phrase “<b><u>Such a cascade</u></b>” in paragraph 3 refers to __________.",
         "options": [
-          "unshielded street and car-park fixtures",
-          "bedroom windows and clouds",
-          "commercial landmarks",
-          "motion sensors after midnight"
+          "a self-sustaining chain reaction of satellite collisions known as the Kessler Syndrome",
+          "the launch of Sputnik 1 sixty-five years ago",
+          "the burning up of retiring satellites in the upper atmosphere",
+          "precision agriculture and disaster forecasting on Earth"
         ],
         "answer": 0,
-        "explanation": "Đoạn 2: “Many street and car-park fixtures remain unshielded, casting a large share of their lumens horizontally...” → “their” quy chiếu cho “unshielded street and car-park fixtures” → A."
+        "explanation": "Đoạn 3 mô tả hội chứng Kessler (phản ứng dây chuyền khi các mảnh vỡ va chạm liên tiếp tạo lớp vỏ mảnh đạn không thể xuyên qua) → “Such a cascade” quy chiếu cho chuỗi va chạm dây chuyền đó → A."
       },
       {
         "origNum": 57,
         "instruction": "Read the following passage and mark the letter A, B, C, D on your answer sheet to indicate the best answer to each of the following questions from 53 to 60.",
-        "text": "Which of the following best paraphrases the underlined sentence in paragraph 1?\n<i>“Artificial outdoor lighting has transformed nocturnal commerce and public safety over the past century, yet the resulting skyglow has disrupted biological rhythms across entire ecosystems.”</i>",
+        "text": "Which of the following best paraphrases the underlined sentence in paragraph 1?\n<i>“Satellite constellations now underpin global aviation, precision agriculture and disaster forecasting, yet the uncoordinated rush to populate low-Earth orbit has turned our planetary neighbourhood into a high-velocity junkyard.”</i>",
         "options": [
-          "Over the past century, biological rhythms across ecosystems have adapted smoothly to the expansion of outdoor commercial lighting.",
-          "Because artificial lighting has disrupted ecosystems over the past century, cities have been forced to abandon night-time commerce and safety lighting.",
-          "While outdoor lighting over the last hundred years has benefited night-time business and safety, the glow it creates has thrown natural biological cycles out of balance.",
-          "Public safety and night-time commerce have declined in recent decades due to the spread of artificial skyglow."
+          "Because low-Earth orbit has become a high-velocity junkyard, satellites can no longer assist aviation or weather forecasting.",
+          "Global aviation and precision agriculture have deliberately filled low-Earth orbit with millions of paint flecks and metal bolts.",
+          "While modern society depends heavily on satellites for flight navigation, farming and weather warnings, the chaotic surge in satellite launches has cluttered near-Earth space with fast-moving debris.",
+          "Space agencies have halted all satellite launches for aviation and agriculture in order to clean up low-Earth orbit."
         ],
         "answer": 2,
-        "explanation": "Paraphrase chính xác: Dù chiếu sáng ngoài trời thế kỷ qua mang lại lợi ích cho thương mại ban đêm và an toàn công cộng, quầng sáng nhân tạo lại làm rối loạn nhịp sinh học tự nhiên."
+        "explanation": "Paraphrase chính xác: Dù các chòm vệ tinh hiện là nền tảng cho hàng không toàn cầu, nông nghiệp chính xác và dự báo thiên tai, cuộc chạy đua thiếu phối hợp lên quỹ đạo tầm thấp đã biến không gian quanh Trái Đất thành bãi rác tốc độ cao."
       },
       {
         "origNum": 58,
         "instruction": "Read the following passage and mark the letter A, B, C, D on your answer sheet to indicate the best answer to each of the following questions from 53 to 60.",
-        "text": "How does bright artificial lighting over meadows indirectly harm daytime bees?",
+        "text": "What does the new five-year ‘de-orbit’ rule require satellite operators to do?",
         "options": [
-          "It drives away nocturnal pollinators, reducing seed production in wildflowers that daytime bees also visit.",
-          "It suppresses melatonin in daytime bees and forces them to forage at midnight.",
-          "It draws daytime bees toward illuminated skyscrapers during autumn migration.",
-          "It raises meadow temperatures above 2,700 Kelvin and evaporates flower nectar."
+          "Keep enough fuel onboard to guide retiring satellites into the atmosphere to burn up within five years.",
+          "Replace all communications satellites with high-altitude weather balloons by 2030.",
+          "Leave dead satellites in orbit for at least twenty-five years before tracking them.",
+          "Pay a fine to Donald Kessler whenever a paint fleck strikes a solar panel."
         ],
         "answer": 0,
-        "explanation": "Đoạn 3: “Nocturnal pollinators such as hawkmoths abandon brightly lit meadows, reducing seed set in night-blooming wildflowers even for daytime bees that visit the same plants.” → A."
+        "explanation": "Đoạn 4: “shortened the ‘de-orbit’ rule from twenty-five years to five, compelling operators to reserve enough onboard fuel to steer retiring satellites down into the upper atmosphere to burn up harmlessly.” → A."
       },
       {
         "origNum": 59,
         "instruction": "Read the following passage and mark the letter A, B, C, D on your answer sheet to indicate the best answer to each of the following questions from 53 to 60.",
-        "text": "In which paragraph does the writer contrast the persistence of light pollution with that of chemical contamination?",
+        "text": "In which paragraph does the writer cite a real-world collision between two spacecraft?",
         "options": [
-          "Paragraph 2",
-          "Paragraph 4",
           "Paragraph 1",
-          "Paragraph 3"
+          "Paragraph 3",
+          "Paragraph 2",
+          "Paragraph 4"
         ],
         "answer": 1,
-        "explanation": "Đoạn 4 mở đầu: “Unlike chemical pollutants that linger in soil or rivers for decades, light pollution vanishes the instant a switch is flipped.”"
+        "explanation": "Đoạn 3 nêu vụ va chạm năm 2009 giữa vệ tinh Nga ngưng hoạt động và vệ tinh thương mại Iridium."
       },
       {
         "origNum": 60,
         "instruction": "Read the following passage and mark the letter A, B, C, D on your answer sheet to indicate the best answer to each of the following questions from 53 to 60.",
-        "text": "In which paragraph does the writer explain how wavelength affects hormone production in vertebrates?",
+        "text": "In which paragraph does the writer quantify the number of tracked debris objects larger than a softball?",
         "options": [
-          "Paragraph 3",
-          "Paragraph 1",
           "Paragraph 4",
-          "Paragraph 2"
+          "Paragraph 2",
+          "Paragraph 3",
+          "Paragraph 1"
         ],
         "answer": 3,
-        "explanation": "Đoạn 2: “blue-wavelength light scatters far more readily... and suppresses the hormone melatonin in vertebrates”."
+        "explanation": "Đoạn 1: “Space agencies currently track more than 35,000 defunct rocket stages, dead satellites and shrapnel fragments larger than a softball”."
       },
       {
         "origNum": 61,
@@ -3124,107 +3124,107 @@ window.examDatabase['reading'] = {
       {
         "origNum": 53,
         "instruction": "Read the following passage and mark the letter A, B, C, D on your answer sheet to indicate the best answer to each of the following questions from 53 to 60.",
-        "text": "The word <b><u>marginalised</u></b> in paragraph 2 is CLOSEST in meaning to:",
+        "text": "The word <b><u>dwindled</u></b> in paragraph 2 is CLOSEST in meaning to:",
         "options": [
-          "initiated",
-          "sidelined",
-          "bolstered",
-          "reconciled"
+          "shrunk",
+          "surged",
+          "stabilised",
+          "multiplied"
         ],
-        "answer": 1,
-        "explanation": "marginalised = sidelined (bị gạt ra bên lề, bị coi nhẹ so với các khoản trợ cấp phân bón hóa học).",
-        "passage": "<b>THE HIDDEN LIFE OF SOIL MICROBIOMES</b>\nBeneath every healthy pasture and forest floor lies an intricate subterranean metropolis. <u><b>Modern agronomy has multiplied grain harvests over the past seventy years, yet intensive tillage and synthetic fertilisers have quietly degraded the underground fungal networks that sustain soil fertility.</b></u> A single teaspoon of undisturbed grassland soil contains billions of bacteria and metres of microscopic mycorrhizal fungal threads that trade minerals for plant sugars.\nThe neglect of soil biology stems less from agricultural malice than from mid-twentieth-century models that treated earth as an inert physical sponge for holding chemical inputs. Deep mechanical ploughing slices through fungal hyphae, exposes stored organic carbon to oxygen, and accelerates erosion during heavy downpours. Compounding the difficulty, high doses of soluble nitrogen and phosphorus prompt crops to curtail <u><b>their</b></u> sugar payments to symbiotic fungi, starving the underground network. National farm subsidies reinforce this short-termism: public grants for regenerative cover-cropping remain modest and are <u><b>marginalised</b></u> by support linked to synthetic input volumes.\nThe consequences extend far beyond the farm gate. Stripped of the sticky glomalin proteins secreted by mycorrhizal fungi, ploughed soils lose their crumbly structure and compact into hardpans that shed rainwater rather than absorbing it, worsening downstream flash floods. Crops deprived of microbial partners also take up fewer trace micronutrients such as zinc and iron. Once a topsoil’s biological community has collapsed and its organic matter has oxidised into the air, rebuilding that living sponge takes decades of careful organic additions. This is why soil scientists warn that preventing microbial degradation is infinitely easier than reversing it.\nRestoring underground ecosystems, agro-ecologists argue, requires viewing soil as a living partnership rather than a lifeless substrate. Farmers adopting ‘no-till’ drilling, diverse winter cover crops and rotational grazing have shown that intact fungal networks can remain <u><b>robust</b></u> even during summer droughts, ferrying moisture from micropores that plant roots cannot reach alone. Rewarding land managers for measurable gains in soil organic carbon—alongside training agronomists in rhizosphere ecology—would align harvest security with planetary health.\n<i>(Adapted from FAO, State of Knowledge of Soil Biodiversity, and Nature Reviews)</i>"
+        "answer": 0,
+        "explanation": "dwindled = shrunk / diminished (sụt giảm, cạn dần).",
+        "passage": "<b>PHAGE THERAPY AND POST-ANTIBIOTIC MEDICINE</b>\nSince Alexander Fleming’s discovery of penicillin in 1928, chemical antibiotics have turned once-fatal bacterial infections into routine outpatient ailments. <u><b>Miracle drugs have added decades to human life expectancy, yet the overuse of broad-spectrum antibiotics in clinics and livestock feedlots has accelerated the evolution of multidrug-resistant ‘superbugs’.</b></u> The World Health Organization warns that antimicrobial resistance already claims over a million lives annually, prompting microbiologists to revisit a forgotten century-old weapon: bacteriophages.\nBacteriophages—or ‘phages’ for short—are naturally occurring viruses that infect and destroy specific bacteria without harming human cells. Discovered in 1917 by Félix d’Hérelle, phages were widely used in the 1920s and 1930s before cheap, shelf-stable penicillin eclipsed them in Western medicine. Meanwhile, pharmaceutical investment in new chemical antibiotics has <u><b>dwindled</b></u> because a novel antibiotic is held in reserve as a last resort and taken for only a week, offering poor commercial returns compared with lifelong cholesterol or blood-pressure pills.\nUnlike chemical antibiotics, which act like a carpet bomb that wipes out beneficial gut flora alongside pathogens, a phage functions like a guided missile. Each phage strain attaches only to a specific surface receptor on its target bacterium, injects its genetic material, and forces the host cell to manufacture dozens of new phages until the bacterium bursts open. Crucially, when bacteria mutate to shed that surface receptor in order to evade the phage, <u><b>they</b></u> often lose the very efflux pumps or capsule shields that made them resistant to conventional antibiotics in the first place. This evolutionary trade-off explains why combining phages with standard antibiotics can resensitise previously untreatable infections.\nTranslating compassionate-use triumphs into routine hospital care, clinical researchers note, requires overcoming regulatory hurdles built for static chemical molecules. Because phages are self-replicating biological entities that must be matched to a patient’s exact bacterial strain, fixed-dose drug approval rules proved <u><b>cumbersome</b></u>. Belgium has pioneered a pragmatic ‘magistral preparation’ framework that allows hospital pharmacists to formulate custom phage cocktails from pre-approved libraries within forty-eight hours, offering a blueprint for personalised infectious-disease medicine.\n<i>(Adapted from Nature Microbiology, The Phage Therapy Renaissance, and World Health Organization Reports)</i>"
       },
       {
         "origNum": 54,
         "instruction": "Read the following passage and mark the letter A, B, C, D on your answer sheet to indicate the best answer to each of the following questions from 53 to 60.",
-        "text": "Which of the following effects of intensive farming practices is NOT explicitly mentioned in paragraph 2?",
+        "text": "Which of the following reasons for the decline of phage use or antibiotic investment is NOT explicitly mentioned in paragraph 2?",
         "options": [
-          "Deep ploughing cuts through microscopic fungal threads.",
-          "Tillage exposes underground organic carbon to oxygen.",
-          "Excess chemical fertiliser causes plants to reduce sugar flow to fungi.",
-          "Heavy tractors compact subsoil layers three metres underground."
+          "The arrival of cheap, easy-to-store penicillin in Western medicine.",
+          "New antibiotics being kept in reserve and used for short courses, limiting drug-company profits.",
+          "Lifelong medications for chronic conditions being more lucrative for pharmaceutical firms.",
+          "A 1950 United Nations treaty banning the transport of live bacteriophages across borders."
         ],
         "answer": 3,
-        "explanation": "Đoạn 2 nêu: cày sâu cắt đứt sợi nấm (A), làm lộ carbon hữu cơ ra oxy (B), phân hóa học liều cao khiến cây giảm tiết đường cho nấm cộng sinh (C); KHÔNG nói máy kéo nặng nén chặt tầng đất sâu 3 mét → D."
+        "explanation": "Đoạn 2 nêu: penicillin rẻ và dễ bảo quản làm lu mờ phage ở phương Tây (A), kháng sinh mới bị giữ làm phương án cuối và chỉ uống ngắn ngày nên ít lợi nhuận (B), thuốc bệnh mãn tính dùng trọn đời sinh lời cao hơn (C); KHÔNG nói có hiệp ước LHQ năm 1950 cấm vận chuyển phage → D."
       },
       {
         "origNum": 55,
         "instruction": "Read the following passage and mark the letter A, B, C, D on your answer sheet to indicate the best answer to each of the following questions from 53 to 60.",
-        "text": "The word <b><u>robust</u></b> in paragraph 4 is OPPOSITE in meaning to __________.",
+        "text": "The word <b><u>cumbersome</u></b> in paragraph 4 is OPPOSITE in meaning to __________.",
         "options": [
-          "fragile",
-          "resilient",
-          "vigorous",
-          "intact"
+          "streamlined",
+          "unwieldy",
+          "awkward",
+          "burdensome"
         ],
         "answer": 0,
-        "explanation": "robust (khỏe mạnh, vững vàng) >< fragile (mong manh, yếu ớt)."
+        "explanation": "cumbersome (cồng kềnh, rườm rà khó áp dụng) >< streamlined (tinh gọn, linh hoạt)."
       },
       {
         "origNum": 56,
         "instruction": "Read the following passage and mark the letter A, B, C, D on your answer sheet to indicate the best answer to each of the following questions from 53 to 60.",
-        "text": "In paragraph 2, the possessive adjective “<b><u>their</u></b>” in the phrase “curtail their sugar payments” refers to __________.",
+        "text": "In paragraph 3, the pronoun “<b><u>they</u></b>” in “they often lose the very efflux pumps” refers to __________.",
         "options": [
-          "chemical inputs",
-          "symbiotic fungi",
-          "crops",
-          "heavy downpours"
+          "beneficial gut flora",
+          "chemical antibiotics",
+          "mutating bacteria",
+          "hospital pharmacists"
         ],
         "answer": 2,
-        "explanation": "Đoạn 2: “high doses of soluble nitrogen and phosphorus prompt crops to curtail their sugar payments to symbiotic fungi” → “their” quy chiếu cho “crops” (cây trồng) → C."
+        "explanation": "Đoạn 3: “when bacteria mutate to shed that surface receptor in order to evade the phage, they often lose the very efflux pumps...” → “they” quy chiếu cho “bacteria” (vi khuẩn đột biến) → C."
       },
       {
         "origNum": 57,
         "instruction": "Read the following passage and mark the letter A, B, C, D on your answer sheet to indicate the best answer to each of the following questions from 53 to 60.",
-        "text": "Which of the following best paraphrases the underlined sentence in paragraph 1?\n<i>“Modern agronomy has multiplied grain harvests over the past seventy years, yet intensive tillage and synthetic fertilisers have quietly degraded the underground fungal networks that sustain soil fertility.”</i>",
+        "text": "Which of the following best paraphrases the underlined sentence in paragraph 1?\n<i>“Miracle drugs have added decades to human life expectancy, yet the overuse of broad-spectrum antibiotics in clinics and livestock feedlots has accelerated the evolution of multidrug-resistant ‘superbugs’.”</i>",
         "options": [
-          "Intensive tillage and synthetic fertilisers have strengthened underground fungal networks while doubling grain harvests.",
-          "Underground fungal networks have multiplied grain harvests over the past seventy years by replacing mechanical tillage and synthetic fertilisers.",
-          "Because soil fertility has collapsed over the past seventy years, modern agronomy has been unable to increase global grain harvests.",
-          "Although modern farming methods have greatly increased crop yields since the mid-twentieth century, heavy ploughing and chemical inputs have harmed the subterranean fungi that keep soil fertile."
+          "Broad-spectrum antibiotics have eliminated superbugs in livestock feedlots and added decades to human life expectancy.",
+          "While antibiotics have dramatically lengthened human lifespans, their excessive use in human medicine and animal farming has sped up the emergence of drug-resistant bacteria.",
+          "Because multidrug-resistant superbugs evolved in 1928, miracle drugs have failed to increase human life expectancy.",
+          "Clinics and livestock feedlots have stopped using broad-spectrum antibiotics in order to shorten human life expectancy."
         ],
-        "answer": 3,
-        "explanation": "Paraphrase chuẩn xác: Dù nông học hiện đại giúp tăng mạnh sản lượng ngũ cốc trong 70 năm qua, việc cày xới mạnh và phân bón tổng hợp đã âm thầm làm suy thoái mạng lưới nấm ngầm duy trì độ phì nhiêu."
+        "answer": 1,
+        "explanation": "Paraphrase chính xác: Dù các loại thuốc kỳ diệu đã kéo dài tuổi thọ con người thêm hàng thập kỷ, việc lạm dụng kháng sinh phổ rộng tại phòng khám và trại chăn nuôi đã đẩy nhanh sự tiến hóa của ‘siêu vi khuẩn’ đa kháng thuốc."
       },
       {
         "origNum": 58,
         "instruction": "Read the following passage and mark the letter A, B, C, D on your answer sheet to indicate the best answer to each of the following questions from 53 to 60.",
-        "text": "Why does heavily ploughed soil lacking mycorrhizal fungi worsen downstream flash floods?",
+        "text": "How does a bacteriophage’s mode of action differ from that of a broad-spectrum chemical antibiotic?",
         "options": [
-          "Fungal hyphae pump underground water to the surface during heavy downpours.",
-          "Without sticky glomalin proteins from fungi, the soil compacts into hardpans that shed rainwater instead of absorbing it.",
-          "Plants exchange atmospheric carbon for rainwater stored inside fungal threads.",
-          "Synthetic nitrogen fertilisers dissolve clay particles and block river channels."
+          "It targets only bacteria with a specific surface receptor, sparing beneficial gut microbes.",
+          "It wipes out all bacteria in the digestive tract indiscriminately.",
+          "It mutates human cells so that bacteria cannot enter the bloodstream.",
+          "It must be taken daily for decades like cholesterol medication."
         ],
-        "answer": 1,
-        "explanation": "Đoạn 3: Khi mất protein glomalin kết dính do nấm tiết ra, đất cày xới mất cấu trúc tơi xốp và nén chặt thành tầng cứng (hardpans) làm nước mưa chảy tràn thay vì thấm xuống đất → B."
+        "answer": 0,
+        "explanation": "Đoạn 3: Khác với kháng sinh hóa học diệt cả lợi khuẩn đường ruột, mỗi chủng phage chỉ bám vào một thụ thể bề mặt đặc hiệu trên vi khuẩn mục tiêu → A."
       },
       {
         "origNum": 59,
         "instruction": "Read the following passage and mark the letter A, B, C, D on your answer sheet to indicate the best answer to each of the following questions from 53 to 60.",
-        "text": "In which paragraph does the writer explain how soil fungi help crops survive dry weather?",
+        "text": "In which paragraph does the writer explain how bacterial resistance to phages can restore sensitivity to conventional antibiotics?",
         "options": [
-          "Paragraph 3",
           "Paragraph 1",
-          "Paragraph 4",
-          "Paragraph 2"
+          "Paragraph 2",
+          "Paragraph 3",
+          "Paragraph 4"
         ],
         "answer": 2,
-        "explanation": "Đoạn 4: “ferrying moisture from micropores that plant roots cannot reach alone” trong đợt hạn mùa hè."
+        "explanation": "Đoạn 3 giải thích sự đánh đổi tiến hóa (evolutionary trade-off): khi vi khuẩn đột biến bỏ thụ thể để trốn phage, chúng mất luôn bơm đẩy thuốc/lớp vỏ kháng kháng sinh."
       },
       {
         "origNum": 60,
         "instruction": "Read the following passage and mark the letter A, B, C, D on your answer sheet to indicate the best answer to each of the following questions from 53 to 60.",
-        "text": "In which paragraph does the writer mention the nutritional link between soil microbes and trace minerals in food?",
+        "text": "In which paragraph does the writer mention a national regulatory model that lets pharmacists prepare tailored phage treatments?",
         "options": [
-          "Paragraph 3",
+          "Paragraph 2",
           "Paragraph 4",
           "Paragraph 1",
-          "Paragraph 2"
+          "Paragraph 3"
         ],
-        "answer": 0,
-        "explanation": "Đoạn 3: “Crops deprived of microbial partners also take up fewer trace micronutrients such as zinc and iron.”"
+        "answer": 1,
+        "explanation": "Đoạn 4 đề cập khung pháp lý ‘magistral preparation’ của Bỉ cho phép dược sĩ bệnh viện pha chế cocktail phage cá nhân hóa trong 48 giờ."
       },
       {
         "origNum": 61,
@@ -3362,107 +3362,107 @@ window.examDatabase['reading'] = {
       {
         "origNum": 53,
         "instruction": "Read the following passage and mark the letter A, B, C, D on your answer sheet to indicate the best answer to each of the following questions from 53 to 60.",
-        "text": "The word <b><u>swamped</u></b> in paragraph 2 is CLOSEST in meaning to:",
+        "text": "The word <b><u>skewed</u></b> in paragraph 2 is CLOSEST in meaning to:",
         "options": [
-          "overwhelmed",
-          "endorsed",
-          "replenished",
-          "triggered"
+          "balanced",
+          "distorted",
+          "validated",
+          "fortified"
         ],
-        "answer": 0,
-        "explanation": "swamped = overwhelmed / dwarfed (bị lấn át, áp đảo bởi khoản đầu tư cho chương trình tiếng Anh/ngôn ngữ đa số).",
-        "passage": "<b>THE CRISIS OF ENDANGERED LANGUAGES</b>\nHumanity’s intellectual heritage is encoded not only in monuments and manuscripts, but in the grammar and vocabulary of some 7,000 spoken and signed languages. <u><b>Globalisation and digital connectivity have made cross-border communication effortless in recent decades, yet they have simultaneously accelerated the extinction of minority tongues at an unprecedented pace.</b></u> Linguists estimate that roughly 40 percent of the world’s languages are now endangered, with one falling silent on average every fortnight.\nThe erosion of linguistic diversity rarely results from speakers freely choosing to forget their heritage. Historically, boarding-school policies and administrative rules penalised minority children for speaking their mother tongue in class, associating ancestral speech with social stigma. Compounding the pressure, global streaming platforms, employment markets and smartphone interfaces overwhelmingly favour a handful of dominant national and international languages. Public funding for documenting oral traditions and training bilingual teachers remains paltry and is <u><b>swamped</b></u> by investment in English-medium and majority-language curricula.\nWhen an unwritten language dies, far more than a list of words is lost. Indigenous languages often contain centuries of fine-grained ecological knowledge—such as the medicinal properties of desert succulents, the spawning calendars of reef fish, or subtle distinctions between twenty types of sea ice—that have no exact equivalents in European tongues. Unique grammatical structures also reveal the full range of how the human brain can organise time, space and causality. Once the last fluent elders pass away without audio-visual documentation or child speakers, reconstructing a living prosody and idiom from fragmentary word-lists is virtually impossible. This explains why field linguists race to record conversational speech while native speakers are still active.\nRevitalisation, sociolinguists emphasise, cannot succeed through dictionary archiving alone; a language survives only when <u><b>it</b></u> is transmitted naturally between generations at home. From Māori ‘language-nest’ preschools in New Zealand to Welsh-medium immersion schools and indigenous-language podcast networks, communities are proving that decline is not <u><b>inevitable</b></u>. Pairing community-led immersion nurseries with voice-recognition tools trained on minority speech would ensure that the digital century amplifies human diversity rather than flattening it.\n<i>(Adapted from UNESCO Atlas of the World’s Languages in Danger and National Geographic)</i>"
+        "answer": 1,
+        "explanation": "skewed = distorted / biased (bị làm lệch lạc, méo mó về ưu tiên đầu tư).",
+        "passage": "<b>PASSIVE COOLING AND VERNACULAR ARCHITECTURE</b>\nFrom Phoenix to New Delhi, extreme summer heatwaves are turning glass-and-concrete apartment blocks into thermal ovens. <u><b>Mechanical air conditioning has made scorching climates habitable for hundreds of millions of urbanites, yet its voracious electricity demand and waste heat are locked in a self-reinforcing loop with urban warming.</b></u> The International Energy Agency projects that the global stock of room air conditioners will triple by 2050, requiring new power-generation capacity equivalent to the combined electrical grids of the United States, the European Union and Japan.\nThe addiction to mechanical cooling stems less from meteorological necessity than from twentieth-century architectural standardisation. Identical curtain-wall office towers clad in floor-to-ceiling glass are erected from Stockholm to Singapore, trapping solar radiation like greenhouses while sealing windows shut. Compounding the problem, air-conditioning units pump indoor heat directly into narrow streets, raising night-time ambient temperatures in dense districts by up to two degrees Celsius. Municipal building codes have long been <u><b>skewed</b></u> toward short-term construction speed, overlooking centuries of climate-adapted vernacular design.\nLong before electric compressors existed, desert and tropical civilisations engineered sophisticated passive cooling using only geometry, thermal mass and airflow. In central Iran, traditional <i>badgir</i> windcatchers—tall masonry towers topped with directional vents—scoop cool breezes high above street dust and channel them over underground water canals to chill indoor courtyards by ten degrees. Across North Africa and Andalusia, thick lime-washed adobe walls absorb daytime heat slowly and radiate <u><b>it</b></u> back to the night sky, while carved wooden <i>mashrabiya</i> lattice screens filter harsh sunlight without blocking cross-ventilation. This explains why bioclimatic architects view historic medinas as living laboratories of zero-carbon thermal comfort.\nReviving passive cooling in twenty-first-century megacities does not mean abandoning modern engineering. Contemporary projects in Masdar City, Singapore and Seville are combining windcatcher physics and deep shading overhangs with ultra-white ‘radiative-cooling’ roof coatings that reflect 98 percent of sunlight and emit infrared heat directly through the atmosphere into outer space. Making passive solar orientation and external shading <u><b>mandatory</b></u> in urban zoning laws would slash peak electricity loads by half before a single air conditioner is switched on.\n<i>(Adapted from International Energy Agency, The Future of Cooling, and Architectural Review)</i>"
       },
       {
         "origNum": 54,
         "instruction": "Read the following passage and mark the letter A, B, C, D on your answer sheet to indicate the best answer to each of the following questions from 53 to 60.",
-        "text": "Which of the following factors contributing to language loss is NOT explicitly mentioned in paragraph 2?",
+        "text": "Which of the following drawbacks of modern glass towers and air conditioning is NOT explicitly mentioned in paragraph 2?",
         "options": [
-          "The dominance of major languages on smartphone interfaces and streaming media.",
-          "Past school policies that punished children for speaking minority languages.",
-          "Genetic differences that make bilingualism difficult for young children.",
-          "Job markets that reward fluency in national or global languages."
+          "Floor-to-ceiling glass facades trapping solar heat like a greenhouse.",
+          "Sealed windows preventing natural cross-ventilation.",
+          "Air conditioners exhausting waste heat into streets and raising night-time temperatures.",
+          "Copper refrigerant pipes corroding underground water mains."
         ],
-        "answer": 2,
-        "explanation": "Đoạn 2 nêu: sự thống trị của các ngôn ngữ lớn trên điện thoại/trực tuyến (A), chính sách trường học trước đây phạt trẻ nói tiếng mẹ đẻ (B), thị trường việc làm (D); KHÔNG nói khác biệt di truyền làm trẻ khó học song ngữ → C."
+        "answer": 3,
+        "explanation": "Đoạn 2 nêu: mặt dựng kính giữ nhiệt như nhà kính (A), cửa sổ đóng kín (B), cục nóng điều hòa phả nhiệt ra đường làm tăng nhiệt độ ban đêm tới 2°C (C); KHÔNG nói ống đồng làm ăn mòn đường ống nước ngầm → D."
       },
       {
         "origNum": 55,
         "instruction": "Read the following passage and mark the letter A, B, C, D on your answer sheet to indicate the best answer to each of the following questions from 53 to 60.",
-        "text": "The word <b><u>inevitable</u></b> in paragraph 4 is OPPOSITE in meaning to __________.",
+        "text": "The word <b><u>mandatory</u></b> in paragraph 4 is OPPOSITE in meaning to __________.",
         "options": [
-          "certain",
-          "avoidable",
-          "imminent",
-          "inexorable"
+          "compulsory",
+          "optional",
+          "binding",
+          "obligatory"
         ],
         "answer": 1,
-        "explanation": "inevitable (không thể tránh khỏi, tất yếu) >< avoidable (có thể tránh/đảo ngược được)."
+        "explanation": "mandatory (bắt buộc) >< optional (tùy chọn, không bắt buộc)."
       },
       {
         "origNum": 56,
         "instruction": "Read the following passage and mark the letter A, B, C, D on your answer sheet to indicate the best answer to each of the following questions from 53 to 60.",
-        "text": "What does the pronoun “<b><u>it</u></b>” in the first sentence of paragraph 4 refer to?",
+        "text": "In paragraph 3, what does the pronoun “<b><u>it</u></b>” in “radiate it back to the night sky” refer to?",
         "options": [
-          "dictionary archiving",
-          "an indigenous podcast network",
-          "social stigma",
-          "a language"
+          "daytime heat absorbed by thick adobe walls",
+          "an underground water canal in Iran",
+          "street dust in historic medinas",
+          "a carved wooden lattice screen"
         ],
-        "answer": 3,
-        "explanation": "Đoạn 4: “a language survives only when it is transmitted naturally between generations at home” → “it” quy chiếu cho “a language” → D."
+        "answer": 0,
+        "explanation": "Đoạn 3: “thick lime-washed adobe walls absorb daytime heat slowly and radiate it back to the night sky” → “it” quy chiếu cho “daytime heat” (nhiệt lượng ban ngày được tường hấp thụ) → A."
       },
       {
         "origNum": 57,
         "instruction": "Read the following passage and mark the letter A, B, C, D on your answer sheet to indicate the best answer to each of the following questions from 53 to 60.",
-        "text": "Which of the following best paraphrases the underlined sentence in paragraph 1?\n<i>“Globalisation and digital connectivity have made cross-border communication effortless in recent decades, yet they have simultaneously accelerated the extinction of minority tongues at an unprecedented pace.”</i>",
+        "text": "Which of the following best paraphrases the underlined sentence in paragraph 1?\n<i>“Mechanical air conditioning has made scorching climates habitable for hundreds of millions of urbanites, yet its voracious electricity demand and waste heat are locked in a self-reinforcing loop with urban warming.”</i>",
         "options": [
-          "Although global integration and digital networks have simplified international communication lately, they have also hastened the disappearance of smaller languages faster than ever before.",
-          "Digital connectivity has slowed down the extinction of minority languages by making cross-border communication effortless.",
-          "Because minority languages are disappearing so rapidly, globalisation and digital communication have become much harder in recent decades.",
-          "Over the past few decades, international communication has relied entirely on endangered minority languages."
+          "Because mechanical air conditioning consumes very little electricity, it has cooled down urban streets across Phoenix and New Delhi.",
+          "Although air conditioners allow hundreds of millions of city dwellers to live comfortably in hot regions, their huge power consumption and heat exhaust actually worsen city heat in a vicious cycle.",
+          "Hundreds of millions of urban residents have abandoned air conditioning because it fails to cool glass-and-concrete apartment blocks.",
+          "The International Energy Agency has banned mechanical air conditioning in hot climates by 2050."
         ],
-        "answer": 0,
-        "explanation": "Paraphrase chuẩn xác: Dù toàn cầu hóa và kết nối số giúp giao tiếp xuyên biên giới dễ dàng hơn, chúng đồng thời đẩy nhanh sự tuyệt chủng của các ngôn ngữ thiểu số với tốc độ chưa từng có."
+        "answer": 1,
+        "explanation": "Paraphrase chính xác: Dù điều hòa cơ học giúp hàng trăm triệu cư dân đô thị sống được ở vùng khí hậu nắng nóng, nhu cầu điện khổng lồ và nhiệt thải của nó lại tạo thành vòng xoáy tự củng cố làm đô thị càng nóng thêm."
       },
       {
         "origNum": 58,
         "instruction": "Read the following passage and mark the letter A, B, C, D on your answer sheet to indicate the best answer to each of the following questions from 53 to 60.",
-        "text": "Why do field linguists race to make audio-visual recordings while fluent elders are still active?",
+        "text": "How do traditional Iranian badgir windcatchers cool indoor spaces without electricity?",
         "options": [
-          "Elderly speakers are prohibited from teaching their mother tongue inside immersion nurseries.",
-          "Voice-recognition software cannot process languages that have written dictionaries.",
-          "Living prosody and natural idioms cannot be reconstructed solely from fragmentary word-lists once speakers pass away.",
-          "European languages lack any grammatical structures for expressing time and space."
+          "They burn desert shrubs to power mechanical ceiling fans.",
+          "They coat glass windows with liquid nitrogen during heatwaves.",
+          "They capture breezes above street level and direct them over underground water channels into courtyards.",
+          "They seal all building openings so no outdoor air can enter."
         ],
         "answer": 2,
-        "explanation": "Đoạn 3: “Once the last fluent elders pass away without audio-visual documentation or child speakers, reconstructing a living prosody and idiom from fragmentary word-lists is virtually impossible.” → C."
+        "explanation": "Đoạn 3: “scoop cool breezes high above street dust and channel them over underground water canals to chill indoor courtyards by ten degrees.” → C."
       },
       {
         "origNum": 59,
         "instruction": "Read the following passage and mark the letter A, B, C, D on your answer sheet to indicate the best answer to each of the following questions from 53 to 60.",
-        "text": "In which paragraph does the writer illustrate how unwritten languages preserve scientific knowledge about the natural world?",
+        "text": "In which paragraph does the writer quantify the projected global growth of air-conditioning units by mid-century?",
         "options": [
           "Paragraph 1",
-          "Paragraph 3",
           "Paragraph 2",
+          "Paragraph 3",
           "Paragraph 4"
         ],
-        "answer": 1,
-        "explanation": "Đoạn 3 nêu ví dụ về dược tính cây mọng nước sa mạc, lịch sinh sản cá rạn san hô và 20 loại băng biển."
+        "answer": 0,
+        "explanation": "Đoạn 1: “projects that the global stock of room air conditioners will triple by 2050”."
       },
       {
         "origNum": 60,
         "instruction": "Read the following passage and mark the letter A, B, C, D on your answer sheet to indicate the best answer to each of the following questions from 53 to 60.",
-        "text": "In which paragraph does the writer mention early-childhood immersion programmes that have helped revive threatened tongues?",
+        "text": "In which paragraph does the writer describe modern roof materials that send heat directly into space?",
         "options": [
-          "Paragraph 1",
           "Paragraph 2",
+          "Paragraph 3",
           "Paragraph 4",
-          "Paragraph 3"
+          "Paragraph 1"
         ],
         "answer": 2,
-        "explanation": "Đoạn 4 đề cập trường mầm non ‘language-nest’ của người Māori ở New Zealand và trường hòa nhập tiếng Wales."
+        "explanation": "Đoạn 4: “ultra-white ‘radiative-cooling’ roof coatings that reflect 98 percent of sunlight and emit infrared heat directly through the atmosphere into outer space.”"
       },
       {
         "origNum": 61,
@@ -3600,107 +3600,107 @@ window.examDatabase['reading'] = {
       {
         "origNum": 53,
         "instruction": "Read the following passage and mark the letter A, B, C, D on your answer sheet to indicate the best answer to each of the following questions from 53 to 60.",
-        "text": "The word <b><u>undermined</u></b> in paragraph 2 is CLOSEST in meaning to:",
+        "text": "The word <b><u>compounded</u></b> in paragraph 2 is CLOSEST in meaning to:",
         "options": [
-          "accelerated",
-          "endorsed",
-          "weakened",
-          "simplified"
+          "alleviated",
+          "resolved",
+          "intensified",
+          "offset"
         ],
         "answer": 2,
-        "explanation": "undermined = weakened / subverted (bị làm suy yếu, vô hiệu hóa bởi các chương trình tín dụng bán lẻ khuyến khích mua máy mới).",
-        "passage": "<b>THE ECONOMICS OF RIGHT TO REPAIR</b>\nWalk into any municipal recycling depot and you will find skips piled high with washing machines, laptops and cordless vacuums that failed because of a single fifty-pence capacitor or a worn-out battery. <u><b>Modern manufacturing has delivered sleeker and more powerful household appliances than ever before, yet proprietary screws, glued enclosures and software locks have made independent repair almost impossible.</b></u> Consumer groups estimate that the average lifespan of a European washing machine has fallen by nearly three years over the past two decades.\nThe decline of repairability stems less from physics than from business models that profit from rapid replacement. Manufacturers routinely withhold circuit diagrams from independent workshops, price official spare parts at levels approaching the cost of a brand-new unit, or use ‘parts-pairing’ software that disables a replacement screen unless <u><b>it</b></u> is authorised by the factory’s server. Compounding the problem, labour taxes on repair technicians remain high, while modest municipal vouchers for appliance repair are <u><b>undermined</b></u> by aggressive retail credit schemes that encourage shoppers to buy new models on monthly instalments.\nThe fallout is both financial and environmental. Households spend hundreds of pounds extra each year replacing premature failures, while mining and smelting the metals for a new smartphone or laptop generates up to 80 percent of the device’s lifetime carbon emissions before it is even switched on. Once a glued-together tablet is crushed in a mechanical shredder, recovering its trace cobalt, indium and neodymium in pure form is metallurgically complex and energy-intensive. This is why circular-economy researchers insist that extending product lifespans is far greener than relying on end-of-pipe recycling.\nReversing the throwaway tide, policy analysts argue, requires rewriting product-design rules from the factory floor upwards. France has pioneered a mandatory ‘repairability index’ displayed on price tags from one to ten, while recent European Union directives compel makers of appliances and smartphones to supply spare parts for up to ten years and abandon <u><b>obstructive</b></u> software locks. Combining transparent durability scores with tax breaks for neighbourhood repair workshops would turn longevity into a competitive selling point once again.\n<i>(Adapted from European Environment Bureau and Ellen MacArthur Foundation Reports)</i>"
+        "explanation": "compounded = intensified / worsened (làm trầm trọng thêm).",
+        "passage": "<b>THE GLOBAL SAND CRISIS</b>\nAfter fresh water, sand and gravel are the most extracted natural resources on Earth by volume, amounting to some fifty billion tonnes a year. <u><b>Concrete skylines, asphalt highways and reclaimed islands have powered rapid urbanisation across Asia and Africa, yet the unregulated extraction of river and coastal sand is triggering an overlooked ecological crisis.</b></u> A 2022 United Nations Environment Programme report warns that humanity is dredging aggregate far faster than geological weathering can replenish it.\nThe roots of the sand shortage lie in a widely misunderstood physical fact: desert sand is useless for construction. Wind-blown Sahara or Arabian sand grains are polished round and smooth by constant friction, so they slip past one another and cannot bind into load-bearing structural concrete. Builders instead require angular, rough-edged quartz grains forged by moving water in riverbeds, floodplains and coastal beaches. The pressure on freshwater waterways is <u><b>compounded</b></u> by weak governance: in many rapidly growing deltas, unlicensed suction barges operate after dark, while sand-mining royalties remain negligible.\nThe environmental and human consequences along major rivers such as the Mekong, the Yangtze and the Ganges are severe. Relentless riverbed dredging lowers the channel floor by several metres, causing riverbanks to cave in and swallow riverside villages and orchards. As the riverbed drops, the surrounding water table sinks with it, leaving shallow village wells dry during the dry season and allowing salty ocean water to push dozens of kilometres farther inland across fertile rice deltas. Once a delta’s natural sediment budget is starved by upstream dams and downstream sand mining, <u><b>its</b></u> protective mangrove coastline erodes rapidly into the sea.\nAverting a global aggregate crunch, materials scientists argue, requires rethinking both how we build and what we crush. Engineers in Europe and Japan are increasingly substituting recycled demolition concrete, quarry dust and industrial steel slag for virgin river sand, while timber-frame ‘mass timber’ buildings reduce concrete demand by up to 60 percent. Establishing international satellite monitoring of river dredging and treating sand as a strategic mineral rather than an <u><b>inexhaustible</b></u> free commodity would protect the world’s river deltas before their foundations are washed away.\n<i>(Adapted from UNEP, Sand and Sustainability: 10 Strategic Recommendations, and Nature Sustainability)</i>"
       },
       {
         "origNum": 54,
         "instruction": "Read the following passage and mark the letter A, B, C, D on your answer sheet to indicate the best answer to each of the following questions from 53 to 60.",
-        "text": "Which of the following obstacles to independent repair is NOT explicitly mentioned in paragraph 2?",
+        "text": "Which of the following statements about construction sand is NOT explicitly mentioned in paragraph 2?",
         "options": [
-          "Manufacturers refusing to share circuit diagrams with independent technicians.",
-          "A shortage of vocational colleges teaching basic soldering skills.",
-          "Spare parts being priced almost as high as a complete new appliance.",
-          "Software locks that reject replacement parts not verified by factory servers."
+          "Desert sand grains are too rounded and smooth to bind properly in structural concrete.",
+          "Builders need angular quartz sand shaped by water in rivers and beaches.",
+          "Unlicensed dredging barges frequently extract river sand at night.",
+          "Desert sand contains high levels of volcanic sulphur that dissolves steel beams."
         ],
-        "answer": 1,
-        "explanation": "Đoạn 2 nêu: giấu sơ đồ mạch điện (A), định giá linh kiện đắt gần bằng máy mới (C), phần mềm khóa linh kiện thay thế (D); KHÔNG nói thiếu trường dạy nghề hàn mạch → B."
+        "answer": 3,
+        "explanation": "Đoạn 2 nêu: hạt cát sa mạc tròn nhẵn không kết dính bê tông chịu lực được (A), xây dựng cần cát góc cạnh từ sông/bờ biển (B), xà lan hút cát lậu hoạt động ban đêm (C); KHÔNG nói cát sa mạc chứa lưu huỳnh núi lửa làm tan dầm thép → D."
       },
       {
         "origNum": 55,
         "instruction": "Read the following passage and mark the letter A, B, C, D on your answer sheet to indicate the best answer to each of the following questions from 53 to 60.",
-        "text": "The word <b><u>obstructive</u></b> in paragraph 4 is OPPOSITE in meaning to __________.",
+        "text": "The word <b><u>inexhaustible</u></b> in paragraph 4 is OPPOSITE in meaning to __________.",
         "options": [
-          "restrictive",
-          "hindering",
-          "proprietary",
-          "facilitative"
+          "finite",
+          "boundless",
+          "limitless",
+          "unending"
         ],
-        "answer": 3,
-        "explanation": "obstructive (gây cản trở) >< facilitative (tạo điều kiện thuận lợi, hỗ trợ)."
+        "answer": 0,
+        "explanation": "inexhaustible (vô tận, không bao giờ cạn) >< finite (hữu hạn, có giới hạn)."
       },
       {
         "origNum": 56,
         "instruction": "Read the following passage and mark the letter A, B, C, D on your answer sheet to indicate the best answer to each of the following questions from 53 to 60.",
-        "text": "In paragraph 2, what does the pronoun “<b><u>it</u></b>” in the clause “unless it is authorised by the factory’s server” refer to?",
+        "text": "In paragraph 3, the possessive adjective “<b><u>its</u></b>” in “its protective mangrove coastline” refers to __________.",
         "options": [
-          "a replacement screen",
-          "an independent workshop",
-          "a municipal repair voucher",
-          "a circuit diagram"
+          "an unlicensed suction barge",
+          "a delta’s",
+          "a shallow village well",
+          "an upstream dam"
         ],
-        "answer": 0,
-        "explanation": "Đoạn 2: “‘parts-pairing’ software that disables a replacement screen unless it is authorised by the factory’s server” → “it” quy chiếu cho “a replacement screen” → A."
+        "answer": 1,
+        "explanation": "Đoạn 3: “Once a delta’s natural sediment budget is starved by upstream dams and downstream sand mining, its protective mangrove coastline erodes rapidly into the sea.” → “its” quy chiếu cho “a delta’s” (của vùng châu thổ) → B."
       },
       {
         "origNum": 57,
         "instruction": "Read the following passage and mark the letter A, B, C, D on your answer sheet to indicate the best answer to each of the following questions from 53 to 60.",
-        "text": "Which of the following best paraphrases the underlined sentence in paragraph 1?\n<i>“Modern manufacturing has delivered sleeker and more powerful household appliances than ever before, yet proprietary screws, glued enclosures and software locks have made independent repair almost impossible.”</i>",
+        "text": "Which of the following best paraphrases the underlined sentence in paragraph 1?\n<i>“Concrete skylines, asphalt highways and reclaimed islands have powered rapid urbanisation across Asia and Africa, yet the unregulated extraction of river and coastal sand is triggering an overlooked ecological crisis.”</i>",
         "options": [
-          "Because modern appliances use glued enclosures and software locks, they are much less powerful than machines built twenty years ago.",
-          "While today’s home appliances are more streamlined and capable than past models, design barriers such as special screws, glue and software restrictions prevent independent fixes.",
-          "Independent repair shops have invented proprietary screws and software locks to make household appliances sleeker and more powerful.",
-          "Homeowners prefer glued enclosures and software locks because they extend the lifespan of washing machines by three years."
+          "Because Asia and Africa have banned river sand mining, urbanisation and highway construction have come to a halt.",
+          "While massive construction of buildings, roads and artificial land has driven urban growth in Asia and Africa, uncontrolled sand mining from rivers and coasts is causing severe environmental damage that receives too little attention.",
+          "Reclaimed islands and asphalt highways in Asia and Africa are built entirely from wind-blown Sahara desert sand.",
+          "The United Nations Environment Programme has encouraged unregulated river dredging to speed up urbanisation."
         ],
         "answer": 1,
-        "explanation": "Paraphrase chính xác: Dù thiết bị gia dụng hiện đại gọn đẹp và mạnh mẽ hơn bao giờ hết, ốc vít độc quyền, vỏ dán keo và khóa phần mềm đã khiến việc sửa chữa độc lập gần như bất khả thi."
+        "explanation": "Paraphrase chính xác: Dù các tòa nhà bê tông, đường cao tốc và đảo nhân tạo đã thúc đẩy đô thị hóa nhanh ở Á – Phi, việc khai thác cát sông và ven biển thiếu kiểm soát đang gây ra khủng hoảng sinh thái ít được chú ý."
       },
       {
         "origNum": 58,
         "instruction": "Read the following passage and mark the letter A, B, C, D on your answer sheet to indicate the best answer to each of the following questions from 53 to 60.",
-        "text": "Why do circular-economy researchers consider extending product lifespans far greener than mechanical recycling?",
+        "text": "How does deep riverbed sand dredging affect agriculture in coastal rice deltas?",
         "options": [
-          "Mechanical shredders generate 80 percent of a laptop’s lifetime carbon emissions.",
-          "European Union directives have prohibited the recovery of cobalt and neodymium from tablets.",
-          "Up to 80 percent of a device’s carbon emissions occur before first use, and extracting pure trace metals from shredded devices is energy-intensive.",
-          "Independent repair workshops use zero electricity when replacing capacitors and batteries."
+          "It lowers the riverbed and water table, allowing salty seawater to intrude farther inland.",
+          "It deposits excessive nutrient-rich silt onto riverside orchards every winter.",
+          "It turns angular river quartz into round desert sand within a few months.",
+          "It increases freshwater pressure in shallow village wells during the dry season."
         ],
-        "answer": 2,
-        "explanation": "Đoạn 3: Khai mỏ và luyện kim để sản xuất thiết bị mới đã tạo ra tới 80% lượng khí thải carbon cả vòng đời, đồng thời việc thu hồi kim loại hiếm tinh khiết từ thiết bị nghiền nát rất phức tạp và tốn năng lượng → C."
+        "answer": 0,
+        "explanation": "Đoạn 3: “As the riverbed drops, the surrounding water table sinks with it, leaving shallow village wells dry during the dry season and allowing salty ocean water to push kilometres farther inland across fertile rice deltas.” → A."
       },
       {
         "origNum": 59,
         "instruction": "Read the following passage and mark the letter A, B, C, D on your answer sheet to indicate the best answer to each of the following questions from 53 to 60.",
-        "text": "In which paragraph does the writer mention a national labelling scheme that informs shoppers how easy a product is to fix?",
+        "text": "In which paragraph does the writer explain why Sahara sand cannot be used for load-bearing buildings?",
         "options": [
           "Paragraph 1",
-          "Paragraph 2",
           "Paragraph 3",
+          "Paragraph 2",
           "Paragraph 4"
         ],
-        "answer": 3,
-        "explanation": "Đoạn 4 đề cập chỉ số khả năng sửa chữa bắt buộc từ 1 đến 10 trên nhãn giá của Pháp (“France has pioneered a mandatory ‘repairability index’”)."
+        "answer": 2,
+        "explanation": "Đoạn 2 giải thích hạt cát sa mạc bị gió mài tròn và nhẵn nên trượt lên nhau, không kết dính thành bê tông chịu lực được."
       },
       {
         "origNum": 60,
         "instruction": "Read the following passage and mark the letter A, B, C, D on your answer sheet to indicate the best answer to each of the following questions from 53 to 60.",
-        "text": "In which paragraph does the writer explain how manufacturers use digital verification to block third-party spare parts?",
+        "text": "In which paragraph does the writer mention industrial and recycled substitutes for natural river aggregate?",
         "options": [
-          "Paragraph 2",
+          "Paragraph 4",
           "Paragraph 1",
-          "Paragraph 3",
-          "Paragraph 4"
+          "Paragraph 2",
+          "Paragraph 3"
         ],
         "answer": 0,
-        "explanation": "Đoạn 2: “‘parts-pairing’ software that disables a replacement screen unless it is authorised by the factory’s server”."
+        "explanation": "Đoạn 4 nêu việc thay thế cát sông tự nhiên bằng bê tông phá dỡ tái chế, bụi đá mỏ và xỉ thép công nghiệp."
       },
       {
         "origNum": 61,
@@ -3838,107 +3838,107 @@ window.examDatabase['reading'] = {
       {
         "origNum": 53,
         "instruction": "Read the following passage and mark the letter A, B, C, D on your answer sheet to indicate the best answer to each of the following questions from 53 to 60.",
-        "text": "The word <b><u>paltry</u></b> in paragraph 2 is CLOSEST in meaning to:",
+        "text": "The word <b><u>curtailed</u></b> in paragraph 2 is CLOSEST in meaning to:",
         "options": [
-          "substantial",
-          "generous",
-          "mandatory",
-          "meagre"
+          "prolonged",
+          "reduced",
+          "celebrated",
+          "mandated"
         ],
-        "answer": 3,
-        "explanation": "paltry = meagre / negligible (ít ỏi, nhỏ bé không đáng kể so với trợ cấp mở rộng cảng).",
-        "passage": "<b>THE ECOLOGICAL TOLL OF OCEAN NOISE</b>\nFor millions of years, the underwater world was governed by acoustic cues. Light penetrates barely two hundred metres beneath the waves, whereas sound travels four times faster in water than in air and crosses entire ocean basins. <u><b>Global maritime trade and offshore energy exploration have connected continents at remarkably low cost, yet they have filled the seas with a relentless low-frequency din that blinds marine life acoustically.</b></u> Hydrophone arrays indicate that ambient noise in busy shipping lanes has doubled every decade since the 1950s.\nThe ubiquity of underwater noise stems less from deliberate harm than from the physics of propeller cavitation and seismic surveying. As conventional ship propellers spin rapidly, they create millions of tiny low-pressure vapour bubbles that collapse with a continuous roar in the exact frequency band—10 to 300 hertz—used by baleen whales to communicate. Compounding the disturbance, seismic airgun arrays towed behind oil-and-gas survey vessels fire intense pulses of compressed air every ten seconds for weeks on end. International maritime treaties strictly regulate oil spills and ballast water, yet acoustic emissions remain largely unpriced, and research grants for quiet-propeller retrofits remain <u><b>paltry</b></u> compared with subsidies for port expansion.\nThe biological consequences reach from giant cetaceans to microscopic larvae. Right whales and humpbacks suffer a ninety-percent shrinkage in their ‘communication space’, struggling to locate mates or warn calves of approaching hulls. Deep-diving beaked whales exposed to mid-frequency sonar or airguns can panic and surface too rapidly, suffering decompression sickness and mass strandings. Even free-swimming coral and reef-fish larvae rely on the crackling sound of snapping shrimp to locate healthy reefs on which to settle; when shipping noise masks <u><b>that natural beacon</b></u>, damaged reefs fail to recruit new life. This explains why marine acousticians view noise abatement as a prerequisite for coral-reef recovery.\nEncouragingly, ocean noise is a pollutant with an immediate off-switch. Reducing a cargo vessel’s speed by just ten percent cuts its acoustic output by nearly half while burning less fuel, and new skewed propeller blades suppress cavitation bubbles before they form. Port authorities in Vancouver have already introduced discounted harbour dues for ships certified as acoustically <u><b>unobtrusive</b></u>, while offshore wind developers are surrounding pile-driving rigs with ‘bubble curtains’ that absorb ninety percent of impact sound. Quieting the world’s fleets would allow marine ecosystems to hear themselves think once again.\n<i>(Adapted from Duarte et al., Science (2021), and International Maritime Organization Briefings)</i>"
+        "answer": 1,
+        "explanation": "curtailed = reduced / cut back (bị cắt giảm, thu hẹp).",
+        "passage": "<b>CHRONOBIOLOGY AND ADOLESCENT SLEEP</b>\nEvery weekday morning at six o’clock, millions of teenagers across the industrialised world are jolted awake by alarm clocks while their brains are still biologically steeped in night. <u><b>Public education systems often treat early-morning school bells as a character-building lesson in punctuality, yet chronobiologists have demonstrated that early start times force adolescents to learn in a state of chronic circadian jetlag.</b></u> Surveys by the American Academy of Pediatrics indicate that more than 70 percent of high-school students obtain fewer than the recommended eight to ten hours of sleep on school nights.\nThe root of the mismatch lies not in teenage laziness or smartphone distraction alone, but in a universal biological shift during puberty known as ‘sleep-phase delay’. Around age twelve, the brain’s master circadian pacemaker—the suprachiasmatic nucleus—delays the evening release of the sleep-promoting hormone melatonin by roughly two hours compared with childhood and adulthood. Even when smartphones are confiscated, a typical sixteen-year-old is biologically primed to fall asleep around eleven at night and wake around eight in the morning. When school buses arrive at seven, total sleep is <u><b>curtailed</b></u>, stripping teenagers of the late-morning rapid-eye-movement (REM) sleep cycles that consolidate memory and regulate emotion.\nThe consequences reverberate across classrooms, roads and clinics. Sleep-deprived adolescents exhibit impaired glucose metabolism, heightened amygdala reactivity and significantly higher rates of depressive symptoms and sports injuries. Because microsleeps behind the wheel are common at dawn, counties with 7:20 a.m. high-school bells record markedly higher teenage car-crash rates than neighbouring districts that start an hour later. Once a teenager accumulates a ten-hour weekly sleep debt, weekend ‘catch-up’ lie-ins cannot fully restore hippocampal learning capacity on Monday morning. <u><b>This</b></u> explains why medical associations classify early school bells as a modifiable public-health hazard.\nShifting the school day, education researchers acknowledge, requires untangling logistical knots around bus-fleet scheduling, after-school athletics and parents’ commuting hours. Yet natural experiments in Seattle, Minnesota and California—which became the first US state to mandate high-school start times no earlier than 8:30 a.m. in 2022—show that the transition is far from <u><b>unworkable</b></u>. By flipping elementary and high-school bus tiers so naturally early-rising younger children ride first, districts have boosted teenage attendance, graduation rates and median nightly sleep by thirty-four minutes without lengthening the school day.\n<i>(Adapted from American Academy of Pediatrics Policy Statement and Science Advances)</i>"
       },
       {
         "origNum": 54,
         "instruction": "Read the following passage and mark the letter A, B, C, D on your answer sheet to indicate the best answer to each of the following questions from 53 to 60.",
-        "text": "Which of the following sources or features of ocean noise is NOT explicitly mentioned in paragraph 2?",
+        "text": "Which of the following statements about adolescent sleep biology is NOT explicitly mentioned in paragraph 2?",
         "options": [
-          "Subsea mining bulldozers crushing rock on mid-ocean ridges.",
-          "Vapour bubbles collapsing on spinning ship propellers.",
-          "Seismic airguns firing compressed-air pulses during energy surveys.",
-          "Ship noise overlapping with the 10–300 hertz frequency band of baleen whales."
+          "Puberty triggers a biological ‘sleep-phase delay’ of roughly two hours.",
+          "The suprachiasmatic nucleus controls the evening release of melatonin.",
+          "Late-morning REM sleep cycles help consolidate memory and regulate emotion.",
+          "Teenagers require less total sleep than forty-year-old adults."
         ],
-        "answer": 0,
-        "explanation": "Đoạn 2 nêu: bong bóng xâm thực trên chân vịt tàu (B), súng hơi địa chấn khảo sát năng lượng (C), tiếng ồn tàu trùng dải tần 10–300 Hz của cá voi tấm sừng (D); KHÔNG đề cập máy ủi khai khoáng đáy biển → A."
+        "answer": 3,
+        "explanation": "Đoạn 2 nêu: tuổi dậy thì làm trễ pha ngủ khoảng 2 giờ (A), nhân trên giao thoa kiểm soát tiết melatonin buổi tối (B), giấc ngủ REM cuối buổi sáng giúp củng cố trí nhớ và điều hòa cảm xúc (C); KHÔNG nói thanh thiếu niên cần ngủ ít hơn người 40 tuổi → D."
       },
       {
         "origNum": 55,
         "instruction": "Read the following passage and mark the letter A, B, C, D on your answer sheet to indicate the best answer to each of the following questions from 53 to 60.",
-        "text": "The word <b><u>unobtrusive</u></b> in paragraph 4 is OPPOSITE in meaning to __________.",
+        "text": "The word <b><u>unworkable</u></b> in paragraph 4 is OPPOSITE in meaning to __________.",
         "options": [
-          "muted",
-          "restrained",
-          "disruptive",
-          "subtle"
+          "impractical",
+          "feasible",
+          "futile",
+          "impossible"
         ],
-        "answer": 2,
-        "explanation": "unobtrusive (êm ái, không gây phiền nhiễu) >< disruptive (gây rối loạn, ồn ào phá vỡ môi trường)."
+        "answer": 1,
+        "explanation": "unworkable (bất khả thi, không thực hiện được) >< feasible (khả thi, thực hiện được)."
       },
       {
         "origNum": 56,
         "instruction": "Read the following passage and mark the letter A, B, C, D on your answer sheet to indicate the best answer to each of the following questions from 53 to 60.",
-        "text": "The phrase “<b><u>that natural beacon</u></b>” in paragraph 3 refers to __________.",
+        "text": "The pronoun “<b><u>This</u></b>” in the final sentence of paragraph 3 refers to __________.",
         "options": [
-          "mid-frequency naval sonar",
-          "the crackling sound of snapping shrimp on healthy reefs",
-          "the low-frequency roar of ship propellers",
-          "an offshore wind pile-driving rig"
+          "the wide range of health, safety and cognitive harms caused by chronic teenage sleep loss",
+          "the confiscation of smartphones before bedtime",
+          "the scheduling of elementary-school buses in Seattle",
+          "the discovery of the suprachiasmatic nucleus"
         ],
-        "answer": 1,
-        "explanation": "“rely on the crackling sound of snapping shrimp to locate healthy reefs... when shipping noise masks that natural beacon” → chỉ âm thanh lách tách của tôm búng càng trên rạn san hô khỏe mạnh."
+        "answer": 0,
+        "explanation": "Đoạn 3 liệt kê hàng loạt hệ lụy về chuyển hóa, tâm lý, chấn thương, tai nạn giao thông và suy giảm khả năng học tập không thể bù đắp vào cuối tuần → “This” quy chiếu cho toàn bộ những tác hại nghiêm trọng đó → A."
       },
       {
         "origNum": 57,
         "instruction": "Read the following passage and mark the letter A, B, C, D on your answer sheet to indicate the best answer to each of the following questions from 53 to 60.",
-        "text": "Which of the following best paraphrases the underlined sentence in paragraph 1?\n<i>“Global maritime trade and offshore energy exploration have connected continents at remarkably low cost, yet they have filled the seas with a relentless low-frequency din that blinds marine life acoustically.”</i>",
+        "text": "Which of the following best paraphrases the underlined sentence in paragraph 1?\n<i>“Public education systems often treat early-morning school bells as a character-building lesson in punctuality, yet chronobiologists have demonstrated that early start times force adolescents to learn in a state of chronic circadian jetlag.”</i>",
         "options": [
-          "Low-frequency ocean noise has helped global shipping lines navigate between continents without using sonar.",
-          "Because marine animals are acoustically blind, global maritime trade and offshore energy exploration have become much cheaper.",
-          "Offshore energy exploration has eliminated the low-frequency noise created by commercial cargo ships.",
-          "Although shipping and offshore energy surveys have made global trade cheap, their constant low-frequency noise deprives sea creatures of the acoustic signals they depend on."
+          "Chronobiologists agree with school boards that waking up at six o’clock builds strong character and prevents circadian jetlag.",
+          "While schools frequently view early start times as good discipline for teaching punctuality, biological-clock research shows that early schedules leave teenagers chronically out of sync with their internal rhythms.",
+          "Because adolescents suffer from circadian jetlag, public schools have abolished punctuality rules and homework.",
+          "Early-morning school bells help more than 70 percent of high-school students sleep ten hours every night."
         ],
-        "answer": 3,
-        "explanation": "Paraphrase chính xác: Dù thương mại hàng hải và thăm dò năng lượng ngoài khơi kết nối các lục địa với chi phí thấp, chúng đã lấp đầy đại dương bằng tiếng ồn tần số thấp liên tục làm sinh vật biển ‘mù âm thanh’."
+        "answer": 1,
+        "explanation": "Paraphrase chính xác: Dù hệ thống giáo dục thường coi giờ vào học sáng sớm là bài học rèn tính đúng giờ, các nhà sinh học thời gian đã chứng minh giờ học sớm buộc thanh thiếu niên phải học tập trong trạng thái lệch nhịp sinh học mãn tính."
       },
       {
         "origNum": 58,
         "instruction": "Read the following passage and mark the letter A, B, C, D on your answer sheet to indicate the best answer to each of the following questions from 53 to 60.",
-        "text": "According to paragraph 4, what happens when a cargo vessel reduces its speed by ten percent?",
+        "text": "How have school districts resolved bus-scheduling conflicts when delaying high-school start times?",
         "options": [
-          "Its underwater acoustic output drops by nearly half while its fuel consumption also decreases.",
-          "Its propeller blades generate twice as many low-pressure cavitation bubbles.",
-          "It masks the crackling sound of snapping shrimp across coral reefs.",
-          "It becomes subject to higher harbour dues at the Port of Vancouver."
+          "They have swapped bus tiers so naturally early-waking elementary pupils ride the first bus run.",
+          "They have required all high-school students to drive their own cars at 7:20 a.m.",
+          "They have cancelled all after-school sports and shortened the academic year.",
+          "They have administered synthetic melatonin on morning school buses."
         ],
         "answer": 0,
-        "explanation": "Đoạn 4: “Reducing a cargo vessel’s speed by just ten percent cuts its acoustic output by nearly half while burning less fuel” → A."
+        "explanation": "Đoạn 4: “By flipping elementary and high-school bus tiers so naturally early-rising younger children ride first...” → A."
       },
       {
         "origNum": 59,
         "instruction": "Read the following passage and mark the letter A, B, C, D on your answer sheet to indicate the best answer to each of the following questions from 53 to 60.",
-        "text": "In which paragraph does the writer describe how intense sonar or airguns can cause whales to strand?",
+        "text": "In which paragraph does the writer link early school start times to teenage road-traffic accidents?",
         "options": [
-          "Paragraph 2",
           "Paragraph 1",
+          "Paragraph 2",
           "Paragraph 3",
           "Paragraph 4"
         ],
         "answer": 2,
-        "explanation": "Đoạn 3: “Deep-diving beaked whales exposed to mid-frequency sonar or airguns can panic and surface too rapidly, suffering decompression sickness and mass strandings.”"
+        "explanation": "Đoạn 3: “counties with 7:20 a.m. high-school bells record markedly higher teenage car-crash rates than neighbouring districts that start an hour later.”"
       },
       {
         "origNum": 60,
         "instruction": "Read the following passage and mark the letter A, B, C, D on your answer sheet to indicate the best answer to each of the following questions from 53 to 60.",
-        "text": "In which paragraph does the writer mention financial incentives offered by a port to quieter ships?",
+        "text": "In which paragraph does the writer mention the first US state to pass a law setting a minimum start time for high schools?",
         "options": [
-          "Paragraph 2",
           "Paragraph 4",
           "Paragraph 1",
+          "Paragraph 2",
           "Paragraph 3"
         ],
-        "answer": 1,
-        "explanation": "Đoạn 4 đề cập cảng Vancouver giảm phí cảng cho các tàu đạt chứng nhận êm ái về âm thanh."
+        "answer": 0,
+        "explanation": "Đoạn 4 đề cập California là bang đầu tiên của Mỹ luật hóa giờ vào học trung học không sớm hơn 8:30 sáng năm 2022."
       },
       {
         "origNum": 61,
@@ -4076,107 +4076,107 @@ window.examDatabase['reading'] = {
       {
         "origNum": 53,
         "instruction": "Read the following passage and mark the letter A, B, C, D on your answer sheet to indicate the best answer to each of the following questions from 53 to 60.",
-        "text": "The word <b><u>exacerbate</u></b> in paragraph 2 is CLOSEST in meaning to:",
+        "text": "The word <b><u>precarious</u></b> in paragraph 2 is CLOSEST in meaning to:",
         "options": [
-          "alleviate",
-          "aggravate",
-          "rectify",
-          "stabilise"
+          "guaranteed",
+          "insecure",
+          "abundant",
+          "effortless"
         ],
         "answer": 1,
-        "explanation": "exacerbate = aggravate / worsen (làm trầm trọng thêm xu hướng đọc lướt trên màn hình).",
-        "passage": "<b>THE ATTENTION ECONOMY AND DEEP READING</b>\nFor five centuries after Gutenberg’s printing press, linear literacy shaped habits of concentration. Readers followed complex arguments across dozens of pages without hyperlinks, pop-up notifications or algorithmic feeds competing for their gaze. <u><b>Smartphones and instant search engines have democratised access to human knowledge, yet the business model of the ‘attention economy’ has fragmented the sustained focus required for deep reading.</b></u> Cognitive scientists warn that habitual skimming and multitasking on screens are rewiring the neural circuitry we bring to printed books as well.\nThe erosion of deep reading stems less from screen glass itself than from software engineered to maximise ‘engagement’ through variable rewards. Infinite-scroll feeds, red notification badges and autoplay previews exploit the brain’s evolutionary orienting reflex, which evolved to scan the horizon for sudden movement. Compounding the distraction, digital texts encourage ‘F-pattern’ scanning—darting across headlines and bullet points to extract quick facts rather than following deductive chains of reasoning. Educational technology budgets frequently <u><b>exacerbate</b></u> the trend, as school grants for quiet library book collections lose out to spending on gamified tablet software.\nThe cognitive repercussions go well beyond slower study habits. Neuroscientist Maryanne Wolf has shown that ‘deep reading’—the slow, immersive processing of rich syntax and metaphor—activates brain regions responsible for perspective-taking, critical analysis and empathy. When readers habitually skim, they struggle to detect subtle irony, evaluate logical fallacies or sustain sympathy for unfamiliar characters. Once adolescents become conditioned to constant digital novelty, sitting with a dense forty-page essay triggers cognitive restlessness that researchers call ‘continuous partial attention’. This is why university lecturers across both humanities and sciences report that students find long-form monographs increasingly daunting.\nCultivating a ‘bi-literate’ brain, cognitive psychologists argue, does not mean banishing digital tools, <u><b>which</b></u> remain unmatched for rapid cross-referencing. Instead, it requires carving out sanctuaries of uninterrupted linear reading where notifications are silenced and comprehension can become <u><b>immersive</b></u> once more. Schools in Sweden and Norway have recently shifted early-grade literacy back to physical books while reserving screens for targeted research in upper years, proving that societies can harness digital speed without surrendering contemplative thought.\n<i>(Adapted from Maryanne Wolf, Reader, Come Home, and The Stavanger Declaration on the Future of Reading)</i>"
+        "explanation": "precarious = insecure / uncertain (bấp bênh, dễ đứt gãy).",
+        "passage": "<b>URBAN MINING AND CRITICAL MINERALS</b>\nTucked inside the desk drawers of European and North American homes sit an estimated 700 million hibernating mobile phones, tangled chargers and obsolete laptops. <u><b>The global transition to electric vehicles, wind turbines and grid batteries demands unprecedented quantities of lithium, cobalt, rare-earth magnets and copper, yet the richest and highest-grade ore body on the planet is currently sitting in our electronic-waste stream.</b></u> According to the United Nations Global E-waste Monitor, the world generated a record 62 million tonnes of discarded electronics in 2022, less than a quarter of which was formally collected and recycled.\nThe paradox of electronic waste is that a tonne of discarded smartphone circuit boards contains up to a hundred times more gold—and far higher concentrations of palladium, copper and neodymium—than a tonne of virgin rock blasted from an open-pit mine. Yet recovering these ‘urban minerals’ remains <u><b>precarious</b></u>. Modern gadgets pack sixty different elements from the periodic table into microscopic layers bonded with epoxy resins, flame retardants and lithium-ion cells that catch fire if punctured in conventional crushers. Compounding the market failure, virgin mining companies enjoy generous tax write-offs and rarely pay for tailings-dam pollution, making freshly dug metals artificially cheaper than secondary smelted ones.\nThe geopolitical and environmental stakes could hardly be higher. Opening a new terrestrial copper or rare-earth mine takes an average of sixteen years from discovery to first production, consumes vast volumes of fresh water in arid regions, and leaves behind millions of tonnes of acidic rock waste. Meanwhile, illegal e-waste shipments to informal scrapyards in West Africa and South Asia expose workers to toxic lead and dioxin fumes as cables are burned over open fires to recover copper wire. Once strategic rare earths such as dysprosium are lost in municipal landfill slag, <u><b>their</b></u> atomic dispersion makes future recovery impossible.\nTurning e-waste from a toxic liability into a domestic mineral reserve, industrial ecologists argue, requires redesigning both electronics and smelting chemistry. Hydrometallurgical plants in Belgium, Sweden and Japan now use benign organic acids and bio-leaching bacteria—rather than cyanide or open furnaces—to dissolve and separate pure gold, cobalt and rare earths from shredded circuit boards with 95 percent efficiency. Enforcing ‘extended producer responsibility’ deposit schemes and modular battery designs that are <u><b>amenable</b></u> to robotic disassembly would allow clean-energy economies to mine their own cities rather than scarring new landscapes.\n<i>(Adapted from UNITAR Global E-waste Monitor 2024 and Nature Reviews Materials)</i>"
       },
       {
         "origNum": 54,
         "instruction": "Read the following passage and mark the letter A, B, C, D on your answer sheet to indicate the best answer to each of the following questions from 53 to 60.",
-        "text": "Which of the following features of digital reading and software is NOT explicitly mentioned in paragraph 2?",
+        "text": "Which of the following obstacles to recycling electronics is NOT explicitly mentioned in paragraph 2?",
         "options": [
-          "Infinite-scroll feeds and autoplay previews that trigger the brain’s orienting reflex.",
-          "‘F-pattern’ scanning across headlines to grab quick facts.",
-          "Blue-light emissions from screens causing permanent retinal damage.",
-          "Gamified tablet apps receiving more school funding than quiet library book collections."
+          "Sixty different chemical elements being tightly bonded together in tiny layers.",
+          "Lithium-ion batteries catching fire when punctured in standard crushing machines.",
+          "A global shortage of gold and copper inside smartphone circuit boards.",
+          "Tax advantages and unpriced pollution making virgin mined metals artificially cheap."
         ],
         "answer": 2,
-        "explanation": "Đoạn 2 nêu: cuộn vô tận & tự động phát kích hoạt phản xạ định hướng (A), đọc lướt kiểu chữ F (B), ngân sách ưu tiên phần mềm máy tính bảng hơn sách thư viện (D); KHÔNG nói ánh sáng xanh gây tổn thương võng mạc vĩnh viễn (C)."
+        "explanation": "Đoạn 2 nêu: 60 nguyên tố gắn chặt bằng nhựa epoxy (A), pin lithium-ion dễ cháy khi bị đâm thủng (B), ưu đãi thuế cho khai mỏ truyền thống làm kim loại nguyên sinh rẻ giả tạo (D); đoạn 2 khẳng định bo mạch chứa hàm lượng vàng/đồng cao gấp hàng trăm lần quặng mỏ nên C hoàn toàn sai/không được nêu → C."
       },
       {
         "origNum": 55,
         "instruction": "Read the following passage and mark the letter A, B, C, D on your answer sheet to indicate the best answer to each of the following questions from 53 to 60.",
-        "text": "The word <b><u>immersive</u></b> in paragraph 4 is OPPOSITE in meaning to __________.",
+        "text": "The word <b><u>amenable</u></b> in paragraph 4 is OPPOSITE in meaning to __________.",
         "options": [
-          "superficial",
-          "thorough",
-          "absorbed",
-          "engaged"
+          "resistant",
+          "suited",
+          "adaptable",
+          "receptive"
         ],
         "answer": 0,
-        "explanation": "immersive (chìm đắm, sâu sắc) >< superficial (hời hợt, bề nổi)."
+        "explanation": "amenable (to something: dễ dàng đáp ứng, thuận lợi cho việc tháo rời bằng robot) >< resistant (chống lại, gây cản trở)."
       },
       {
         "origNum": 56,
         "instruction": "Read the following passage and mark the letter A, B, C, D on your answer sheet to indicate the best answer to each of the following questions from 53 to 60.",
-        "text": "The relative pronoun “<b><u>which</u></b>” in paragraph 4 refers to __________.",
+        "text": "In paragraph 3, the possessive adjective “<b><u>their</u></b>” in “their atomic dispersion” refers to __________.",
         "options": [
-          "physical books",
-          "sanctuaries of linear reading",
-          "cognitive psychologists",
-          "digital tools"
+          "informal scrapyards in West Africa",
+          "strategic rare earths such as dysprosium",
+          "terrestrial copper mines",
+          "acidic rock waste piles"
         ],
-        "answer": 3,
-        "explanation": "“banishing digital tools, which remain unmatched for rapid cross-referencing” → which quy chiếu cho 'digital tools'."
+        "answer": 1,
+        "explanation": "Đoạn 3: “Once strategic rare earths such as dysprosium are lost in municipal landfill slag, their atomic dispersion makes future recovery impossible.” → “their” quy chiếu cho “strategic rare earths such as dysprosium” → B."
       },
       {
         "origNum": 57,
         "instruction": "Read the following passage and mark the letter A, B, C, D on your answer sheet to indicate the best answer to each of the following questions from 53 to 60.",
-        "text": "Which of the following best paraphrases the underlined sentence in paragraph 1?\n<i>“Smartphones and instant search engines have democratised access to human knowledge, yet the business model of the ‘attention economy’ has fragmented the sustained focus required for deep reading.”</i>",
+        "text": "Which of the following best paraphrases the underlined sentence in paragraph 1?\n<i>“The global transition to electric vehicles, wind turbines and grid batteries demands unprecedented quantities of lithium, cobalt, rare-earth magnets and copper, yet the richest and highest-grade ore body on the planet is currently sitting in our electronic-waste stream.”</i>",
         "options": [
-          "Smartphones have eliminated the need for deep reading because search engines can summarise every printed book.",
-          "Because deep reading requires sustained focus, smartphones and search engines have restricted public access to human knowledge.",
-          "While mobile devices and search tools have made information widely accessible, attention-driven digital platforms have broken up the prolonged concentration needed to read deeply.",
-          "The attention economy has strengthened linear concentration by giving every smartphone user access to instant search engines."
+          "Electric vehicles and wind turbines cannot use recycled copper or cobalt from discarded electronics.",
+          "While shifting to clean energy requires vast amounts of critical metals, our discarded electronics actually contain the most concentrated supply of those minerals on Earth.",
+          "Because the world ran out of lithium and rare-earth magnets in 2022, clean-energy transitions have stopped.",
+          "Open-pit mines contain a hundred times more gold and cobalt per tonne than discarded mobile phones."
         ],
-        "answer": 2,
-        "explanation": "Paraphrase chính xác: Dù điện thoại thông minh và công cụ tìm kiếm giúp phổ cập tri thức nhân loại, mô hình kinh doanh ‘kinh tế chú ý’ đã làm phân mảnh sự tập trung bền bỉ cần cho việc đọc sâu."
+        "answer": 1,
+        "explanation": "Paraphrase chính xác: Dù quá trình chuyển dịch sang xe điện, điện gió và pin lưới điện đòi hỏi lượng kim loại критически lớn chưa từng có, nguồn quặng giàu và hàm lượng cao nhất hành tinh hiện lại nằm ngay trong dòng rác thải điện tử."
       },
       {
         "origNum": 58,
         "instruction": "Read the following passage and mark the letter A, B, C, D on your answer sheet to indicate the best answer to each of the following questions from 53 to 60.",
-        "text": "According to neuroscientist Maryanne Wolf, what cognitive processes are activated by slow, immersive deep reading?",
+        "text": "How do modern hydrometallurgical plants in Belgium, Sweden and Japan extract pure metals from shredded circuit boards?",
         "options": [
-          "The evolutionary orienting reflex that scans the horizon for sudden threats.",
-          "Brain regions linked to perspective-taking, critical analysis and empathy.",
-          "F-pattern visual scanning designed to extract rapid bullet-point facts.",
-          "Continuous partial attention triggered by variable digital rewards."
+          "They burn cables over open fires to melt away plastic insulation.",
+          "They use mild organic acids and bio-leaching bacteria to dissolve and separate metals with 95 percent efficiency.",
+          "They dump shredded circuit boards into terrestrial copper mines for sixteen years.",
+          "They use high-explosive crushers to puncture lithium-ion battery cells."
         ],
         "answer": 1,
-        "explanation": "Đoạn 3: “‘deep reading’—the slow, immersive processing of rich syntax and metaphor—activates brain regions responsible for perspective-taking, critical analysis and empathy.” → B."
+        "explanation": "Đoạn 4: “use benign organic acids and bio-leaching bacteria—rather than cyanide or open furnaces—to dissolve and separate pure gold, cobalt and rare earths from shredded circuit boards with 95 percent efficiency.” → B."
       },
       {
         "origNum": 59,
         "instruction": "Read the following passage and mark the letter A, B, C, D on your answer sheet to indicate the best answer to each of the following questions from 53 to 60.",
-        "text": "In which paragraph does the writer mention Nordic education reforms that re-emphasise printed books for young pupils?",
+        "text": "In which paragraph does the writer compare the concentration of precious metals in circuit boards with that of mined rock?",
         "options": [
-          "Paragraph 4",
-          "Paragraph 3",
+          "Paragraph 2",
           "Paragraph 1",
-          "Paragraph 2"
+          "Paragraph 3",
+          "Paragraph 4"
         ],
         "answer": 0,
-        "explanation": "Đoạn 4 đề cập các trường học ở Thụy Điển và Na Uy đưa sách giấy trở lại các lớp đầu cấp."
+        "explanation": "Đoạn 2: “a tonne of discarded smartphone circuit boards contains up to a hundred times more gold... than a tonne of virgin rock”."
       },
       {
         "origNum": 60,
         "instruction": "Read the following passage and mark the letter A, B, C, D on your answer sheet to indicate the best answer to each of the following questions from 53 to 60.",
-        "text": "In which paragraph does the writer explain how evolutionary survival instincts are exploited by app designers?",
+        "text": "In which paragraph does the writer mention the average lead time required to open a new conventional mine?",
         "options": [
-          "Paragraph 4",
           "Paragraph 1",
+          "Paragraph 2",
           "Paragraph 3",
-          "Paragraph 2"
+          "Paragraph 4"
         ],
-        "answer": 3,
-        "explanation": "Đoạn 2: “exploit the brain’s evolutionary orienting reflex, which evolved to scan the horizon for sudden movement”."
+        "answer": 2,
+        "explanation": "Đoạn 3: “Opening a new terrestrial copper or rare-earth mine takes an average of sixteen years from discovery to first production”."
       },
       {
         "origNum": 61,
@@ -4314,107 +4314,107 @@ window.examDatabase['reading'] = {
       {
         "origNum": 53,
         "instruction": "Read the following passage and mark the letter A, B, C, D on your answer sheet to indicate the best answer to each of the following questions from 53 to 60.",
-        "text": "The word <b><u>hampered</u></b> in paragraph 2 is CLOSEST in meaning to:",
+        "text": "The word <b><u>obliterated</u></b> in paragraph 2 is CLOSEST in meaning to:",
         "options": [
-          "impeded",
-          "facilitated",
-          "guaranteed",
-          "accelerated"
+          "preserved",
+          "destroyed",
+          "expanded",
+          "cultivated"
         ],
-        "answer": 0,
-        "explanation": "hampered = impeded / hindered (bị cản trở, kìm hãm).",
-        "passage": "<b>THE PROMISE AND PERIL OF GEOTHERMAL ENERGY</b>\nWhile wind and solar power fluctuate with passing clouds and calm nights, an immense thermal battery radiates steadily beneath our feet. <u><b>Decarbonising electrical grids requires reliable zero-carbon baseload power, yet the vast heat reservoir of the Earth’s crust remains the most underutilised renewable resource on the planet.</b></u> Today, geothermal plants supply less than one percent of global electricity, confined mostly to volcanic regions such as Iceland, Kenya and New Zealand where steam rises naturally near the surface.\nThe slow rollout of geothermal power stems less from a shortage of underground heat than from the high upfront risk of deep exploratory drilling. Outside volcanic fault lines, reaching rock hot enough to boil water—around 200 degrees Celsius—requires drilling three to six kilometres through abrasive crystalline granite. Compounding the financial hurdle, if an early exploratory well fails to intersect permeable fractures, tens of millions of dollars are sunk before a single kilowatt is generated. Government clean-energy auctions rarely insure against this geological risk, and the commercial rollout of deep geothermal has been <u><b>hampered</b></u> by lopsided subsidies that favour wind, solar and battery assembly.\nEngineering breakthroughs, however, are beginning to unlock non-volcanic basins—alongside new operational challenges. Borrowing directional-drilling and polycrystalline-diamond bits from the oil-and-gas sector, ‘Enhanced Geothermal Systems’ (EGS) pump cold water down one deep well, force it through hot rock fractures, and bring superheated steam up a second well. Yet injecting high-pressure fluid near dormant faults can trigger perceptible micro-earthquakes: in 2006 and 2017, geothermal projects in Basel, Switzerland, and Pohang, South Korea, had to be halted after induced tremors damaged local buildings. <u><b>Those seismic incidents</b></u> explain why seismologists insist on real-time ‘traffic-light’ pressure monitoring and closed-loop pipe designs.\nClosed-loop systems—which circulate fluid inside sealed underground U-tubes like a giant radiator without fracturing the surrounding rock—promise to make geothermal power geological-risk-free and <u><b>ubiquitous</b></u>. Converting retiring coal-fired power stations by hooking their existing steam turbines and grid transformers up to deep geothermal wells could preserve skilled utility jobs while supplying 24/7 clean heat and power for centuries.\n<i>(Adapted from International Energy Agency, The Future of Geothermal Energy, and Nature Energy)</i>"
+        "answer": 1,
+        "explanation": "obliterated = destroyed / wiped out (bị xóa sổ, tàn phá hoàn toàn).",
+        "passage": "<b>BLUE CARBON AND MANGROVE FORESTS</b>\nAlong tropical and subtropical coastlines from Indonesia to Brazil, tangled thickets of salt-tolerant trees straddle the boundary between land and sea. <u><b>Mangrove forests, tidal salt marshes and seagrass meadows occupy less than two percent of the world’s ocean surface, yet these ‘blue carbon’ ecosystems bury carbon up to ten times faster per hectare than terrestrial tropical rainforests.</b></u> For decades, however, coastal planners dismissed intertidal mudflats as mosquito-infested wastelands ripe for bulldozing.\nBetween 1980 and 2005, roughly a third of the world’s mangrove forests were <u><b>obliterated</b></u> to make way for export shrimp ponds, palm-oil plantations, tourist marinas and coastal highways. The climate cost of draining a mangrove swamp is doubly severe. Unlike inland forest soils, where fallen leaves decompose rapidly in oxygen-rich air and release their carbon back into the atmosphere, waterlogged mangrove mud is virtually devoid of oxygen. This anoxic environment slows microbial decay to a crawl, locking dead roots and organic peat underground for millennia. When excavators dredge a mangrove lagoon to build a shrimp farm, centuries of buried carbon oxidise and billow into the sky.\nThe loss of coastal forests also strips shorelines of a self-repairing storm shield. During cyclones and tsunami surges, the dense aerial prop roots of <i>Rhizophora</i> mangroves create hydrodynamic drag that can reduce incoming wave height by up to 66 percent across a five-hundred-metre belt. In the Philippines and Vietnam, economists have calculated that intact mangrove belts save hundreds of millions of dollars annually in avoided flood damage to coastal dykes and rice paddies. Equally vital, <u><b>those submerged root labyrinths</b></u> serve as predator-safe nurseries for juvenile groupers, snappers and prawns that sustain offshore artisanal fisheries.\nEarly attempts to replant mangroves after the 2004 Indian Ocean tsunami often failed because well-meaning agencies planted single-species rows of saplings on low-lying mudflats where inundation lasted too long for seedlings to breathe. Restoration ecologists now champion ‘ecological mangrove restoration’ (EMR), which focuses on breaching abandoned shrimp-pond dykes to restore natural tidal hydrology first. Once daily tidal flushing stays within a tolerable window, floating native propagules colonise the mud spontaneously, establishing biodiverse coastal forests that are far more <u><b>resilient</b></u> than monoculture plantations.\n<i>(Adapted from IUCN Blue Carbon Manual and Nature Geoscience)</i>"
       },
       {
         "origNum": 54,
         "instruction": "Read the following passage and mark the letter A, B, C, D on your answer sheet to indicate the best answer to each of the following questions from 53 to 60.",
-        "text": "Which of the following barriers to expanding geothermal energy is NOT explicitly mentioned in paragraph 2?",
+        "text": "Which of the following causes of mangrove destruction between 1980 and 2005 is NOT explicitly mentioned in paragraph 2?",
         "options": [
-          "The risk of losing tens of millions of dollars if an exploratory well hits dry, impermeable rock.",
-          "The need to drill several kilometres through hard granite outside volcanic zones.",
-          "Clean-energy auctions failing to insure developers against underground geological risk.",
-          "A global ban on using diamond-tipped drill bits outside the petroleum industry."
+          "Conversion into commercial shrimp aquaculture ponds.",
+          "Clearing land for palm-oil plantations.",
+          "Building tourist marinas and coastal roads.",
+          "Volcanic lava flows burying tropical estuaries."
         ],
         "answer": 3,
-        "explanation": "Đoạn 2 nêu: rủi ro mất hàng chục triệu USD nếu giếng khoan gặp đá không thấm (A), phải khoan sâu nhiều km qua đá granit cứng (B), đấu thầu năng lượng sạch không bảo hiểm rủi ro địa chất (C); KHÔNG nói có lệnh cấm mũi khoan kim cương → D."
+        "explanation": "Đoạn 2 nêu: đầm nuôi tôm xuất khẩu (A), đồn điền cọ dầu (B), bến du thuyền và đường cao tốc ven biển (C); KHÔNG nói dung nham núi lửa chôn vùi cửa sông → D."
       },
       {
         "origNum": 55,
         "instruction": "Read the following passage and mark the letter A, B, C, D on your answer sheet to indicate the best answer to each of the following questions from 53 to 60.",
-        "text": "The word <b><u>ubiquitous</u></b> in paragraph 4 is OPPOSITE in meaning to __________.",
+        "text": "The word <b><u>resilient</u></b> in paragraph 4 is OPPOSITE in meaning to __________.",
         "options": [
-          "widespread",
-          "pervasive",
-          "scarce",
-          "universal"
+          "vulnerable",
+          "hardy",
+          "durable",
+          "adaptable"
         ],
-        "answer": 2,
-        "explanation": "ubiquitous (phổ biến khắp mọi nơi) >< scarce (khan hiếm, hiếm hoi)."
+        "answer": 0,
+        "explanation": "resilient (kiên cường, có sức chống chịu cao) >< vulnerable (dễ tổn thương, yếu ớt)."
       },
       {
         "origNum": 56,
         "instruction": "Read the following passage and mark the letter A, B, C, D on your answer sheet to indicate the best answer to each of the following questions from 53 to 60.",
-        "text": "The phrase “<b><u>Those seismic incidents</u></b>” in the last sentence of paragraph 3 refers to __________.",
+        "text": "The phrase “<b><u>those submerged root labyrinths</u></b>” in paragraph 3 refers to __________.",
         "options": [
-          "the natural rise of volcanic steam near the surface in Iceland and Kenya",
-          "the halting of projects in Basel and Pohang after fluid injection triggered damaging tremors",
-          "the fluctuation of wind and solar power during calm, cloudy weather",
-          "the reuse of steam turbines at retiring coal-fired power stations"
+          "abandoned shrimp-pond dykes",
+          "offshore artisanal fishing boats",
+          "the dense underwater prop roots of mangrove trees",
+          "concrete coastal highways and marinas"
         ],
-        "answer": 1,
-        "explanation": "“Those seismic incidents” quy chiếu cho câu ngay trước: việc bơm chất lỏng áp suất cao gây rung chấn làm hư hại công trình ở Basel và Pohang khiến dự án phải dừng lại."
+        "answer": 2,
+        "explanation": "Đoạn 3: “the dense aerial prop roots of Rhizophora mangroves... Equally vital, those submerged root labyrinths serve as predator-safe nurseries...” → chỉ mê cung rễ chống ngập dưới nước của cây rừng ngập mặn → C."
       },
       {
         "origNum": 57,
         "instruction": "Read the following passage and mark the letter A, B, C, D on your answer sheet to indicate the best answer to each of the following questions from 53 to 60.",
-        "text": "Which of the following best paraphrases the underlined sentence in paragraph 1?\n<i>“Decarbonising electrical grids requires reliable zero-carbon baseload power, yet the vast heat reservoir of the Earth’s crust remains the most underutilised renewable resource on the planet.”</i>",
+        "text": "Which of the following best paraphrases the underlined sentence in paragraph 1?\n<i>“Mangrove forests, tidal salt marshes and seagrass meadows occupy less than two percent of the world’s ocean surface, yet these ‘blue carbon’ ecosystems bury carbon up to ten times faster per hectare than terrestrial tropical rainforests.”</i>",
         "options": [
-          "Although shifting to clean electricity demands steady, round-the-clock power, the enormous thermal energy stored beneath the Earth’s surface is still barely tapped.",
-          "Because the Earth’s crust contains very little heat outside volcanoes, geothermal energy cannot provide baseload power for decarbonised grids.",
-          "Geothermal energy has already become the world’s largest source of zero-carbon baseload electricity.",
-          "Wind and solar power have replaced the heat reservoir of the Earth’s crust as the most reliable source of underground energy."
+          "Although coastal vegetated habitats cover a tiny fraction of the ocean’s area, they sequester carbon per hectare up to ten times more rapidly than tropical rainforests on land.",
+          "Terrestrial tropical rainforests cover less than two percent of the Earth’s surface and store ten times more carbon than mangroves.",
+          "Because blue carbon ecosystems cover 98 percent of the ocean, they absorb less carbon per hectare than inland forests.",
+          "Seagrass meadows and salt marshes release ten times more carbon dioxide than tropical rainforests."
         ],
         "answer": 0,
-        "explanation": "Paraphrase chính xác: Dù việc khử carbon lưới điện đòi hỏi nguồn điện nền không phát thải ổn định, kho nhiệt khổng lồ trong lớp vỏ Trái Đất vẫn là nguồn năng lượng tái tạo ít được khai thác nhất."
+        "explanation": "Paraphrase chính xác: Dù rừng ngập mặn, đầm lầy muối và thảm cỏ biển chiếm chưa đầy 2% diện tích mặt biển thế giới, các hệ sinh thái ‘carbon xanh’ này chôn giữ carbon trên mỗi héc-ta nhanh gấp 10 lần rừng mưa nhiệt đới trên cạn."
       },
       {
         "origNum": 58,
         "instruction": "Read the following passage and mark the letter A, B, C, D on your answer sheet to indicate the best answer to each of the following questions from 53 to 60.",
-        "text": "How do closed-loop geothermal systems eliminate the seismic risks seen in Enhanced Geothermal Systems (EGS)?",
+        "text": "Why do waterlogged mangrove soils store organic carbon for thousands of years?",
         "options": [
-          "They operate exclusively inside shallow volcanic craters in Iceland and Kenya.",
-          "They inject high-pressure steam directly into dormant fault lines.",
-          "They circulate fluid inside sealed underground U-tubes without fracturing the surrounding rock.",
-          "They burn coal alongside geothermal steam to stabilise underground pressure."
+          "Shrimp farmers add synthetic preservatives to the mud every summer.",
+          "The lack of oxygen in waterlogged mud drastically slows down microbial decomposition of dead roots and peat.",
+          "Mangrove leaves are made of pure calcium carbonate that bacteria cannot digest.",
+          "High tsunami waves wash all fallen leaves out into the deep ocean trench."
         ],
-        "answer": 2,
-        "explanation": "Đoạn 4: “Closed-loop systems—which circulate fluid inside sealed underground U-tubes like a giant radiator without fracturing the surrounding rock—promise to make geothermal power geological-risk-free” → C."
+        "answer": 1,
+        "explanation": "Đoạn 2: “waterlogged mangrove mud is virtually devoid of oxygen. This anoxic environment slows microbial decay to a crawl, locking dead roots and organic peat underground for millennia.” → B."
       },
       {
         "origNum": 59,
         "instruction": "Read the following passage and mark the letter A, B, C, D on your answer sheet to indicate the best answer to each of the following questions from 53 to 60.",
-        "text": "In which paragraph does the writer explain how drilling technology from the oil sector has been adapted for clean energy?",
+        "text": "In which paragraph does the writer explain why many post-2004 mangrove tree-planting projects failed?",
         "options": [
           "Paragraph 1",
           "Paragraph 2",
           "Paragraph 4",
           "Paragraph 3"
         ],
-        "answer": 3,
-        "explanation": "Đoạn 3: “Borrowing directional-drilling and polycrystalline-diamond bits from the oil-and-gas sector...”."
+        "answer": 2,
+        "explanation": "Đoạn 4 giải thích các dự án trồng lại sau sóng thần 2004 thất bại vì trồng độc canh trên bãi bùn thấp bị ngập quá lâu khiến cây non không thở được."
       },
       {
         "origNum": 60,
         "instruction": "Read the following passage and mark the letter A, B, C, D on your answer sheet to indicate the best answer to each of the following questions from 53 to 60.",
-        "text": "In which paragraph does the writer suggest repurposing fossil-fuel power plant infrastructure for geothermal electricity?",
+        "text": "In which paragraph does the writer quantify the wave-height reduction provided by a 500-metre belt of mangroves?",
         "options": [
+          "Paragraph 3",
           "Paragraph 1",
-          "Paragraph 4",
           "Paragraph 2",
-          "Paragraph 3"
+          "Paragraph 4"
         ],
-        "answer": 1,
-        "explanation": "Đoạn 4: “Converting retiring coal-fired power stations by hooking their existing steam turbines and grid transformers up to deep geothermal wells...”."
+        "answer": 0,
+        "explanation": "Đoạn 3: “reduce incoming wave height by up to 66 percent across a five-hundred-metre belt.”"
       },
       {
         "origNum": 61,
@@ -4552,107 +4552,107 @@ window.examDatabase['reading'] = {
       {
         "origNum": 53,
         "instruction": "Read the following passage and mark the letter A, B, C, D on your answer sheet to indicate the best answer to each of the following questions from 53 to 60.",
-        "text": "The word <b><u>inertia</u></b> in paragraph 2 is CLOSEST in meaning to:",
+        "text": "The word <b><u>uniformity</u></b> in paragraph 2 is CLOSEST in meaning to:",
         "options": [
-          "efficiency",
-          "innovation",
-          "inaction",
-          "foresight"
+          "diversity",
+          "sameness",
+          "resilience",
+          "scarcity"
         ],
-        "answer": 2,
-        "explanation": "inertia = inaction / resistance to change (sự trì trệ, sức ỳ của bộ máy thể chế).",
-        "passage": "<b>THE ECOLOGY OF DAM REMOVAL</b>\nThroughout the twentieth century, concrete dams were celebrated as monuments to industrial progress, taming wild rivers for hydropower, irrigation and flood storage. <u><b>Tens of thousands of barriers now fragment the world’s river basins, yet a growing wave of dam removals in Europe and North America is proving that rivers can heal with astonishing speed once set free.</b></u> According to Dam Removal Europe, a record 487 obsolete river barriers—from crumbling nineteenth-century mill weirs to tall concrete dams—were dismantled across fifteen European countries in 2023 alone.\nThe case for keeping every ageing barrier intact stems less from current economic utility than from institutional <u><b>inertia</b></u>. Across Europe and the United States, thousands of small weirs and dams built over a century ago no longer generate electricity or store irrigation water, yet their reservoirs have silted up with mud and their cracked spillways pose a growing flood hazard during extreme storms. Compounding the problem, repairing a century-old dam to modern safety standards often costs three times more than dismantling it. Even so, national river-restoration budgets remain modest and lag behind subsidies for new concrete river-channel engineering.\nThe ecological price of river fragmentation has been severe. Dams block migratory fish—such as Atlantic salmon, European eels and sturgeon—from reaching their gravelly upstream spawning beds, driving migratory freshwater fish populations down by more than 80 percent globally since 1970. Stagnant reservoirs also warm up in summer, breed toxic cyanobacteria and trap the natural flow of sand and pebbles needed to replenish coastal beaches and deltas. Once a river’s sediment supply is cut off for decades, downstream estuaries erode and riverbed habitats turn into lifeless bedrock. This is why fluvial geomorphologists argue that restoring free-flowing connectivity is the single most effective measure for freshwater recovery.\nWhen barriers come down, the rebound is dramatic. Following the removal of two high dams on Washington State’s Elwha River in 2014 and four dams on the Klamath River in 2024, Chinook salmon swam past the former dam sites within days to spawn in headwaters <u><b>they</b></u> had not reached for a century. Far from being <u><b>futile</b></u>, selective dam removal—targeting obsolete, low-output structures while upgrading turbines on strategic high-capacity hydropower dams—shows that nations can balance renewable electricity with living, connected rivers.\n<i>(Adapted from Dam Removal Europe Annual Report and Science)</i>"
+        "answer": 1,
+        "explanation": "uniformity = sameness / homogeneity (sự đồng nhất, giống hệt nhau về mặt di truyền).",
+        "passage": "<b>MONOCULTURE AND THE PERIL OF CROP UNIFORMITY</b>\nWalk down the produce aisle of any modern supermarket and the illusion of abundance is dazzling. <u><b>Global supply chains fill grocery shelves with blemish-free bananas, potatoes and wheat loaves twelve months a year, yet the industrial food system relies on a dangerously narrow genetic base.</b></u> Out of some 30,000 edible plant species known to science, just three crops—rice, maize and wheat—now supply more than half of all plant-derived calories consumed by humanity, and each crop is dominated by a handful of high-yielding commercial varieties.\nThe drive toward genetic <u><b>uniformity</b></u> stems from the demands of mechanised harvesting and long-distance logistics. Supermarkets and food processors prize crops that ripen on the exact same day, grow to an identical height for combine-harvester blades, and withstand weeks inside refrigerated shipping containers without bruising. In the global banana trade, nearly every export fruit belongs to a single sterile clone: the Cavendish. Because Cavendish plants reproduce asexually from suckers rather than seeds, every tree on a plantation is genetically identical to its neighbour, while research into hundreds of flavourful heirloom banana cultivars has been neglected.\nHistory offers stark warnings about what happens when a pathogen encounters a genetically identical banquet. In the 1840s, the water mould <i>Phytophthora infestans</i> swept through Ireland’s cloned ‘Lumper’ potato fields, triggering famine. In the 1950s, a soil-borne fungus known as Panama disease (Tropical Race 1) wiped out the ‘Gros Michel’ banana, forcing exporters to switch to the resistant Cavendish. Today, a virulent new strain—Tropical Race 4 (TR4)—has jumped from Southeast Asia to the Middle East, Africa and Latin America, able to linger in soil for thirty years and defy chemical fungicides. Once <u><b>the pathogen</b></u> enters a monoculture plantation’s irrigation water, entire estates can wilt within months.\nInsulating global harvests against biological shocks, crop geneticists argue, requires reintroducing evolutionary diversity into working farms. In China’s Yunnan province, researchers demonstrated that planting glutinous heirloom rice rows alongside modern hybrids in the same paddy cut fungal blast disease by 94 percent without fungicides, because the taller traditional stalks blocked wind-borne spores. Combining intercropping and wild-relative cross-breeding with seed laws that allow farmers to trade heterogeneous landraces—rather than keeping heirloom varieties <u><b>proscribed</b></u>—would make our food system as resilient as it is productive.\n<i>(Adapted from FAO, The State of the World’s Biodiversity for Food and Agriculture, and Nature Plants)</i>"
       },
       {
         "origNum": 54,
         "instruction": "Read the following passage and mark the letter A, B, C, D on your answer sheet to indicate the best answer to each of the following questions from 53 to 60.",
-        "text": "Which of the following problems with ageing dams is NOT explicitly mentioned in paragraph 2?",
+        "text": "Which of the following commercial reasons for crop uniformity is NOT explicitly mentioned in paragraph 2?",
         "options": [
-          "Many old barriers no longer produce hydropower or supply irrigation.",
-          "Old concrete dams release radioactive minerals into drinking water.",
-          "Cracked spillways create safety hazards during severe storms.",
-          "Reservoirs behind old dams have filled up with accumulated silt."
+          "Crops ripening simultaneously for efficient harvesting.",
+          "Plants growing to the same height to suit mechanical combine blades.",
+          "Fruit surviving weeks in refrigerated transport without bruising.",
+          "Cloned crops requiring zero irrigation water in desert climates."
         ],
-        "answer": 1,
-        "explanation": "Đoạn 2 nêu: nhiều đập cũ không còn phát điện/tưới tiêu (A), tràn xả lũ nứt gây nguy cơ mất an toàn khi bão lớn (C), lòng hồ bồi lắng bùn (D); KHÔNG nói đập bê tông cũ rò rỉ khoáng chất phóng xạ → B."
+        "answer": 3,
+        "explanation": "Đoạn 2 nêu: chín cùng ngày (A), cao bằng nhau để máy gặt đập liên hợp cắt (B), chịu được nhiều tuần trong container lạnh không bị dập (C); KHÔNG nói cây vô tính không cần nước tưới ở sa mạc → D."
       },
       {
         "origNum": 55,
         "instruction": "Read the following passage and mark the letter A, B, C, D on your answer sheet to indicate the best answer to each of the following questions from 53 to 60.",
-        "text": "The word <b><u>futile</u></b> in paragraph 4 is OPPOSITE in meaning to __________.",
+        "text": "The word <b><u>proscribed</u></b> in paragraph 4 is OPPOSITE in meaning to __________.",
         "options": [
-          "effective",
-          "pointless",
-          "fruitless",
-          "vain"
+          "forbidden",
+          "permitted",
+          "outlawed",
+          "restricted"
         ],
-        "answer": 0,
-        "explanation": "futile (vô ích) >< effective (hiệu quả)."
+        "answer": 1,
+        "explanation": "proscribed (bị cấm lưu hành/trao đổi) >< permitted / authorised (được cho phép)."
       },
       {
         "origNum": 56,
         "instruction": "Read the following passage and mark the letter A, B, C, D on your answer sheet to indicate the best answer to each of the following questions from 53 to 60.",
-        "text": "The pronoun “<b><u>they</u></b>” in paragraph 4 refers to __________.",
+        "text": "The phrase “<b><u>the pathogen</u></b>” in paragraph 3 refers to __________.",
         "options": [
-          "Chinook salmon",
-          "obsolete mill weirs",
-          "fluvial geomorphologists",
-          "strategic hydropower turbines"
+          "the fungal strain Tropical Race 4 (TR4) of Panama disease",
+          "the Cavendish banana clone",
+          "a refrigerated shipping container",
+          "glutinous heirloom rice in Yunnan"
         ],
         "answer": 0,
-        "explanation": "Đoạn 4: “Chinook salmon swam past the former dam sites within days to spawn in headwaters they had not reached for a century.” → “they” quy chiếu cho “Chinook salmon” → A."
+        "explanation": "Đoạn 3: “Today, a virulent new strain—Tropical Race 4 (TR4)—has jumped from Southeast Asia... Once the pathogen enters a monoculture plantation’s irrigation water...” → chỉ chủng nấm gây bệnh Panama TR4 → A."
       },
       {
         "origNum": 57,
         "instruction": "Read the following passage and mark the letter A, B, C, D on your answer sheet to indicate the best answer to each of the following questions from 53 to 60.",
-        "text": "Which of the following best paraphrases the underlined sentence in paragraph 1?\n<i>“Tens of thousands of barriers now fragment the world’s river basins, yet a growing wave of dam removals in Europe and North America is proving that rivers can heal with astonishing speed once set free.”</i>",
+        "text": "Which of the following best paraphrases the underlined sentence in paragraph 1?\n<i>“Global supply chains fill grocery shelves with blemish-free bananas, potatoes and wheat loaves twelve months a year, yet the industrial food system relies on a dangerously narrow genetic base.”</i>",
         "options": [
-          "Because tens of thousands of new dams are being built in Europe and North America, river basins can no longer recover their natural flow.",
-          "Although global river networks are heavily divided by dams, increasing efforts to dismantle barriers in Europe and North America show that freed rivers recover remarkably quickly.",
-          "Dismantling dams in Europe and North America has fragmented river basins and slowed down ecological healing.",
-          "Rivers in Europe and North America require centuries to show any sign of recovery after obsolete dams are removed."
+          "Because supermarkets sell blemish-free produce all year round, the industrial food system now grows all 30,000 edible plant species.",
+          "While international trade provides supermarkets with uniform produce year-round, modern agriculture depends on a perilously small number of crop varieties.",
+          "Global supply chains have collapsed because bananas, potatoes and wheat can only be harvested once every twelve years.",
+          "The narrow genetic base of modern crops has prevented supermarkets from stocking bananas and potatoes in winter."
         ],
         "answer": 1,
-        "explanation": "Paraphrase chính xác: Dù hàng chục ngàn đập cản đang chia cắt các lưu vực sông, làn sóng tháo dỡ đập ngày càng tăng ở châu Âu và Bắc Mỹ chứng minh các dòng sông có thể tự phục hồi nhanh đáng kinh ngạc khi được giải phóng."
+        "explanation": "Paraphrase chính xác: Dù chuỗi cung ứng toàn cầu lấp đầy kệ siêu thị bằng chuối, khoai tây và bánh mì đẹp mắt suốt 12 tháng trong năm, hệ thống thực phẩm công nghiệp lại đang phụ thuộc vào một nền tảng di truyền hẹp đầy rủi ro."
       },
       {
         "origNum": 58,
         "instruction": "Read the following passage and mark the letter A, B, C, D on your answer sheet to indicate the best answer to each of the following questions from 53 to 60.",
-        "text": "According to paragraph 2, why is keeping an obsolete century-old dam often economically irrational?",
+        "text": "In the Yunnan province experiment described in paragraph 4, how did planting heirloom rice alongside modern hybrids reduce fungal blast disease by 94 percent?",
         "options": [
-          "Dismantling an old weir costs three times more than building a new nuclear plant.",
-          "Upgrading a century-old dam to modern safety standards frequently costs three times as much as removing it.",
-          "Silted reservoirs generate too much electricity for local power grids to absorb.",
-          "European governments fine municipalities that remove nineteenth-century mill weirs."
+          "Farmers sprayed the fields with thirty-year-old chemical fungicides.",
+          "The taller heirloom stalks acted as a physical barrier that blocked wind-borne fungal spores.",
+          "Heirloom rice roots released chlorine into the paddy water.",
+          "Combine harvesters removed all modern hybrid rice before the rainy season."
         ],
         "answer": 1,
-        "explanation": "Đoạn 2: “repairing a century-old dam to modern safety standards often costs three times more than dismantling it.” → B."
+        "explanation": "Đoạn 4: “cut fungal blast disease by 94 percent without fungicides, because the taller traditional stalks blocked wind-borne spores.” → B."
       },
       {
         "origNum": 59,
         "instruction": "Read the following passage and mark the letter A, B, C, D on your answer sheet to indicate the best answer to each of the following questions from 53 to 60.",
-        "text": "In which paragraph does the writer quantify the global decline in migratory freshwater fish since 1970?",
+        "text": "In which paragraph does the writer cite nineteenth- and twentieth-century agricultural disasters caused by genetic uniformity?",
         "options": [
-          "Paragraph 3",
           "Paragraph 1",
           "Paragraph 2",
+          "Paragraph 3",
           "Paragraph 4"
         ],
-        "answer": 0,
-        "explanation": "Đoạn 3: “driving migratory freshwater fish populations down by more than 80 percent globally since 1970”."
+        "answer": 2,
+        "explanation": "Đoạn 3 dẫn chứng nạn đói khoai tây Lumper ở Ireland thập niên 1840 và sự sụp đổ của giống chuối Gros Michel thập niên 1950."
       },
       {
         "origNum": 60,
         "instruction": "Read the following passage and mark the letter A, B, C, D on your answer sheet to indicate the best answer to each of the following questions from 53 to 60.",
-        "text": "In which paragraph does the writer advocate a balanced approach that keeps strategic hydropower dams while removing obsolete ones?",
+        "text": "In which paragraph does the writer compare the total number of known edible plants with the three staple crops that feed most of humanity?",
         "options": [
           "Paragraph 1",
+          "Paragraph 3",
           "Paragraph 2",
-          "Paragraph 4",
-          "Paragraph 3"
+          "Paragraph 4"
         ],
-        "answer": 2,
-        "explanation": "Đoạn 4: “selective dam removal—targeting obsolete, low-output structures while upgrading turbines on strategic high-capacity hydropower dams”."
+        "answer": 0,
+        "explanation": "Đoạn 1: “Out of some 30,000 edible plant species known to science, just three crops—rice, maize and wheat—now supply more than half of all plant-derived calories...”."
       },
       {
         "origNum": 61,
